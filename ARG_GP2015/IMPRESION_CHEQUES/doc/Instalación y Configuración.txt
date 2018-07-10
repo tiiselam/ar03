@@ -1,0 +1,8 @@
+Eliminar de Dynamics.set la aplicación si ya fue instalada una versión previa
+Eliminar de la carpeta donde se ejecuta Dynamics GP, el .DIC de la instalación anterior 
+Compiar el archivo ChkPrnt.cnk en la carpeta de Dynamics GP
+Sin usuarios conectados entra a Dynamics, indicar SI en la ventana que donde avisa que hay una nueva aplicación
+Entrar a Mantenimientos de Tablas para crear las nuevas tablas
+Instalar en la BD de la empresa el SP AX_Fill_nfMCP_PAYMENT_LINE_TEMP
+Configurar el Mapeo de las cuentas bancarias de MCP con PM
+Configurar el formato de impresión de cheques por cada Id Chequera de MCP
