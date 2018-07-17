@@ -1,0 +1,61 @@
+Logging file ':C:Program Files (x86)/Microsoft Dexterity/Dex 12.0/Argentina/Perceptions/MACLOG.TXT'
+  MenuSelect title File entry 'Open Source Dictionary...' 
+  FileOpen file ':C:Program Files (x86)/Microsoft Dexterity/Dex 12.0/Argentina/Perceptions/dynamics.dic' type 0 
+ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
+  ClickHit field 'Toolbar Utilities Button' item 6  # 'Extract' 
+NewActiveWin dictionary 'default'  form Extractor window Extractor 
+ActivateWindow dictionary 'default'  form Extractor window Extractor 
+WindowSize dictionary 'default'  form Extractor window Extractor pointh 487 pointv 74 
+  ClickHit field '(L) Extract Button' 
+  FileSave file ':C:Program Files (x86)/Microsoft Dexterity/Dex 12.0/Argentina/Perceptions/XPR.dic' 
+NewActiveWin dictionary 'default'  form Extractor window Extractor 
+NewActiveWin dictionary 'default'  form Extractor window Extractor 
+  MenuSelect title File entry 'Open Editable Dictionary...' 
+  FileOpen file ':C:Program Files (x86)/Microsoft Dexterity/Dex 12.0/Argentina/Perceptions/XPR.dic' type 0 
+ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
+  ClickHit field 'Toolbar Utilities Button' item 9  # 'Auto-Chunk' 
+NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+ActivateWindow dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+WindowSize dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' pointh 466 pointv 381 
+  ClickHit field 'Lookup Button 3' 
+  FileSave file ':C:Program Files (x86)/Microsoft Dexterity/Dex 12.0/Argentina/Perceptions/XPR.cnk' 
+  MoveTo field 'Accounting Modules' item 0 
+  ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
+  ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
+  MoveTo field '(L) Major Version' 
+  TypeTo field '(L) Major Version' , '12'
+  MoveTo field '(L) Minor Version'
+  MoveTo field '(L) Build Number' 
+  TypeTo field '(L) Build Number' , '1412'
+  MoveTo field 'Ok Button' 
+  ClickHit field 'Ok Button' 
+# The edit dictionary does not have product information. Do you wish to add it now ?
+NewActiveWin dictionary 'default'  form DiaLog window DiaLog 
+  ClickHit field OK 
+NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+NewActiveWin dictionary 'default'  form 'Product Res' window 'Product Resource' 
+WindowSize dictionary 'default'  form 'Product Res' window 'Product Resource' pointh 494 pointv 344 
+  TypeTo field 'File Name' , 'DYNAMICS.SET'
+  MoveTo field 'Cluster ID' 
+  MoveTo field 'Product Name' 
+  MenuSelect title Edit entry Paste 
+  TypeTo field 'Product Name' , 'Perceptiones'
+  MoveTo field 'Product ID' 
+  TypeTo field 'Product ID' , '4100'
+  MoveTo field 'Form Dictionary' 
+  TypeTo field 'Form Dictionary' , 'F4100.DIC'
+  MoveTo field 'Report Dictionary' 
+  TypeTo field 'Report Dictionary' , 'R4100.DIC'
+  MoveTo field '(L) Compatiblity ID' 
+  TypeTo field '(L) Compatiblity ID' , 'Dyn12.0'
+  MoveTo field '(L) Compatiblity Message' 
+  TypeTo field '(L) Compatiblity Message' , 'Use Dynamics Utilities to update your modified forms and reports'
+  MoveTo field 'Ok Button' 
+  ClickHit field 'Ok Button' 
+NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+  ClickHit field 'Ok Button' 
+NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+  MenuSelect title File entry 'Close Source Dictionary' 
+  MenuSelect title File entry 'Close Editable Dictionary' 
+  MenuSelect title File entry 'Close Destination Dictionary' 
+  MenuSelect title File entry Exit
