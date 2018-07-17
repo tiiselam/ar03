@@ -1,12 +1,10 @@
-USE [TESTP]
-GO
-/****** Object:  StoredProcedure [dbo].[AX_Fill_nfMCP_PAYMENT_LINE_TEMP]    Script Date: 10-Jul-18 2:44:20 PM ******/
+/****** Object:  StoredProcedure [dbo].[AX_Fill_nfMCP_PAYMENT_LINE_TEMP]    Script Date: 7/16/2018 2:53:06 PM ******/
 SET ANSI_NULLS OFF
 GO
 SET QUOTED_IDENTIFIER OFF
 GO
 
-CREATE PROCEDURE [dbo].[AX_Fill_nfMCP_PAYMENT_LINE_TEMP] 
+create PROCEDURE [dbo].[AX_Fill_nfMCP_PAYMENT_LINE_TEMP] 
 @I_cTableName char(255) = NULL, 
 @I_cOriginTable char(255) = NULL, 
 @I_cBANACTID char(20) = NULL, 
@@ -23,7 +21,7 @@ BEGIN
 ---	' UNION '+
 		'SELECT T.BCHSOURC as MCPTYPID,T.VCHRNMBR as NUMBERIE,''CHEQUE'' as MEDIOID,B.BANKID,T.DOCNUMBR,PR.VNDCHKNM as TITACCT,T.DOCDATE as EMIDATE,T.DOCDATE as DUEDATE,T.DOCAMNT,T.DOCAMNT,T.CURNCYID,'''',16384,T.CHEKBKID,B.BANACTID,C.CURRNIDX FROM '+
 		DB_NAME() + '.dbo.pm30200 T LEFT OUTER JOIN AXPM0100 ON T.DOCNUMBR = AXPM0100.DOCNUMBR LEFT JOIN nfMCP00400 B ON B.CHEKBKID=T.CHEKBKID LEFT JOIN DYNAMICS.DBO.MC40200 C ON C.CURNCYID=T.CURNCYID '+
-        ' left join PM00200 pr on pr.VENDORID=t.VENDORID WHERE BANACTID = ' + char(39) + rtrim(@I_cBANACTID) + char(39) + ' AND  t.CHEKBKID = ' + char(39) + rtrim(@I_cCHEKBKID) + char(39)+'  AND T.DOCTYPE=6 AND T.PYENTTYP=0 and BCHSOURC in (''pm_payment'',''nfMCP_Payment'')'
+        ' left join PM00200 pr on pr.VENDORID=t.VENDORID WHERE BANACTID = ' + char(39) + rtrim(@I_cBANACTID) + char(39) + ' AND  t.CHEKBKID = ' + char(39) + rtrim(@I_cCHEKBKID) + char(39)+'  AND T.DOCTYPE=6 AND T.PYENTTYP=0 and BCHSOURC in (''pm_payment'',''nfMCP_Payment'',''XXPM_Payment'') and t.voided=0'
 		exec (@vInsertStatement1) 
 END
 if @I_cOriginTable='O'
@@ -34,7 +32,7 @@ BEGIN
 		' UNION '+
 		'SELECT T.BCHSOURC,T.VCHRNMBR,''CHEQUE'',B.BANKID,T.DOCNUMBR,PR.VNDCHKNM,T.DOCDATE,T.DOCDATE,T.DOCAMNT,T.DOCAMNT,T.CURNCYID,'''',16384,T.CHEKBKID,B.BANACTID,C.CURRNIDX FROM '+
 		DB_NAME() + '.dbo.PM20000 T LEFT OUTER JOIN AXPM0100 ON T.DOCNUMBR = AXPM0100.DOCNUMBR LEFT JOIN nfMCP00400 B ON B.CHEKBKID=T.CHEKBKID LEFT JOIN DYNAMICS.DBO.MC40200 C ON C.CURNCYID=T.CURNCYID '+
-        ' left join PM00200 pr on pr.VENDORID=t.VENDORID WHERE BANACTID = ' + char(39) + rtrim(@I_cBANACTID) + char(39) + ' AND  t.CHEKBKID = ' + char(39) + rtrim(@I_cCHEKBKID) + char(39)+' AND T.DOCTYPE=6 AND T.PYENTTYP=0 and T.BCHSOURC=''PM_Payment'''
+        ' left join PM00200 pr on pr.VENDORID=t.VENDORID WHERE BANACTID = ' + char(39) + rtrim(@I_cBANACTID) + char(39) + ' AND  t.CHEKBKID = ' + char(39) + rtrim(@I_cCHEKBKID) + char(39)+' AND T.DOCTYPE=6 AND T.PYENTTYP=0 and T.BCHSOURC in (''pm_payment'',''nfMCP_Payment'',''XXPM_Payment'')'
 		exec (@vInsertStatement1) 
 END
 
