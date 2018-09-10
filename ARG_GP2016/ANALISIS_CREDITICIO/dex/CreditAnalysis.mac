@@ -1,23 +1,23 @@
-Logging file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Credit Analysis/MACLOG.TXT'
+Logging file ':C:/Users/LinaToro/Desktop/2016/XAC/MACLOG.TXT'
   MenuSelect title File entry 'Open Source Dictionary...' 
-  FileOpen file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Credit Analysis/dynamics.dic' type 0 
+  FileOpen file ':C:/Users/LinaToro/Desktop/2016/XAC/dynamics.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   MoveTo field 'Toolbar Utilities Button' item 0 
   ClickHit field 'Toolbar Utilities Button' item 6  # 'Extract' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 ActivateWindow dictionary 'default'  form Extractor window Extractor 
   ClickHit field '(L) Extract Button' 
-  FileSave file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Credit Analysis/XAC.dic' 
+  FileSave file ':C:/Users/LinaToro/Desktop/2016/XAC/XAC.dic' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
   MenuSelect title File entry 'Open Editable Dictionary...' 
-  FileOpen file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Credit Analysis/XAC.dic' type 0 
+  FileOpen file ':C:/Users/LinaToro/Desktop/2016/XAC/XAC.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 9  # 'Auto-Chunk' 
 NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
 ActivateWindow dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
   ClickHit field 'Lookup Button 3' 
-  FileSave file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Credit Analysis/XAC.cnk' 
+  FileSave file ':C:/Users/LinaToro/Desktop/2016/XAC/XAC.cnk' 
   MoveTo field 'Accounting Modules' item 0 
   ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
   ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
