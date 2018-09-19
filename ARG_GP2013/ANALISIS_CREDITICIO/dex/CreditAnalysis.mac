@@ -16,6 +16,7 @@ ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar'
   ClickHit field 'Toolbar Utilities Button' item 9  # 'Auto-Chunk' 
 NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
 ActivateWindow dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+
   ClickHit field 'Lookup Button 3' 
   FileSave file ':C:/dexterity/TII/GP2013/GP2013_/XAC.cnk' 
   MoveTo field 'Accounting Modules' item 0 
