@@ -1,17 +1,17 @@
-Logging file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Documentos Legales/MACLOG.TXT'
+Logging file ':C:/Users/LinaToro/Desktop/2016/DocumentosLegales/MACLOG.TXT'
   MenuSelect title File entry 'Open Source Dictionary...' 
-  FileOpen file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Documentos Legales/dynamics.dic' type 0 
+  FileOpen file ':C:/Users/LinaToro/Desktop/2016/DocumentosLegales/dynamics.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 6  # 'Extract' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 ActivateWindow dictionary 'default'  form Extractor window Extractor 
   ClickHit field '(L) Extract Button' 
-  FileSave file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Documentos Legales/Extract.DIC' 
+  FileSave file ':C:/Users/LinaToro/Desktop/2016/DocumentosLegales/Extract.DIC' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
   MenuSelect title File entry 'Close Source Dictionary' 
   MenuSelect title File entry 'Open Editable Dictionary...' 
-  FileOpen file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Documentos Legales/Extract.DIC' type 0 
+  FileOpen file ':C:/Users/LinaToro/Desktop/2016/DocumentosLegales/Extract.DIC' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 5  # 'Create Product Information' 
 NewActiveWin dictionary 'default'  form 'Product Res' window 'Product Resource' 
@@ -37,7 +37,7 @@ ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar'
 NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
 ActivateWindow dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
   ClickHit field 'Lookup Button 3' 
-  FileSave file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Documentos Legales/XDL.CNK' 
+  FileSave file ':C:/Users/LinaToro/Desktop/2016/DocumentosLegales/XDL.CNK' 
   MoveTo field 'Dictionary Name' 
   TypeTo field 'Dictionary Name' , 'XDL.DIC'
    MoveTo field 'Accounting Modules' item 0 
