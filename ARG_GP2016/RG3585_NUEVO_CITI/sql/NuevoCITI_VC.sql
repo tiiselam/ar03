@@ -1,4 +1,4 @@
-USE [TIISA]
+
 GO
 
 /****** Object:  StoredProcedure [dbo].[NuevoCITI_VC]    Script Date: 21/08/2018 14:58:26 ******/
@@ -6,7 +6,16 @@ SET ANSI_NULLS ON
 GO
 
 SET QUOTED_IDENTIFIER ON
+
 GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[NuevoCITI_VC]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[NuevoCITI_VC]
+go
+
+
+
+
 
 
 
