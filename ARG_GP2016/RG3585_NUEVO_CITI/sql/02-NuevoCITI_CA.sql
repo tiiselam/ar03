@@ -1,3 +1,23 @@
+<<<<<<< HEAD:ARG_GP2016/RG3585_NUEVO_CITI/sql/02-NuevoCITI_CA.sql
+=======
+
+GO
+
+/****** Object:  StoredProcedure [dbo].[NuevoCITI_CA]    Script Date: 21/08/2018 14:56:56 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[NuevoCITI_CA]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[NuevoCITI_CA]
+go
+
+
+
+>>>>>>> f0eb882f471452d1f27e630d73218029888cb36e:ARG_GP2016/RG3585_NUEVO_CITI/sql/NuevoCITI_CA.sql
 /****** Object:  Stored Procedure dbo.NuevoCITI_CA    Script Date: 14/6/2015 12:34:37 PM ******/
 
 CREATE PROCEDURE [dbo].[NuevoCITI_CA] @PERIODO CHAR(6), @REPORTE CHAR(15), @NOGRAVADO tinyint
