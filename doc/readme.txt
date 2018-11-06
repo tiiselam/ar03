@@ -1,0 +1,1 @@
+Copiar aquí documentación que sirva para todas las versiones de GP
