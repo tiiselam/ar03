@@ -294,7 +294,12 @@ Public Class Main
             If FEXResponse_LastID.FEXResultGet Is Nothing Then
                 ObtieneLastID = ""
             Else
-                ObtieneLastID = FEXResponse_LastID.FEXResultGet.Id.ToString
+                If FEXResponse_LastID.FEXErr.ErrCode = 0 Then
+                    ObtieneLastID = FEXResponse_LastID.FEXResultGet.Id.ToString
+                Else
+                    MsgBox("Error al obtener siguiente Id de Comprobante en la AFIP.")
+                    ObtieneLastID = "-1"
+                End If
             End If
         Catch ex As Exception
             ObtieneLastID = ""
@@ -366,13 +371,15 @@ Public Class Main
                                 ByVal cuit As String, _
                                 ByVal url As String) As String
 
-        Dim objWSFEX As New FEEXP.wsfex.Service()
-        Dim FEXAuthorize_Auth As New FEEXP.wsfex.ClsFEXAuthRequest
+        Dim objWSFEX As New wsfex.Service()
+        objWSFEX.Url = url
+        Dim FEXAuthorize_Auth As New wsfex.ClsFEXAuthRequest
         FEXAuthorize_Auth.Token = strToken
         FEXAuthorize_Auth.Sign = strSign
         FEXAuthorize_Auth.Cuit = Val(cuit)
+
+        ObtienePais = ""
         Try
-            objWSFEX.Url = url
             Dim FEXResponse_DST_pais As New FEEXP.wsfex.FEXResponse_DST_pais
             FEXResponse_DST_pais = objWSFEX.FEXGetPARAM_DST_pais(FEXAuthorize_Auth)
 
@@ -469,7 +476,11 @@ Public Class Main
         Dim Cmp As New wsfex.ClsFEXRequest
         Cmp.Id = Val(Me.ObtieneLastID(strToken, strSign, cuit, strUrl)) + 1 'Val(cbte_nro)
         gGrabaLog(Cmp.Id.ToString)
+        If Cmp.Id = 0 Then
+            ObtieneFEXCAE = ""
 
+            Exit Function
+        End If
         Cmp.Fecha_cbte = fecha_cbte
         gGrabaLog(Cmp.Fecha_cbte)
 
@@ -619,7 +630,7 @@ Public Class Main
         Dim objFEResponse As New wsfex.FEXGetCMPResponse
         Dim objWSFE As New wsfex.Service
 
-        objFEAuthRequest.Cuit = cuit
+        objFEAuthRequest.Cuit = Val(cuit)
         objFEAuthRequest.Token = strToken
         objFEAuthRequest.Sign = strSign
 
@@ -650,10 +661,9 @@ Public Class Main
 
     Function ObtieneLastCmp(ByVal cuit As String, ByVal token As String, ByVal sign As String, _
             ByVal tipo_cbte As String, ByVal punto_vta As String) As String
-        Dim objFEAuthRequest As New wsfex.ClsFEXAuthRequest
         '***************************
         Dim objAuth As New wsfex.ClsFEX_LastCMP
-        objAuth.Cuit = cuit
+        objAuth.Cuit = Val(cuit)
         objAuth.Token = token
         objAuth.Sign = sign
         objAuth.Cbte_Tipo = tipo_cbte
@@ -661,19 +671,44 @@ Public Class Main
         Dim objFELastCbteResponse As New wsfex.FEXResponseLast_CMP
         Dim objWSFE As New wsfex.Service
         '****************************
-        objFEAuthRequest.Cuit = cuit
-        objFEAuthRequest.Token = token
-        objFEAuthRequest.Sign = sign
-        '***************************
         Try
             objFELastCbteResponse = objWSFE.FEXGetLast_CMP(objAuth)
-            If Not objFELastCbteResponse.FEXResult_LastCMP Is Nothing Then
+            If objFELastCbteResponse.FEXResult_LastCMP Is Nothing Then
                 ObtieneLastCmp = "||" + objFELastCbteResponse.FEXErr.ErrCode.ToString.ToString + "|" + objFELastCbteResponse.FEXErr.ErrMsg + "|"
             Else
                 ObtieneLastCmp = objFELastCbteResponse.FEXResult_LastCMP.Cbte_nro + "|" + objFELastCbteResponse.FEXResult_LastCMP.Cbte_fecha.ToString + "|||"
             End If
         Catch ex As Exception
             ObtieneLastCmp = "||" + ex.Message + "|" + ex.StackTrace + "|"
+        End Try
+
+    End Function
+    Function ObtieneMonCot(ByVal url As String, ByVal cuit As String, ByVal token As String, ByVal sign As String, _
+            ByVal Mon_id As String) As String
+        Dim objAuth As New wsfex.ClsFEXAuthRequest
+        '***************************
+        objAuth.Cuit = Val(cuit)
+        objAuth.Token = token
+        objAuth.Sign = sign
+        Dim objFEXResponse_Ctz As New wsfex.FEXResponse_Ctz
+        Dim objWSFE As New wsfex.Service
+        '****************************
+        objWSFE.Url = url
+        gGrabaLog("C O M I E N Z O")
+        gGrabaLog("Cuit:" + objAuth.Cuit.ToString)
+        gGrabaLog("Sign:" + objAuth.Sign)
+        gGrabaLog("Token:" + objAuth.Token)
+        gGrabaLog("Mon id:" + Mon_id)
+        Try
+            objFEXResponse_Ctz = objWSFE.FEXGetPARAM_Ctz(objAuth, Mon_id)
+            gGrabaLog("Ctz Mon:" + objFEXResponse_Ctz.FEXResultGet.Mon_ctz.ToString)
+            If objFEXResponse_Ctz.FEXResultGet Is Nothing Then
+                MsgBox("ObtieneMonCot: " + objFEXResponse_Ctz.FEXErr.ErrCode.ToString.ToString + " " + objFEXResponse_Ctz.FEXErr.ErrMsg)
+            Else
+                ObtieneMonCot = objFEXResponse_Ctz.FEXResultGet.Mon_ctz.ToString + "|"
+            End If
+        Catch ex As Exception
+            ObtieneMonCot = "||" + ex.Message + "|" + ex.StackTrace + "|" + Chr(13)
         End Try
 
     End Function

@@ -1,0 +1,126 @@
+Time printed: 11/8/2018 10:19:19
+
+               Transfer Resource(s) Status Report
+
+Source Dictionary     : C:\dexterity\TII\GP2016\MCPR - ACA\Dynamics.dic
+Destination Dictionary: C:\Users\LinaToro\Documents\GitHub\ar03\ARG_GP2016\MEDIOS_COBRO_PAGO\dex\MCPRM75.dic
+
+Type                   Resource                       Action  Status
+____________________________________________________________________________________
+
+-- Resources for TABLE AWDC_Applied_Documents --
+Key                    AWDC_Applied_Document_PKey     Add     Transferred                    
+Table                  AWDC_Applied_Documents         Replace Transferred                    
+
+-- Resources for TABLE AWDC_Cliente_MSTR --
+Key                    AWDC_Cliente_MSTR_PKey         Add     Transferred                    
+Table                  AWDC_Cliente_MSTR              Replace Transferred                    
+
+-- Resources for TABLE AWDC_Configuracion_SETP --
+Key                    AWDC_Configuracion_SETP_PKey   Add     Transferred                    
+Table                  AWDC_Configuracion_SETP        Replace Transferred                    
+
+-- Resources for TABLE AWDC_Diferencia_Cambio_Generada_HIST --
+Key                    AWDC_Diferencia_Cambio_Generada_PKey Add     Transferred                    
+Key                    AWDC_Diferencia_Cambio_Generada_Key2 Add     Transferred                    
+Key                    AWDC_Diferencia_Cambio_Generada_HIST K3 Add     Transferred                    
+Key                    AWDC_Diferencia_Cambio_Generada_HIST K4 Add     Transferred                    
+Key                    AWDC_Diferencia_Cambio_Generada_HIST K5 Add     Transferred                    
+Key                    AWDC_Diferencia_Cambio_Generada_HIST K6 Add     Transferred                    
+Table                  AWDC_Diferencia_Cambio_Generada_HIST Replace Transferred                    
+
+-- Resources for TABLE AWDC_Diferencia_Generada_TMP --
+Key                    AWDC_Diferencia_Cambio_Generada_PKey1 Add     Transferred                    
+Key                    AWDC_Diferencia_Cambio_Generada_Key21 Add     Transferred                    
+Table                  AWDC_Diferencia_Generada_TMP   Replace Transferred                    
+
+-- Resources for TABLE AWDC_Opciones_MSTR --
+Key                    AWDC_Opciones PKey             Add     Transferred                    
+Table                  AWDC_Opciones_MSTR             Replace Transferred                    
+
+-- Resources for TABLE AX_MPS_Report --
+Key                    AX_MPS_Report_Key1             Add     Transferred                    
+Table                  AX_MPS_Report                  Replace Transferred                    
+
+-- Resources for TABLE Bank_CUIT_MSTR --
+Key                    Bank_CUIT_MSTR_Key_1           Add     Transferred                    
+Key                    Bank_CUIT_MSTR_Key_2           Add     Transferred                    
+Table                  Bank_CUIT_MSTR                 Replace Transferred                    
+
+-- Resources for TABLE DIG_Apply_To_HIST --
+Key                    PM_Apply_To_HIST_Key1!         Add     Transferred                    
+Key                    PM_Apply_To_HIST_Key2!         Add     Transferred                    
+Table                  DIG_Apply_To_HIST              Replace Transferred                    
+Relation               22568                          Add     Transferred                    
+Relation               22569                          Add     Transferred                    
+Relation               22570                          Add     Transferred                    
+Relation               22571                          Add     Transferred                    
+Relation               22572                          Add     Transferred                    
+
+-- Resources for TABLE DIG_Inquiry_TEMP --
+Key                    DIG_Inquiry_TEMP_Key1          Add     Transferred                    
+Key                    DIG_Inquiry_TEMP_Key2          Add     Transferred                    
+Key                    DIG_Inquiry_TEMP_Key3          Add     Transferred                    
+Key                    DIG_Inquiry_TEMP_Key4          Add     Transferred                    
+Key                    DIG_Inquiry_TEMP_Key5          Add     Transferred                    
+Key                    DIG_Inquiry_TEMP_Key6          Add     Transferred                    
+Key                    DIG_Inquiry_TEMP_Key7          Add     Transferred                    
+Table                  DIG_Inquiry_TEMP               Replace Transferred                    
+
+-- Resources for TABLE DIG_PM_Apply_To_HIST --
+Key                    PM_Apply_To_HIST_Key11         Add     Transferred                    
+Key                    PM_Apply_To_HIST_Key21         Add     Transferred                    
+Table                  DIG_PM_Apply_To_HIST           Replace Transferred                    
+Relation               22573                          Add     Transferred                    
+Relation               22574                          Add     Transferred                    
+Relation               22575                          Add     Transferred                    
+
+-- Resources for TABLE DIG_PM_Vendor_MSTR --
+Key                    PM_Vendor_MSTR_Key1!           Add     Transferred                    
+Key                    PM_Vendor_MSTR_Key2!           Add     Transferred                    
+Key                    PM_Vendor_MSTR_Key3!           Add     Transferred                    
+Key                    PM_Vendor_MSTR_Key4!           Add     Transferred                    
+Key                    PM_Vendor_MSTR_Key5!           Add     Transferred                    
+Key                    PM_Vendor_MSTR_Key6!           Add     Transferred                    
+Table                  DIG_PM_Vendor_MSTR             Replace Transferred                    
+Relation               22576                          Add     Transferred                    
+Relation               22577                          Add     Transferred                    
+Relation               22578                          Add     Transferred                    
+Relation               22579                          Add     Transferred                    
+Relation               22580                          Add     Transferred                    
+Relation               22581                          Add     Transferred                    
+Relation               22582                          Add     Transferred                    
+Relation               22583                          Add     Transferred                    
+Relation               22584                          Add     Transferred                    
+Relation               22585                          Add     Transferred                    
+
+-- Resources for TABLE DIG_Paid_Transaction_HIST --
+Key                    PM_Paid_Transaction_HIST_Key11 Add     Transferred                    
+Key                    PM_Paid_Transaction_HIST_Key21 Add     Transferred                    
+Key                    PM_Paid_Transaction_HIST_Key31 Add     Transferred                    
+Key                    PM_Paid_Transaction_HIST_Key41 Add     Transferred                    
+Key                    PM_Paid_Transaction_HIST_Key51 Add     Transferred                    
+Key                    PM_Paid_Transaction_HIST_Key61 Add     Transferred                    
+Key                    PM_Paid_Transaction_HIST_Key71 Add     Transferred                    
+Key                    PM_Paid_Transaction_HIST_Key81 Add     Transferred                    
+Key                    PM_Paid_Transaction_HIST_Key91 Add     Transferred                    
+Key                    PM_Paid_Transaction_HIST_Key1011 Add     Transferred                    
+Table                  DIG_Paid_Transaction_HIST      Replace Transferred                    
+Relation               22586                          Add     Transferred                    
+Relation               22587                          Add     Transferred                    
+Relation               22588                          Add     Transferred                    
+Relation               22589                          Add     Transferred                    
+Relation               22590                          Add     Transferred                    
+Relation               22591                          Add     Transferred                    
+Relation               22592                          Add     Transferred                    
+Relation               22593                          Add     Transferred                    
+Relation               22594                          Add     Transferred                    
+Relation               22595                          Add     Transferred                    
+Relation               22596                          Add     Transferred                    
+Relation               22597                          Add     Transferred                    
+
+-- Resources for TABLE MCP_Batch_Activity_MSTR --
+Key                    SY_Batch_Activity_MSTR_Key11   Add     Transferred                    
+Key                    SY_Batch_Activity_MSTR_Key21   Add     Transferred                    
+Key                    SY_Batch_Activity_MSTR_Key31   Add     Transferred                    
+Table                  MCP_Batch_Activity_MSTR        Replace Transferred                    
