@@ -1,0 +1,80 @@
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   09/18/2018 17:31:29
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  09/18/2018 17:31:32
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   09/18/2018 17:37:11
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  09/18/2018 17:37:14
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   09/18/2018 17:51:07
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  09/18/2018 17:51:10
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   09/18/2018 17:54:26
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  09/18/2018 17:54:29
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   09/18/2018 18:06:27
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  09/18/2018 18:06:31
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:04      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   09/18/2018 18:11:02
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  09/18/2018 18:11:05
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   09/18/2018 18:15:08
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  09/18/2018 18:15:11
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   09/18/2018 18:19:10
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  09/18/2018 18:19:13
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   09/18/2018 18:23:42
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  09/18/2018 18:23:46
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:04      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   09/18/2018 18:29:17
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  09/18/2018 18:29:20
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   11/01/2018 21:05:14
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  11/01/2018 21:05:20
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:06      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   11/01/2018 21:33:11
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  11/01/2018 21:33:15
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:04      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   11/01/2018 21:42:40
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  11/01/2018 21:42:43
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   11/13/2018 18:29:11
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  11/13/2018 18:29:19
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:08      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Started   11/14/2018 16:35:09
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Finished  11/14/2018 16:35:16
+:C:dexterity/TII/GP2016/AWLI/TaxListing.mac        Elapsed                  0:07      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Started   11/16/2018 09:31:55
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Finished  11/16/2018 09:31:58
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   60
+===============================================================================
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Started   11/16/2018 09:42:44
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Finished  11/16/2018 09:42:47
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Elapsed                  0:03      Last Line   61
+===============================================================================
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Started   11/16/2018 09:47:54
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Finished  11/16/2018 09:47:56
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Elapsed                  0:02      Last Line   52
+===============================================================================
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Started   11/16/2018 10:09:04
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Finished  11/16/2018 10:09:06
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Elapsed                  0:02      Last Line   52
+===============================================================================
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Started   11/20/2018 19:41:13
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Finished  11/20/2018 19:41:17
+:C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Elapsed                  0:05      Last Line   52
