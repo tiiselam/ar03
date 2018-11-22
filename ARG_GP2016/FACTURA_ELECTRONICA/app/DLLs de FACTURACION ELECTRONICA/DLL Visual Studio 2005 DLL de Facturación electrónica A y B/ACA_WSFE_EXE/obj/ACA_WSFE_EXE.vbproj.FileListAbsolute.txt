@@ -13,3 +13,5 @@ C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\A
 C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.pdb
 C:\Users\Public\Documents\TII\DLLs de FACTURACION ELECTRONICA\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.xml
 C:\Users\Public\Documents\TII\DLLs de FACTURACION ELECTRONICA\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.pdb
+C:\Users\LinaToro\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.xml
+C:\Users\LinaToro\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.pdb
