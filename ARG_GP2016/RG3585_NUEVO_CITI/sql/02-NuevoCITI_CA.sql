@@ -1,8 +1,3 @@
-<<<<<<< HEAD:ARG_GP2016/RG3585_NUEVO_CITI/sql/02-NuevoCITI_CA.sql
-=======
-
-GO
-
 /****** Object:  StoredProcedure [dbo].[NuevoCITI_CA]    Script Date: 21/08/2018 14:56:56 ******/
 SET ANSI_NULLS ON
 GO
@@ -17,8 +12,7 @@ go
 
 
 
->>>>>>> f0eb882f471452d1f27e630d73218029888cb36e:ARG_GP2016/RG3585_NUEVO_CITI/sql/NuevoCITI_CA.sql
-ALTER PROCEDURE [dbo].[NuevoCITI_CA] @PERIODO CHAR(6), @REPORTE CHAR(15), @NOGRAVADO tinyint
+create PROCEDURE [dbo].[NuevoCITI_CA] @PERIODO CHAR(6), @REPORTE CHAR(15), @NOGRAVADO tinyint
 AS
 
 CREATE TABLE #TEMP

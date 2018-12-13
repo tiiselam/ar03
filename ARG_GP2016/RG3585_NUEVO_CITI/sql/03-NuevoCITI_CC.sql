@@ -5,6 +5,9 @@ GO
 SET QUOTED_IDENTIFIER ON
 GO
 /****** Object:  Stored Procedure dbo.NuevoCITI_CC    Script Date: 14/6/2015 12:34:37 PM ******/
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[NuevoCITI_CC]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[NuevoCITI_CC]
+go
 
 create PROCEDURE [dbo].[NuevoCITI_CC] @PERIODO CHAR(6), @REPORTE CHAR(15), @NOGRAVADO tinyint
 AS
