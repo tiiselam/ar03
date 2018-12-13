@@ -2958,7 +2958,7 @@ begin
 			 StatInd char(1),StatusOfChange char(1),PercPer char(4),RetPer char(4),PerCa int,RetCat int)')
 			if @ProcessType=3 or @ProcessType=4
 			EXEC(' create table ##nfRETMCPTemp1 (PubDate char(8),DueDateFrm char(8),DueDateTo char(8),TaxIDCode char(11),TypeTaxIDCode char(1),
-			 StatInd char(1),StatusOfChange char(1),PercPer char(4),RetPer char(4),PerCa int,RetCat int,Name char(60))')
+			 StatInd char(1),StatusOfChange char(1),PercPer char(4),RetPer char(4),PerCa int,RetCat int,Name char(250))')
 			EXEC('BULK INSERT dbo.##nfRETMCPTemp1 FROM '''+	@iFileLocation +''' WITH 
 				  (
 					 FIELDTERMINATOR ='';'',

@@ -107,7 +107,7 @@ create table ##XPRTemp5(TaxIDCode char(11))
  if @ProcessType=3 or @ProcessType=4
  begin
  EXEC(' create table ##XPRTemp1 (PubDate char(8),DueDateFrm char(8),DueDateTo char(8),TaxIDCode char(11),TypeTaxIDCode char(1),
- StatInd char(1),StatusOfChange char(1),PercPer char(4),RetPer char(4),PerCa int,RetCat int,custName char(60))')
+ StatInd char(1),StatusOfChange char(1),PercPer char(4),RetPer char(4),PerCa int,RetCat int,custName char(1000))')
  end
 
  EXEC('BULK INSERT dbo.##XPRTemp1 FROM '''+ @iFileLocation +''' WITH 
