@@ -1,1 +1,2 @@
-diccionarios dexterity
+Esta carpeta ya no debe ser usada, en un futuro será eliminada. 
+La versión actualizada está en la carpeta dexGPv16...

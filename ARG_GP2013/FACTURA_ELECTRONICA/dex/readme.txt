@@ -1,1 +1,2 @@
-diccionarios dexterity
+Esta carpeta ya no debe ser utilizada. Próximamente será eliminada.
+En su lugar usar la carpeta dexGPv12...
