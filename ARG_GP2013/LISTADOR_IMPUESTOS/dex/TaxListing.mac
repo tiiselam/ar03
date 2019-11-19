@@ -1,31 +1,30 @@
-<<<<<<< HEAD
-Logging file ':C:/dexterity/TII/GP2013/GP2013_/MACLOG.TXT'
+Logging file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/MACLOG.TXT'
   MenuSelect title File entry 'Open Source Dictionary...' 
-  FileOpen file ':C:/dexterity/TII/GP2013/GP2013_/dynamics.dic' type 0 
+  FileOpen file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/DynamicsESPV12.00.1745.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 6  # 'Extract' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
   ClickHit field '(L) Extract Button' 
-  FileSave file ':C:/dexterity/TII/GP2013/GP2013_/TIIAW75.dic' 
+  FileSave file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TIIAW75.dic' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
   MenuSelect title File entry 'Open Editable Dictionary...' 
-  FileOpen file ':C:/dexterity/TII/GP2013/GP2013_/TIIAW75.dic' type 0 
+  FileOpen file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TIIAW75.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 9  # 'Auto-Chunk' 
 NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
   ClickHit field 'Lookup Button 3' 
-  FileSave file ':C:/dexterity/TII/GP2013/GP2013_/TaxList.cnk' 
+  FileSave file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk' 
   MoveTo field 'Dictionary Name' 
   MoveTo field 'Accounting Modules' item 0 
   ClickHit field 'Accounting Modules' item 1  # 'Module 001' 
   ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
   MoveTo field '(L) Major Version' 
-  TypeTo field '(L) Major Version' , '12'
+  TypeTo field '(L) Major Version' , '13'
   MoveTo field '(L) Minor Version' 
   TypeTo field '(L) Minor Version' , '0'
   MoveTo field '(L) Build Number' 
-  TypeTo field '(L) Build Number' , '1413'
+  TypeTo field '(L) Build Number' , '0'
   MoveTo field 'Ok Button' 
   ClickHit field 'Ok Button' 
 # The edit dictionary does not have product information. Do you wish to add it now ?
@@ -82,11 +81,11 @@ NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk'
   ClickHit field 'Accounting Modules' item 1  # 'Module 001' 
   ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
   MoveTo field '(L) Major Version' 
-  TypeTo field '(L) Major Version' , '12'
+  TypeTo field '(L) Major Version' , '13'
   MoveTo field '(L) Minor Version' 
   TypeTo field '(L) Minor Version' , '0'
   MoveTo field '(L) Build Number' 
-  TypeTo field '(L) Build Number' , '1413'
+  TypeTo field '(L) Build Number' , '0'
   MoveTo field 'Ok Button' 
   ClickHit field 'Ok Button' 
 # The edit dictionary does not have product information. Do you wish to add it now ?

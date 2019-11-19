@@ -1,0 +1,4 @@
+===============================================================================
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2015/LISTADOR_IMPUESTOS/dex/TaxListing.mac Started   11/05/2019 12:27:25
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2015/LISTADOR_IMPUESTOS/dex/TaxListing.mac Finished  11/05/2019 12:27:27
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2015/LISTADOR_IMPUESTOS/dex/TaxListing.mac Elapsed                  0:02      Last Line   60
