@@ -1,0 +1,1071 @@
+Table	"FEI_Transactions_WORK_HIST"	"System"	22000
+Table	"FEI_Transactions_TEMP"	"System"	22001
+Table	"FEI_Export_Trx_TEMP"	"System"	22002
+Table	"FEI_DOC_TEMP"	"System"	22003
+Table	"FEI_Impuestos_SETP"	"System"	22004
+Table	"FEI_Selected_Trx"	"System"	22005
+Table	"FEI_DOC_SETP"	"System"	22006
+Table	"FEI_Tickets"	"System"	22007
+Table	"FEE_WSN_SETP"	"System"	22008
+Table	"FEI_SOLICITUDES_WORK"	"System"	22009
+Table	"FEI_SOLICITUDES_HIST"	"System"	22010
+Table	"FEI_XDL_SETP"	"System"	22011
+Table	"FEI_XDL_TEMP"	"System"	22012
+Table	"FEI_PDV_TEMP"	"System"	22013
+Table	"FEI_SITE_TEMP"	"System"	22014
+Table	"FEI_XDLDOC_WORK"	"System"	22015
+Table	"FEI_CAE_HIST"	"System"	22016
+Table	"FEI_WSN_SETP"	"System"	22017
+Table	"FEE_SOP_DatAdic_HDR"	"System"	22018
+Table	"FEE_SOP_DetPerm"	"System"	22019
+Table	"FEE_DatAdcCbte"	"System"	22020
+Table	"FEE_DOC_SETP"	"System"	22021
+Table	"Temp_lookup"	"System"	22022
+Table	"FEConfWS"	"System"	22023
+Table	"FEE_UM_MST"	"System"	22024
+Table	"FEEPaisMSTR"	"System"	22025
+Table	"FEEMonedaMST"	"System"	22026
+Table	"FEE_Temp_SOP_Id"	"System"	22027
+Key	"FEI_Transactions_WORK_HIST_Key1"	"System"	22000
+Key	"FEI_Transactions_WORK_HIST_Key2"	"System"	22001
+Key	"FEI_Transactions_TEMP_Key1"	"System"	22002
+Key	"FEI_Export_Trx_TEMP_Key1"	"System"	22003
+Key	"FEI_DOC_TEMP_Key1"	"System"	22004
+Key	"FEI_Impuestos_SETP_Key1"	"System"	22005
+Key	"FEI_Selected_Trx_Key1"	"System"	22006
+Key	"FEI_DOC_SETP_Key1"	"System"	22007
+Key	"FEI_Tickets_Key1"	"System"	22008
+Key	"FEI_Tickets_Key2"	"System"	22009
+Key	"FEI_WSN_SETP_Key1"	"System"	22010
+Key	"FEI_SOLICITUDES_WORK_Key1"	"System"	22011
+Key	"FEI_SOLICITUDES_WORK_Key2"	"System"	22012
+Key	"FEI_SOLICITUDES_HIST_Key1"	"System"	22013
+Key	"FEI_SOLICITUDES_HIST_Key2"	"System"	22014
+Key	"FEI_XDL_SETP_Key1"	"System"	22015
+Key	"FEI_XDL_TEMP_Key1"	"System"	22016
+Key	"FEI_PDV_TEMP_Key1"	"System"	22017
+Key	"FEI_SITE_TEMP_Key1"	"System"	22018
+Key	"FEI_XDL_DOC_WORK_Key1"	"System"	22019
+Key	"FEI_CAE_HIST_Key1"	"System"	22020
+Key	"FEI_CAE_HIST_Key2"	"System"	22021
+Key	"FEI_CAE_HIST_Key3"	"System"	22022
+Key	"FEI_WSN_SETP_Key11"	"System"	22023
+Key	"FEEtbl10K1"	"System"	22024
+Key	"FEEtbl11K1"	"System"	22025
+Key	"FEEtbl12K1"	"System"	22026
+Key	"FEI_DOC_SETP_Key11"	"System"	22027
+Key	"TempK1"	"System"	22028
+Key	"FEtbl0001K1"	"System"	22029
+Key	"FEEtbl100K1"	"System"	22030
+Key	"FEEtbl102K1"	"System"	22031
+Key	"FEEtbl103K1"	"System"	22032
+Key	"Temp"	"System"	22033
+Form	"FEI_InstalarObjetos"	22000
+
+{
+	Window	"FEI_InstalarObjetos"	22000
+	Field	"Close Button"	22000
+	Field	"Generar Tablas"	22003
+	Field	"MigrarTablas"	22004
+	Datatype	"Close Button"	22000
+	Datatype	"Generar Tablas"	22003
+	Datatype	"MigrarTablas"	22004
+	Procedure	"Crear_ACA_CFM_SaveImportedTrx"	22000
+	Procedure	"Crear_Proc_ACA_CFM_CASH_REPORT"	22001
+	Procedure	"Crear_Proc_ACA_CFM_CASH_REPORT_DYN"	22002
+	Procedure	"Crear_Proc_ACA_CFM_COMPANIES"	22003
+	Procedure	"Crear_Proc_ACA_CFM_DeleteImportedTrx"	22004
+	Procedure	"Crear_Proc_ACA_CFM_INSERTAR_OC_MENU"	22005
+	Procedure	"Crear_Proc_ACA_CFM_ImportFromCompanies"	22006
+	Procedure	"Crear_Proc_ACA_CFM_PREFIJOS"	22007
+	Procedure	"Crear_Procs"	22008
+	Procedure	"Crear_Vista"	22009
+	Procedure	"Crear_Proc_ACA_PONE_NUMERO_LEGAL"	22010
+	Procedure	"Crear_Vista_ACA_IMPUESTOS_SOP"	22011
+	Procedure	"Crear_Vista_ACA_AWLI40330_VIEW"	22012
+	Procedure	"Migrate_FEI_WSN_SETP"	22013
+	Procedure	"Migrate_FEI_SOLICITUDES_HIST"	22014
+	Procedure	"Migrate_FEI_SOLICITUDES_WORK"	22015
+	Function	"solCrearTabla"	22000
+	EventScript	"ACA_InstalarObjetos l_MigrarTablas_CHG"	22000
+	EventScript	"SOL_Instalador l_Close Button_CHG"	22001
+	EventScript	"SOL_Instalador l_Generar Tablas_CHG"	22002
+	EventScript	"SOL_Instalador_WIN_PRE"	22003
+}
+Form	"FEI_Exportacion"	22001
+
+{
+	Window	"FEI_Exportacion"	22000
+	Window	"Scroll"	22001
+	Window	"Scroll2"	22002
+	Window	"FEI_Import"	22003
+	Field	"Export Button"	22000
+	Field	"FromDate"	22001
+	Field	"ToDate"	22002
+	Field	"Exportar"	22003
+	Field	"Generar"	22004
+	Field	"FillScrollTEMPTable"	22005
+	Field	"Importar"	22006
+	Field	"ImportBKP"	22007
+	Field	"IncluyeConCAE"	22008
+	Datatype	"Export Button"	22000
+	Datatype	"FromDate"	22001
+	Datatype	"ToDate"	22002
+	Datatype	"Exportar"	22003
+	Datatype	"Generar"	22004
+	Datatype	"FillScrollTEMPTable"	22005
+	Datatype	"Importar"	22006
+	Datatype	"ImportBKP"	22007
+	Datatype	"IncluyeConCAE"	22008
+	EventScript	"Scroll2 SCROLL_FILL"	22000
+	EventScript	"Scroll2 SCROLL_CHG"	22001
+	EventScript	"FRG_Exportacion_WIN_PRE"	22002
+	EventScript	"FRG_Exportacion FRG_Letra_CHG"	22003
+	EventScript	"FRG_Exportacion FRG_Tipos_CHG"	22004
+	EventScript	"FRG_Exportacion l_FillScrollTEMPTable_CHG"	22005
+	EventScript	"FRG_Exportacion Redisplay Button_CHG"	22006
+	EventScript	"Scroll SCROLL_FILL"	22007
+	EventScript	"Scroll SCROLL_CHG"	22008
+	EventScript	"FRG_Exportacion Path Button[1]_CHG"	22009
+	EventScript	"FRG_Exportacion l_Export Button_CHG"	22010
+	EventScript	"FRG_Import Path Button[1]_CHG"	22011
+	EventScript	"FRG_Import Cancel Button_CHG"	22012
+	EventScript	"FRG_Import l_Importar_CHG"	22013
+	EventScript	"FRG_Exportacion l_Importar_CHG"	22014
+	EventScript	"FRG_Exportacion Mark All_CHG"	22015
+	EventScript	"FRG_Exportacion Unmark All_CHG"	22016
+	EventScript	"FRG_Import l_ImportBKP_CHG"	22017
+	EventScript	"FRG_Exportacion FRG_Mostrar_CHG"	22018
+	EventScript	"FRG_Exportacion l_IncluyeConCAE_CHG"	22019
+}
+Form	"FEI_Impuestos_Setup"	22002
+
+{
+	Window	"FEI_Impuestos_Setup"	22000
+	Window	"Scroll"	22001
+	Field	"Incluye"	22000
+	Datatype	"Incluye"	22000
+	EventScript	"FRG_Impuestos_Setup FRG_Impuestos_CHG"	22000
+	EventScript	"Scroll SCROLL_FILL"	22001
+	EventScript	"Scroll SCROLL_CHG"	22002
+	EventScript	"FRG_Impuestos_Setup OK Button_CHG"	22003
+}
+Form	"FEI_Command"	22003
+
+{
+	Window	"Dummy"	22000
+	Command	"FEI_WSN_Setup"	22000
+	Command	"FEI_Impuestos_Setup"	22001
+	Command	"FEI_SOP_Document_SETP"	22002
+	Command	"FEI_XDL_Setup"	22003
+	Command	"CL_FEI"	22004
+	Command	"CL_FEE"	22005
+	Command	"FEE_WSN_Setup"	22006
+	Command	"FEE_SOP_Document_SETP"	22007
+	Command	"CL_FEE_SYS_Conf"	22008
+	Command	"Abrir_Mant_UM_Ref"	22009
+	Command	"Abrir_Mant_Pais"	22010
+}
+Form	"FEI_SOP_Document_SETP"	22004
+
+{
+	Window	"FEI_SOP_Document_SETP"	22000
+	Window	"Scroll"	22001
+	Field	"Marked"	22000
+	Datatype	"Marked"	22000
+	EventScript	"FRG_SOP_Document_SETP_WIN_PRE"	22000
+	EventScript	"Scroll SCROLL_FILL"	22001
+	EventScript	"Scroll SCROLL_CHG"	22002
+	EventScript	"FRG_SOP_Document_SETP OK Button_CHG"	22003
+	EventScript	"FEI_SOP_Document_SETP Path Button[1]_CHG"	22004
+}
+Form	"FEI_WSN_Setup"	22005
+
+{
+	Window	"FEI_WSN_Setup"	22000
+	Field	"ProbarTesting"	22000
+	Field	"ProbarProduccion"	22001
+	Datatype	"ProbarTesting"	22000
+	Datatype	"ProbarProduccion"	22001
+	EventScript	"FEI_WSN_Setup_WIN_PRE"	22000
+	EventScript	"FEI_WSN_Setup Path Button[1]_CHG"	22001
+	EventScript	"FEI_WSN_Setup Path Button[2]_CHG"	22002
+	EventScript	"FEI_WSN_Setup FEI_Entorno_CHG"	22003
+	EventScript	"FEI_WSN_Setup Cancel Button_CHG"	22004
+	EventScript	"FEI_WSN_Setup l_ProbarTesting_CHG"	22005
+	EventScript	"FEI_WSN_Setup OK Button_CHG"	22006
+	EventScript	"FEI_WSN_Setup l_ProbarProduccion_CHG"	22007
+	EventScript	"FEI_WSN_Setup Path Button[3]_CHG"	22008
+}
+Form	"FEI_Solicitar_CAE"	22006
+
+{
+	Window	"FEI_Solicitar_CAE"	22000
+	Field	"SolicitarCAE"	22000
+	Field	"Procesar"	22001
+	Field	"SolicitarCAE_OldCode"	22002
+	Field	"Reprint"	22003
+	Field	"TipoCambio"	22004
+	Field	"Imprimir"	22005
+	Datatype	"SolicitarCAE"	22000
+	Datatype	"Procesar"	22001
+	Datatype	"SolicitarCAE_OldCode"	22002
+	Datatype	"Reprint"	22003
+	Datatype	"Imprimir"	22004
+	Procedure	"OPEN"	22000
+	Function	"Create_Query_1"	22000
+	Function	"Create_Query_2"	22001
+	Function	"Incrementar_Nro_Remito"	22002
+	Function	"CheckExistingNumber"	22003
+	Function	"CreateXMLIva"	22004
+	Function	"CreateXMLTributos"	22005
+	Function	"Validar_TipoContribuyente"	22006
+	Function	"Validar_RutaPDFs"	22007
+	Function	"GetCurrencyCode"	22008
+	Function	"CreateXMLOpcional"	22009
+	Function	"Validar_Fecha_Tipo_PDV"	22010
+	Function	"ObtieneCAE"	22011
+	Function	"Save_FEI_SOLICITUDES_HIST"	22012
+	Function	"SaveGet_FEI_CAE_HIST"	22013
+	Function	"Get_PDV_COD"	22014
+	EventScript	"FEI_Solicitar_CAE Display Existing Record_CHG"	22000
+	EventScript	"FEI_Solicitar_CAE l_Reprint_CHG"	22001
+	EventScript	"FEI_Solicitar_CAE Cancel Button_CHG"	22002
+	EventScript	"FEI_Solicitar_CAE l_SolicitarCAE_OldCode_CHG"	22003
+	EventScript	"FEI_Solicitar_CAE l_SolicitarCAE_CHG"	22004
+	EventScript	"FEI_Solicitar_CAE l_Imprimir_CHG"	22005
+	EventScript	"FEI_Solicitar_CAE_WIN_POST"	22006
+	EventScript	"FEI_Solicitar_CAE FEI_Conceptos_CHG"	22007
+}
+Form	"FEI_XDL_Setup"	22007
+
+{
+	Window	"FEI_XDL_Setup"	22000
+	Window	"Scroll"	22001
+	Field	"Existe"	22000
+	Datatype	"Existe"	22000
+	EventScript	"FEI_XDL_Setup_WIN_PRE"	22000
+	EventScript	"Scroll SCROLL_CHG"	22001
+	EventScript	"FEI_XDL_Setup OK Button_CHG"	22002
+	EventScript	"Scroll SCROLL_FILL"	22003
+}
+Form	"FEI_XDL_DOC_WORK"	22008
+
+{
+	Window	"FEI_XDL_DOC_WORK"	22000
+	Field	"EsElectronica"	22000
+	Field	"SITE_FAC"	22001
+	Field	"SITE_REM"	22002
+	Field	"PDV_FAC"	22003
+	Field	"PDV_REM"	22004
+	Field	"IMPREM"	22005
+	Field	"REMMAN"	22006
+	Field	"ADRSCODE"	22007
+	Field	"DSCRIPTN"	22008
+	Field	"SOPNumber"	22009
+	Field	"REMNMBR"	22010
+	Field	"DSCRIPTN2"	22011
+	Datatype	"EsElectronica"	22000
+	Datatype	"SITE_FAC"	22001
+	Datatype	"SITE_REM"	22002
+	Datatype	"PDV_FAC"	22003
+	Datatype	"PDV_REM"	22004
+	Datatype	"IMPREM"	22005
+	Datatype	"REMMAN"	22006
+	Datatype	"ADRSCODE"	22007
+	Datatype	"DSCRIPTN"	22008
+	Datatype	"SOPNumber"	22009
+	Datatype	"REMNMBR"	22010
+	Datatype	"DSCRIPTN2"	22011
+	Procedure	"OPEN"	22000
+	EventScript	"FEI_XDL_DOC_WORK Lookup Button 1_CHG"	22000
+	EventScript	"FEI_XDL_DOC_WORK FEI_SITECODE_CHG"	22001
+	EventScript	"FEI_XDL_DOC_WORK Lookup Button 3_CHG"	22002
+	EventScript	"FEI_XDL_DOC_WORK Lookup Button 4_CHG"	22003
+	EventScript	"FEI_XDL_DOC_WORK FEI_SITECODE_REM_CHG"	22004
+	EventScript	"FEI_XDL_DOC_WORK FEI_PDV_REM_CHG"	22005
+	EventScript	"FEI_XDL_DOC_WORK FEI_PDV_FAC_CHG"	22006
+	EventScript	"FEI_XDL_DOC_WORK Lookup Button 2_CHG"	22007
+	EventScript	"FEI_XDL_DOC_WORK Save Button_CHG"	22008
+	EventScript	"FEI_XDL_DOC_WORK Clear Button_CHG"	22009
+	EventScript	"FEI_XDL_DOC_WORK Customer Number_CHG"	22010
+	EventScript	"FEI_XDL_DOC_WORK BOPPRINREM_CHG"	22011
+	EventScript	"FEI_XDL_DOC_WORK BORMMAN_CHG"	22012
+	EventScript	"FEI_XDL_DOC_WORK_WIN_PRE"	22013
+	EventScript	"FEI_XDL_DOC_WORK Display Existing Record_CHG"	22014
+}
+Form	"FEI_XDLSITE_Lookup"	22009
+
+{
+	Window	"FEI_XDLSITE_Lookup"	22000
+	Window	"Scroll"	22001
+	Field	"IF"	22000
+	Field	"IR"	22001
+	Field	"IRM"	22002
+	Field	"FillTempTable"	22003
+	Datatype	"IF"	22000
+	Datatype	"IR"	22001
+	Datatype	"IRM"	22002
+	Datatype	"FillTempTable"	22003
+	Procedure	"OPEN"	22000
+	EventScript	"FEI_XDLSITE_Lookup l_FillTempTable_CHG"	22000
+	EventScript	"FEI_XDLSITE_Lookup Cancel Button_CHG"	22001
+	EventScript	"FEI_XDLSITE_Lookup Select Button_CHG"	22002
+	EventScript	"Scroll SCROLL_FILL"	22003
+}
+Form	"FEI_XDLPDV_Lookup"	22010
+
+{
+	Window	"FEI_XDLPDV_Lookup"	22000
+	Window	"Scroll"	22001
+	Field	"FillTempTable"	22000
+	Datatype	"FillTempTable"	22000
+	Procedure	"OPEN"	22000
+	EventScript	"FEI_XDLSITE_Lookup Cancel Button_CHG"	22000
+	EventScript	"FEI_XDLSITE_Lookup Select Button_CHG"	22001
+	EventScript	"FEI_XDLSITE_Lookup l_FillTempTable_CHG"	22002
+	EventScript	"Scroll SCROLL_FILL"	22003
+}
+Form	"FEI_Transportista"	22011
+
+{
+	Window	"FEI_Transportista"	22000
+	Procedure	"OPEN"	22000
+	EventScript	"FEI_Transportista Cancel Button_CHG"	22000
+	EventScript	"FEI_Transportista Clear Button_CHG"	22001
+	EventScript	"FEI_Transportista Save Button_CHG"	22002
+	EventScript	"FEI_Transportista_WIN_PRE"	22003
+}
+Form	"FEI_CambiarDOCID"	22012
+
+{
+	Window	"FEI_CambiarDOCID"	22000
+	Field	"DDL_DocID"	22000
+	Field	"Cambiar"	22001
+	Field	"NuevoNumero"	22002
+	Datatype	"DDL_DocID"	22000
+	Datatype	"Cambiar"	22001
+	EventScript	"FEI_CambiarDOCID Lookup Button 1_CHG"	22000
+	EventScript	"FEI_CambiarDOCID SOP Number_CHG"	22001
+	EventScript	"FEI_CambiarDOCID l_Cambiar_CHG"	22002
+}
+Form	"FEE_WSN_Setup"	22013
+
+{
+	Window	"FEE_WSN_Setup"	22000
+	Field	"ProbarProduccion"	22000
+	Field	"ProbarTesting"	22001
+	Datatype	"ProbarProduccion"	22000
+	Datatype	"ProbarTesting"	22001
+	EventScript	"FEE_WSN_Setup Cancel Button_CHG"	22000
+	EventScript	"FEE_WSN_Setup FEI_Entorno_CHG"	22001
+	EventScript	"FEE_WSN_Setup OK Button_CHG"	22002
+	EventScript	"FEE_WSN_Setup Path Button[1]_CHG"	22003
+	EventScript	"FEE_WSN_Setup Path Button[2]_CHG"	22004
+	EventScript	"FEE_WSN_Setup Path Button[3]_CHG"	22005
+	EventScript	"FEE_WSN_Setup l_ProbarProduccion_CHG"	22006
+	EventScript	"FEE_WSN_Setup l_ProbarTesting_CHG"	22007
+	EventScript	"FEE_WSN_Setup_WIN_PRE"	22008
+}
+Form	"FEE_DatosAdicionales"	22014
+
+{
+	Window	"FEE_DatAdicDoc"	22000
+	Window	"FEE_Permisos"	22001
+	Window	"sw_Permisos"	22002
+	Window	"FEE_CbteAdic"	22003
+	Window	"SW_DatosOpc"	22004
+	Field	"Permisos"	22000
+	Field	"Datos Adic. al Cbte"	22001
+	Field	"Tipo_Cbte"	22002
+	Field	"Tipo_Expo"	22004
+	Field	"UltimaOrd"	22005
+	Field	"Desc"	22006
+	Datatype	"Permisos"	22000
+	Datatype	"Datos Adic. al Cbte"	22001
+	Datatype	"Tipo_Cbte"	22002
+	Datatype	"Tipo_Expo"	22004
+	Datatype	"UltimaOrd"	22005
+	Datatype	"Desc"	22006
+	EventScript	"FEE_DatAdicDoc Document ID_CHG"	22000
+	EventScript	"FEE_DatAdicDoc_WIN_PRE"	22001
+	EventScript	"FEE_DatAdicDoc FEE_Tipo_expo_CHG"	22002
+	EventScript	"FEE_DatAdicDoc FEE_Permiso_existente_CHG"	22003
+	EventScript	"FEE_DatAdicDoc Lookup Button 1_CHG"	22004
+	EventScript	"FEE_DatAdicDoc FEE_Incoterms_CHG"	22005
+	EventScript	"FEE_DatAdicDoc l_Tipo_Expo_CHG"	22006
+	EventScript	"FEE_DatAdicDoc Save Button_CHG"	22007
+	EventScript	"FEE_DatAdicDoc FEE_Cbte_tipo_CHG"	22008
+	EventScript	"FEE_DatAdicDoc Clear Button_CHG"	22009
+	EventScript	"FEE_DatAdicDoc Delete Button_CHG"	22010
+	EventScript	"FEE_DatAdicDoc l_Permisos_CHG"	22011
+	EventScript	"FEE_Permisos Delete Row Button_CHG"	22012
+	EventScript	"sw_Permisos SCROLL_DEL"	22013
+	EventScript	"sw_Permisos FEE_Dst_merc_CHG"	22014
+	EventScript	"FEE_Permisos Lookup Button 1_CHG"	22015
+	EventScript	"sw_Permisos SCROLL_CHG"	22016
+	EventScript	"FEE_Permisos SOP Number_CHG"	22017
+	EventScript	"sw_Permisos SCROLL_FILL"	22018
+	EventScript	"FEE_Permisos OK Button_CHG"	22019
+	EventScript	"FEE_CbteAdic Delete Row Button_CHG"	22020
+	EventScript	"SW_DatosOpc SCROLL_CHG"	22021
+	EventScript	"SW_DatosOpc SCROLL_DEL"	22022
+	EventScript	"FEE_CbteAdic SOP Number_CHG"	22023
+	EventScript	"FEE_CbteAdic OK Button_CHG"	22024
+	EventScript	"FEE_DatAdicDoc l_Datos Adic. al Cbte_CHG"	22025
+}
+Form	"FEE_SOP_Document_SETP"	22015
+
+{
+	Window	"FEE_SOP_Document_SETP"	22000
+	Window	"Scroll"	22001
+	Field	"Marked"	22000
+	Field	"Tipo_Cbte"	22001
+	Datatype	"Marked"	22000
+	Datatype	"Tipo_Cbte"	22001
+	EventScript	"FEE_SOP_Document_SETP Path Button[1]_CHG"	22000
+	EventScript	"FEE_SOP_Document_SETP OK Button_CHG"	22001
+	EventScript	"FEE_SOP_Document_SETP_WIN_PRE"	22002
+	EventScript	"Scroll SCROLL_CHG"	22003
+	EventScript	"Scroll SCROLL_FILL"	22004
+	EventScript	"Scroll l_Tipo_Cbte_CHG"	22005
+}
+Form	"FEE_Incoterms_LookUp"	22016
+
+{
+	Window	"wnd_LookUp"	22000
+	Window	"SW_LookUp"	22001
+	EventScript	"wnd_LookUp_WIN_PRE"	22000
+	EventScript	"wnd_LookUp Select Button_CHG"	22001
+}
+Form	"FEE_Pais_LookUp"	22017
+
+{
+	Window	"wnd_LookUp"	22000
+	Window	"SW_LookUp"	22001
+	EventScript	"wnd_LookUp Select Button_CHG"	22000
+	EventScript	"wnd_LookUp_WIN_PRE"	22001
+}
+Form	"FEE_Solicitar_CAE"	22018
+
+{
+	Window	"FEE_Solicitar_CAE"	22000
+	Field	"Imprimir"	22000
+	Field	"Procesar"	22001
+	Field	"Reprint"	22002
+	Field	"SolicitarCAE"	22003
+	Field	"SolicitarCAE_OldCode"	22004
+	Field	"TipoCambio"	22005
+	Field	"Tipo_Expo"	22006
+	Field	"Direccion_cliente"	22007
+	Field	"CodMon"	22009
+	Field	"CotMon"	22010
+	Field	"Cbte_Tipo"	22012
+	Field	"Cuit_pais_cliente"	22013
+	Field	"MonCotAFIP"	22014
+	Datatype	"Imprimir"	22000
+	Datatype	"Procesar"	22001
+	Datatype	"Reprint"	22002
+	Datatype	"SolicitarCAE"	22003
+	Datatype	"SolicitarCAE_OldCode"	22004
+	Datatype	"Tipo_Expo"	22005
+	Datatype	"Direccion_cliente"	22006
+	Datatype	"CodMon"	22008
+	Datatype	"CotMon"	22009
+	Datatype	"Cbte_Tipo"	22011
+	Datatype	"Cuit_pais_cliente"	22012
+	Datatype	"MonCotAFIP"	22013
+	Procedure	"OPEN"	22000
+	Procedure	"ObtenerResultadoCAE"	22001
+	Procedure	"ObtenerDatosComp"	22002
+	Procedure	"BuscarCrearTicket"	22003
+	Procedure	"BuscarObtenerCAE_AFIP"	22004
+	Procedure	"ObtieneMonCot_AFIP"	22005
+	Function	"CheckExistingNumber"	22000
+	Function	"Crear_Det_Permisos"	22001
+	Function	"Crear_Det_Opcionales"	22002
+	Function	"Get_CUIT_Pais_Cliente"	22003
+	Function	"Create_Query_1"	22004
+	Function	"Create_Query_2"	22005
+	Function	"GetCurrencyCode"	22006
+	Function	"Get_PDV_COD"	22007
+	Function	"ObtieneCAE"	22008
+	Function	"SaveGet_FEE_CAE_HIST"	22009
+	Function	"Save_FEE_SOLICITUDES_HIST"	22010
+	Function	"Validar_Fecha_Tipo_PDV"	22011
+	Function	"Validar_RutaPDFs"	22012
+	Function	"Validar_TipoContribuyente"	22013
+	Function	"Crear_Det_LItems"	22014
+	Function	"GetCodigoPais"	22015
+	EventScript	"FEI_Solicitar_CAE Cancel Button_CHG"	22000
+	EventScript	"FEE_Solicitar_CAE Display Existing Record_CHG"	22001
+	EventScript	"FEE_Solicitar_CAE l_Imprimir_CHG"	22002
+	EventScript	"FEI_Solicitar_CAE l_Reprint_CHG"	22003
+	EventScript	"FEE_Solicitar_CAE l_SolicitarCAE_CHG"	22004
+	EventScript	"FEI_Solicitar_CAE l_SolicitarCAE_OldCode_CHG"	22005
+	EventScript	"FEI_Solicitar_CAE_WIN_POST"	22006
+}
+Form	"FE_WS_Setup"	22019
+
+{
+	Window	"FE_WS_Setup"	22000
+	Field	"PushButton0"	22000
+	Field	"PushButton1"	22001
+	Datatype	"PushButton0"	22000
+	Datatype	"PushButton1"	22001
+	EventScript	"FE_WS_Setup OK Button_CHG"	22000
+	EventScript	"FE_WS_Setup_WIN_PRE"	22001
+	EventScript	"FE_WS_Setup Path Button[1]_CHG"	22002
+	EventScript	"FE_WS_Setup Path Button[2]_CHG"	22003
+	EventScript	"FE_WS_Setup l_PushButton0_CHG"	22004
+	EventScript	"FE_WS_Setup l_PushButton1_CHG"	22005
+}
+Form	"FEE_UM_Mantenimiento"	22020
+
+{
+	Window	"FEE_UM_Mant"	22000
+	Field	"Codigo_AFIP"	22000
+	Datatype	"Codigo_AFIP"	22000
+	EventScript	"FEE_UM_Mant l_Codigo_AFIP_CHG"	22000
+	EventScript	"FEE_UM_Mant FEE_UM_ID_CHG"	22001
+	EventScript	"FEE_UM_Mant Save Button_CHG"	22002
+	EventScript	"FEE_UM_Mant Clear Button_CHG"	22003
+	EventScript	"FEE_UM_Mant Delete Button_CHG"	22004
+	EventScript	"FEE_UM_Mant Lookup Button 1_CHG"	22005
+	EventScript	"FEE_UM_Mant Lookup Button 2_CHG"	22006
+}
+Form	"FEE_UM_Lookup"	22021
+
+{
+	Window	"FEE_UM_LookUp"	22000
+	Window	"Scroll"	22001
+	Procedure	"OPEN"	22000
+	EventScript	"FEE_UM_LookUp Select Button_CHG"	22000
+	EventScript	"FEE_UM_LookUp_WIN_PRE"	22001
+}
+Form	"FEE_Pais_Mantenimiento"	22022
+
+{
+	Window	"FEE_Pais_Mant"	22000
+	Field	"Codigo_AFIP"	22000
+	Datatype	"Codigo_AFIP"	22000
+	EventScript	"FEE_UM_Mant Clear Button_CHG"	22000
+	EventScript	"FEE_UM_Mant Delete Button_CHG"	22001
+	EventScript	"FEE_Pais_Mant FEE_DST_Cod_CHG"	22002
+	EventScript	"FEE_Pais_Mant Lookup Button 1_CHG"	22003
+	EventScript	"FEE_Pais_Mant Lookup Button 2_CHG"	22004
+	EventScript	"FEE_UM_Mant Save Button_CHG"	22005
+	EventScript	"FEE_Pais_Mant l_Codigo_AFIP_CHG"	22006
+}
+Form	"FEE_Moneda_Mantenimiento"	22023
+
+{
+	Window	"FEE_Moneda_Mant"	22000
+	Field	"Codigo_AFIP"	22000
+	Datatype	"Codigo_AFIP"	22000
+	EventScript	"FEE_UM_Mant Clear Button_CHG"	22000
+	EventScript	"FEE_UM_Mant Delete Button_CHG"	22001
+	EventScript	"FEE_Moneda_Mant l_Codigo_AFIP_CHG"	22002
+	EventScript	"FEE_Moneda_Mant Lookup Button 1_CHG"	22003
+	EventScript	"FEE_UM_Mant Lookup Button 2_CHG"	22004
+	EventScript	"FEE_UM_Mant Save Button_CHG"	22005
+	EventScript	"FEE_Moneda_Mant FEE_Mon_id_CHG"	22006
+}
+Form	"FEE_Moneda_Lookup"	22024
+
+{
+	Window	"FEE_Moneda_LookUp"	22000
+	Window	"Scroll"	22001
+	Procedure	"OPEN"	22000
+	EventScript	"FEE_Moneda_LookUp Select Button_CHG"	22000
+	EventScript	"FEE_Moneda_LookUp_WIN_PRE"	22001
+}
+Datatype	"FEI_Letra_DDL"	"System"	22000
+Datatype	"FEI_Tipos_DDL"	"System"	22001
+Datatype	"FEI_Mostrar_DDL"	"System"	22002
+Datatype	"FEI_CAE"	"System"	22003
+Datatype	"FEI_CAE_DUE"	"System"	22004
+Datatype	"FEI_Impuestos_DDL"	"System"	22005
+Datatype	"FEI_TX4000"	"System"	22006
+Datatype	"STR21"	"System"	22007
+Datatype	"FEI_Entorno_DDL"	"System"	22008
+Datatype	"FEI_URL_Testing"	"System"	22009
+Datatype	"FEI_URL_Produccion"	"System"	22010
+Datatype	"FEI_IntegraDL_CB"	"System"	22011
+Datatype	"FEI_Solicitud"	"System"	22012
+Datatype	"FEI_PV_DL"	"System"	22013
+Datatype	"FEI_XDL_GeneraRemito"	"System"	22014
+Datatype	"FEI_XDL_NRO_MANUAL"	"System"	22015
+Datatype	"FEI_AGRUPREM"	"System"	22016
+Datatype	"FEI_Conceptos_DDL"	"System"	22017
+Datatype	"FEI_PeriodoDesde"	"System"	22018
+Datatype	"FEI_PeriodoHasta"	"System"	22019
+Datatype	"FEI_VtoPago"	"System"	22020
+Datatype	"dll_Tipo_Expo"	"System"	22021
+Datatype	"FEE_IdiomaCbte"	"System"	22022
+Format	"STR_R0N"	"System"	22000
+Format	"FEI_Solicitud"	"System"	22001
+String	"Cambiar ID Documento"	"System"	22000
+String	"para Microsoft Dynamics GP2013"	"System"	22001
+String	"Id documento:"	"System"	22002
+String	"No generados"	"System"	22003
+String	"Productos"	"System"	22004
+String	"No incluye Lotes"	"System"	22005
+String	"Solo el primer Lote"	"System"	22006
+String	"Crear Tablas Codigos"	"System"	22007
+String	"Crear Vista"	"System"	22008
+String	"Instalar"	"System"	22009
+String	"Migrar Tablas"	"System"	22010
+String	"Por Lote/Vencimiento"	"System"	22011
+String	"Por Lote"	"System"	22012
+String	"Impresión remito:"	"System"	22013
+String	"Líneas x página:"	"System"	22014
+String	"Nuevo Id documento:"	"System"	22015
+String	"Desde fecha:"	"System"	22016
+String	"Hasta fecha:"	"System"	22017
+String	"Letra:"	"System"	22018
+String	"Tipos"	"System"	22019
+String	"Configuración Web Services"	"System"	22020
+String	"Importes No Gravados"	"System"	22021
+String	"Importe Neto Gravado"	"System"	22022
+String	"Conf.Web Serv."	"System"	22023
+String	"Impuesto a RNI"	"System"	22024
+String	"Importe exento"	"System"	22025
+String	"Importe percepciones nacionales"	"System"	22026
+String	"Importe Percepcion Ingresos Brutos"	"System"	22027
+String	"Importe Percepcion Impuestos Municipales"	"System"	22028
+String	"Importe Impuestos Internos"	"System"	22029
+String	"Configuración Id. SOP Factura Electronica"	"System"	22030
+String	"Conf. Id.SOP Fact.Elect."	"System"	22031
+String	"Conf. documentos legales para Fact.Elect."	"System"	22032
+String	"Id Impuestos"	"System"	22033
+String	"Incluye"	"System"	22034
+String	"Doc ID"	"System"	22035
+String	"Nro. Documento"	"System"	22036
+String	"Conf. doc.legales FE"	"System"	22037
+String	"Fact. electrónica RG2458 web services"	"System"	22038
+String	"Factura Electrónica Importadores RG 2458/2975 online"	"System"	22039
+String	"Productos y Servicios"	"System"	22040
+String	"Incluye comp.con CAE asignado"	"System"	22041
+String	"Nro Remito:"	"System"	22042
+String	"Copias remito:"	"System"	22043
+String	"Informacion de transportista"	"System"	22044
+String	"ID Documento"	"System"	22045
+String	"FE"	"System"	22046
+String	"FEI_Transactions_WORK_HIST"	"System"	22047
+String	"FEI_Transactions_TEMP"	"System"	22048
+String	"FEI_Export_Trx_TEMP"	"System"	22049
+String	"FEI_DOC_TEMP"	"System"	22050
+String	"FEI_Impuestos_SETP"	"System"	22051
+String	"FEI_Selected_Trx"	"System"	22052
+String	"FEI_DOC_SETP"	"System"	22053
+String	"Instalador Tablas FEI"	"System"	22054
+String	"Nuevo número de comprobante:"	"System"	22055
+String	"Exportar Importar RG2975"	"System"	22056
+String	"Conf. columnas archivo Fac. Elec. Importad."	"System"	22057
+String	"Fecha de emisión"	"System"	22058
+String	"Conf. columnas archivo FEI"	"System"	22059
+String	"Conf. doc. de ventas FEI"	"System"	22060
+String	"FEI_Tickets"	"System"	22061
+String	"Testing"	"System"	22062
+String	"Transportista/Empresa"	"System"	22063
+String	"FEI_WSN_SETP"	"System"	22064
+String	"Configuracion Web Services AFIP"	"System"	22065
+String	"Entorno:"	"System"	22066
+String	"Apellido, Nombre"	"System"	22067
+String	"URL Autenticación:"	"System"	22068
+String	"Placa delantera"	"System"	22069
+String	"Placa trasera"	"System"	22070
+String	"Ubicación certificado:"	"System"	22071
+String	"Información del camión"	"System"	22072
+String	"FEI_CAE_HIST"	"System"	22073
+String	"Dirección Proxy:"	"System"	22074
+String	"Servidor Proxy"	"System"	22075
+String	"Usuario Proxy:"	"System"	22076
+String	"Password Proxy:"	"System"	22077
+String	"Probar Testing"	"System"	22078
+String	"Probar Produccion"	"System"	22079
+String	"Integra con Documentos Legales"	"System"	22080
+String	"Conceptos a incluir: "	"System"	22081
+String	"FEI_SOLICITUDES_WORK"	"System"	22082
+String	"Período facturado desde:"	"System"	22083
+String	"Id solicitud:"	"System"	22084
+String	"Estado."	"System"	22085
+String	"Solicitar CAE"	"System"	22086
+String	"Motivo:"	"System"	22087
+String	"Período facturado hasta:"	"System"	22088
+String	"Fecha vto. para el pago:"	"System"	22089
+String	"Número aprobado por AFIP:"	"System"	22090
+String	"CAE asignado:"	"System"	22091
+String	"Vencimiento CAE:"	"System"	22092
+String	"Reproceso:"	"System"	22093
+String	"Codigo error:"	"System"	22094
+String	"Mensaje error:"	"System"	22095
+String	"Solicitar"	"System"	22096
+String	"para Microsoft Dynamics GP2016"	"System"	22097
+String	"FEI_SOLICITUDES_HIST"	"System"	22098
+String	"FEI_XDL_SETP"	"System"	22099
+String	"FEI_XDL_TEMP"	"System"	22100
+String	"Configuracion doc. legales"	"System"	22101
+String	"Facturación Electronica Exportación"	"System"	22102
+String	"Fact. electrónica \"E\" RG2458 web services"	"System"	22103
+String	"FEE_WSN_SETP"	"System"	22104
+String	"SOP Datos adicionales Cabecera"	"System"	22105
+String	"SOP Detalle de Permisos por documento"	"System"	22106
+String	"P.Vta."	"System"	22107
+String	"Numero legal"	"System"	22108
+String	"Sitio facturación - Punto de Venta"	"System"	22109
+String	"Sitio facturacion"	"System"	22110
+String	"FEE SOP Datos adicionales al Comprobante"	"System"	22111
+String	"Datos Adicionales Fact. electrónica E"	"System"	22112
+String	"Punto de venta"	"System"	22113
+String	"Remito"	"System"	22114
+String	"Generar remito"	"System"	22115
+String	"Número manual"	"System"	22116
+String	"Sitio de envío"	"System"	22117
+String	"Número de remito"	"System"	22118
+String	"Sitio de facturación"	"System"	22119
+String	"Sitio de remisión"	"System"	22120
+String	"Pto.Venta remisión"	"System"	22121
+String	"FEI_PDV_TEMP"	"System"	22122
+String	"FEI_SITE_TEMP"	"System"	22123
+String	"Conf. doc. de ventas Fact. Electrónica E"	"System"	22124
+String	"Direccion"	"System"	22125
+String	"Imp.FC"	"System"	22126
+String	"Imp.RE"	"System"	22127
+String	"imp.RM"	"System"	22128
+String	"Puntos de venta"	"System"	22129
+String	"Descripcion"	"System"	22130
+String	"FEE_DOC_SETP"	"System"	22131
+String	"FEI_XDLDOC_WORK"	"System"	22132
+String	"Carpeta PDFs:"	"System"	22133
+String	"Ambas"	"System"	22134
+String	"Devoluciones/Notas de Crédito"	"System"	22135
+String	"Generados"	"System"	22136
+String	"FEE"	"System"	22137
+String	"Tip.Cbte."	"System"	22138
+String	"19 – Factura de Exportación “E”"	"System"	22139
+String	"Financial"	"Project"	22140
+String	"20 – Nota de Débito por operaciones con el Exterior"	"System"	22141
+String	"21 – Nota de Crédito por operaciones con el Exterior"	"System"	22142
+String	"19  Factura de Exportación “E”"	"System"	22143
+String	"20– Nota de Débito por operaciones con el Exterior"	"System"	22144
+String	"20 Nota de Débito por operaciones con el Exterior"	"System"	22145
+String	"21 Nota de Crédito por operaciones con el Exterior"	"System"	22146
+String	"Conf. doc. de ventas Fact. Electrónica Exportación"	"System"	22147
+String	"FEE_SOP_Document_SETP"	"System"	22148
+String	"Configuración Id. SOP Factura Electronica Exportación"	"System"	22149
+String	"Conf. Id.SOP Fact.Elect.Exportación"	"System"	22150
+String	"Tipo/Id de Tipo:"	"System"	22151
+String	"Núm. Documento:"	"System"	22152
+String	"Tipo/Id. de Tipo:"	"System"	22153
+String	"Tipo de comprobante:"	"System"	22154
+String	"Tipo de exportación:"	"System"	22155
+String	"Id. incoterms"	"System"	22156
+String	"Descripción incoterms:"	"System"	22157
+String	"Existen Permisos:"	"System"	22158
+String	"Permisos"	"System"	22159
+String	"Datos Adic. al Cbte"	"System"	22160
+String	"Temp_lookup"	"System"	22161
+String	"Buscador de documentos"	"System"	22162
+String	"Código Incoterms"	"System"	22163
+String	"Item"	"System"	22164
+String	"Código Despacho"	"System"	22165
+String	"Código de despacho"	"System"	22166
+String	"País destino"	"System"	22167
+String	"Permiso de embarque"	"System"	22168
+String	"Código Pa"	"System"	22169
+String	"Código País"	"System"	22170
+String	"Window3"	"System"	22171
+String	"Comprobantes Adicionales"	"System"	22172
+String	"Datos Adicionales al Comprobante"	"System"	22173
+String	"Datos opcionales al comprobante"	"System"	22174
+String	"Id"	"System"	22175
+String	"Solicitar CAE Exportación"	"System"	22176
+String	"Configuración WS FE"	"System"	22177
+String	"FE Configuración WS"	"System"	22178
+String	"Ruta Carpeta PDFs:"	"System"	22179
+String	"Ruta Certificado Digital"	"System"	22180
+String	"Password Certificado:"	"System"	22181
+String	"Certificado digital WSAA"	"System"	22182
+String	"Password:"	"System"	22183
+String	"Ruta Carpeta:"	"System"	22184
+String	"Servidor WSAA"	"System"	22185
+String	"URL Testing"	"System"	22186
+String	"URL Producción"	"System"	22187
+String	"Tag Service WSFE"	"System"	22188
+String	"Tag Service WSFEX"	"System"	22189
+String	"Web Service WSAA"	"System"	22190
+String	"Web Service FE"	"System"	22191
+String	"URL Producción:"	"System"	22192
+String	"URL Testing:"	"System"	22193
+String	"Tag Service WSFEX:"	"System"	22194
+String	"Tag Service WSFE:"	"System"	22195
+String	"Web Service FEX"	"System"	22196
+String	"Web Service Facturación Electronica"	"System"	22197
+String	"Web Service Facturación Electrónica Exportación"	"System"	22198
+String	"Web Service Facturación Electrónica"	"System"	22199
+String	"Ruta Carpeta Certificado:"	"System"	22200
+String	"Probar wsfe Testin"	"System"	22201
+String	"Probar wsfe Testing"	"System"	22202
+String	"Probar wsfe Producción"	"System"	22203
+String	"Probar Producción"	"System"	22204
+String	"Configuración WS Facturación electrónica AFIP"	"System"	22205
+String	"Configuración Facturación electrónica AFIP"	"System"	22206
+String	"Fecha/Fecha vto.:"	"System"	22207
+String	"Entorno actual"	"System"	22208
+String	"Tag Service Fact. Elect:"	"System"	22209
+String	"Tag Service FE:"	"System"	22210
+String	"Servicio Fct. Elect. Nac.:"	"System"	22211
+String	"Servicio Fact. Elet. Exp.:"	"System"	22212
+String	"Servicio Fact. Elect. Nac.:"	"System"	22213
+String	"Probar Fact. Elect. Nac."	"System"	22214
+String	"Probar Fact. Elect. Exp."	"System"	22215
+String	"Web Service Facturación Electrónica Nacional"	"System"	22216
+String	"FEEXP Solicitar CAE"	"System"	22217
+String	"Letra/Número:"	"System"	22218
+String	"Exp. def. de bienes"	"System"	22219
+String	"Otros"	"System"	22220
+String	"Tipo de Exportación:"	"System"	22221
+String	"Cliente/Nombre/Dirección:"	"System"	22222
+String	"Id. Cliente/Nombre/Dirección:"	"System"	22223
+String	"Id de Cliente/Nombre/Dirección:"	"System"	22224
+String	"Id  Cliente/Nombre/Dirección:"	"System"	22225
+String	"Id. de Moneda/"	"System"	22226
+String	"Id. de Moneda/Código/Cotización:"	"System"	22227
+String	"Id. de Moneda/Código/Cotiz.:"	"System"	22228
+String	"Español"	"System"	22229
+String	"Ingles"	"System"	22230
+String	"Portugués"	"System"	22231
+String	"Inglés"	"System"	22232
+String	"Idioma "	"System"	22233
+String	"Idioma del comprobante:"	"System"	22234
+String	"Idioma del cbte.:"	"System"	22235
+String	"1 Español"	"System"	22236
+String	"2 Inglés"	"System"	22237
+String	"3 Portugués"	"System"	22238
+String	"FEE Maestro UM"	"System"	22239
+String	"Maestro UM"	"System"	22240
+String	"FEE Códigos UM Referenciales"	"System"	22241
+String	"Obtener UM AFIP"	"System"	22242
+String	"Id. UM"	"System"	22243
+String	"U"	"System"	22244
+String	"Id. Plan de UM"	"System"	22245
+String	"Id. del Plan de U de M:"	"System"	22246
+String	"Buscador U de M Referencial"	"System"	22247
+String	"Id. Plan U de M"	"System"	22248
+String	"FEI Facturación Electrónica"	"System"	22249
+String	"Mantenimiento U de M Referencial"	"System"	22250
+String	"Código Ref. Moneda/Cotiz.:"	"System"	22251
+String	"Tipo Cbte/Tipo Documento:"	"System"	22252
+String	"Letra/Número Documento:"	"System"	22253
+String	"Tipo Cbte/Tipo Doc.:"	"System"	22254
+String	"Letra/Número Doc.:"	"System"	22255
+String	"Idioma del Cbte:"	"System"	22256
+String	"Cód. Incoterms"	"System"	22257
+String	"Cód. Incoterms:"	"System"	22258
+String	"Forma de Pago:"	"System"	22259
+String	"Cuit Pais:"	"System"	22260
+String	"FEE Mantenimientos Cuit Pais"	"System"	22261
+String	"FEE Cuit Pais"	"System"	22262
+String	"Cuit Pa"	"System"	22263
+String	"Código País:"	"System"	22264
+String	"Código País GP:"	"System"	22265
+String	"Mantenimiento de Código País Referencia AFIP"	"System"	22266
+String	"FEE Mantenimientos Código Pais AFIP"	"System"	22267
+String	"Obtener Código País AFIP"	"System"	22268
+String	"FEE Maestro de Moneda"	"System"	22269
+String	"FEE Código Moneda Referencial"	"System"	22270
+String	"Id. Moneda"	"System"	22271
+String	"Cód. Moneda"	"System"	22272
+String	"Id. de  Moneda"	"System"	22273
+String	"Buscador Moneda Referencial"	"System"	22274
+String	"FEEXP Facturación Electrónica"	"System"	22275
+String	"FEEXP web services"	"System"	22276
+String	"Mantenimiento de Moneda"	"System"	22277
+String	"Probar WSAA"	"System"	22278
+String	"Configuración Facturación electrónica Exp. AFIP"	"System"	22279
+String	"Configuración WS Facturación electrónica Exp. AFIP"	"System"	22280
+String	"FEE Código referencial de Moneda AFIP"	"System"	22281
+String	"FE Código referencial de Moneda AFIP"	"System"	22282
+String	"FE Cuit Pais AFIP"	"System"	22283
+String	"FE EXP Solicitar CAE"	"System"	22284
+String	"FEE_Temp_SOP_Id"	"System"	22285
+String	"FE Código referencia U de M AFIP"	"System"	22286
+String	"FE Código referencial U de M AFIP"	"System"	22287
+String	"Configuracion FE Web Services AFIP"	"System"	22288
+String	"Mantenimiento CUIT del  País AFIP"	"System"	22289
+String	"FE EXP"	"System"	22290
+String	"FE EXP Facturación Electrónica"	"System"	22291
+String	"FE Código Referencial del Pais AFIP"	"System"	22292
+String	"Mantenimiento Código Referencial de  País AFIP"	"System"	22293
+String	"Mantenimiento Código Referencial de U de M"	"System"	22294
+String	"Cotz. AFIP:"	"System"	22295
+String	"Sales"	"Project"	22296
+String	"Purchasing"	"Project"	22297
+String	"Inventory"	"Project"	22298
+String	"Payroll"	"Project"	22299
+String	"Project"	"Project"	22300
+String	"System"	"Project"	22301
+String	"Company"	"Project"	22302
+String	"OnlineDoc0"	"Project"	22303
+String	"3rdParty0"	"Project"	22304
+String	"Macro0"	"Project"	22305
+String	"Palette"	"Project"	22306
+String	"Dexterity0"	"Project"	22307
+String	"DexterSys0"	"Project"	22308
+String	"RW0"	"Project"	22309
+String	"PRTax0"	"Project"	22310
+String	"Pathname"	"Project"	22311
+String	"DesignDoc0"	"Project"	22312
+Field	"FEI_Letra"	"System"	22000
+Field	"FEI_Tipos"	"System"	22001
+Field	"FEI_Mostrar"	"System"	22002
+Field	"FEI_CAE"	"System"	22003
+Field	"FEI_CAE_DUE"	"System"	22004
+Field	"FEI_Impuestos"	"System"	22005
+Field	"FEI_LETRA1"	"System"	22006
+Field	"FEI_PDV"	"System"	22007
+Field	"FEI_NRO"	"System"	22008
+Field	"FEI_COD"	"System"	22009
+Field	"FEI_ESTADO"	"System"	22010
+Field	"FEI_MOTIVO"	"System"	22011
+Field	"FEI_RESP_TYPE"	"System"	22012
+Field	"FEI_SOPType"	"System"	22013
+Field	"FEI_SOPNumber"	"System"	22014
+Field	"FEI_DESC_RECHAZO"	"System"	22015
+Field	"FEI_Sign"	"System"	22016
+Field	"FEI_Token"	"System"	22017
+Field	"FEI_Entorno"	"System"	22018
+Field	"FEI_Generation_Time"	"System"	22019
+Field	"FEI_URLWSAA_Testing"	"System"	22020
+Field	"FEI_Expiration_Time"	"System"	22021
+Field	"FEI_Unique_ID"	"System"	22022
+Field	"FEI_URLWSAA_Produccion"	"System"	22023
+Field	"FEI_Certificado_Testing"	"System"	22024
+Field	"FEI_Certificado_Produccion"	"System"	22025
+Field	"FEI_URLWSW_Testing"	"System"	22026
+Field	"FEI_URLWSW_Produccion"	"System"	22027
+Field	"FEI_Password_Testing"	"System"	22028
+Field	"FEI_Password_Produccion"	"System"	22029
+Field	"FEI_Proxy"	"System"	22030
+Field	"FEI_Proxy_User"	"System"	22031
+Field	"FEI_Proxy_Password"	"System"	22032
+Field	"FEI_Integra_DL"	"System"	22033
+Field	"FEI_Solicitud_Testing"	"System"	22034
+Field	"FEI_Solicitud_Produccion"	"System"	22035
+Field	"FEI_Solicitud"	"System"	22036
+Field	"FEI_Err_Code"	"System"	22037
+Field	"FEI_Err_Msg"	"System"	22038
+Field	"FEI_Reproceso"	"System"	22039
+Field	"FEI_Tipo_Documento"	"System"	22040
+Field	"FEI_SITECODE"	"System"	22041
+Field	"FEI_PDV_FAC"	"System"	22042
+Field	"FEI_PDV_REM"	"System"	22043
+Field	"BOPPRINREM"	"System"	22044
+Field	"BORMMAN"	"System"	22045
+Field	"FEI_REMNMBR"	"System"	22046
+Field	"FEI_XDL_GP_NUM"	"System"	22047
+Field	"FEI_SITECODE_REM"	"System"	22048
+Field	"FEI_IMPFAC"	"System"	22049
+Field	"FEI_IMPREM"	"System"	22050
+Field	"FEI_IMPMAN"	"System"	22051
+Field	"FEI_PDFPATH"	"System"	22052
+Field	"FEI_RPTPATH"	"System"	22053
+Field	"FEI_AGRUPREM"	"System"	22054
+Field	"FEI_LINEASREM"	"System"	22055
+Field	"FEI_DL_CREATED"	"System"	22056
+Field	"FEI_COPIASREM"	"System"	22057
+Field	"FEI_XDL_Camion"	"System"	22058
+Field	"FEI_XDLChapa1"	"System"	22059
+Field	"FEI_XDLChapa2"	"System"	22060
+Field	"FEI_XDLCondu"	"System"	22061
+Field	"FEI_XDLDire"	"System"	22062
+Field	"FEI_XDLDocNum"	"System"	22063
+Field	"FEI_XDLTRANS"	"System"	22064
+Field	"FEI_XDLUDef"	"System"	22065
+Field	"FEI_NotReplaceMSTRNMBR"	"System"	22066
+Field	"FEI_Filter_Doc_Lookup"	"System"	22067
+Field	"TriggersRegistered"	"System"	22068
+Field	"SOP_Entry_Changed"	"System"	22069
+Field	"FEI_Conceptos"	"System"	22070
+Field	"FEI_PeriodoDesde"	"System"	22071
+Field	"FEI_PeriodoHasta"	"System"	22072
+Field	"FEI_VtoPago"	"System"	22073
+Field	"FEE_Cbte_tipo"	"System"	22074
+Field	"FEE_Incoterms"	"System"	22075
+Field	"FEE_Incoterms_Ds"	"System"	22076
+Field	"FEE_Permiso_existente"	"System"	22077
+Field	"FEE_Tipo_expo"	"System"	22078
+Field	"FEE_Id_permisos"	"System"	22079
+Field	"FEE_Dst_merc"	"System"	22080
+Field	"FEE_Id"	"System"	22081
+Field	"FEE_Valor"	"System"	22082
+Field	"FE_RutaCertificado"	"System"	22083
+Field	"FE_PasswordCertificado"	"System"	22084
+Field	"FE_URL_WSAA_T"	"System"	22085
+Field	"FE_URL_WSAA_P"	"System"	22086
+Field	"FE_URL_WSFE_T"	"System"	22087
+Field	"FE_URL_WSFE_P"	"System"	22088
+Field	"FE_URL_WSFEX_P"	"System"	22089
+Field	"FE_URL_WSFEX_T"	"System"	22090
+Field	"FE_Tag_Service_WSFE"	"System"	22091
+Field	"FE_Tag_Service_WSFEX"	"System"	22092
+Field	"FEI_DocId"	"System"	22093
+Field	"FEE_IdiomaCbte"	"System"	22094
+Field	"FEE_UM_ID"	"System"	22095
+Field	"FEE_UM_DS"	"System"	22096
+Field	"FEE_DST_Cod"	"System"	22097
+Field	"FEE_DST_Ds"	"System"	22098
+Field	"FEE_Mon_id"	"System"	22099
+Field	"FEE_Mon_ds"	"System"	22100
+Procedure	"FEI_CloseCommandForm"	"System"	22000
+Procedure	"FEI_CreateMenuItems"	"System"	22001
+Procedure	"FEI_OpenCommandForm"	"System"	22002
+Procedure	"Startup"	"System"	22003
+Procedure	"Trigger_SOP_Post_CHG_BEF"	"System"	22004
+Procedure	"Trigger_SOP_Post_CHG_AFT"	"System"	22005
+Procedure	"Trigger_SOP_BatchEntry_HandleChanges_PRE"	"System"	22006
+Procedure	"Trigger_SOP_TRX_Browse_AFT"	"System"	22007
+Procedure	"Trigger_SOPBatchEntry_PRE"	"System"	22008
+Procedure	"Trigger_SOPEntry_Fields_BEF"	"System"	22009
+Procedure	"Trigger_SOPEntry_SOPNumber_BEF"	"System"	22010
+Procedure	"Trigger_SOPEntrySaveAFT"	"System"	22011
+Procedure	"Trigger_SOPEntryHandleChgsBEF"	"System"	22012
+Procedure	"Trigger_SOPEntry_SOPNumber_AFT"	"System"	22013
+Procedure	"Trigger_SOPEntrySaveBEF"	"System"	22014
+Procedure	"Trigger_SOPEntry_Fields_AFT"	"System"	22015
+Procedure	"Trigger_LineScrollSOPEntry_BEF"	"System"	22016
+Procedure	"Trigger_SOPEntryWindow_PRE_AFT"	"System"	22017
+Procedure	"Trigger_XDL_DocWORK_PRE_BEF"	"System"	22018
+Procedure	"FEI_Startup"	"System"	22019
+Procedure	"Trigger_CustomernumberSOPEntry_CHG_AFT"	"System"	22020
+Procedure	"ExportToPDF"	"System"	22021
+Procedure	"Trigger_PostButton_SOPEntry_CHG_BEF"	"System"	22022
+Procedure	"Trigger_DeleteButton_SOPEntry_CHG_BEF"	"System"	22023
+Procedure	"Trigger_VoidButton_SOPEntry_CHG_BEF"	"System"	22024
+Procedure	"Trigger_TransferButton_SOPEntry_CHG_BEF"	"System"	22025
+Procedure	"Trigger_XDL_DocumentWork_Open_BEF"	"System"	22026
+Procedure	"Trigger_Delete_SOP_HDR_WORK"	"System"	22027
+Procedure	"RegisterDatabaseTriggers"	"System"	22028
+Procedure	"Trigger_XDL_XDL_Check_Remito_CHG_BEF"	"System"	22029
+Procedure	"Trigger_TempControlNumber_SOPEntry_BEF"	"System"	22030
+Procedure	"Trigger_ActionButton_SOPEntry_CHG_BEF"	"System"	22031
+Procedure	"Trigger_DocumentScrollSOPDocInq_BEF"	"System"	22032
+Procedure	"Trigger_DocumentScrollSOPDocInq_POST_AFT"	"System"	22033
+Procedure	"Trigger_rvlsopTrxEntryCloseWindow_BEF"	"System"	22034
+Procedure	"Trigger_rvlsopTrxEntryCloseWindow_AFT"	"System"	22035
+Procedure	"Trigger_SOP_BatchEntry_Delete_PRE"	"System"	22036
+Procedure	"Abrir_DatosAdicFactE"	"System"	22037
+Procedure	"ObtenerTipoCbte"	"System"	22039
+Constant	"XDL_PRODID"	"System"	22000
+Constant	"ERRSOLICITUD"	"System"	22001
+Constant	"ERRULTNRO"	"System"	22002
+Function	"ConvertDateForSQL"	"System"	22000
+Function	"ConvertDateToString"	"System"	22001
+Function	"ConvertCurrencyToString"	"System"	22002
+Function	"RellenaCampos"	"System"	22003
+Function	"ConvertCurrencyToStringSinCeros"	"System"	22004
+Function	"ConvertStringToDate"	"System"	22005
+Function	"CheckFEIStatus"	"System"	22006
+Function	"Es_Documento_E"	"System"	22007

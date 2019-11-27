@@ -78,3 +78,2248 @@
 :C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Started   11/20/2018 19:41:13
 :C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Finished  11/20/2018 19:41:17
 :C:dexterity/TII/GP2013/AWLI/TaxListing.mac        Elapsed                  0:05      Last Line   52
+===============================================================================
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Started   11/05/2019 10:27:18
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Aborted   11/05/2019 10:27:20
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Elapsed                  0:02      Last Line   61
+Error:        Macro command not found.
+Last Line:    61
+Line:         =======
+Location:     dictionary 'DexUtils.dic'  form 'Auto Chunk'  window 'Auto Chunk'  field 'Ok Button'
+
+Window Contents:
+   L:'Source Dict': "C:\TiiSelam\DESA_MSAL\ar03\ARG_GP2013\LISTADOR_IMPUESTOS\dex\TIIAW75.dic"
+   L:'Dest Dict': ":C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk"
+   'Lookup Button 3': Button
+   'Dictionary Name': "TIIAW75.dic"
+   'Accounting Modules': "51"
+      Module 001
+      Module 002
+      Module 003
+      Module 004
+      Module 005
+      Module 006
+      Module 007
+      Module 008
+      Module 009
+      Module 010
+      Module 011
+      Module 012
+      Module 013
+      Module 014
+      Module 015
+      Module 016
+      Module 017
+      Module 018
+      Module 019
+      Module 020
+      Module 021
+      Module 022
+      Module 023
+      Module 024
+      Module 025
+      Module 026
+      Module 027
+      Module 028
+      Module 029
+      Module 030
+      Module 031
+      Module 032
+      Module 033
+      Module 034
+      Module 035
+      Module 036
+      Module 037
+      Module 038
+      Module 039
+      Module 040
+      Module 041
+      Module 042
+      Module 043
+      Module 044
+      Module 045
+      Module 046
+      Module 047
+      Module 048
+      Module 049
+      Module 050
+      Module 051 =
+      Module 052
+      Module 053
+      Module 054
+      Module 055
+      Module 056
+      Module 057
+      Module 058
+      Module 059
+      Module 060
+      Module 061
+      Module 062
+      Module 063
+      Module 064
+      Module 065
+      Module 066
+      Module 067
+      Module 068
+      Module 069
+      Module 070
+      Module 071
+      Module 072
+      Module 073
+      Module 074
+      Module 075
+      Module 076
+      Module 077
+      Module 078
+      Module 079
+      Module 080
+      Module 081
+      Module 082
+      Module 083
+      Module 084
+      Module 085
+      Module 086
+      Module 087
+      Module 088
+      Module 089
+      Module 090
+      Module 091
+      Module 092
+      Module 093
+      Module 094
+      Module 095
+      Module 096
+      Module 097
+      Module 098
+      Module 099
+      Module 100
+      Module 101
+      Module 102
+      Module 103
+      Module 104
+      Module 105
+      Module 106
+      Module 107
+      Module 108
+      Module 109
+      Module 110
+      Module 111
+      Module 112
+      Module 113
+      Module 114
+      Module 115
+      Module 116
+      Module 117
+      Module 118
+      Module 119
+      Module 120
+      Module 121
+      Module 122
+      Module 123
+      Module 124
+      Module 125
+      Module 126
+      Module 127
+      Module 128
+      Module 129
+      Module 130
+      Module 131
+      Module 132
+      Module 133
+      Module 134
+      Module 135
+      Module 136
+      Module 137
+      Module 138
+      Module 139
+      Module 140
+      Module 141
+      Module 142
+      Module 143
+      Module 144
+      Module 145
+      Module 146
+      Module 147
+      Module 148
+      Module 149
+      Module 150
+      Module 151
+      Module 152
+      Module 153
+      Module 154
+      Module 155
+      Module 156
+      Module 157
+      Module 158
+      Module 159
+      Module 160
+      Module 161
+      Module 162
+      Module 163
+      Module 164
+      Module 165
+      Module 166
+      Module 167
+      Module 168
+      Module 169
+      Module 170
+      Module 171
+      Module 172
+      Module 173
+      Module 174
+      Module 175
+      Module 176
+      Module 177
+      Module 178
+      Module 179
+      Module 180
+      Module 181
+      Module 182
+      Module 183
+      Module 184
+      Module 185
+      Module 186
+      Module 187
+      Module 188
+      Module 189
+      Module 190
+      Module 191
+      Module 192
+      Module 193
+      Module 194
+      Module 195
+      Module 196
+      Module 197
+      Module 198
+      Module 199
+   '(L) Major Version': "12"
+   '(L) Minor Version': "0"
+   '(L) Build Number': "1,413"
+   L:'Start Script': ""
+   D:'Lookup Button 1': Button
+   L:'End Script': ""
+   D:'Lookup Button 2': Button
+   '(L) Group Box': "0"
+      Total Compression =
+      Remove Unused Blocks
+ [ 'Ok Button': Button ] 
+   'Cancel Button': Button
+   '(L) Has Start Script': "FALSE"
+   '(L) Has End Script': "FALSE"
+
+Front Window:
+   L:'Source Dict': "C:\TiiSelam\DESA_MSAL\ar03\ARG_GP2013\LISTADOR_IMPUESTOS\dex\TIIAW75.dic"
+   L:'Dest Dict': ":C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk"
+   'Lookup Button 3': Button
+   'Dictionary Name': "TIIAW75.dic"
+   'Accounting Modules': "51"
+      Module 001
+      Module 002
+      Module 003
+      Module 004
+      Module 005
+      Module 006
+      Module 007
+      Module 008
+      Module 009
+      Module 010
+      Module 011
+      Module 012
+      Module 013
+      Module 014
+      Module 015
+      Module 016
+      Module 017
+      Module 018
+      Module 019
+      Module 020
+      Module 021
+      Module 022
+      Module 023
+      Module 024
+      Module 025
+      Module 026
+      Module 027
+      Module 028
+      Module 029
+      Module 030
+      Module 031
+      Module 032
+      Module 033
+      Module 034
+      Module 035
+      Module 036
+      Module 037
+      Module 038
+      Module 039
+      Module 040
+      Module 041
+      Module 042
+      Module 043
+      Module 044
+      Module 045
+      Module 046
+      Module 047
+      Module 048
+      Module 049
+      Module 050
+      Module 051 =
+      Module 052
+      Module 053
+      Module 054
+      Module 055
+      Module 056
+      Module 057
+      Module 058
+      Module 059
+      Module 060
+      Module 061
+      Module 062
+      Module 063
+      Module 064
+      Module 065
+      Module 066
+      Module 067
+      Module 068
+      Module 069
+      Module 070
+      Module 071
+      Module 072
+      Module 073
+      Module 074
+      Module 075
+      Module 076
+      Module 077
+      Module 078
+      Module 079
+      Module 080
+      Module 081
+      Module 082
+      Module 083
+      Module 084
+      Module 085
+      Module 086
+      Module 087
+      Module 088
+      Module 089
+      Module 090
+      Module 091
+      Module 092
+      Module 093
+      Module 094
+      Module 095
+      Module 096
+      Module 097
+      Module 098
+      Module 099
+      Module 100
+      Module 101
+      Module 102
+      Module 103
+      Module 104
+      Module 105
+      Module 106
+      Module 107
+      Module 108
+      Module 109
+      Module 110
+      Module 111
+      Module 112
+      Module 113
+      Module 114
+      Module 115
+      Module 116
+      Module 117
+      Module 118
+      Module 119
+      Module 120
+      Module 121
+      Module 122
+      Module 123
+      Module 124
+      Module 125
+      Module 126
+      Module 127
+      Module 128
+      Module 129
+      Module 130
+      Module 131
+      Module 132
+      Module 133
+      Module 134
+      Module 135
+      Module 136
+      Module 137
+      Module 138
+      Module 139
+      Module 140
+      Module 141
+      Module 142
+      Module 143
+      Module 144
+      Module 145
+      Module 146
+      Module 147
+      Module 148
+      Module 149
+      Module 150
+      Module 151
+      Module 152
+      Module 153
+      Module 154
+      Module 155
+      Module 156
+      Module 157
+      Module 158
+      Module 159
+      Module 160
+      Module 161
+      Module 162
+      Module 163
+      Module 164
+      Module 165
+      Module 166
+      Module 167
+      Module 168
+      Module 169
+      Module 170
+      Module 171
+      Module 172
+      Module 173
+      Module 174
+      Module 175
+      Module 176
+      Module 177
+      Module 178
+      Module 179
+      Module 180
+      Module 181
+      Module 182
+      Module 183
+      Module 184
+      Module 185
+      Module 186
+      Module 187
+      Module 188
+      Module 189
+      Module 190
+      Module 191
+      Module 192
+      Module 193
+      Module 194
+      Module 195
+      Module 196
+      Module 197
+      Module 198
+      Module 199
+   '(L) Major Version': "12"
+   '(L) Minor Version': "0"
+   '(L) Build Number': "1,413"
+   L:'Start Script': ""
+   D:'Lookup Button 1': Button
+   L:'End Script': ""
+   D:'Lookup Button 2': Button
+   '(L) Group Box': "0"
+      Total Compression =
+      Remove Unused Blocks
+ [ 'Ok Button': Button ] 
+   'Cancel Button': Button
+   '(L) Has Start Script': "FALSE"
+   '(L) Has End Script': "FALSE"
+
+===============================================================================
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Started   11/05/2019 10:40:12
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Aborted   11/05/2019 10:40:14
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Elapsed                  0:02      Last Line   61
+Error:        Macro command not found.
+Last Line:    61
+Line:         =======
+Location:     dictionary 'DexUtils.dic'  form 'Auto Chunk'  window 'Auto Chunk'  field 'Ok Button'
+
+Window Contents:
+   L:'Source Dict': "C:\TiiSelam\DESA_MSAL\ar03\ARG_GP2013\LISTADOR_IMPUESTOS\dex\TIIAW75.dic"
+   L:'Dest Dict': ":C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk"
+   'Lookup Button 3': Button
+   'Dictionary Name': "TIIAW75.dic"
+   'Accounting Modules': "51"
+      Module 001
+      Module 002
+      Module 003
+      Module 004
+      Module 005
+      Module 006
+      Module 007
+      Module 008
+      Module 009
+      Module 010
+      Module 011
+      Module 012
+      Module 013
+      Module 014
+      Module 015
+      Module 016
+      Module 017
+      Module 018
+      Module 019
+      Module 020
+      Module 021
+      Module 022
+      Module 023
+      Module 024
+      Module 025
+      Module 026
+      Module 027
+      Module 028
+      Module 029
+      Module 030
+      Module 031
+      Module 032
+      Module 033
+      Module 034
+      Module 035
+      Module 036
+      Module 037
+      Module 038
+      Module 039
+      Module 040
+      Module 041
+      Module 042
+      Module 043
+      Module 044
+      Module 045
+      Module 046
+      Module 047
+      Module 048
+      Module 049
+      Module 050
+      Module 051 =
+      Module 052
+      Module 053
+      Module 054
+      Module 055
+      Module 056
+      Module 057
+      Module 058
+      Module 059
+      Module 060
+      Module 061
+      Module 062
+      Module 063
+      Module 064
+      Module 065
+      Module 066
+      Module 067
+      Module 068
+      Module 069
+      Module 070
+      Module 071
+      Module 072
+      Module 073
+      Module 074
+      Module 075
+      Module 076
+      Module 077
+      Module 078
+      Module 079
+      Module 080
+      Module 081
+      Module 082
+      Module 083
+      Module 084
+      Module 085
+      Module 086
+      Module 087
+      Module 088
+      Module 089
+      Module 090
+      Module 091
+      Module 092
+      Module 093
+      Module 094
+      Module 095
+      Module 096
+      Module 097
+      Module 098
+      Module 099
+      Module 100
+      Module 101
+      Module 102
+      Module 103
+      Module 104
+      Module 105
+      Module 106
+      Module 107
+      Module 108
+      Module 109
+      Module 110
+      Module 111
+      Module 112
+      Module 113
+      Module 114
+      Module 115
+      Module 116
+      Module 117
+      Module 118
+      Module 119
+      Module 120
+      Module 121
+      Module 122
+      Module 123
+      Module 124
+      Module 125
+      Module 126
+      Module 127
+      Module 128
+      Module 129
+      Module 130
+      Module 131
+      Module 132
+      Module 133
+      Module 134
+      Module 135
+      Module 136
+      Module 137
+      Module 138
+      Module 139
+      Module 140
+      Module 141
+      Module 142
+      Module 143
+      Module 144
+      Module 145
+      Module 146
+      Module 147
+      Module 148
+      Module 149
+      Module 150
+      Module 151
+      Module 152
+      Module 153
+      Module 154
+      Module 155
+      Module 156
+      Module 157
+      Module 158
+      Module 159
+      Module 160
+      Module 161
+      Module 162
+      Module 163
+      Module 164
+      Module 165
+      Module 166
+      Module 167
+      Module 168
+      Module 169
+      Module 170
+      Module 171
+      Module 172
+      Module 173
+      Module 174
+      Module 175
+      Module 176
+      Module 177
+      Module 178
+      Module 179
+      Module 180
+      Module 181
+      Module 182
+      Module 183
+      Module 184
+      Module 185
+      Module 186
+      Module 187
+      Module 188
+      Module 189
+      Module 190
+      Module 191
+      Module 192
+      Module 193
+      Module 194
+      Module 195
+      Module 196
+      Module 197
+      Module 198
+      Module 199
+   '(L) Major Version': "12"
+   '(L) Minor Version': "0"
+   '(L) Build Number': "1,413"
+   L:'Start Script': ""
+   D:'Lookup Button 1': Button
+   L:'End Script': ""
+   D:'Lookup Button 2': Button
+   '(L) Group Box': "0"
+      Total Compression =
+      Remove Unused Blocks
+ [ 'Ok Button': Button ] 
+   'Cancel Button': Button
+   '(L) Has Start Script': "FALSE"
+   '(L) Has End Script': "FALSE"
+
+Front Window:
+   L:'Source Dict': "C:\TiiSelam\DESA_MSAL\ar03\ARG_GP2013\LISTADOR_IMPUESTOS\dex\TIIAW75.dic"
+   L:'Dest Dict': ":C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk"
+   'Lookup Button 3': Button
+   'Dictionary Name': "TIIAW75.dic"
+   'Accounting Modules': "51"
+      Module 001
+      Module 002
+      Module 003
+      Module 004
+      Module 005
+      Module 006
+      Module 007
+      Module 008
+      Module 009
+      Module 010
+      Module 011
+      Module 012
+      Module 013
+      Module 014
+      Module 015
+      Module 016
+      Module 017
+      Module 018
+      Module 019
+      Module 020
+      Module 021
+      Module 022
+      Module 023
+      Module 024
+      Module 025
+      Module 026
+      Module 027
+      Module 028
+      Module 029
+      Module 030
+      Module 031
+      Module 032
+      Module 033
+      Module 034
+      Module 035
+      Module 036
+      Module 037
+      Module 038
+      Module 039
+      Module 040
+      Module 041
+      Module 042
+      Module 043
+      Module 044
+      Module 045
+      Module 046
+      Module 047
+      Module 048
+      Module 049
+      Module 050
+      Module 051 =
+      Module 052
+      Module 053
+      Module 054
+      Module 055
+      Module 056
+      Module 057
+      Module 058
+      Module 059
+      Module 060
+      Module 061
+      Module 062
+      Module 063
+      Module 064
+      Module 065
+      Module 066
+      Module 067
+      Module 068
+      Module 069
+      Module 070
+      Module 071
+      Module 072
+      Module 073
+      Module 074
+      Module 075
+      Module 076
+      Module 077
+      Module 078
+      Module 079
+      Module 080
+      Module 081
+      Module 082
+      Module 083
+      Module 084
+      Module 085
+      Module 086
+      Module 087
+      Module 088
+      Module 089
+      Module 090
+      Module 091
+      Module 092
+      Module 093
+      Module 094
+      Module 095
+      Module 096
+      Module 097
+      Module 098
+      Module 099
+      Module 100
+      Module 101
+      Module 102
+      Module 103
+      Module 104
+      Module 105
+      Module 106
+      Module 107
+      Module 108
+      Module 109
+      Module 110
+      Module 111
+      Module 112
+      Module 113
+      Module 114
+      Module 115
+      Module 116
+      Module 117
+      Module 118
+      Module 119
+      Module 120
+      Module 121
+      Module 122
+      Module 123
+      Module 124
+      Module 125
+      Module 126
+      Module 127
+      Module 128
+      Module 129
+      Module 130
+      Module 131
+      Module 132
+      Module 133
+      Module 134
+      Module 135
+      Module 136
+      Module 137
+      Module 138
+      Module 139
+      Module 140
+      Module 141
+      Module 142
+      Module 143
+      Module 144
+      Module 145
+      Module 146
+      Module 147
+      Module 148
+      Module 149
+      Module 150
+      Module 151
+      Module 152
+      Module 153
+      Module 154
+      Module 155
+      Module 156
+      Module 157
+      Module 158
+      Module 159
+      Module 160
+      Module 161
+      Module 162
+      Module 163
+      Module 164
+      Module 165
+      Module 166
+      Module 167
+      Module 168
+      Module 169
+      Module 170
+      Module 171
+      Module 172
+      Module 173
+      Module 174
+      Module 175
+      Module 176
+      Module 177
+      Module 178
+      Module 179
+      Module 180
+      Module 181
+      Module 182
+      Module 183
+      Module 184
+      Module 185
+      Module 186
+      Module 187
+      Module 188
+      Module 189
+      Module 190
+      Module 191
+      Module 192
+      Module 193
+      Module 194
+      Module 195
+      Module 196
+      Module 197
+      Module 198
+      Module 199
+   '(L) Major Version': "12"
+   '(L) Minor Version': "0"
+   '(L) Build Number': "1,413"
+   L:'Start Script': ""
+   D:'Lookup Button 1': Button
+   L:'End Script': ""
+   D:'Lookup Button 2': Button
+   '(L) Group Box': "0"
+      Total Compression =
+      Remove Unused Blocks
+ [ 'Ok Button': Button ] 
+   'Cancel Button': Button
+   '(L) Has Start Script': "FALSE"
+   '(L) Has End Script': "FALSE"
+
+===============================================================================
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Started   11/05/2019 10:42:29
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Aborted   11/05/2019 10:42:32
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Elapsed                  0:03      Last Line   61
+Error:        Macro command not found.
+Last Line:    61
+Line:         =======
+Location:     dictionary 'DexUtils.dic'  form 'Auto Chunk'  window 'Auto Chunk'  field 'Ok Button'
+
+Window Contents:
+   L:'Source Dict': "C:\TiiSelam\DESA_MSAL\ar03\ARG_GP2013\LISTADOR_IMPUESTOS\dex\TIIAW75.dic"
+   L:'Dest Dict': ":C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk"
+   'Lookup Button 3': Button
+   'Dictionary Name': "TIIAW75.dic"
+   'Accounting Modules': "51"
+      Module 001
+      Module 002
+      Module 003
+      Module 004
+      Module 005
+      Module 006
+      Module 007
+      Module 008
+      Module 009
+      Module 010
+      Module 011
+      Module 012
+      Module 013
+      Module 014
+      Module 015
+      Module 016
+      Module 017
+      Module 018
+      Module 019
+      Module 020
+      Module 021
+      Module 022
+      Module 023
+      Module 024
+      Module 025
+      Module 026
+      Module 027
+      Module 028
+      Module 029
+      Module 030
+      Module 031
+      Module 032
+      Module 033
+      Module 034
+      Module 035
+      Module 036
+      Module 037
+      Module 038
+      Module 039
+      Module 040
+      Module 041
+      Module 042
+      Module 043
+      Module 044
+      Module 045
+      Module 046
+      Module 047
+      Module 048
+      Module 049
+      Module 050
+      Module 051 =
+      Module 052
+      Module 053
+      Module 054
+      Module 055
+      Module 056
+      Module 057
+      Module 058
+      Module 059
+      Module 060
+      Module 061
+      Module 062
+      Module 063
+      Module 064
+      Module 065
+      Module 066
+      Module 067
+      Module 068
+      Module 069
+      Module 070
+      Module 071
+      Module 072
+      Module 073
+      Module 074
+      Module 075
+      Module 076
+      Module 077
+      Module 078
+      Module 079
+      Module 080
+      Module 081
+      Module 082
+      Module 083
+      Module 084
+      Module 085
+      Module 086
+      Module 087
+      Module 088
+      Module 089
+      Module 090
+      Module 091
+      Module 092
+      Module 093
+      Module 094
+      Module 095
+      Module 096
+      Module 097
+      Module 098
+      Module 099
+      Module 100
+      Module 101
+      Module 102
+      Module 103
+      Module 104
+      Module 105
+      Module 106
+      Module 107
+      Module 108
+      Module 109
+      Module 110
+      Module 111
+      Module 112
+      Module 113
+      Module 114
+      Module 115
+      Module 116
+      Module 117
+      Module 118
+      Module 119
+      Module 120
+      Module 121
+      Module 122
+      Module 123
+      Module 124
+      Module 125
+      Module 126
+      Module 127
+      Module 128
+      Module 129
+      Module 130
+      Module 131
+      Module 132
+      Module 133
+      Module 134
+      Module 135
+      Module 136
+      Module 137
+      Module 138
+      Module 139
+      Module 140
+      Module 141
+      Module 142
+      Module 143
+      Module 144
+      Module 145
+      Module 146
+      Module 147
+      Module 148
+      Module 149
+      Module 150
+      Module 151
+      Module 152
+      Module 153
+      Module 154
+      Module 155
+      Module 156
+      Module 157
+      Module 158
+      Module 159
+      Module 160
+      Module 161
+      Module 162
+      Module 163
+      Module 164
+      Module 165
+      Module 166
+      Module 167
+      Module 168
+      Module 169
+      Module 170
+      Module 171
+      Module 172
+      Module 173
+      Module 174
+      Module 175
+      Module 176
+      Module 177
+      Module 178
+      Module 179
+      Module 180
+      Module 181
+      Module 182
+      Module 183
+      Module 184
+      Module 185
+      Module 186
+      Module 187
+      Module 188
+      Module 189
+      Module 190
+      Module 191
+      Module 192
+      Module 193
+      Module 194
+      Module 195
+      Module 196
+      Module 197
+      Module 198
+      Module 199
+   '(L) Major Version': "12"
+   '(L) Minor Version': "0"
+   '(L) Build Number': "1,745"
+   L:'Start Script': ""
+   D:'Lookup Button 1': Button
+   L:'End Script': ""
+   D:'Lookup Button 2': Button
+   '(L) Group Box': "0"
+      Total Compression =
+      Remove Unused Blocks
+ [ 'Ok Button': Button ] 
+   'Cancel Button': Button
+   '(L) Has Start Script': "FALSE"
+   '(L) Has End Script': "FALSE"
+
+Front Window:
+   L:'Source Dict': "C:\TiiSelam\DESA_MSAL\ar03\ARG_GP2013\LISTADOR_IMPUESTOS\dex\TIIAW75.dic"
+   L:'Dest Dict': ":C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk"
+   'Lookup Button 3': Button
+   'Dictionary Name': "TIIAW75.dic"
+   'Accounting Modules': "51"
+      Module 001
+      Module 002
+      Module 003
+      Module 004
+      Module 005
+      Module 006
+      Module 007
+      Module 008
+      Module 009
+      Module 010
+      Module 011
+      Module 012
+      Module 013
+      Module 014
+      Module 015
+      Module 016
+      Module 017
+      Module 018
+      Module 019
+      Module 020
+      Module 021
+      Module 022
+      Module 023
+      Module 024
+      Module 025
+      Module 026
+      Module 027
+      Module 028
+      Module 029
+      Module 030
+      Module 031
+      Module 032
+      Module 033
+      Module 034
+      Module 035
+      Module 036
+      Module 037
+      Module 038
+      Module 039
+      Module 040
+      Module 041
+      Module 042
+      Module 043
+      Module 044
+      Module 045
+      Module 046
+      Module 047
+      Module 048
+      Module 049
+      Module 050
+      Module 051 =
+      Module 052
+      Module 053
+      Module 054
+      Module 055
+      Module 056
+      Module 057
+      Module 058
+      Module 059
+      Module 060
+      Module 061
+      Module 062
+      Module 063
+      Module 064
+      Module 065
+      Module 066
+      Module 067
+      Module 068
+      Module 069
+      Module 070
+      Module 071
+      Module 072
+      Module 073
+      Module 074
+      Module 075
+      Module 076
+      Module 077
+      Module 078
+      Module 079
+      Module 080
+      Module 081
+      Module 082
+      Module 083
+      Module 084
+      Module 085
+      Module 086
+      Module 087
+      Module 088
+      Module 089
+      Module 090
+      Module 091
+      Module 092
+      Module 093
+      Module 094
+      Module 095
+      Module 096
+      Module 097
+      Module 098
+      Module 099
+      Module 100
+      Module 101
+      Module 102
+      Module 103
+      Module 104
+      Module 105
+      Module 106
+      Module 107
+      Module 108
+      Module 109
+      Module 110
+      Module 111
+      Module 112
+      Module 113
+      Module 114
+      Module 115
+      Module 116
+      Module 117
+      Module 118
+      Module 119
+      Module 120
+      Module 121
+      Module 122
+      Module 123
+      Module 124
+      Module 125
+      Module 126
+      Module 127
+      Module 128
+      Module 129
+      Module 130
+      Module 131
+      Module 132
+      Module 133
+      Module 134
+      Module 135
+      Module 136
+      Module 137
+      Module 138
+      Module 139
+      Module 140
+      Module 141
+      Module 142
+      Module 143
+      Module 144
+      Module 145
+      Module 146
+      Module 147
+      Module 148
+      Module 149
+      Module 150
+      Module 151
+      Module 152
+      Module 153
+      Module 154
+      Module 155
+      Module 156
+      Module 157
+      Module 158
+      Module 159
+      Module 160
+      Module 161
+      Module 162
+      Module 163
+      Module 164
+      Module 165
+      Module 166
+      Module 167
+      Module 168
+      Module 169
+      Module 170
+      Module 171
+      Module 172
+      Module 173
+      Module 174
+      Module 175
+      Module 176
+      Module 177
+      Module 178
+      Module 179
+      Module 180
+      Module 181
+      Module 182
+      Module 183
+      Module 184
+      Module 185
+      Module 186
+      Module 187
+      Module 188
+      Module 189
+      Module 190
+      Module 191
+      Module 192
+      Module 193
+      Module 194
+      Module 195
+      Module 196
+      Module 197
+      Module 198
+      Module 199
+   '(L) Major Version': "12"
+   '(L) Minor Version': "0"
+   '(L) Build Number': "1,745"
+   L:'Start Script': ""
+   D:'Lookup Button 1': Button
+   L:'End Script': ""
+   D:'Lookup Button 2': Button
+   '(L) Group Box': "0"
+      Total Compression =
+      Remove Unused Blocks
+ [ 'Ok Button': Button ] 
+   'Cancel Button': Button
+   '(L) Has Start Script': "FALSE"
+   '(L) Has End Script': "FALSE"
+
+===============================================================================
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Started   11/05/2019 10:44:41
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Aborted   11/05/2019 10:44:44
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Elapsed                  0:03      Last Line   61
+Error:        Macro command not found.
+Last Line:    61
+Line:         =======
+Location:     dictionary 'DexUtils.dic'  form 'Auto Chunk'  window 'Auto Chunk'  field 'Ok Button'
+
+Window Contents:
+   L:'Source Dict': "C:\TiiSelam\DESA_MSAL\ar03\ARG_GP2013\LISTADOR_IMPUESTOS\dex\TIIAW75.dic"
+   L:'Dest Dict': ":C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk"
+   'Lookup Button 3': Button
+   'Dictionary Name': "TIIAW75.dic"
+   'Accounting Modules': "51"
+      Module 001
+      Module 002
+      Module 003
+      Module 004
+      Module 005
+      Module 006
+      Module 007
+      Module 008
+      Module 009
+      Module 010
+      Module 011
+      Module 012
+      Module 013
+      Module 014
+      Module 015
+      Module 016
+      Module 017
+      Module 018
+      Module 019
+      Module 020
+      Module 021
+      Module 022
+      Module 023
+      Module 024
+      Module 025
+      Module 026
+      Module 027
+      Module 028
+      Module 029
+      Module 030
+      Module 031
+      Module 032
+      Module 033
+      Module 034
+      Module 035
+      Module 036
+      Module 037
+      Module 038
+      Module 039
+      Module 040
+      Module 041
+      Module 042
+      Module 043
+      Module 044
+      Module 045
+      Module 046
+      Module 047
+      Module 048
+      Module 049
+      Module 050
+      Module 051 =
+      Module 052
+      Module 053
+      Module 054
+      Module 055
+      Module 056
+      Module 057
+      Module 058
+      Module 059
+      Module 060
+      Module 061
+      Module 062
+      Module 063
+      Module 064
+      Module 065
+      Module 066
+      Module 067
+      Module 068
+      Module 069
+      Module 070
+      Module 071
+      Module 072
+      Module 073
+      Module 074
+      Module 075
+      Module 076
+      Module 077
+      Module 078
+      Module 079
+      Module 080
+      Module 081
+      Module 082
+      Module 083
+      Module 084
+      Module 085
+      Module 086
+      Module 087
+      Module 088
+      Module 089
+      Module 090
+      Module 091
+      Module 092
+      Module 093
+      Module 094
+      Module 095
+      Module 096
+      Module 097
+      Module 098
+      Module 099
+      Module 100
+      Module 101
+      Module 102
+      Module 103
+      Module 104
+      Module 105
+      Module 106
+      Module 107
+      Module 108
+      Module 109
+      Module 110
+      Module 111
+      Module 112
+      Module 113
+      Module 114
+      Module 115
+      Module 116
+      Module 117
+      Module 118
+      Module 119
+      Module 120
+      Module 121
+      Module 122
+      Module 123
+      Module 124
+      Module 125
+      Module 126
+      Module 127
+      Module 128
+      Module 129
+      Module 130
+      Module 131
+      Module 132
+      Module 133
+      Module 134
+      Module 135
+      Module 136
+      Module 137
+      Module 138
+      Module 139
+      Module 140
+      Module 141
+      Module 142
+      Module 143
+      Module 144
+      Module 145
+      Module 146
+      Module 147
+      Module 148
+      Module 149
+      Module 150
+      Module 151
+      Module 152
+      Module 153
+      Module 154
+      Module 155
+      Module 156
+      Module 157
+      Module 158
+      Module 159
+      Module 160
+      Module 161
+      Module 162
+      Module 163
+      Module 164
+      Module 165
+      Module 166
+      Module 167
+      Module 168
+      Module 169
+      Module 170
+      Module 171
+      Module 172
+      Module 173
+      Module 174
+      Module 175
+      Module 176
+      Module 177
+      Module 178
+      Module 179
+      Module 180
+      Module 181
+      Module 182
+      Module 183
+      Module 184
+      Module 185
+      Module 186
+      Module 187
+      Module 188
+      Module 189
+      Module 190
+      Module 191
+      Module 192
+      Module 193
+      Module 194
+      Module 195
+      Module 196
+      Module 197
+      Module 198
+      Module 199
+   '(L) Major Version': "13"
+   '(L) Minor Version': "0"
+   '(L) Build Number': "0"
+   L:'Start Script': ""
+   D:'Lookup Button 1': Button
+   L:'End Script': ""
+   D:'Lookup Button 2': Button
+   '(L) Group Box': "0"
+      Total Compression =
+      Remove Unused Blocks
+ [ 'Ok Button': Button ] 
+   'Cancel Button': Button
+   '(L) Has Start Script': "FALSE"
+   '(L) Has End Script': "FALSE"
+
+Front Window:
+   L:'Source Dict': "C:\TiiSelam\DESA_MSAL\ar03\ARG_GP2013\LISTADOR_IMPUESTOS\dex\TIIAW75.dic"
+   L:'Dest Dict': ":C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk"
+   'Lookup Button 3': Button
+   'Dictionary Name': "TIIAW75.dic"
+   'Accounting Modules': "51"
+      Module 001
+      Module 002
+      Module 003
+      Module 004
+      Module 005
+      Module 006
+      Module 007
+      Module 008
+      Module 009
+      Module 010
+      Module 011
+      Module 012
+      Module 013
+      Module 014
+      Module 015
+      Module 016
+      Module 017
+      Module 018
+      Module 019
+      Module 020
+      Module 021
+      Module 022
+      Module 023
+      Module 024
+      Module 025
+      Module 026
+      Module 027
+      Module 028
+      Module 029
+      Module 030
+      Module 031
+      Module 032
+      Module 033
+      Module 034
+      Module 035
+      Module 036
+      Module 037
+      Module 038
+      Module 039
+      Module 040
+      Module 041
+      Module 042
+      Module 043
+      Module 044
+      Module 045
+      Module 046
+      Module 047
+      Module 048
+      Module 049
+      Module 050
+      Module 051 =
+      Module 052
+      Module 053
+      Module 054
+      Module 055
+      Module 056
+      Module 057
+      Module 058
+      Module 059
+      Module 060
+      Module 061
+      Module 062
+      Module 063
+      Module 064
+      Module 065
+      Module 066
+      Module 067
+      Module 068
+      Module 069
+      Module 070
+      Module 071
+      Module 072
+      Module 073
+      Module 074
+      Module 075
+      Module 076
+      Module 077
+      Module 078
+      Module 079
+      Module 080
+      Module 081
+      Module 082
+      Module 083
+      Module 084
+      Module 085
+      Module 086
+      Module 087
+      Module 088
+      Module 089
+      Module 090
+      Module 091
+      Module 092
+      Module 093
+      Module 094
+      Module 095
+      Module 096
+      Module 097
+      Module 098
+      Module 099
+      Module 100
+      Module 101
+      Module 102
+      Module 103
+      Module 104
+      Module 105
+      Module 106
+      Module 107
+      Module 108
+      Module 109
+      Module 110
+      Module 111
+      Module 112
+      Module 113
+      Module 114
+      Module 115
+      Module 116
+      Module 117
+      Module 118
+      Module 119
+      Module 120
+      Module 121
+      Module 122
+      Module 123
+      Module 124
+      Module 125
+      Module 126
+      Module 127
+      Module 128
+      Module 129
+      Module 130
+      Module 131
+      Module 132
+      Module 133
+      Module 134
+      Module 135
+      Module 136
+      Module 137
+      Module 138
+      Module 139
+      Module 140
+      Module 141
+      Module 142
+      Module 143
+      Module 144
+      Module 145
+      Module 146
+      Module 147
+      Module 148
+      Module 149
+      Module 150
+      Module 151
+      Module 152
+      Module 153
+      Module 154
+      Module 155
+      Module 156
+      Module 157
+      Module 158
+      Module 159
+      Module 160
+      Module 161
+      Module 162
+      Module 163
+      Module 164
+      Module 165
+      Module 166
+      Module 167
+      Module 168
+      Module 169
+      Module 170
+      Module 171
+      Module 172
+      Module 173
+      Module 174
+      Module 175
+      Module 176
+      Module 177
+      Module 178
+      Module 179
+      Module 180
+      Module 181
+      Module 182
+      Module 183
+      Module 184
+      Module 185
+      Module 186
+      Module 187
+      Module 188
+      Module 189
+      Module 190
+      Module 191
+      Module 192
+      Module 193
+      Module 194
+      Module 195
+      Module 196
+      Module 197
+      Module 198
+      Module 199
+   '(L) Major Version': "13"
+   '(L) Minor Version': "0"
+   '(L) Build Number': "0"
+   L:'Start Script': ""
+   D:'Lookup Button 1': Button
+   L:'End Script': ""
+   D:'Lookup Button 2': Button
+   '(L) Group Box': "0"
+      Total Compression =
+      Remove Unused Blocks
+ [ 'Ok Button': Button ] 
+   'Cancel Button': Button
+   '(L) Has Start Script': "FALSE"
+   '(L) Has End Script': "FALSE"
+
+===============================================================================
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Started   11/05/2019 10:53:49
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Aborted   11/05/2019 10:53:52
+:C:TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxListing.mac Elapsed                  0:03      Last Line   61
+Error:        Macro command not found.
+Last Line:    61
+Line:         =======
+Location:     dictionary 'DexUtils.dic'  form 'Auto Chunk'  window 'Auto Chunk'  field 'Ok Button'
+
+Window Contents:
+   L:'Source Dict': "C:\TiiSelam\DESA_MSAL\ar03\ARG_GP2013\LISTADOR_IMPUESTOS\dex\TIIAW75.dic"
+   L:'Dest Dict': ":C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk"
+   'Lookup Button 3': Button
+   'Dictionary Name': "TIIAW75.dic"
+   'Accounting Modules': "51"
+      Module 001
+      Module 002
+      Module 003
+      Module 004
+      Module 005
+      Module 006
+      Module 007
+      Module 008
+      Module 009
+      Module 010
+      Module 011
+      Module 012
+      Module 013
+      Module 014
+      Module 015
+      Module 016
+      Module 017
+      Module 018
+      Module 019
+      Module 020
+      Module 021
+      Module 022
+      Module 023
+      Module 024
+      Module 025
+      Module 026
+      Module 027
+      Module 028
+      Module 029
+      Module 030
+      Module 031
+      Module 032
+      Module 033
+      Module 034
+      Module 035
+      Module 036
+      Module 037
+      Module 038
+      Module 039
+      Module 040
+      Module 041
+      Module 042
+      Module 043
+      Module 044
+      Module 045
+      Module 046
+      Module 047
+      Module 048
+      Module 049
+      Module 050
+      Module 051 =
+      Module 052
+      Module 053
+      Module 054
+      Module 055
+      Module 056
+      Module 057
+      Module 058
+      Module 059
+      Module 060
+      Module 061
+      Module 062
+      Module 063
+      Module 064
+      Module 065
+      Module 066
+      Module 067
+      Module 068
+      Module 069
+      Module 070
+      Module 071
+      Module 072
+      Module 073
+      Module 074
+      Module 075
+      Module 076
+      Module 077
+      Module 078
+      Module 079
+      Module 080
+      Module 081
+      Module 082
+      Module 083
+      Module 084
+      Module 085
+      Module 086
+      Module 087
+      Module 088
+      Module 089
+      Module 090
+      Module 091
+      Module 092
+      Module 093
+      Module 094
+      Module 095
+      Module 096
+      Module 097
+      Module 098
+      Module 099
+      Module 100
+      Module 101
+      Module 102
+      Module 103
+      Module 104
+      Module 105
+      Module 106
+      Module 107
+      Module 108
+      Module 109
+      Module 110
+      Module 111
+      Module 112
+      Module 113
+      Module 114
+      Module 115
+      Module 116
+      Module 117
+      Module 118
+      Module 119
+      Module 120
+      Module 121
+      Module 122
+      Module 123
+      Module 124
+      Module 125
+      Module 126
+      Module 127
+      Module 128
+      Module 129
+      Module 130
+      Module 131
+      Module 132
+      Module 133
+      Module 134
+      Module 135
+      Module 136
+      Module 137
+      Module 138
+      Module 139
+      Module 140
+      Module 141
+      Module 142
+      Module 143
+      Module 144
+      Module 145
+      Module 146
+      Module 147
+      Module 148
+      Module 149
+      Module 150
+      Module 151
+      Module 152
+      Module 153
+      Module 154
+      Module 155
+      Module 156
+      Module 157
+      Module 158
+      Module 159
+      Module 160
+      Module 161
+      Module 162
+      Module 163
+      Module 164
+      Module 165
+      Module 166
+      Module 167
+      Module 168
+      Module 169
+      Module 170
+      Module 171
+      Module 172
+      Module 173
+      Module 174
+      Module 175
+      Module 176
+      Module 177
+      Module 178
+      Module 179
+      Module 180
+      Module 181
+      Module 182
+      Module 183
+      Module 184
+      Module 185
+      Module 186
+      Module 187
+      Module 188
+      Module 189
+      Module 190
+      Module 191
+      Module 192
+      Module 193
+      Module 194
+      Module 195
+      Module 196
+      Module 197
+      Module 198
+      Module 199
+   '(L) Major Version': "13"
+   '(L) Minor Version': "0"
+   '(L) Build Number': "0"
+   L:'Start Script': ""
+   D:'Lookup Button 1': Button
+   L:'End Script': ""
+   D:'Lookup Button 2': Button
+   '(L) Group Box': "0"
+      Total Compression =
+      Remove Unused Blocks
+ [ 'Ok Button': Button ] 
+   'Cancel Button': Button
+   '(L) Has Start Script': "FALSE"
+   '(L) Has End Script': "FALSE"
+
+Front Window:
+   L:'Source Dict': "C:\TiiSelam\DESA_MSAL\ar03\ARG_GP2013\LISTADOR_IMPUESTOS\dex\TIIAW75.dic"
+   L:'Dest Dict': ":C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2013/LISTADOR_IMPUESTOS/dex/TaxList.cnk"
+   'Lookup Button 3': Button
+   'Dictionary Name': "TIIAW75.dic"
+   'Accounting Modules': "51"
+      Module 001
+      Module 002
+      Module 003
+      Module 004
+      Module 005
+      Module 006
+      Module 007
+      Module 008
+      Module 009
+      Module 010
+      Module 011
+      Module 012
+      Module 013
+      Module 014
+      Module 015
+      Module 016
+      Module 017
+      Module 018
+      Module 019
+      Module 020
+      Module 021
+      Module 022
+      Module 023
+      Module 024
+      Module 025
+      Module 026
+      Module 027
+      Module 028
+      Module 029
+      Module 030
+      Module 031
+      Module 032
+      Module 033
+      Module 034
+      Module 035
+      Module 036
+      Module 037
+      Module 038
+      Module 039
+      Module 040
+      Module 041
+      Module 042
+      Module 043
+      Module 044
+      Module 045
+      Module 046
+      Module 047
+      Module 048
+      Module 049
+      Module 050
+      Module 051 =
+      Module 052
+      Module 053
+      Module 054
+      Module 055
+      Module 056
+      Module 057
+      Module 058
+      Module 059
+      Module 060
+      Module 061
+      Module 062
+      Module 063
+      Module 064
+      Module 065
+      Module 066
+      Module 067
+      Module 068
+      Module 069
+      Module 070
+      Module 071
+      Module 072
+      Module 073
+      Module 074
+      Module 075
+      Module 076
+      Module 077
+      Module 078
+      Module 079
+      Module 080
+      Module 081
+      Module 082
+      Module 083
+      Module 084
+      Module 085
+      Module 086
+      Module 087
+      Module 088
+      Module 089
+      Module 090
+      Module 091
+      Module 092
+      Module 093
+      Module 094
+      Module 095
+      Module 096
+      Module 097
+      Module 098
+      Module 099
+      Module 100
+      Module 101
+      Module 102
+      Module 103
+      Module 104
+      Module 105
+      Module 106
+      Module 107
+      Module 108
+      Module 109
+      Module 110
+      Module 111
+      Module 112
+      Module 113
+      Module 114
+      Module 115
+      Module 116
+      Module 117
+      Module 118
+      Module 119
+      Module 120
+      Module 121
+      Module 122
+      Module 123
+      Module 124
+      Module 125
+      Module 126
+      Module 127
+      Module 128
+      Module 129
+      Module 130
+      Module 131
+      Module 132
+      Module 133
+      Module 134
+      Module 135
+      Module 136
+      Module 137
+      Module 138
+      Module 139
+      Module 140
+      Module 141
+      Module 142
+      Module 143
+      Module 144
+      Module 145
+      Module 146
+      Module 147
+      Module 148
+      Module 149
+      Module 150
+      Module 151
+      Module 152
+      Module 153
+      Module 154
+      Module 155
+      Module 156
+      Module 157
+      Module 158
+      Module 159
+      Module 160
+      Module 161
+      Module 162
+      Module 163
+      Module 164
+      Module 165
+      Module 166
+      Module 167
+      Module 168
+      Module 169
+      Module 170
+      Module 171
+      Module 172
+      Module 173
+      Module 174
+      Module 175
+      Module 176
+      Module 177
+      Module 178
+      Module 179
+      Module 180
+      Module 181
+      Module 182
+      Module 183
+      Module 184
+      Module 185
+      Module 186
+      Module 187
+      Module 188
+      Module 189
+      Module 190
+      Module 191
+      Module 192
+      Module 193
+      Module 194
+      Module 195
+      Module 196
+      Module 197
+      Module 198
+      Module 199
+   '(L) Major Version': "13"
+   '(L) Minor Version': "0"
+   '(L) Build Number': "0"
+   L:'Start Script': ""
+   D:'Lookup Button 1': Button
+   L:'End Script': ""
+   D:'Lookup Button 2': Button
+   '(L) Group Box': "0"
+      Total Compression =
+      Remove Unused Blocks
+ [ 'Ok Button': Button ] 
+   'Cancel Button': Button
+   '(L) Has Start Script': "FALSE"
+   '(L) Has End Script': "FALSE"
+
