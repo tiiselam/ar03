@@ -1,0 +1,64 @@
+Logging file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/MCPR - ACA/MACLOG.TXT'
+  MenuSelect title File entry 'Open Source Dictionary...' 
+FileOpen file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/MCPR - ACA/dynamics.dic' type 0  
+ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
+  MoveTo field 'Toolbar Utilities Button' item 0 
+  ClickHit field 'Toolbar Utilities Button' item 6  # 'Extract' 
+NewActiveWin dictionary 'default'  form Extractor window Extractor 
+ActivateWindow dictionary 'default'  form Extractor window Extractor 
+  ClickHit field '(L) Extract Button' 
+  FileSave file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/MCPR - ACA/MCPRM75.dic' 
+NewActiveWin dictionary 'default'  form Extractor window Extractor 
+NewActiveWin dictionary 'default'  form Extractor window Extractor 
+  MenuSelect title File entry 'Open Editable Dictionary...' 
+  FileOpen file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/MCPR - ACA/MCPRM75.dic' type 0 
+ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
+  ClickHit field 'Toolbar Utilities Button' item 9  # 'Auto-Chunk' 
+NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+ActivateWindow dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+  ClickHit field 'Lookup Button 3' 
+  FileSave file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/MCPR - ACA/MCPRM.cnk' 
+  MoveTo field 'Dictionary Name' 
+  MoveTo field 'Accounting Modules' item 0 
+  ClickHit field 'Accounting Modules' item 1  # 'Module 001' 
+  ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
+  MoveTo field '(L) Major Version' 
+  TypeTo field '(L) Major Version' , '17'
+  MoveTo field '(L) Minor Version' 
+  TypeTo field '(L) Minor Version' , '0'
+  MoveTo field '(L) Build Number' 
+ TypeTo field '(L) Build Number' , '0'	
+  MoveTo field 'Ok Button' 
+  ClickHit field 'Ok Button' 
+# The edit dictionary does not have product information. Do you wish to add it now ?
+NewActiveWin dictionary 'default'  form DiaLog window DiaLog 
+  ClickHit field OK 
+NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+NewActiveWin dictionary 'default'  form 'Product Res' window 'Product Resource' 
+  TypeTo field 'File Name' , 'DYNAMICS.SET'
+  MoveTo field 'Cluster ID' 
+  MoveTo field 'Product Name' 
+ActivateWindow dictionary 'default'  form 'Product Res' window 'Product Resource' 
+  MenuSelect title Edit entry Paste 
+  TypeTo field 'Product Name' , 'Medios de Cobro Pago / Retenci'
+  MoveTo field 'Product ID' 
+ActivateWindow dictionary 'default'  form 'Product Res' window 'Product Resource' 
+  MenuSelect title Edit entry Paste 
+  TypeTo field 'Product ID' , '9882'
+  MoveTo field 'Form Dictionary' 
+  MenuSelect title Edit entry Paste 
+  TypeTo field 'Form Dictionary' , 'F9882.DIC'
+  MoveTo field 'Report Dictionary' 
+  MenuSelect title Edit entry Paste 
+  TypeTo field 'Report Dictionary' , 'R9882.DIC'
+  MoveTo field '(L) Compatiblity ID' 
+ActivateWindow dictionary 'default'  form 'Product Res' window 'Product Resource' 
+  MenuSelect title Edit entry Paste 
+  TypeTo field '(L) Compatiblity ID' , 'Dyn14.0'
+  MoveTo field '(L) Compatiblity Message' 
+  TypeTo field '(L) Compatiblity Message' , 'Use Dynamics Utilities to update your modified forms and reports' 
+  MoveTo field 'Ok Button' 
+  ClickHit field 'Ok Button' 
+NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+#   ClickHit field 'Ok Button' 
+# NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 

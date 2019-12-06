@@ -1,0 +1,11 @@
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\bin\Debug\ACA_WSFE.dll.config
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\bin\Debug\ACA_WSFE.dll
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\bin\Debug\ACA_WSFE.pdb
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\bin\Debug\ACA_WSFE.xml
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\obj\Debug\ACA_WSFE.Resources.resources
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.GenerateResource.Cache
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\obj\Debug\ACA_WSFE.dll
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\obj\Debug\ACA_WSFE.xml
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\obj\Debug\ACA_WSFE.pdb
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE\bin\Debug\ACA_WSFE.tlb

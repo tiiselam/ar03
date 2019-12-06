@@ -1,0 +1,17 @@
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\bin\Debug\ACA_WSFE_EXE.exe
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\bin\Debug\ACA_WSFE_EXE.pdb
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\bin\Debug\ACA_WSFE_EXE.xml
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\bin\Debug\ACA_WSFE.dll
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\bin\Debug\ACA_WSFE.pdb
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\bin\Debug\ACA_WSFE.xml
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.Form1.resources
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.Resources.resources
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.vbproj.GenerateResource.Cache
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.exe
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.xml
+C:\Documents and Settings\aaparicio\Mis documentos\Visual Studio 2005\Projects\ACA_WSFE\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.pdb
+C:\Users\Public\Documents\TII\DLLs de FACTURACION ELECTRONICA\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.xml
+C:\Users\Public\Documents\TII\DLLs de FACTURACION ELECTRONICA\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.pdb
+C:\Users\LinaToro\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.xml
+C:\Users\LinaToro\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE_EXE\obj\Debug\ACA_WSFE_EXE.pdb

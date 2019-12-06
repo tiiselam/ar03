@@ -1,0 +1,47 @@
+/*Count : 2 */
+ 
+set DATEFORMAT ymd 
+GO 
+ 
+/*Begin_CLFACT01*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[CLFACT01]') and OBJECTPROPERTY(id, N'IsView') = 1)
+drop view [dbo].[CLFACT01]
+GO
+
+CREATE VIEW CLFACT01 AS  SELECT SOPNUMBE, CUSTNMBR, DOCDATE, SOPTYPE, CSTPONBR, DEX_ROW_ID  FROM SOP10100  WHERE (VOIDSTTS = 0) AND (SOPTYPE = 3) 
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[CLFACT01]  TO [DYNGRP] 
+GO 
+
+/*End_CLFACT01*/
+/*Begin_clLC_va_clLC5072*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[clLC_va_clLC5072]') and OBJECTPROPERTY(id, N'IsView') = 1)
+drop view [dbo].[clLC_va_clLC5072]
+GO
+
+ CREATE VIEW clLC_va_clLC5072 AS SELECT corr.DOCNUMBR numdoc, ruts.RutClieProvee, ruts.CUSTVNDR FROM clLC5072 corr, clLC0002 ruts  WHERE ruts.RutClieProvee = corr.RutClieProvee AND ruts.TipClieProvee = 2
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT  SELECT ,  INSERT ,  DELETE ,  UPDATE  ON [dbo].[clLC_va_clLC5072]  TO [DYNGRP] 
+GO 
+
+/*End_clLC_va_clLC5072*/

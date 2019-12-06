@@ -1,0 +1,95 @@
+===============================================================================
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Started   05/23/2019 15:17:25
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Aborted   05/23/2019 15:17:25
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Elapsed                  0:00      Last Line    5
+Error:        An unexpected modal dialog appeared.
+Last Line:    5
+Line:           MoveTo field 'Toolbar Utilities Button' item 0 
+Location:     dictionary 'DexUtils.dic'  form 'Main Menu'  window 'DexUtils Toolbar'  field 'Toolbar Transfer Button'
+Front window: form [Not Found]  window [Not Found]  field 
+
+Window Contents:
+   'Toolbar Scripts Button': "0"
+      Compile Form Scripts
+      Compile Global Procedures
+      Compile Global Functions
+      Search and Replace
+   'Toolbar Reports Button': "0"
+      Forms
+      Reports
+      Tables
+      Global Functions
+      Global Procedures
+      Global Resources
+      Local Resources
+      Resource Lists
+      Global Resource Usage
+      Local Resource Usage
+      Linked Prompts
+      Diagnostics
+      Emergency Diagnostics
+      Summary Reports
+      Cross Link Analysis
+      Prompt Overflow Report
+      Referential Diagnostics
+      Table Relationships Validation
+      Resource ID Validation
+   'Toolbar Resources Button': "0"
+      Change Core
+      Series Resources
+   'Toolbar Inquiry Button': "0"
+      Forms
+      Resources
+   'Toolbar Utilities Button': "0"
+      Synchronize
+      Compress
+      Create Chunk Dictionary
+      Compare
+      Create Product Information
+      Extract
+      Expand Windows
+      SQL Compatibility
+      Auto-Chunk
+      Change Evaluate After...
+   Series: "3"
+      Financial
+      Sales
+      Purchasing =
+      Inventory
+      Payroll
+      Project
+      System
+      Other
+      All
+ [ 'Toolbar Transfer Button': "1" ] 
+      Resources
+      Strings and Messages
+      Window
+      Dictionary Module
+      Developer Update
+
+Front Window:
+   : "Unable to open dictionary - possibly already opened."
+ [ : Button ] 
+   : "OK"
+
+===============================================================================
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Started   05/23/2019 15:17:36
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Finished  05/23/2019 15:17:39
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Elapsed                  0:03      Last Line   73
+===============================================================================
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Started   05/28/2019 14:49:33
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Finished  05/28/2019 14:49:36
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Elapsed                  0:03      Last Line   73
+===============================================================================
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Started   06/06/2019 13:03:15
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Finished  06/06/2019 13:03:19
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Elapsed                  0:04      Last Line   73
+===============================================================================
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Started   06/06/2019 14:23:15
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Finished  06/06/2019 14:23:18
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Elapsed                  0:03      Last Line   73
+===============================================================================
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Started   06/06/2019 14:43:59
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Finished  06/06/2019 14:44:02
+:C:Tiiselam/DESA_MSAL/GP2018/IMPRESION_CHEQUES/Dex/Checkprinting.mac Elapsed                  0:03      Last Line   73

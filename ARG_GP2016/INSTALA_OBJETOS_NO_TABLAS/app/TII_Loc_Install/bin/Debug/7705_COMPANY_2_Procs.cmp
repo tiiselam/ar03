@@ -1,0 +1,1848 @@
+/*Count : 19 */
+ 
+set DATEFORMAT ymd 
+GO 
+ 
+/*Begin_CL_Factura_a_Historico*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[CL_Factura_a_Historico]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[CL_Factura_a_Historico]
+GO
+
+ CREATE PROCEDURE CL_Factura_a_Historico @SOPTYPE  smallint,  @SopNumber  char(21), @NewSopNumber char(21) AS INSERT INTO SOP30200  (SOPTYPE, SOPNUMBE, ORIGTYPE, ORIGNUMB, DOCID, DOCDATE, GLPOSTDT, QUOTEDAT, QUOEXPDA, ORDRDATE, INVODATE, BACKDATE, RETUDATE, ReqShipDate, FUFILDAT, ACTLSHIP, DISCDATE, DUEDATE, REPTING, TRXFREQU,   TIMEREPD, TIMETREP, DYSTINCR, DTLSTREP, DSTBTCH1, DSTBTCH2, USDOCID1, USDOCID2, DISCFRGT, ORDAVFRT,   DISCMISC, ORDAVMSC, DISAVAMT, ORDAVAMT, DISCRTND, ORDISRTD, DISTKNAM, ORDISTKN, DSCPCTAM, DSCDLRAM,   ORDDLRAT, DISAVTKN, ORDATKN, PYMTRMID, PRCLEVEL, LOCNCODE, BCHSOURC, BACHNUMB, CUSTNMBR,   CUSTNAME, CSTPONBR, PROSPECT, MSTRNUMB, PCKSLPNO, PICTICNU, MRKDNAMT, ORMRKDAM, PRBTADCD,   PRSTADCD, CNTCPRSN, ShipToName, ADDRESS1, ADDRESS2, ADDRESS3, CITY, STATE, ZIPCODE, COUNTRY,   PHNUMBR1, PHNUMBR2, PHONE3, FAXNUMBR, COMAPPTO, COMMAMNT, OCOMMAMT, CMMSLAMT, ORCOSAMT,   NCOMAMNT, ORNCMAMT, SHIPMTHD, TRDISAMT, ORTDISAM, TRDISPCT, SUBTOTAL, ORSUBTOT, REMSUBTO, OREMSUBT,   EXTDCOST, OREXTCST, MISCAMNT, FRTAMNT, ORFRTAMT, ORMISCAMT, TXENGCLD, TAXEXMT2, TAXEXMT1,   TXRGNNUM, TAXSCHID, TXSCHSRC, BSIVCTTL, FRTSCHID, FRTTXAMT, ORFRTTAX, FRGTTXBL, MSCSCHID, MSCTXAMT,   ORMSCTAX, MISCTXBL, BKTFRTAM, ORBKTFRT, BKTMSCAM, ORBKTMSC, BCKTXAMT, OBTAXAMT, TXBTXAMT, OTAXTAMT,   TAXAMNT, ORTAXAMT, ECTRX, DOCAMNT, ORDOCAMT, PYMTRCVD, ORPMTRVD, DEPRECVD, ORDEPRVD, CODAMNT,   ORCODAMT, ACCTAMNT, ORACTAMT,  SALSTERR, SLPRSNID, UPSZONE, TIMESPRT, PSTGSTUS, VOIDSTTS, ALLOCABY,   NOTEINDX, CURNCYID, CURRNIDX, RATETPID, EXGTBLID, XCHGRATE, DENXRATE, EXCHDATE, TIME1, RTCLCMTD,   MCTRXSTT, TRXSORCE, SOPHDRE1, SOPHDRE2, SOPLNERR, SOPHDRFL, COMMNTID, REFRENCE, POSTEDDT, PTDUSRID,   USER2ENT, CREATDDT, MODIFDT, Tax_Date, APLYWITH, WITHHAMT, SHPPGDOC, CORRCTN, SIMPLIFD,  DOCNCORR, SEQNCORR, SALEDATE,EXCEPTIONALDEMAND,Flags)  SELECT   SOPTYPE, SOPNUMBE, ORIGTYPE, ORIGNUMB, DOCID, DOCDATE, GLPOSTDT, QUOTEDAT, QUOEXPDA, ORDRDATE,   INVODATE, BACKDATE, RETUDATE, ReqShipDate, FUFILDAT, ACTLSHIP, DISCDATE, DUEDATE, REPTING, TRXFREQU,   TIMEREPD, TIMETREP, DYSTINCR, DTLSTREP, DSTBTCH1, DSTBTCH2, USDOCID1, USDOCID2, DISCFRGT, ORDAVFRT,   DISCMISC, ORDAVMSC, DISAVAMT, ORDAVAMT, DISCRTND, ORDISRTD, DISTKNAM, ORDISTKN, DSCPCTAM, DSCDLRAM,   ORDDLRAT, DISAVTKN, ORDATKN, PYMTRMID, PRCLEVEL, LOCNCODE, BCHSOURC, BACHNUMB, CUSTNMBR,   CUSTNAME, CSTPONBR, PROSPECT, MSTRNUMB, PCKSLPNO, PICTICNU, MRKDNAMT, ORMRKDAM, PRBTADCD,   PRSTADCD, CNTCPRSN, ShipToName, ADDRESS1, ADDRESS2, ADDRESS3, CITY, STATE, ZIPCODE, COUNTRY,  PHNUMBR1, PHNUMBR2, PHONE3, FAXNUMBR, COMAPPTO, COMMAMNT, OCOMMAMT, CMMSLAMT, ORCOSAMT,   NCOMAMNT, ORNCMAMT, SHIPMTHD, TRDISAMT, ORTDISAM, TRDISPCT, SUBTOTAL, ORSUBTOT, REMSUBTO, OREMSUBT,  EXTDCOST, OREXTCST, MISCAMNT, FRTAMNT, ORFRTAMT, ORMISCAMT, TXENGCLD, TAXEXMT2, TAXEXMT1,  TXRGNNUM, TAXSCHID, TXSCHSRC, BSIVCTTL, FRTSCHID, FRTTXAMT, ORFRTTAX, FRGTTXBL, MSCSCHID, MSCTXAMT,   ORMSCTAX, MISCTXBL, BKTFRTAM, ORBKTFRT, BKTMSCAM, ORBKTMSC, BCKTXAMT, OBTAXAMT, TXBTXAMT, OTAXTAMT,   TAXAMNT, ORTAXAMT, ECTRX, DOCAMNT, ORDOCAMT, PYMTRCVD, ORPMTRVD, DEPRECVD, ORDEPRVD, CODAMNT,  ORCODAMT, ACCTAMNT, ORACTAMT, SALSTERR, SLPRSNID, UPSZONE, TIMESPRT, PSTGSTUS, 1, ALLOCABY,  NOTEINDX, CURNCYID, CURRNIDX, RATETPID, EXGTBLID, XCHGRATE, DENXRATE, EXCHDATE,TIME1, RTCLCMTD,   MCTRXSTT, TRXSORCE, SOPHDRE1, SOPHDRE2, SOPLNERR, SOPHDRFL, COMMNTID, REFRENCE, POSTEDDT, PTDUSRID, USER2ENT, CREATDDT, MODIFDT, Tax_Date, APLYWITH, WITHHAMT, SHPPGDOC, CORRCTN, SIMPLIFD,  DOCNCORR, SEQNCORR, SALEDATE,EXCEPTIONALDEMAND,Flags  FROM SOP10100   WHERE SOP10100.SOPTYPE = @SOPTYPE AND SOP10100.SOPNUMBE = @SopNumber  INSERT INTO SOP30300 (SOPTYPE, SOPNUMBE, LNITMSEQ, CMPNTSEQ,ITEMNMBR, ITEMDESC, NONINVEN, UNITPRCE, ORUNTCST, UNITCOST, LOCNCODE, UOFM, DROPSHIP, ORUNTPRC, XTNDPRCE, OXTNDPRC, REMPRICE, OREPRICE, EXTDCOST,  OREXTCST, MRKDNAMT, ORMRKDAM, MRKDNPCT, MRKDNTYP, INVINDX, CSLSINDX, SLSINDX, MKDNINDX,   RTNSINDX, INUSINDX, INSRINDX, DMGDINDX, ITMTSHID, IVITMTXB, BKTSLSAM, ORBKTSLS, ORTAXAMT, TAXAMNT,   TXBTXAMT, OTAXTAMT, BSIVCTTL, TRDISAMT, ORTDISAM, DISCSALE, ORDAVSLS, QUANTITY, ATYALLOC, QTYINSVC,   QTYINUSE, QTYDMGED, QTYRTRND, QTYONHND, QTYCANCE, QTYCANOT, QTYORDER, QTYPRBAC, QTYPRBOO,  QTYPRINV, QTYPRORD, QTYREMAI, QTYREMBO, QTYTBAOR, QTYTOINV, QTYTORDR, QTYFULFI, QTYSLCTD, QTYBSUOM,  EXTQTYAL, EXTQTYSEL, ReqShipDate, FUFILDAT, ACTLSHIP, SHIPMTHD, SALSTERR, SLPRSNID, PRCLEVEL, COMMNTID,   BRKFLD1, BRKFLD2, BRKFLD3, CURRNIDX, TRXSORCE, SOPLNERR, PURCHSTAT, QTYRECVD, QTYPRVRECVD, ORGSEQNM, ITEMCODE, DECPLQTY, DECPLCUR, ODECPLCU,ADDRESS1, ADDRESS2, ADDRESS3, CITY, CNTCPRSN, CONTENDDTE, CONTLNSEQNBR, CONTNBR, CONTSERIALNBR, CONTSTARTDTE, COUNTRY,EXCEPTIONALDEMAND, FAXNUMBR, Flags, PHONE1, PHONE2, PHONE3, PRSTADCD, ShipToName, STATE, TAXSCHID, TXSCHSRC, ZIPCODE ) SELECT SOPTYPE, SOPNUMBE, LNITMSEQ, CMPNTSEQ,ITEMNMBR, ITEMDESC, NONINVEN, UNITPRCE, ORUNTCST,   UNITCOST, LOCNCODE, UOFM, DROPSHIP, ORUNTPRC, XTNDPRCE, OXTNDPRC, REMPRICE, OREPRICE, EXTDCOST,   OREXTCST, MRKDNAMT, ORMRKDAM, MRKDNPCT, MRKDNTYP, INVINDX, CSLSINDX, SLSINDX, MKDNINDX,   RTNSINDX, INUSINDX, INSRINDX, DMGDINDX, ITMTSHID, IVITMTXB, BKTSLSAM, ORBKTSLS, ORTAXAMT, TAXAMNT,   TXBTXAMT, OTAXTAMT, BSIVCTTL, TRDISAMT, ORTDISAM, DISCSALE, ORDAVSLS, QUANTITY, ATYALLOC, QTYINSVC,  QTYINUSE, QTYDMGED, QTYRTRND, QTYONHND, QTYCANCE, QTYCANOT, QTYORDER, QTYPRBAC, QTYPRBOO, QTYPRINV, QTYPRORD, QTYREMAI, QTYREMBO, QTYTBAOR, QTYTOINV, QTYTORDR, QTYFULFI, QTYSLCTD, QTYBSUOM, EXTQTYAL, EXTQTYSEL, ReqShipDate, FUFILDAT, ACTLSHIP, SHIPMTHD, SALSTERR, SLPRSNID, PRCLEVEL, COMMNTID,  BRKFLD1, BRKFLD2, BRKFLD3, CURRNIDX, TRXSORCE, SOPLNERR, PURCHSTAT, QTYRECVD, QTYPRVRECVD,  ORGSEQNM, ITEMCODE, DECPLQTY, DECPLCUR, ODECPLCU,ADDRESS1, ADDRESS2, ADDRESS3, CITY, CNTCPRSN, CONTENDDTE, CONTLNSEQNBR, CONTNBR, CONTSERIALNBR, CONTSTARTDTE, COUNTRY,EXCEPTIONALDEMAND, FAXNUMBR, Flags, PHONE1, PHONE2, PHONE3, PRSTADCD, ShipToName, STATE, TAXSCHID, TXSCHSRC, ZIPCODE  FROM SOP10200  WHERE SOP10200.SOPTYPE = @SOPTYPE AND SOP10200.SOPNUMBE = @SopNumber UPDATE SOP10100 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE UPDATE SOP10200 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE UPDATE SOP10101 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE UPDATE SOP10102 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE UPDATE SOP10103 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE UPDATE SOP10104 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE UPDATE SOP10105 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE UPDATE SOP10106 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE UPDATE SOP10201 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE UPDATE SOP10202 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE UPDATE SOP10203 SET SOPNUMBE= @NewSopNumber WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE if exists (select * from sysobjects where id = object_id(N'[CLGD10100]') and OBJECTPROPERTY(id, N'IsUserTable') = 1) UPDATE CLGD10100 SET INVONUMBR=@NewSopNumber WHERE INVONUMBR = @SopNumber
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[CL_Factura_a_Historico] TO [DYNGRP] 
+GO 
+
+/*End_CL_Factura_a_Historico*/
+/*Begin_CL_RI_ActDistImptos*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[CL_RI_ActDistImptos]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[CL_RI_ActDistImptos]
+GO
+
+CREATE PROCEDURE CL_RI_ActDistImptos ( @idtipodocto smallint, @numdocto char(21) ) AS  SELECT  * INTO #Distribucion FROM SOP10105 WHERE SOPNUMBE = @numdocto AND SOPTYPE = @idtipodocto AND LNITMSEQ = 0  UPDATE SOP10102 SET DEBITAMT = b.TXDTOTTX, ORDBTAMT = b.TXDTOTTX FROM SOP10102 a, #Distribucion b WHERE a.DISTTYPE = 9  AND a.SOPTYPE = b.SOPTYPE AND a.SOPNUMBE = b.SOPNUMBE AND a.ACTINDX = b.ACTINDX AND DEBITAMT > 0  UPDATE SOP10102 SET CRDTAMNT = b.TXDTOTTX, ORCRDAMT = b.TXDTOTTX FROM SOP10102 a, #Distribucion b WHERE a.DISTTYPE = 9  AND a.SOPTYPE = b.SOPTYPE AND a.SOPNUMBE = b.SOPNUMBE AND a.ACTINDX = b.ACTINDX AND CRDTAMNT > 0 
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[CL_RI_ActDistImptos] TO [DYNGRP] 
+GO 
+
+/*End_CL_RI_ActDistImptos*/
+/*Begin_CL_RI_Actualiza_Distribucion_Docto*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[CL_RI_Actualiza_Distribucion_Docto]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[CL_RI_Actualiza_Distribucion_Docto]
+GO
+
+CREATE PROCEDURE CL_RI_Actualiza_Distribucion_Docto (  @idtipodocto smallint,  @numdocto char(21),  @montodoc numeric(19,5),  @montocli numeric(19,5),  @montocli_orig numeric(19,5)  )  AS  declare @DISTTYPE_REC smallint  SET @DISTTYPE_REC=2  update SOP10102 set DEBITAMT=@montocli,ORDBTAMT=@montocli_orig  where SOPTYPE=@idtipodocto and  SOPNUMBE=@numdocto and DISTTYPE=@DISTTYPE_REC and DEBITAMT=@montodoc 
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[CL_RI_Actualiza_Distribucion_Docto] TO [DYNGRP] 
+GO 
+
+/*End_CL_RI_Actualiza_Distribucion_Docto*/
+/*Begin_CL_RI_Actualiza_Linea_Impuesto*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[CL_RI_Actualiza_Linea_Impuesto]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[CL_RI_Actualiza_Linea_Impuesto]
+GO
+
+ CREATE PROCEDURE CL_RI_Actualiza_Linea_Impuesto (@idtipodocto smallint, @numdocto char(21), @linea int, @impto numeric(19,5), @impto_orig numeric(19,5), @idtax char(15) )  AS    if @linea !=0  begin   UPDATE SOP10105   SET ORSLSTAX = @impto_orig,   OTTAXPON = @impto_orig,   STAXAMNT = @impto,    TXDTOTTX = @impto   WHERE SOPTYPE = @idtipodocto   and SOPNUMBE = @numdocto   and LNITMSEQ = @linea   and TAXDTLID = @idtax  end else  begin   UPDATE SOP10105   SET ORSLSTAX = @impto_orig,   OTTAXPON = @impto_orig,   STAXAMNT = @impto,    TXDTOTTX = @impto   WHERE SOPTYPE = @idtipodocto   and SOPNUMBE = @numdocto   and LNITMSEQ = @linea   and TAXDTLID = @idtax  end
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[CL_RI_Actualiza_Linea_Impuesto] TO [DYNGRP] 
+GO 
+
+/*End_CL_RI_Actualiza_Linea_Impuesto*/
+/*Begin_CL_RI_Consulta_Datos_Impuesto*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[CL_RI_Consulta_Datos_Impuesto]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[CL_RI_Consulta_Datos_Impuesto]
+GO
+
+ CREATE PROCEDURE CL_RI_Consulta_Datos_Impuesto (@tipo_docto integer,@num_docto char(21),@num_linea integer,@cod_impto char(15) output,@cod_cuenta integer output) AS  SELECT @cod_impto = TAXDTLID, @cod_cuenta = ACTINDX FROM SOP10105  WHERE SOPTYPE = @tipo_docto AND SOPNUMBE = @num_docto and LNITMSEQ = @num_linea 
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[CL_RI_Consulta_Datos_Impuesto] TO [DYNGRP] 
+GO 
+
+/*End_CL_RI_Consulta_Datos_Impuesto*/
+/*Begin_CL_RI_ObtieneImpoDeta_Total*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[CL_RI_ObtieneImpoDeta_Total]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[CL_RI_ObtieneImpoDeta_Total]
+GO
+
+ CREATE PROCEDURE CL_RI_ObtieneImpoDeta_Total (  @idtipodocto  smallint,  @numdocto  char(21),  @linea   int,  @idtax   char(15),  @impto_deta  numeric(19,5) OUTPUT,  @impto_total  numeric(19,5) OUTPUT,  @impto_tot_deta numeric(19,5) OUTPUT )   AS    SELECT @impto_tot_deta = round(isnull(sum(STAXAMNT),0),0)  FROM SOP10105 WHERE SOPTYPE = @idtipodocto and SOPNUMBE = @numdocto and LNITMSEQ != 0 and TAXDTLID = @idtax SELECT @impto_deta = STAXAMNT FROM SOP10105 WHERE SOPTYPE = @idtipodocto  and SOPNUMBE = @numdocto and LNITMSEQ = @linea and TAXDTLID = @idtax SELECT @impto_total = round(STAXAMNT ,0) FROM SOP10105 WHERE SOPTYPE = @idtipodocto and SOPNUMBE = @numdocto and LNITMSEQ = 0 and TAXDTLID = @idtax
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[CL_RI_ObtieneImpoDeta_Total] TO [DYNGRP] 
+GO 
+
+/*End_CL_RI_ObtieneImpoDeta_Total*/
+/*Begin_CL_RI_SumaTodosLosImpuestos*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[CL_RI_SumaTodosLosImpuestos]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[CL_RI_SumaTodosLosImpuestos]
+GO
+
+CREATE PROCEDURE CL_RI_SumaTodosLosImpuestos(@tipo_docto integer, @num_docto char(21), @suma numeric(17) output) AS  SELECT @suma = ( SELECT sum(TXDTOTTX) FROM SOP10105 WHERE SOPNUMBE = @num_docto AND SOPTYPE = @tipo_docto AND LNITMSEQ = 0) 
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[CL_RI_SumaTodosLosImpuestos] TO [DYNGRP] 
+GO 
+
+/*End_CL_RI_SumaTodosLosImpuestos*/
+/*Begin_clLC_Elim_Corr_Sobrantes*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[clLC_Elim_Corr_Sobrantes]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[clLC_Elim_Corr_Sobrantes]
+GO
+
+ CREATE PROCEDURE [dbo].[clLC_Elim_Corr_Sobrantes] @Usuario varchar(15) AS delete FROM clLC5072 WHERE ((DOCNUMBR NOT IN (SELECT DOCNUMBR FROM PM10000, clLC_va_clLC5072 WHERE PM10000.DOCNUMBR = clLC5072.DOCNUMBR AND PM10000.VENDORID = clLC_va_clLC5072.CUSTVNDR)) AND (DOCNUMBR NOT IN (SELECT DOCNUMBR FROM PM20000, clLC_va_clLC5072 WHERE PM20000.DOCNUMBR = clLC5072.DOCNUMBR AND PM20000.VENDORID = clLC_va_clLC5072.CUSTVNDR)) AND (DOCNUMBR NOT IN (SELECT DOCNUMBR FROM PM30200, clLC_va_clLC5072 WHERE PM30200.DOCNUMBR = clLC5072.DOCNUMBR AND PM30200.VENDORID = clLC_va_clLC5072.CUSTVNDR)) AND (DOCNUMBR NOT IN (SELECT VNDDOCNM FROM POP10300, clLC_va_clLC5072 WHERE POP10300.VNDDOCNM = clLC5072.DOCNUMBR AND POP10300.VENDORID = clLC_va_clLC5072.CUSTVNDR)) AND (DOCNUMBR NOT IN (SELECT VNDDOCNM FROM POP30300, clLC_va_clLC5072 WHERE POP30300.VNDDOCNM = clLC5072.DOCNUMBR AND POP30300.VENDORID = clLC_va_clLC5072.CUSTVNDR))) AND clLC5072.USERID like @Usuario
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[clLC_Elim_Corr_Sobrantes] TO [DYNGRP] 
+GO 
+
+/*End_clLC_Elim_Corr_Sobrantes*/
+/*Begin_clLC_ExisteRutCliente*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[clLC_ExisteRutCliente]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[clLC_ExisteRutCliente]
+GO
+
+ CREATE PROCEDURE clLC_ExisteRutCliente (@id char(15), @rut char(11), @tipo int, @salida char(10)output) AS select @salida  = 'NOT FOUND' if exists(select 1 from clLC0002 where CUSTVNDR = @id and RutClieProvee = rtrim(ltrim(@rut)) and TipClieProvee = @tipo)  begin select @salida = 'NOT FOUND' end else begin if exists(select 1 from clLC0002 where CUSTVNDR != @id and RutClieProvee = rtrim(ltrim(@rut)) and TipClieProvee = @tipo) begin select @salida = (select TOP 1 CUSTVNDR from clLC0002 where  CUSTVNDR != @id and RutClieProvee = rtrim(ltrim(@rut)) and TipClieProvee = @tipo) end end
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[clLC_ExisteRutCliente] TO [DYNGRP] 
+GO 
+
+/*End_clLC_ExisteRutCliente*/
+/*Begin_clObtieneImptosPorClientes*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[clObtieneImptosPorClientes]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[clObtieneImptosPorClientes]
+GO
+
+CREATE PROCEDURE clObtieneImptosPorClientes (@id_impto char(15), @tipo char(1), @monto_factura numeric(21), @indice int, @impto numeric(21)output) AS SELECT  TAXDTLID, TXDTLPCT, @monto_factura 'monto', round((@monto_factura * (TXDTLPCT/100.00)),0) 'resultado' into #Impuestos FROM TX00201  WHERE TAXDTLID in (SELECT TAXDTLID FROM TX00102 WHERE TAXSCHID = @id_impto AND right(rtrim(ltrim(TAXDTLID)),1) = @tipo) if @indice = 0 begin SELECT @impto = ISNULL((SELECT sum(resultado) FROM #Impuestos WHERE TAXDTLID = 'IVAV'),0) end  else  begin SELECT @impto = ISNULL((SELECT sum(resultado) FROM #Impuestos WHERE TAXDTLID != 'IVAV'),0) end 
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[clObtieneImptosPorClientes] TO [DYNGRP] 
+GO 
+
+/*End_clObtieneImptosPorClientes*/
+/*Begin_clObtieneOtrosImpuestos*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[clObtieneOtrosImpuestos]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[clObtieneOtrosImpuestos]
+GO
+
+CREATE PROCEDURE clObtieneOtrosImpuestos (@num char(21), @tipo integer, @cod_impto char(15), @indice integer, @monto numeric(17,2)output) as if @indice = 0  begin   SELECT @monto = ISNULL(( SELECT sum(STAXAMNT)   FROM SOP10105   WHERE SOPNUMBE = @num and SOPTYPE = @tipo AND TAXDTLID != @cod_impto AND LNITMSEQ = 0),0) end if @indice = 1  begin   SELECT @monto = ISNULL(( SELECT sum(STAXAMNT)   FROM SOP10105   WHERE SOPNUMBE = @num AND SOPTYPE = @tipo AND TAXDTLID = @cod_impto AND LNITMSEQ = 0),0)  end 
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[clObtieneOtrosImpuestos] TO [DYNGRP] 
+GO 
+
+/*End_clObtieneOtrosImpuestos*/
+/*Begin_ncLOC_ReemplazaCorr_Journal*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[ncLOC_ReemplazaCorr_Journal]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[ncLOC_ReemplazaCorr_Journal]
+GO
+
+CREATE PROCEDURE ncLOC_ReemplazaCorr_Journal @aJournal int, @SOURCDOC char(11), @CorrAn int, @CorrPer  int AS update GL20000 set GL20000.PSTGNMBR = @CorrAn where GL20000.JRNENTRY=@aJournal AND GL20000.SOURCDOC = @SOURCDOC update GL20000 set GL20000.PPSGNMBR = @CorrPer where GL20000.JRNENTRY=@aJournal AND GL20000.SOURCDOC = @SOURCDOC
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[ncLOC_ReemplazaCorr_Journal] TO [DYNGRP] 
+GO 
+
+/*End_ncLOC_ReemplazaCorr_Journal*/
+/*Begin_ncLOC_ReemplazaGlosa_Fecha*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[ncLOC_ReemplazaGlosa_Fecha]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[ncLOC_ReemplazaGlosa_Fecha]
+GO
+
+CREATE PROCEDURE ncLOC_ReemplazaGlosa_Fecha @FechaIni datetime, @FechaFin datetime, @aGlosaOld char(31), @aGlosa char(31) AS update GL20000 set GL20000.REFRENCE = @aGlosa where GL20000.TRXDATE>=@FechaIni and GL20000.TRXDATE<=@FechaFin and GL20000.REFRENCE = @aGlosaOld update GL30000 set GL30000.REFRENCE = @aGlosa where GL30000.TRXDATE>=@FechaIni and GL30000.TRXDATE<=@FechaFin and GL30000.REFRENCE = @aGlosaOld
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[ncLOC_ReemplazaGlosa_Fecha] TO [DYNGRP] 
+GO 
+
+/*End_ncLOC_ReemplazaGlosa_Fecha*/
+/*Begin_ncLOC_ReemplazaGlosa_Journal*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[ncLOC_ReemplazaGlosa_Journal]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[ncLOC_ReemplazaGlosa_Journal]
+GO
+
+CREATE PROCEDURE ncLOC_ReemplazaGlosa_Journal @aJournal int, @aGlosa char(31) AS update GL20000 set GL20000.REFRENCE = @aGlosa where GL20000.JRNENTRY=@aJournal update GL30000 set GL30000.REFRENCE = @aGlosa where GL30000.JRNENTRY=@aJournal
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[ncLOC_ReemplazaGlosa_Journal] TO [DYNGRP] 
+GO 
+
+/*End_ncLOC_ReemplazaGlosa_Journal*/
+/*Begin_Update_VATPriorNext*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[Update_VATPriorNext]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [Update_VATPriorNext]
+GO
+
+set ANSI_NULLS ON
+set QUOTED_IDENTIFIER ON
+go
+
+CREATE PROCEDURE [Update_VATPriorNext]   
+
+@FromDate as datetime,
+@ToDate as datetime,
+@TaxID as varchar(50),
+@PriorNext as int,
+@PriorToNextFromDate as datetime = NULL,
+@Semester as int = 2
+
+
+
+    
+AS  
+DECLARE
+@CustVend as varchar(50),
+@TrxNo as varchar(50),
+@TrxNoPOP as  varchar(50),
+@TaxDtlID as varchar(50),
+
+@TaxDtlID2 as varchar(50),
+@TaxAmt as numeric(19,5),
+
+@IVATax_Amt as numeric(19,5),
+@IVATax_AmtS as numeric(19,5),
+
+@recordcnt as int,
+
+@DocClassType as int,
+
+@Tax_Types as int,
+@countTaxType1 as int,
+@countTaxType2 as int,
+@countTaxType3 as int,
+@countTaxType4 as int,
+@countTaxType5 as int,
+@countTaxType6 as int,
+@countTaxType7 as int,
+@Tax_Amt1 as numeric(19,5),
+@Tax_Amt2 as numeric(19,5),
+@Tax_Amt3 as numeric(19,5),
+@Tax_Amt4 as numeric(19,5),
+@Tax_Amt5 as numeric(19,5),
+@Tax_Amt7 as numeric(19,5),
+@TotalQtySalRet as int,
+
+@IVAWithTax_Amt as numeric(19,5),
+@countRecWrkPM as int,
+@TotQtyPur as int,
+@TotalQtyPur as int,
+@TotQtySal as int,
+@TotalQtySal as int,
+
+@RutClieProvee as varchar(15),
+
+@DocType as int,
+@TotPurCredVAT as numeric(19,5),
+@TotalPurCredVAT as numeric(19,5),
+@TotSalCredVAT as numeric(19,5),
+@TotalSalCredVAT as numeric(19,5),
+@bInsert as int,
+@TotQtySalRet as int,
+@CustVendType as int,
+@TotalPurExempt as numeric(19,5),
+@TotalPurNotAffIVA as numeric(19,5),
+@TotalSalExempt as numeric(19,5),
+@TotalSalNotAffIVA as numeric(19,5),
+@TotalPurIVACredNotUsed as numeric(19,5),
+@Filter as int,
+@SopType as int,
+@countRecSOP as int,
+@countRecPOP as int,
+@DocID as varchar(15),
+@VchrNo as varchar(25),
+@RootID as varchar(15),
+@DocClType as int,
+@TotPurPrior as numeric(19,5),
+@TotPurNext as numeric(19,5),
+@Diff as int,
+@PriorMonth as int,
+@PriorYear as int,
+@NextMonth as int,
+@NextYear as int,
+@LastDayMon as int,
+
+
+
+@docdat as datetime,
+@date1 as datetime,
+@batch1 as varchar(40)
+
+BEGIN
+	set @TotQtyPur = 0
+	set @TotPurCredVAT = 0
+	set @bInsert = 0
+
+	if @Semester = 1 
+		BEGIN
+			if @PriorNext = 1
+			BEGIN
+				SELECT @Diff=DATEDIFF(month, @FromDate, @ToDate)
+				SELECT @PriorMonth=month(DATEADD("Month",-@Diff,@PriorToNextFromDate))
+				SELECT @PriorYear=year(DATEADD("Month",-@Diff,@PriorToNextFromDate))
+				set @FromDate = convert(datetime, str(@PriorYear) + '-' + str(@PriorMonth)  + '-' +  str(01),111)
+				set @ToDate = @PriorToNextFromDate
+			END
+			else
+				BEGIN
+					SELECT @Diff=DATEDIFF(month, @FromDate, @ToDate)
+					SELECT @NextMonth=month(DATEADD("Month",@Diff,@PriorToNextFromDate))
+					SELECT @NextYear=year(DATEADD("Month",@Diff,@PriorToNextFromDate))
+					set @ToDate = convert(datetime, str(@NextYear) + '-' + str(@NextMonth)  + '-' +  str(01),111)
+					select @LastDayMon=datediff(day,@ToDate,dateadd(month,1,@ToDate))
+					set @ToDate = convert(datetime, str(@NextYear) + '-' + str(@NextMonth)  + '-' +  str(@LastDayMon),111)
+					set @FromDate = @PriorToNextFromDate
+					
+				END
+		END
+	
+	if @PriorNext = 1
+		UPDATE LOCH0009 set TotPurPrior = 0
+	else
+		UPDATE LOCH0009 set TotPurNext = 0
+	
+	SELECT TOP 1 @RootID=RootID,@DocClType=DOCCLTYP from LOCH0009 
+
+	DECLARE LOCH0004Cur CURSOR FOR  
+	Select distinct(CUSTVNDR) from LOCH0004 where MODULE1 = 1
+	OPEN LOCH0004Cur  
+	FETCH NEXT FROM LOCH0004Cur INTO @CustVend 
+	WHILE @@FETCH_STATUS = 0  
+		BEGIN
+			set @CustVendType = 0
+			SELECT @RutClieProvee=RutClieProvee from clLC0002 where CUSTVNDR = @CustVend
+			SELECT @CustVendType=LoCh_CustVenType from LOCH0008 where CustomerVendor_ID = @CustVend
+			if @CustVendType = 2
+				set @RutClieProvee = @TaxID	
+/* StartCur2*/
+			DECLARE LOCH0004Cur2 CURSOR FOR  
+			Select LOCHTRXNO,DOCCLTYP from LOCH0004 where CUSTVNDR = @CustVend AND MODULE1 = 1 AND DOCDATE >=@FromDate AND DOCDATE <=@ToDate ORDER BY MODULE1,DOCCLTYP
+			OPEN LOCH0004Cur2  
+			FETCH NEXT FROM LOCH0004Cur2 INTO @TrxNo,@DocClassType
+			WHILE @@FETCH_STATUS = 0  
+				BEGIN
+		/* StartCur3*/
+					SELECT @countRecPOP = COUNT(*) from POP30300 WHERE POPRCTNM = @TrxNo
+					if @countRecPOP > 0
+						BEGIN
+							SELECT @VchrNo = VCHRNMBR from POP30300 WHERE POPRCTNM = @TrxNo
+							set @TrxNoPOP = @TrxNo  
+							set @TrxNo = @VchrNo
+						END
+					 SELECT @countRecWrkPM = COUNT(*) from PM10500 WHERE VCHRNMBR = @TrxNo
+					 IF @countRecWrkPM = 0
+						BEGIN
+							SELECT @countRecWrkPM = COUNT(*) from PM30700 WHERE VCHRNMBR = @TrxNo
+							IF @countRecWrkPM = 0
+								BEGIN
+									DECLARE PM10500Cur3 CURSOR FOR
+									Select distinct (TAXDTLID),TAXAMNT,1 from POP30360 where POPRCTNM = @TrxNoPOP 
+								END
+							ELSE
+								BEGIN
+									DECLARE PM10500Cur3 CURSOR FOR
+									Select TAXDTLID,TAXAMNT,DOCTYPE from PM30700 where VCHRNMBR = @TrxNo 
+								END
+						END
+					 ELSE
+						BEGIN
+							DECLARE PM10500Cur3 CURSOR FOR
+							Select TAXDTLID,TAXAMNT,DOCTYPE from PM10500 where VCHRNMBR = @TrxNo 
+						END						
+					OPEN PM10500Cur3  
+					FETCH NEXT FROM PM10500Cur3 INTO @TaxDtlID, @TaxAmt,@DocType
+					WHILE @@FETCH_STATUS = 0  
+						BEGIN
+				/* StartCur4*/
+
+							if @countRecPOP > 0
+								BEGIN
+									SELECT @Filter = ncLOC_UseDoc from LOCH0007 where SERIES = 2 and MODULEID = 6
+								END
+							else
+								SELECT @Filter = ncLOC_UseDoc from LOCH0007 where SERIES = 2 and MODULEID = @DocType
+							IF @Filter = 1
+							BEGIN
+								SELECT @countTaxType1=COUNT(*) from LOCH0006 where Tax_Types = 1 AND SERIES = 2 AND TAXDTLID = @TaxDtlID
+								/*SELECT @countTaxType2=COUNT(*) from LOCH0006 where Tax_Types = 2 AND SERIES = 2 AND TAXDTLID = @TaxDtlID
+								SELECT @countTaxType3=COUNT(*) from LOCH0006 where Tax_Types = 3 AND SERIES = 2 AND TAXDTLID = @TaxDtlID
+								SELECT @countTaxType4=COUNT(*) from LOCH0006 where Tax_Types = 4 AND SERIES = 2 AND TAXDTLID = @TaxDtlID
+								SELECT @countTaxType5=COUNT(*) from LOCH0006 where Tax_Types = 5 AND SERIES = 2 AND TAXDTLID = @TaxDtlID
+								SELECT @countTaxType6=COUNT(*) from LOCH0006 where Tax_Types = 6 AND SERIES = 2 AND TAXDTLID = @TaxDtlID  
+								SELECT @countTaxType7=COUNT(*) from LOCH0006 where Tax_Types = 7 AND SERIES = 2 AND TAXDTLID = @TaxDtlID*/
+
+								if @countTaxType1>0 /*or @countTaxType6>0 or @countTaxType7>0 or @countTaxType4>0 or @countTaxType5 > 0*/
+									BEGIN 
+									set @TotQtyPur =  1
+									set @bInsert = 1
+									if @DocType = 5
+										set @TotPurCredVAT = @TaxAmt
+									END
+								else
+									BEGIN
+									set @TotQtyPur = 0
+									set @TotPurCredVAT = 0
+									set @bInsert = 0
+									END
+									
+								if @countTaxType1 > 0 
+									BEGIN
+										IF @DocType = 1 or @DocType = 2 /*Invoice Or Finance charge*/
+											BEGIN    
+											set @Tax_Amt1 = @TaxAmt
+											END
+										ELSE
+											BEGIN
+												IF @DocType = 5 /*Credit memo*/
+												BEGIN
+													set @Tax_Amt1 = -(@TaxAmt)
+												END
+												ELSE
+												BEGIN
+													set @Tax_Amt1 = 0
+												END
+											END
+									END          
+								else
+									set @Tax_Amt1 = 0
+								/*if @countTaxType2 > 0 
+									set @Tax_Amt2 = @TaxAmt
+								else
+									set @Tax_Amt2 = 0
+								if @countTaxType3 > 0 
+									set @Tax_Amt3 = @TaxAmt
+								else
+									set @Tax_Amt3 = 0
+								if @countTaxType4 > 0 
+									set @Tax_Amt4 = @TaxAmt
+								else
+									set @Tax_Amt4 = 0
+								if @countTaxType5 > 0 
+									set @Tax_Amt5 = @TaxAmt
+								else
+									set @Tax_Amt5 = 0*/
+								/*if @countTaxType6 > 0 and @countTaxType7 > 0    
+									BEGIN
+										IF @DocType = 1 or @DocType = 2 /*Invoice Or Finance charge*/
+											BEGIN
+											IF @DocClassType = 4
+												BEGIN    
+												set @Tax_Amt7 = @TaxAmt
+												END
+											ELSE
+												BEGIN
+													set @Tax_Amt7 = 0
+												END
+											END
+										ELSE
+											BEGIN
+												IF @DocType = 5 /*Credit memo*/
+												BEGIN
+													IF @DocClassType = 4
+														BEGIN    
+														set @Tax_Amt7 = -(@TaxAmt)
+														END
+													ELSE
+														BEGIN
+															set @Tax_Amt7 = 0
+														END
+												END
+												ELSE
+												BEGIN
+													set @Tax_Amt7 = 0
+												END
+											END
+									END  
+								else
+									set @Tax_Amt7 = 0 */									
+									SELECT  @recordcnt=COUNT(*) from LOCH0009 where RootID = @RootID and DOCCLTYP=@DocClType
+									if @PriorNext = 1
+										SELECT 	@TotPurPrior=TotPurPrior FROM LOCH0009 where RootID = @RootID and DOCCLTYP=@DocClType
+									else
+										SELECT 	@TotPurNext=TotPurNext FROM LOCH0009 where RootID = @RootID and DOCCLTYP=@DocClType
+									if @recordcnt > 0
+										BEGIN
+											if @PriorNext = 1
+												UPDATE LOCH0009 Set TotPurPrior = @TotPurPrior + @Tax_Amt1 where RootID = @RootID and DOCCLTYP=@DocClType
+											else
+												UPDATE LOCH0009 Set TotPurNext =  @TotPurNext  + @Tax_Amt1 where RootID = @RootID and DOCCLTYP=@DocClType
+										END
+
+						END
+						FETCH NEXT FROM PM10500Cur3 INTO @TaxDtlID, @TaxAmt,@DocType 
+						END 
+					CLOSE PM10500Cur3  
+					DEALLOCATE PM10500Cur3
+				
+		/* EndCur3 */
+						FETCH NEXT FROM LOCH0004Cur2 INTO @TrxNo,@DocClassType
+				END 
+			CLOSE LOCH0004Cur2  
+			DEALLOCATE LOCH0004Cur2
+		
+
+/* EndCur2 */
+		FETCH NEXT FROM LOCH0004Cur INTO @CustVend  
+		END 
+	CLOSE LOCH0004Cur  
+	DEALLOCATE LOCH0004Cur
+END
+GO
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON Update_VATPriorNext TO [DYNGRP] 
+GO 
+/*END_Update_VATPriorNext*/
+/*Begin_Update_VATReports*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[Update_VATReports]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [Update_VATReports]
+GO
+
+set ANSI_NULLS ON
+set QUOTED_IDENTIFIER ON
+go
+
+CREATE PROCEDURE [Update_VATReports]     
+  
+@FromDate as datetime,  
+@ToDate as datetime,  
+@TaxID as varchar(50)  
+  
+      
+AS    
+DECLARE  
+@CustVend as varchar(50),  
+@CustVendS as varchar(50),  
+  
+@TrxNo as varchar(50),
+@TrxNoPOP as  varchar(50),
+@TrxNoS as varchar(50),  
+@TrxNoCh as varchar(50),
+@TrxNoChP as varchar(50),
+@TrxNoChPServ as varchar(50),
+@TrxNoChSServ as varchar(50),
+@TrxNoChPComm as varchar(50),
+@TotQtyPurComm as int,
+@TotQtySalComm as int,
+@TaxDtlID as varchar(50),  
+@TaxDtlIDS as varchar(50),  
+@TrxNoChSComm as varchar(50), 
+@TaxDtlID2 as varchar(50),  
+@TaxAmt as numeric (19,5),  
+@TaxAmtS as numeric (19,5),  
+  
+@IVATax_Amt as numeric (19,5),  
+@IVATax_AmtS as numeric (19,5),  
+  
+@recordcnt as int,  
+@recordcntS as int,  
+  
+@DocClassType as int,  
+@DocClassTypeS as int,  
+  
+@Tax_Types as int,  
+@countTaxType1 as int,  
+@countTaxType2 as int,  
+@countTaxType3 as int,  
+@countTaxType4 as int,  
+@countTaxType5 as int,
+@countTaxType6 as int,  
+@countTaxType7 as int,  
+@Tax_Amt1 as numeric (19,5),  
+@Tax_Amt2 as numeric (19,5),  
+@Tax_Amt3 as numeric (19,5),  
+@Tax_Amt4 as numeric (19,5),  
+@Tax_Amt5 as numeric (19,5),
+@Tax_Amt6 as numeric (19,5),  
+@Tax_Amt7 as numeric (19,5),
+@Tax_TypesS as int,  
+@countTaxType1S as int,  
+@countTaxType2S as int,  
+@countTaxType3S as int,  
+@countTaxType4S as int,  
+@countTaxType5S as int,
+@countTaxType6S as int,  
+@countTaxType7S as int,  
+@Tax_Amt1S as numeric (19,5),  
+@Tax_Amt2S as numeric (19,5),  
+@Tax_Amt3S as numeric (19,5),  
+@Tax_Amt4S as numeric (19,5),  
+@Tax_Amt5S as numeric (19,5), 
+@Tax_Amt6S as numeric (19,5),  
+@Tax_Amt7S as numeric (19,5),
+@TotalQtySalRet as int,  
+@TotQtyPurCred as int,
+@TotalQtyPurCred as int,
+@TotQtyPurCredSerCom as int,
+@TotQtySalRetSerCom as int,
+@IVATax_AmtSales as numeric (19,5),
+@IVAWithTax_Amt as numeric (19,5),  
+@TotQtyPur as int,  
+@TotalQtyPur as int,  
+@IVAWithTax_AmtS as numeric (19,5),
+@IVATax_AmtPurchase as numeric (19,5),  
+@TotQtySal as int,  
+@TotalQtySal as int,
+@TotalQtySales as int,
+@TotalQtyPurhase as int,
+  
+@RutClieProvee as varchar(15),  
+@RutClieProveeS as varchar(15),  
+  
+@DocType as int,  
+@TRXSORCE as varchar(25),
+@DocTypeS as int,  
+@TotPurCredVAT as numeric (19,5),  
+@TotalPurCredVAT as numeric (19,5),  
+@TotSalCredVAT as numeric (19,5),  
+@TotalSalCredVAT as numeric (19,5),  
+@bInsert as int,  
+@bInsertS as int,  
+@TotQtySalRet as int,  
+@CustVendType as int,  
+@TotalPurExempt as numeric (19,5),  
+@TotalPurNotAffIVA as numeric (19,5),  
+@TotalSalExempt as numeric (19,5),  
+@TotalSalNotAffIVA as numeric (19,5),  
+@TotalPurIVACredNotUsed as numeric (19,5),  
+@Filter as int,  
+@SopType as int,  
+@countRecSOP as int,  
+@countRecPOP as int,
+@countRecWrkPM as int,
+@countRecWrkRM as int,
+@DocID as varchar(15),  
+@VchrNo as varchar(25),  
+  
+  
+@docdat as datetime,  
+@date1 as datetime,  
+@batch1 as varchar(40)  
+BEGIN  
+ set @TotQtyPur = 0  
+ set @TotPurCredVAT = 0  
+ set @bInsert = 0  
+ set @TotQtyPurCred=0
+ set @TotQtySal = 0
+ DELETE FROM LOCH0009  
+ DECLARE LOCH0004Cur CURSOR FOR    
+ Select distinct(CUSTVNDR) from LOCH0004 where MODULE1 = 1  
+ OPEN LOCH0004Cur    
+ FETCH NEXT FROM LOCH0004Cur INTO @CustVend   
+ WHILE @@FETCH_STATUS = 0    
+  BEGIN  
+   set @CustVendType = 0  
+   SELECT @RutClieProvee=RutClieProvee from clLC0002 where CUSTVNDR = @CustVend  
+   SELECT @CustVendType=LoCh_CustVenType from LOCH0008 where CustomerVendor_ID = @CustVend  
+   if @CustVendType = 2
+	begin  
+		set @RutClieProvee = @TaxID
+	end 
+	set @RutClieProvee = LTRIM(@RutClieProvee)
+    set @RutClieProvee = RTRIM(@RutClieProvee)
+	while len(@RutClieProvee) < 9
+	begin
+		set @RutClieProvee = '0' + @RutClieProvee
+	end
+
+  
+/* StartCur2*/  
+   DECLARE LOCH0004Cur2 CURSOR FOR    
+   Select LOCHTRXNO,DOCCLTYP from LOCH0004 where CUSTVNDR = @CustVend AND MODULE1 = 1 AND DOCDATE >=@FromDate AND DOCDATE <=@ToDate ORDER BY MODULE1,DOCCLTYP  
+   OPEN LOCH0004Cur2    
+   FETCH NEXT FROM LOCH0004Cur2 INTO @TrxNo,@DocClassType  
+   WHILE @@FETCH_STATUS = 0    
+    BEGIN  
+  /* StartCur3*/  
+     SELECT @countRecPOP = COUNT(*) from POP30300 WHERE POPRCTNM = @TrxNo
+     if @countRecPOP > 0  
+      BEGIN  
+       SELECT @VchrNo = VCHRNMBR from POP30300 WHERE POPRCTNM = @TrxNo
+		set @TrxNoPOP = @TrxNo  
+       set @TrxNo = @VchrNo  
+      END  
+     set @TrxNoChP = @TrxNo
+	 set @TrxNoChPServ = @TrxNo
+	 set @TrxNoChPComm = @TrxNo		
+     SELECT @countRecWrkPM = COUNT(*) from PM10500 WHERE VCHRNMBR = @TrxNo
+	 IF @countRecWrkPM = 0
+		BEGIN
+			SELECT @countRecWrkPM = COUNT(*) from PM30700 WHERE VCHRNMBR = @TrxNo
+			IF @countRecWrkPM = 0
+				BEGIN
+					DECLARE PM10500Cur3 CURSOR FOR
+					Select distinct (TAXDTLID),TAXAMNT,1,1 from POP30360 where POPRCTNM = @TrxNoPOP 
+				END
+			ELSE
+				BEGIN
+					DECLARE PM10500Cur3 CURSOR FOR
+					Select TAXDTLID,TAXAMNT,DOCTYPE,TRXSORCE from PM30700 where VCHRNMBR = @TrxNo 
+				END
+		END
+	 ELSE
+		BEGIN
+			DECLARE PM10500Cur3 CURSOR FOR
+			Select TAXDTLID,TAXAMNT,DOCTYPE,TRXSORCE from PM10500 where VCHRNMBR = @TrxNo 
+		END		    
+     OPEN PM10500Cur3    
+     FETCH NEXT FROM PM10500Cur3 INTO @TaxDtlID, @TaxAmt,@DocType,@TRXSORCE  
+     WHILE @@FETCH_STATUS = 0    
+      BEGIN  
+    /* StartCur4*/  
+		/*if @TrxNoChP = @TrxNo
+			BEGIN
+				IF @DocType = 1 or @DocType = 2 /*Invoice Or Finance charge*/
+					BEGIN
+						set @TotQtyPur = 1
+					END
+				ELSE
+					BEGIN
+						set @TotQtyPur = 0
+					END
+				IF @DocType = 5 /*Creditnote*/
+				BEGIN			 
+						 
+					set @TotQtyPurCred = 1 
+				END
+				ELSE
+				BEGIN
+					
+					set @TotQtyPurCred = 0	
+				END	
+
+			END
+			
+		else
+			BEGIN
+			set @TotQtyPur = 0
+			set @TotQtyPurCred = 0
+			END
+		set @TrxNoChP ='AAAAAAAAAAAAAAA' */ 
+       if @countRecPOP > 0  
+        BEGIN  
+         SELECT @Filter = ncLOC_UseDoc from LOCH0007 where SERIES = 2 and MODULEID in (6)  
+        END  
+       else  
+        SELECT @Filter = ncLOC_UseDoc from LOCH0007 where SERIES = 2 and MODULEID = @DocType  
+       IF @Filter = 1  
+       BEGIN  
+        SELECT @countTaxType1=COUNT(*) from LOCH0006 where Tax_Types = 1 AND SERIES = 2 AND TAXDTLID = @TaxDtlID  
+        SELECT @countTaxType2=COUNT(*) from LOCH0006 where Tax_Types = 2 AND SERIES = 2 AND TAXDTLID = @TaxDtlID  
+        SELECT @countTaxType3=COUNT(*) from LOCH0006 where Tax_Types = 3 AND SERIES = 2 AND TAXDTLID = @TaxDtlID  
+        SELECT @countTaxType4=COUNT(*) from LOCH0006 where Tax_Types = 4 AND SERIES = 2 AND TAXDTLID = @TaxDtlID  
+        SELECT @countTaxType5=COUNT(*) from LOCH0006 where Tax_Types = 5 AND SERIES = 2 AND TAXDTLID = @TaxDtlID
+        SELECT @countTaxType6=COUNT(*) from LOCH0006 where Tax_Types = 6 AND SERIES = 2 AND TAXDTLID = @TaxDtlID  
+        SELECT @countTaxType7=COUNT(*) from LOCH0006 where Tax_Types = 7 AND SERIES = 2 AND TAXDTLID = @TaxDtlID
+  
+        if @countTaxType1>0 or @countTaxType2>0 or @countTaxType3>0 or @countTaxType4>0 or @countTaxType5 > 0 or @countTaxType6 > 0 or @countTaxType7 > 0 
+			BEGIN   
+				/*set @TotQtyPur =  1  */
+				set @bInsert = 1  
+				IF (@DocType = 5 or (@DocType = 4 and substring(@TRXSORCE,1,5)='PORET')) and @countTaxType1 > 0 /*Creditnote*/
+				BEGIN			 
+					set @TotPurCredVAT = @TaxAmt			 
+					/*set @TotQtyPurCred = 1 */
+				END
+				ELSE
+				BEGIN
+					/*set @TotQtyPurCred = 0*/
+					set @TotPurCredVAT = 0	
+				END	
+				/*IF @DocType = 5 and @countTaxType6 > 0 and @CustVendType <> 2/*Creditnote*/
+				BEGIN			 
+					set @TotPurCredVAT = @TotPurCredVAT + @TaxAmt			 
+					/*set @TotQtyPurCred = 1 */
+				END
+				ELSE
+				BEGIN
+					/*set @TotQtyPurCred = 0*/
+					set @TotPurCredVAT = @TotPurCredVAT + 0	
+				END	
+				IF @DocType = 5 and @countTaxType7 > 0 and @CustVendType <> 2/*Creditnote*/
+				BEGIN			 
+					set @TotPurCredVAT = @TotPurCredVAT + @TaxAmt			 
+					/*set @TotQtyPurCred = 1 */
+				END
+				ELSE
+				BEGIN
+					/*set @TotQtyPurCred = 0*/
+					set @TotPurCredVAT = @TotPurCredVAT + 0	
+				END*/	
+				if @TrxNoChP = @TrxNo and (@countTaxType1 > 0 or @countTaxType4 > 0) /*Qty should be updated for TaxType IVA and IVA Withheld*/
+					BEGIN
+						IF (@DocType = 1 or @DocType = 2) and @TaxAmt <> 0 and @countTaxType1 > 0/*Invoice Or Finance charge*/
+							BEGIN
+								set @TotQtyPur = 1
+								set @TrxNoChP ='AAAAAAAAAAAAAAAXXXXXZZ'
+							END
+						ELSE
+							BEGIN
+								set @TotQtyPur = 0
+							END
+						IF (@DocType = 5 or (@DocType = 4 and substring(@TRXSORCE,1,5)='PORET')) and @TaxAmt <> 0/*Creditnote*/ and @countTaxType1 > 0
+							BEGIN			 
+								set @TotQtyPurCred = 1
+								set @TrxNoChP ='AAAAAAAAAAAAAAAXXXXXZZ'
+							END
+						ELSE
+							BEGIN
+								set @TotQtyPurCred = 0	
+							END	
+					END
+					
+				else
+					BEGIN
+					set @TotQtyPur = 0
+					set @TotQtyPurCred = 0
+					END
+			/*set @TrxNoChP ='AAAAAAAAAAAAAAA'  */
+				if @TrxNoChP = @TrxNo and (@countTaxType6 > 0 or @countTaxType7 > 0)
+					BEGIN
+						IF (@DocType = 5 or (@DocType =4 and substring(@TRXSORCE,1,5)='PORET')) and @TaxAmt <> 0/*Creditnote*/
+							BEGIN			 
+								set @TotQtyPurCredSerCom = 0
+								/*set @TrxNoChP ='AAAAAAAAAAAAAAAXXXXXZZ'*/
+							END
+						ELSE
+							BEGIN
+								set @TotQtyPurCredSerCom = 0	
+							END
+					END	
+				else
+					BEGIN
+						set @TotQtyPurCredSerCom = 0
+					END
+			END						  
+		else  
+         BEGIN  
+			/*set @TotQtyPur = 0  */
+			set @TotPurCredVAT = 0 
+			/*set @TotQtyPurCred = 0 */
+			set @bInsert = 0
+			set @TotQtyPur = 0
+			set @TotQtyPurCred = 0
+			set @TotQtyPurCredSerCom = 0  
+         END  
+           
+        if @countTaxType1 > 0
+			BEGIN
+				IF @DocType = 1 or @DocType = 2 /*Invoice Or Finance charge*/
+					BEGIN    
+					set @Tax_Amt1 = @TaxAmt
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt1 = 0
+					END
+			END  
+        else  
+         set @Tax_Amt1 = 0  
+        if @countTaxType2 > 0   
+			BEGIN
+				IF @DocType = 1 or @DocType = 2 /*Invoice Or Finance charge*/
+					BEGIN    
+					set @Tax_Amt2 = @TaxAmt
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt2 = 0
+					END
+			END  
+        else  
+         set @Tax_Amt2 = 0  
+        if @countTaxType3 > 0   
+			BEGIN
+				IF @DocType = 1 or @DocType = 2 /*Invoice Or Finance charge*/
+					BEGIN    
+					set @Tax_Amt3 = @TaxAmt
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt3 = 0
+					END
+			END  
+        else  
+         set @Tax_Amt3 = 0  
+        if @countTaxType4 > 0   
+			BEGIN
+				IF @DocType = 1 or @DocType = 2 /*Invoice Or Finance charge*/
+					BEGIN    
+					set @Tax_Amt4 = @TaxAmt
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt4 = 0
+					END
+			END          
+		 else  
+         set @Tax_Amt4 = 0  
+        /*if @countTaxType5 > 0   
+			BEGIN
+				IF @DocType = 1 or @DocType = 2 /*Invoice Or Finance charge*/
+					BEGIN    
+					set @Tax_Amt5 = @TaxAmt
+					END
+				ELSE
+					BEGIN
+						IF @DocType = 5 /*Credit memo*/
+						BEGIN
+							set @Tax_Amt5 = -(@TaxAmt)
+						END
+						ELSE
+						BEGIN
+							set @Tax_Amt5 = 0
+						END
+					END
+			END          
+		 else  
+         set @Tax_Amt5 = 0*/ /*Commented as the value is picking from window field.*/
+        if @countTaxType6 > 0   
+			BEGIN
+				IF @DocType = 1 or @DocType = 2 /*Invoice Or Finance charge*/
+					BEGIN
+					IF @DocClassType = 4
+						BEGIN    
+						set @Tax_Amt6 = @TaxAmt
+						IF @TrxNoChPServ = @TrxNo and @TaxAmt <> 0
+							BEGIN
+								set @TotQtySal = 1
+								set @TrxNoChPServ = 'VVVVVVVVVVVVVVVVVVVVVV'
+							END
+						ELSE
+							BEGIN
+								set @TotQtySal = 0
+							END
+						END
+					ELSE
+						BEGIN    
+							set @Tax_Amt6 = 0
+							set @TotQtySal = 0
+						END
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt6 = 0
+					set @TotQtySal = 0
+					END
+			END  
+        else
+		 BEGIN
+			set @Tax_Amt6 = 0
+			set @TotQtySal = 0
+		 END
+        if @countTaxType7 > 0    
+			BEGIN
+				IF @DocType = 1 or @DocType = 2 /*Invoice Or Finance charge*/
+					BEGIN
+					IF @DocClassType = 4
+						BEGIN    
+						set @Tax_Amt7 = @TaxAmt
+						/*IF @TrxNoChPComm = @TrxNo*/
+						IF @TrxNoChP = @TrxNo and @TaxAmt <> 0
+							BEGIN
+								set @TotQtyPurComm = 1
+								/*set @TrxNoChPComm = 'VVVVVVVVVVVVVVVVVVVVVV'*/
+								set @TrxNoChP = 'AAAAAAAAAAAAAAAXXXXXZZ'
+							END
+						ELSE
+							BEGIN
+								set @TotQtyPurComm = 0
+							END
+						END
+					ELSE
+						BEGIN
+							set @Tax_Amt7 = 0
+							set @TotQtyPurComm = 0
+						END
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt7 = 0
+					set @TotQtyPurComm = 0
+					END
+			END  
+        else
+			BEGIN
+				set @Tax_Amt7 = 0
+				set @TotQtyPurComm = 0
+			END   
+		 if @CustVendType = 2
+			BEGIN
+				set @DocClassType = 1
+				set @Tax_Amt7 = 0 /*No commisions for Foregn Customer/Vendor*/
+				set @Tax_Amt6 = 0 /*No services for Foregn Customer/Vendor*/
+				set @TotQtyPurCredSerCom = 0
+				if @countTaxType7 > 0
+					BEGIN
+						set @TotQtyPurComm = 0
+					END
+				if @countTaxType6 > 0
+					BEGIN
+						set @TotQtySal = 0
+					END
+			END
+		/* if	@Tax_Amt1 = 0
+			BEGIN
+				set @TotQtyPur = 0
+			END */
+         SELECT  @recordcnt=COUNT(*) from LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType   
+         SELECT  @IVATax_Amt=IVATotalPurchase FROM LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType   
+         SELECT  @IVAWithTax_Amt=IVAWithheldTotPur FROM LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  
+         SELECT  @TotalQtyPur=TotQtyPur FROM LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType         
+		 SELECT  @TotalPurCredVAT=TotPurCredVAT FROM LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  
+		 SELECT  @TotalQtyPurCred=TotQtyPurCred FROM LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType /* Qty Creditnote*/         
+		 SELECT  @TotalPurExempt=TotPurExempt FROM LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  
+         SELECT  @TotalPurNotAffIVA=TotPurNotAffIVA FROM LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  
+         /*SELECT  @TotalPurIVACredNotUsed=TotPurIVACredNotUsed FROM LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType */
+		 SELECT  @IVATax_AmtSales=IVATotalSales FROM LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType
+		 SELECT  @TotalQtySales=TotQtySal FROM LOCH0009 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  
+         if @recordcnt > 0  
+          BEGIN 
+           UPDATE LOCH0009 Set IVATotalPurchase = @IVATax_Amt + @Tax_Amt1 + @Tax_Amt7 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  
+           UPDATE LOCH0009 Set IVAWithheldTotPur = @IVAWithTax_Amt + @Tax_Amt4 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  
+           UPDATE LOCH0009 Set TotQtyPur = @TotalQtyPur + @TotQtyPur + @TotQtyPurComm where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType             
+		   UPDATE LOCH0009 Set TotPurCredVAT = @TotalPurCredVAT + @TotPurCredVAT where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  
+		   UPDATE LOCH0009 Set TotQtyPurCred = @TotalQtyPurCred + @TotQtyPurCred + @TotQtyPurCredSerCom where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  /* Qty Creditnote*/
+							   	
+           UPDATE LOCH0009 Set TotPurExempt = @TotalPurExempt + @Tax_Amt2 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  
+           UPDATE LOCH0009 Set TotPurNotAffIVA = @TotalPurNotAffIVA + @Tax_Amt3 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  
+           /*UPDATE LOCH0009 Set TotPurIVACredNotUsed = @TotalPurIVACredNotUsed + @Tax_Amt5 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType  */
+		   UPDATE LOCH0009 Set IVATotalSales = @IVATax_AmtSales + @Tax_Amt6 where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType   
+		   UPDATE LOCH0009 Set TotQtySal = @TotalQtySales + @TotQtySal where RootID = @RutClieProvee AND DOCCLTYP = @DocClassType             
+          END  
+         else  
+          BEGIN
+           if @CustVendType = 2  
+            INSERT INTO LOCH0009 VALUES(@RutClieProvee,1,@Tax_Amt1+@Tax_Amt7,@Tax_Amt4,@TotQtyPur + @TotQtyPurComm,@TotPurCredVAT,@TotQtyPurCred + @TotQtyPurCredSerCom,@Tax_Amt6,0,@TotQtySal,0,0,@Tax_Amt2,@Tax_Amt3,0,0,0/*@Tax_Amt5*/,0,0)   
+           else       
+			INSERT INTO LOCH0009 VALUES(@RutClieProvee,@DocClassType,@Tax_Amt1+@Tax_Amt7,@Tax_Amt4,@TotQtyPur + @TotQtyPurComm,@TotPurCredVAT,@TotQtyPurCred + @TotQtyPurCredSerCom,@Tax_Amt6,0,@TotQtySal,0,0,@Tax_Amt2,@Tax_Amt3,0,0,0/*@Tax_Amt5*/,0,0)   
+
+          END  
+  
+     /* EndCur4 */  
+      END  
+      FETCH NEXT FROM PM10500Cur3 INTO @TaxDtlID, @TaxAmt,@DocType,@TRXSORCE   
+      END   
+     CLOSE PM10500Cur3    
+     DEALLOCATE PM10500Cur3  
+      
+  /* EndCur3 */  
+      FETCH NEXT FROM LOCH0004Cur2 INTO @TrxNo,@DocClassType  
+    END   
+   CLOSE LOCH0004Cur2    
+   DEALLOCATE LOCH0004Cur2  
+    
+  
+/* EndCur2 */  
+  FETCH NEXT FROM LOCH0004Cur INTO @CustVend    
+  END   
+ CLOSE LOCH0004Cur    
+ DEALLOCATE LOCH0004Cur  
+/* For Sales Part */  
+ set @bInsertS = 0  
+ set @TotQtySalRet = 0 
+ set @TotQtySal = 0
+ set @TotQtyPur = 0 
+ DECLARE LOCH0004CurSal CURSOR FOR    
+ Select distinct(CUSTVNDR) from LOCH0004 where MODULE1 = 2  
+ OPEN LOCH0004CurSal    
+ FETCH NEXT FROM LOCH0004CurSal INTO @CustVendS   
+ WHILE @@FETCH_STATUS = 0    
+  BEGIN  
+   set @CustVendType = 0  
+   SELECT @RutClieProveeS=RutClieProvee from clLC0002 where CUSTVNDR = @CustVendS  
+   SELECT @CustVendType=LoCh_CustVenType from LOCH0008 where CustomerVendor_ID = @CustVendS  
+   if @CustVendType = 1
+	begin  
+		set @RutClieProveeS = @TaxID   
+	end
+	set @RutClieProveeS = LTRIM(@RutClieProveeS)
+	set @RutClieProveeS = RTRIM(@RutClieProveeS)
+	while len(@RutClieProveeS) < 9
+	begin
+		set @RutClieProveeS = '0' + @RutClieProveeS
+	end
+
+/* StartCur2*/  
+   DECLARE LOCH0004Cur2Sal CURSOR FOR    
+   Select LOCHTRXNO,DOCCLTYP from LOCH0004 where CUSTVNDR = @CustVendS AND MODULE1 = 2 AND DOCDATE >=@FromDate AND DOCDATE <=@ToDate ORDER BY MODULE1,DOCCLTYP  
+   OPEN LOCH0004Cur2Sal    
+   FETCH NEXT FROM LOCH0004Cur2Sal INTO @TrxNoS,@DocClassTypeS  
+   WHILE @@FETCH_STATUS = 0    
+    BEGIN  
+  /* StartCur3*/
+	 set @TrxNoCh = @TrxNoS
+	 set @TrxNoChSServ = @TrxNoS
+	 set @TrxNoChSComm = @TrxNoS
+	 SELECT @countRecWrkRM = COUNT(*) from RM10601 where DOCNUMBR = @TrxNoS
+
+	 IF @countRecWrkRM = 0
+		BEGIN
+		     DECLARE RM10601Cur3Sal CURSOR FOR    
+			 Select TAXDTLID,TAXAMNT,RMDTYPAL from RM30601 where DOCNUMBR = @TrxNoS  
+		END
+	 ELSE
+		BEGIN
+		     DECLARE RM10601Cur3Sal CURSOR FOR   
+			 Select TAXDTLID,TAXAMNT,RMDTYPAL from RM10601 where DOCNUMBR = @TrxNoS  
+		END		
+     OPEN RM10601Cur3Sal    
+     FETCH NEXT FROM RM10601Cur3Sal INTO @TaxDtlIDS, @TaxAmtS,@DocTypeS  
+     WHILE @@FETCH_STATUS = 0    
+      BEGIN
+		/*if @TrxNoCh = @TrxNoS
+			BEGIN
+				IF @DocTypeS = 1 or @DocTypeS = 3 /*Invoice Or Debit memo*/
+					BEGIN
+						set @TotQtySal = 1
+					END
+				ELSE
+					BEGIN
+						set @TotQtySal = 0
+					END
+				if (@DocTypeS = 7 or @DocTypeS = 8)/*Credit memo 7 */ /*and Return*/
+					BEGIN 
+						set @TotQtySalRet = 1
+					END 
+				else
+					BEGIN
+						set @TotQtySalRet = 0
+					END 
+
+			END
+		else
+			BEGIN
+			set @TotQtySal = 0
+			set @TotQtySalRet = 0
+			END
+		set @TrxNoCh ='AAAAAAAAAAAAAAA'*/
+  
+    /* StartCur4*/
+		set @SopType = 0
+       if @DocTypeS = 1
+        set @SopType = 3 
+       if @DocTypeS = 8   
+        set @SopType = 4
+	
+       SELECT @countRecSOP = COUNT(*) from SOP30200 WHERE SOPTYPE = @SopType AND SOPNUMBE = @TrxNoS  
+       if @countRecSOP > 0  
+        BEGIN  
+         SELECT @DocID = DOCID from SOP30200 WHERE SOPTYPE = @SopType AND SOPNUMBE = @TrxNoS  
+         SELECT @Filter = ncLOC_UseDoc from LOCH0007 where SERIES = 3 and MODULEID = @SopType and DOCID = @DocID 
+        END  
+       else  
+        SELECT @Filter = ncLOC_UseDoc from LOCH0007 where SERIES = 1 and MODULEID = @DocTypeS  
+       IF @Filter = 1  
+       BEGIN
+		
+		SELECT @countTaxType1S=COUNT(*) from LOCH0006 where Tax_Types = 1 AND SERIES = 1 AND TAXDTLID = @TaxDtlIDS  
+        SELECT @countTaxType2S=COUNT(*) from LOCH0006 where Tax_Types = 2 AND SERIES = 1 AND TAXDTLID = @TaxDtlIDS  
+        SELECT @countTaxType3S=COUNT(*) from LOCH0006 where Tax_Types = 3 AND SERIES = 1 AND TAXDTLID = @TaxDtlIDS  
+        SELECT @countTaxType4S=COUNT(*) from LOCH0006 where Tax_Types = 4 AND SERIES = 1 AND TAXDTLID = @TaxDtlIDS  
+        SELECT @countTaxType5S=COUNT(*) from LOCH0006 where Tax_Types = 5 AND SERIES = 1 AND TAXDTLID = @TaxDtlIDS
+        SELECT @countTaxType6S=COUNT(*) from LOCH0006 where Tax_Types = 6 AND SERIES = 1 AND TAXDTLID = @TaxDtlIDS  
+        SELECT @countTaxType7S=COUNT(*) from LOCH0006 where Tax_Types = 7 AND SERIES = 1 AND TAXDTLID = @TaxDtlIDS  
+  
+        if @countTaxType1S>0 or @countTaxType2S>0 or @countTaxType3S>0 or @countTaxType4S>0 or @countTaxType5S > 0 or @countTaxType6S > 0 or @countTaxType7S > 0  
+			BEGIN   
+				set @bInsertS = 1  
+				/*set @TotQtySal =  1  */
+				if (@DocTypeS = 7 or @DocTypeS = 8) and @countTaxType1S > 0  /*Credit memo 7 */ /*and Return*/
+					BEGIN 
+						set @TotSalCredVAT = @TaxAmtS  
+						/*set @TotQtySalRet = 1*/
+					END  
+				else
+					BEGIN   
+						/*set @TotQtySalRet = 0*/
+						set @TotSalCredVAT = 0
+					END
+				if (@DocTypeS = 7 or @DocTypeS = 8) and @countTaxType6S > 0 and @CustVendType <> 1 /*Credit memo 7 */ /*and Return*/
+					BEGIN 
+						set @TotSalCredVAT = @TotSalCredVAT + @TaxAmtS  
+						/*set @TotQtySalRet = 1*/
+					END  
+				else
+					BEGIN   
+						/*set @TotQtySalRet = 0*/
+						set @TotSalCredVAT = @TotSalCredVAT + 0
+					END 
+				if (@DocTypeS = 7 or @DocTypeS = 8) and @countTaxType7S > 0 and @CustVendType <> 1 /*Credit memo 7 */ /*and Return*/
+					BEGIN 
+						set @TotSalCredVAT = @TotSalCredVAT + @TaxAmtS  
+						/*set @TotQtySalRet = 1*/
+					END  
+				else
+					BEGIN   
+						/*set @TotQtySalRet = 0*/
+						set @TotSalCredVAT = @TotSalCredVAT + 0
+					END 
+
+				if @TrxNoCh = @TrxNoS and (@countTaxType1S > 0 or @countTaxType4S > 0 ) /*Qty should be updated for TaxType IVA and IVA Withheld*/
+					BEGIN
+						IF (@DocTypeS = 1 or @DocTypeS = 3) and @TaxAmtS <> 0 and @countTaxType1S > 0/*Invoice Or Debit memo*/
+							BEGIN
+								set @TotQtySal = 1
+								set @TrxNoCh ='AAAAAAAAAAAAAAAYYYYXXXX'
+							END
+						ELSE
+							BEGIN
+								set @TotQtySal = 0
+							END
+						if (@DocTypeS = 7 or @DocTypeS = 8) and @countTaxType1S > 0 and @TaxAmtS <> 0/*Credit memo 7 */ /*and Return*/
+							BEGIN 
+								set @TotQtySalRet = 1
+								set @TrxNoCh ='AAAAAAAAAAAAAAAYYYYXXXX'
+							END 
+						else
+							BEGIN
+								set @TotQtySalRet = 0
+							END 
+					
+					END
+				else
+					BEGIN
+					set @TotQtySal = 0
+					set @TotQtySalRet = 0
+					END
+				/*set @TrxNoCh ='AAAAAAAAAAAAAAA'*/
+				if @TrxNoCh = @TrxNoS and (@countTaxType6S > 0 or @countTaxType7S > 0 )and @TaxAmtS <> 0
+					BEGIN
+						if (@DocTypeS = 7 or @DocTypeS = 8)/*Credit memo 7 */ /*and Return*/
+							BEGIN
+								set @TotQtySalRetSerCom = 1
+								set @TrxNoCh ='AAAAAAAAAAAAAAAYYYYXXXX'
+							END
+						else
+							BEGIN
+								set @TotQtySalRetSerCom = 0
+							END
+					END
+				else
+					BEGIN
+						set @TotQtySalRetSerCom = 0
+					END
+			END
+       else  
+         BEGIN  
+         /*set @TotQtySal = 0*/
+			set @TotSalCredVAT = 0  
+			set @bInsertS = 0  
+         /*set @TotQtySalRet = 0  */
+			set @TotQtySal = 0
+			set @TotQtySalRet = 0
+			set @TotQtySalRetSerCom = 0
+         END  
+           
+        if @countTaxType1S > 0   
+			BEGIN
+				IF @DocTypeS = 1 or @DocTypeS = 3 /*Invoice Or Debit memo*/
+					BEGIN    
+					set @Tax_Amt1S = @TaxAmtS
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt1S = 0
+					END
+			END  
+        else  
+         set @Tax_Amt1S = 0  
+        if @countTaxType2S > 0   
+			BEGIN
+				IF @DocTypeS = 1 or @DocTypeS = 3 /*Invoice Or Debit memo*/
+					BEGIN    
+					set @Tax_Amt2S = @TaxAmtS
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt2S = 0
+					END
+			END  
+        else  
+         set @Tax_Amt2S = 0  
+        if @countTaxType3S > 0   
+			BEGIN
+				IF @DocTypeS = 1 or @DocTypeS = 3 /*Invoice Or Debit memo*/
+					BEGIN    
+					set @Tax_Amt3S = @TaxAmtS
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt3S = 0
+					END
+			END  
+        else  
+         set @Tax_Amt3S = 0  
+        if @countTaxType4S > 0   
+			BEGIN
+				IF @DocTypeS = 1 or @DocTypeS = 3 /*Invoice Or Debit memo*/
+					BEGIN    
+					set @Tax_Amt4S = @TaxAmtS
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt4S = 0
+					END
+			END  
+        else  
+         set @Tax_Amt4S = 0  
+        if @countTaxType5S > 0   
+         set @Tax_Amt5S = @TaxAmtS  
+        else  
+         set @Tax_Amt5S = 0
+        if @countTaxType6S > 0   
+			BEGIN
+				IF @DocTypeS = 1 or @DocTypeS = 3 /*Invoice Or Debit memo*/
+					BEGIN
+					IF @DocClassTypeS = 2
+						BEGIN    
+						set @Tax_Amt6S = @TaxAmtS
+							IF @TrxNoChSServ = @TrxNoS and @TaxAmtS <> 0
+								BEGIN
+									set @TotQtyPur = 1
+									set @TrxNoChSServ = 'VVVVVVVVVVVVVVVVVVVVVVV'
+								END
+							ELSE
+								BEGIN
+									set @TotQtyPur = 0
+								END
+						END
+					ELSE
+						BEGIN    
+							set @Tax_Amt6S = 0
+							set @TotQtyPur = 0
+						END
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt6S = 0
+					set @TotQtyPur = 0
+					END
+			END  
+        else
+			BEGIN
+				set @Tax_Amt6S = 0
+				set @TotQtyPur = 0
+			END
+        if @countTaxType7S > 0   
+			BEGIN
+				IF @DocTypeS = 1 or @DocTypeS = 3 /*Invoice Or Debit memo*/
+					BEGIN
+					IF @DocClassTypeS = 2
+						BEGIN    
+							set @Tax_Amt7S = @TaxAmtS
+							/*IF @TrxNoChSComm = @TrxNoS*/
+							IF @TrxNoCh = @TrxNoS and @TaxAmtS <> 0
+								BEGIN
+									set @TotQtySalComm = 1
+									/*set @TrxNoChSComm = 'VVVVVVVVVVVVVVVVVVVVVVV'*/
+									set @TrxNoCh = 'AAAAAAAAAAAAAAAYYYYXXXX'
+								END
+							ELSE
+								BEGIN
+									set @TotQtySalComm = 0
+								END
+						END
+					ELSE
+						BEGIN
+							set @Tax_Amt7S = 0
+							set @TotQtySalComm = 0
+						END
+					END
+				ELSE
+					BEGIN
+					set @Tax_Amt7S = 0
+					set @TotQtySalComm = 0
+					END
+			END  
+        else
+			BEGIN
+				set @Tax_Amt7S = 0
+				set @TotQtySalComm = 0
+			END
+		 if @CustVendType = 1
+			 BEGIN
+				set @DocClassTypeS = 1
+				set @Tax_Amt7S = 0
+				set @Tax_Amt6S = 0
+				set @TotQtySalRetSerCom = 0
+				if @countTaxType7S > 0
+					BEGIN
+						set @TotQtySalComm = 0
+					END
+				if @countTaxType6S > 0
+					BEGIN
+						set @TotQtyPur = 0
+					END
+			 END
+		/* if	@Tax_Amt1S = 0
+			BEGIN
+				set @TotQtySal = 0
+			END*/ 
+  
+         SELECT @recordcntS=COUNT(*) from LOCH0009 where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS   
+         SELECT  @IVATax_AmtS=IVATotalSales FROM LOCH0009 where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS    
+         SELECT  @IVAWithTax_AmtS=IVAWithheldTotSal FROM LOCH0009 where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS   
+         SELECT  @TotalQtySal=TotQtySal FROM LOCH0009 where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS   
+         SELECT  @TotalQtySalRet=TotQtySalRet FROM LOCH0009 where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS   
+         SELECT  @TotalSalCredVAT=TotSalCredVAT FROM LOCH0009 where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS   
+         SELECT  @TotalSalExempt=TotSalExempt FROM LOCH0009 where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS  
+         SELECT  @TotalSalNotAffIVA=TotSalNotAffIVA FROM LOCH0009 where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS
+		 SELECT  @IVATax_AmtPurchase=IVATotalPurchase FROM LOCH0009 where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS  
+		 SELECT  @TotalQtyPurhase=TotQtyPur FROM LOCH0009 where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS
+         if @recordcntS > 0
+          BEGIN 
+           UPDATE LOCH0009 Set IVATotalSales = @IVATax_AmtS + @Tax_Amt1S + @Tax_Amt7S where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS   
+           UPDATE LOCH0009 Set IVAWithheldTotSal = @IVAWithTax_AmtS + @Tax_Amt4S where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS   
+           UPDATE LOCH0009 Set TotQtySal = @TotalQtySal + @TotQtySal + @TotQtySalComm  where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS
+           UPDATE LOCH0009 Set TotSalCredVAT = @TotalSalCredVAT + @TotSalCredVAT where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS   
+           UPDATE LOCH0009 Set TotQtySalRet = @TotalQtySalRet + @TotQtySalRet + @TotQtySalRetSerCom where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS   
+           UPDATE LOCH0009 Set TotSalExempt = @TotalSalExempt + @Tax_Amt2S where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS  
+           UPDATE LOCH0009 Set TotSalNotAffIVA = @TotalSalNotAffIVA + @Tax_Amt3S where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS  
+		   UPDATE LOCH0009 Set IVATotalPurchase = (@IVATax_AmtPurchase + @Tax_Amt6S ) where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS   
+		   UPDATE LOCH0009 Set TotQtyPur = @TotalQtyPurhase + @TotQtyPur where RootID = @RutClieProveeS AND DOCCLTYP = @DocClassTypeS
+          END  
+         else  
+          BEGIN
+           if @CustVendType = 1  
+            INSERT INTO LOCH0009 VALUES(@RutClieProveeS,1,@Tax_Amt6S,0,@TotQtyPur,0,0,@Tax_Amt1S + @Tax_Amt7S,@Tax_Amt4S,@TotQtySal+@TotQtySalComm,@TotSalCredVAT,@TotQtySalRet + @TotQtySalRetSerCom,0,0,@Tax_Amt2S,@Tax_Amt3S,0,0,0)   
+           else  
+            INSERT INTO LOCH0009 VALUES(@RutClieProveeS,@DocClassTypeS,@Tax_Amt6S,0,@TotQtyPur,0,0,@Tax_Amt1S + @Tax_Amt7S,@Tax_Amt4S,@TotQtySal+@TotQtySalComm,@TotSalCredVAT,@TotQtySalRet + @TotQtySalRetSerCom,0,0,@Tax_Amt2S,@Tax_Amt3S,0,0,0)   
+          END  
+  
+     /* EndCur4 */  
+      END  
+      FETCH NEXT FROM RM10601Cur3Sal INTO @TaxDtlIDS, @TaxAmtS,@DocTypeS   
+      END   
+     CLOSE RM10601Cur3Sal    
+     DEALLOCATE RM10601Cur3Sal  
+      
+  /* EndCur3 */  
+      FETCH NEXT FROM LOCH0004Cur2Sal INTO @TrxNoS,@DocClassTypeS
+    END   
+   CLOSE LOCH0004Cur2Sal    
+   DEALLOCATE LOCH0004Cur2Sal  
+    
+  
+/* EndCur2 */  
+  FETCH NEXT FROM LOCH0004CurSal INTO @CustVendS    
+  END   
+ CLOSE LOCH0004CurSal    
+ DEALLOCATE LOCH0004CurSal  
+END  
+/* End For Sales Part */  
+GO
+SET QUOTED_IDENTIFIER ON 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON Update_VATReports TO [DYNGRP] 
+GO 
+/*END_Update_VATReports*/
+/*Begin_LOCCHILE_SUMTABLE*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[LOCCHILE_SUMTABLE]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [LOCCHILE_SUMTABLE]
+GO
+Create PROCEDURE [LOCCHILE_SUMTABLE]    
+AS  
+DECLARE
+ @DocCode as char(3),
+ @DOCAMNT as numeric(19,5),
+ @ncLOC_Tax_1 as numeric(19,5),
+ @ncLOC_Tax_2 as numeric(19,5),
+ @ncLOC_Tax_3 as numeric(19,5),
+ @ncLOC_Tax_4 as numeric(19,5),
+ @ncLOC_Tax_5 as numeric(19,5),
+ @ncLOC_Tax_6 as numeric(19,5), 
+ @ncLOC_Tax_7 as numeric(19,5),
+ @ncLOC_Tax_8 as numeric(19,5),
+ @ncLOC_TaxedAmount_1 as numeric(19,5),
+ @ncLOC_TaxedAmount_2 as numeric(19,5),
+ @ncLOC_TaxedAmount_3 as numeric(19,5),
+ @ncLOC_TaxedAmount_4 as numeric(19,5),
+ @ncLOC_TaxedAmount_5 as numeric(19,5),
+ @ncLOC_TaxedAmount_6 as numeric(19,5),
+ @ncLOC_TaxedAmount_7 as numeric(19,5),
+ @ncLOC_TaxedAmount_8 as numeric(19,5), 
+ @DOCAMNT1 as numeric(19,5),
+ @ncLOC_Tax_11 as numeric(19,5),
+ @ncLOC_Tax_21 as numeric(19,5),
+ @ncLOC_Tax_31 as numeric(19,5),
+ @ncLOC_Tax_41 as numeric(19,5),
+ @ncLOC_Tax_51 as numeric(19,5),
+ @ncLOC_Tax_61 as numeric(19,5), 
+ @ncLOC_Tax_71 as numeric(19,5),
+ @ncLOC_Tax_81 as numeric(19,5),
+ @ncLOC_TaxedAmount_11 as numeric(19,5),
+ @ncLOC_TaxedAmount_21 as numeric(19,5),
+ @ncLOC_TaxedAmount_31 as numeric(19,5),
+ @ncLOC_TaxedAmount_41 as numeric(19,5),
+ @ncLOC_TaxedAmount_51 as numeric(19,5),
+ @ncLOC_TaxedAmount_61 as numeric(19,5),
+ @ncLOC_TaxedAmount_71 as numeric(19,5),
+ @ncLOC_TaxedAmount_81 as numeric(19,5),
+ @ncLOC_ABNode_TotalCount1 as int,
+ @ncLOC_ABNode_TotalCount as int,
+ @ncLOC_RecordType as int 		 
+BEGIN  
+	 Delete from NCLC142
+	 DECLARE Docnm_Cursor CURSOR FOR  
+	 Select LOCHDOCCOD,DOCAMNT,ncLOC_Tax_1,ncLOC_Tax_2,ncLOC_Tax_3,ncLOC_Tax_4,ncLOC_Tax_5,ncLOC_Tax_6,ncLOC_Tax_7,ncLOC_Tax_8,
+	 ncLOC_TaxedAmount_1,ncLOC_TaxedAmount_2,ncLOC_TaxedAmount_3,ncLOC_TaxedAmount_4,ncLOC_TaxedAmount_5,ncLOC_TaxedAmount_6,ncLOC_TaxedAmount_7,
+	 ncLOC_TaxedAmount_8,ncLOC_RecordType from NCLC141
+	 OPEN Docnm_Cursor  
+	 FETCH NEXT FROM Docnm_Cursor INTO @DocCode,@DOCAMNT,@ncLOC_Tax_1,@ncLOC_Tax_2,@ncLOC_Tax_3,@ncLOC_Tax_4,@ncLOC_Tax_5,@ncLOC_Tax_6,@ncLOC_Tax_7,
+	 @ncLOC_Tax_8,@ncLOC_TaxedAmount_1,@ncLOC_TaxedAmount_2,@ncLOC_TaxedAmount_3,@ncLOC_TaxedAmount_4,@ncLOC_TaxedAmount_5,@ncLOC_TaxedAmount_6
+	,@ncLOC_TaxedAmount_7,@ncLOC_TaxedAmount_8,@ncLOC_RecordType 
+	 WHILE @@FETCH_STATUS = 0  
+	   BEGIN  			    
+			if (select count(*) from NCLC142 where ncLOC_DocName= @DocCode)>0	 
+				BEGIN		
+				 Select @DOCAMNT1=isnull(DOCAMNT,0),@ncLOC_Tax_11=isnull(ncLOC_Tax_1,0),@ncLOC_Tax_21=isnull(ncLOC_Tax_2,0),@ncLOC_Tax_31=isnull(ncLOC_Tax_3,0),@ncLOC_Tax_41=isnull(ncLOC_Tax_4,0),
+						@ncLOC_Tax_51=isnull(ncLOC_Tax_5,0),@ncLOC_Tax_61=isnull(ncLOC_Tax_6,0),@ncLOC_Tax_71=isnull(ncLOC_Tax_7,0),@ncLOC_Tax_81=isnull(ncLOC_Tax_8,0),
+						@ncLOC_TaxedAmount_11=isnull(ncLOC_TaxedAmount_1,0),@ncLOC_TaxedAmount_21=isnull(ncLOC_TaxedAmount_2,0),@ncLOC_TaxedAmount_31=isnull(ncLOC_TaxedAmount_3,0),
+						@ncLOC_TaxedAmount_41=isnull(ncLOC_TaxedAmount_4,0),@ncLOC_TaxedAmount_51=isnull(ncLOC_TaxedAmount_5,0),@ncLOC_TaxedAmount_61=isnull(ncLOC_TaxedAmount_6,0),
+						@ncLOC_TaxedAmount_71=isnull(ncLOC_TaxedAmount_7,0),@ncLOC_TaxedAmount_81=isnull(ncLOC_TaxedAmount_8,0),@ncLOC_ABNode_TotalCount1=isnull(ncLOC_ABNode_TotalCount,0)
+						from NCLC142 where ncLOC_DocName= @DocCode		
+				 UPDATE NCLC142 set ncLOC_ABNode_TotalCount=@ncLOC_ABNode_TotalCount1+1 , 
+						DOCAMNT=@DOCAMNT1+@DOCAMNT , ncLOC_Tax_1=@ncLOC_Tax_11+@ncLOC_Tax_1 ,
+						ncLOC_Tax_2=@ncLOC_Tax_21+@ncLOC_Tax_2 , ncLOC_Tax_3=@ncLOC_Tax_31+@ncLOC_Tax_3 ,
+						ncLOC_Tax_4=@ncLOC_Tax_41+@ncLOC_Tax_4 , ncLOC_Tax_5=@ncLOC_Tax_51+@ncLOC_Tax_5 ,
+						ncLOC_Tax_6=@ncLOC_Tax_61+@ncLOC_Tax_6 , ncLOC_Tax_7=@ncLOC_Tax_71+@ncLOC_Tax_7 ,
+						ncLOC_Tax_8=@ncLOC_Tax_81+@ncLOC_Tax_8 , ncLOC_TaxedAmount_1=@ncLOC_TaxedAmount_11+@ncLOC_TaxedAmount_1 ,
+						ncLOC_TaxedAmount_2=@ncLOC_TaxedAmount_21+@ncLOC_TaxedAmount_2 , ncLOC_TaxedAmount_3=@ncLOC_TaxedAmount_31+@ncLOC_TaxedAmount_3 ,
+						ncLOC_TaxedAmount_4=@ncLOC_TaxedAmount_41+@ncLOC_TaxedAmount_4 , ncLOC_TaxedAmount_5=@ncLOC_TaxedAmount_51+@ncLOC_TaxedAmount_5 ,
+						ncLOC_TaxedAmount_6=@ncLOC_TaxedAmount_61+@ncLOC_TaxedAmount_6 , ncLOC_TaxedAmount_7=@ncLOC_TaxedAmount_71+@ncLOC_TaxedAmount_7 ,
+						ncLOC_TaxedAmount_8=@ncLOC_TaxedAmount_81+@ncLOC_TaxedAmount_8
+						 where ncLOC_DocName= @DocCode	
+				 END
+		    else				
+				 insert into NCLC142 values (@DocCode,0,0,0,isnull(@ncLOC_Tax_1,0),isnull(@ncLOC_Tax_2,0),isnull(@ncLOC_Tax_3,0),isnull(@ncLOC_Tax_4,0),isnull(@ncLOC_Tax_5,0),isnull(@ncLOC_Tax_6,0),isnull(@ncLOC_Tax_7,0),
+				 isnull(@ncLOC_Tax_8,0),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+				 ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,isnull(@ncLOC_TaxedAmount_1,0),isnull(@ncLOC_TaxedAmount_2,0),isnull(@ncLOC_TaxedAmount_3,0),isnull(@ncLOC_TaxedAmount_4,0),isnull(@ncLOC_TaxedAmount_5,0),isnull(@ncLOC_TaxedAmount_6,0)
+				,isnull(@ncLOC_TaxedAmount_7,0),isnull(@ncLOC_TaxedAmount_8,0),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+				 ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,isnull(@DOCAMNT,0),@ncLOC_RecordType,1,0,0)				
+		   	
+		 FETCH NEXT FROM Docnm_Cursor INTO @DocCode,@DOCAMNT,@ncLOC_Tax_1,@ncLOC_Tax_2,@ncLOC_Tax_3,@ncLOC_Tax_4,@ncLOC_Tax_5,@ncLOC_Tax_6,@ncLOC_Tax_7,
+		 @ncLOC_Tax_8,@ncLOC_TaxedAmount_1,@ncLOC_TaxedAmount_2,@ncLOC_TaxedAmount_3,@ncLOC_TaxedAmount_4,@ncLOC_TaxedAmount_5,@ncLOC_TaxedAmount_6
+		,@ncLOC_TaxedAmount_7,@ncLOC_TaxedAmount_8,@ncLOC_RecordType 
+	 END  
+	 CLOSE Docnm_Cursor  
+	 DEALLOCATE Docnm_Cursor	
+	Select @DOCAMNT1=sum(DOCAMNT),@ncLOC_Tax_11=sum(ncLOC_Tax_1),@ncLOC_Tax_21=sum(ncLOC_Tax_2),@ncLOC_Tax_31=sum(ncLOC_Tax_3),@ncLOC_Tax_41=sum(ncLOC_Tax_4),
+	@ncLOC_Tax_51=sum(ncLOC_Tax_5),@ncLOC_Tax_61=sum(ncLOC_Tax_6),@ncLOC_Tax_71=sum(ncLOC_Tax_7),@ncLOC_Tax_81=sum(ncLOC_Tax_8),
+	@ncLOC_TaxedAmount_11=sum(ncLOC_TaxedAmount_1),@ncLOC_TaxedAmount_21=sum(ncLOC_TaxedAmount_2),@ncLOC_TaxedAmount_31=sum(ncLOC_TaxedAmount_3),
+	@ncLOC_TaxedAmount_41=sum(ncLOC_TaxedAmount_4),@ncLOC_TaxedAmount_51=sum(ncLOC_TaxedAmount_5),@ncLOC_TaxedAmount_61=sum(ncLOC_TaxedAmount_6),
+	@ncLOC_TaxedAmount_71=sum(ncLOC_TaxedAmount_7),@ncLOC_TaxedAmount_81=sum(ncLOC_TaxedAmount_8),@ncLOC_ABNode_TotalCount1=isnull(sum(ncLOC_ABNode_TotalCount),0)
+	from NCLC142
+    if @ncLOC_ABNode_TotalCount1 > 0
+		insert into NCLC142 values ('Grand Total',0,0,0,isnull(@ncLOC_Tax_11,0),isnull(@ncLOC_Tax_21,0),isnull(@ncLOC_Tax_31,0),isnull(@ncLOC_Tax_41,0),isnull(@ncLOC_Tax_51,0),isnull(@ncLOC_Tax_61,0),isnull(@ncLOC_Tax_71,0),
+		 isnull(@ncLOC_Tax_81,0),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		 ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,isnull(@ncLOC_TaxedAmount_11,0),isnull(@ncLOC_TaxedAmount_21,0),isnull(@ncLOC_TaxedAmount_31,0),isnull(@ncLOC_TaxedAmount_41,0),isnull(@ncLOC_TaxedAmount_51,0),isnull(@ncLOC_TaxedAmount_61,0)
+		,isnull(@ncLOC_TaxedAmount_71,0),isnull(@ncLOC_TaxedAmount_81,0),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+		 ,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,isnull(@DOCAMNT1,0),20,isnull(@ncLOC_ABNode_TotalCount1,0),0,0)
+ 
+END      
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+GRANT EXECUTE ON [LOCCHILE_SUMTABLE] TO [DYNGRP] 
+GO  
+/*End_LOCCHILE_SUMTABLE*/
+/*Begin_LoCh_Process_SOPVoid*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[LoCh_Process_SOPVoid]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[LoCh_Process_SOPVoid]
+GO
+
+CREATE PROCEDURE LoCh_Process_SOPVoid
+@SOPTYPE  smallint,  
+@SopNumber  char(21),
+@NewSopType smallint,
+@NewSopNumber char(21),
+@NewPckSlpNumber char(21),
+@NewBatchNumber char(21),
+@NewSopWorkflowStatus smallint,
+@UserDate datetime
+AS
+BEGIN
+
+	INSERT INTO SOP30200  (SOPTYPE, SOPNUMBE, ORIGTYPE, ORIGNUMB, DOCID, DOCDATE, GLPOSTDT, QUOTEDAT, QUOEXPDA, ORDRDATE, INVODATE, 
+	BACKDATE, RETUDATE, ReqShipDate, FUFILDAT, ACTLSHIP, DISCDATE, DUEDATE, REPTING, TRXFREQU,   TIMEREPD, TIMETREP, DYSTINCR, 
+	DTLSTREP, DSTBTCH1, DSTBTCH2, USDOCID1, USDOCID2, DISCFRGT, ORDAVFRT,   DISCMISC, ORDAVMSC, DISAVAMT, ORDAVAMT, DISCRTND, 
+	ORDISRTD, DISTKNAM, ORDISTKN, DSCPCTAM, DSCDLRAM,   ORDDLRAT, DISAVTKN, ORDATKN, PYMTRMID, PRCLEVEL, LOCNCODE, BCHSOURC, 
+	BACHNUMB, CUSTNMBR,   CUSTNAME, CSTPONBR, PROSPECT, MSTRNUMB, PCKSLPNO, PICTICNU, MRKDNAMT, ORMRKDAM, PRBTADCD,   PRSTADCD, 
+	CNTCPRSN, ShipToName, ADDRESS1, ADDRESS2, ADDRESS3, CITY, STATE, ZIPCODE, COUNTRY,   PHNUMBR1, PHNUMBR2, PHONE3, FAXNUMBR, 
+	COMAPPTO, COMMAMNT, OCOMMAMT, CMMSLAMT, ORCOSAMT,   NCOMAMNT, ORNCMAMT, SHIPMTHD, TRDISAMT, ORTDISAM, TRDISPCT, SUBTOTAL, 
+	ORSUBTOT, REMSUBTO, OREMSUBT,   EXTDCOST, OREXTCST, MISCAMNT, FRTAMNT, ORFRTAMT, ORMISCAMT, TXENGCLD, TAXEXMT2, TAXEXMT1,   
+	TXRGNNUM, TAXSCHID, TXSCHSRC, BSIVCTTL, FRTSCHID, FRTTXAMT, ORFRTTAX, FRGTTXBL, MSCSCHID, MSCTXAMT,   ORMSCTAX, MISCTXBL, 
+	BKTFRTAM, ORBKTFRT, BKTMSCAM, ORBKTMSC, BCKTXAMT, OBTAXAMT, TXBTXAMT, OTAXTAMT,   TAXAMNT, ORTAXAMT, ECTRX, DOCAMNT, ORDOCAMT, 
+	PYMTRCVD, ORPMTRVD, DEPRECVD, ORDEPRVD, CODAMNT,   ORCODAMT, ACCTAMNT, ORACTAMT,  SALSTERR, SLPRSNID, UPSZONE, TIMESPRT, PSTGSTUS, 
+	VOIDSTTS, ALLOCABY,   NOTEINDX, CURNCYID, CURRNIDX, RATETPID, EXGTBLID, XCHGRATE, DENXRATE, EXCHDATE, TIME1, RTCLCMTD,   MCTRXSTT, 
+	TRXSORCE, SOPHDRE1, SOPHDRE2, SOPLNERR, SOPHDRFL, COMMNTID, REFRENCE, POSTEDDT, PTDUSRID,   USER2ENT, CREATDDT, MODIFDT, Tax_Date, 
+	APLYWITH, WITHHAMT, SHPPGDOC, CORRCTN, SIMPLIFD,  DOCNCORR, SEQNCORR, SALEDATE,EXCEPTIONALDEMAND,Flags)  
+	SELECT   SOPTYPE, SOPNUMBE, ORIGTYPE, ORIGNUMB, DOCID, DOCDATE, GLPOSTDT, QUOTEDAT, QUOEXPDA, ORDRDATE,   INVODATE, BACKDATE, RETUDATE, ReqShipDate, FUFILDAT, ACTLSHIP, DISCDATE, DUEDATE, REPTING,
+	TRXFREQU,   TIMEREPD, TIMETREP, DYSTINCR, DTLSTREP, DSTBTCH1, DSTBTCH2, USDOCID1, USDOCID2, DISCFRGT, ORDAVFRT,   DISCMISC, ORDAVMSC, DISAVAMT, ORDAVAMT, DISCRTND, ORDISRTD, DISTKNAM, ORDISTKN, DSCPCTAM, DSCDLRAM,   ORDDLRAT, DISAVTKN, ORDATKN, PYMTRMID,
+	PRCLEVEL, LOCNCODE, BCHSOURC, BACHNUMB, CUSTNMBR,   CUSTNAME, CSTPONBR, PROSPECT, MSTRNUMB, PCKSLPNO, PICTICNU, MRKDNAMT, ORMRKDAM, PRBTADCD,   PRSTADCD, CNTCPRSN, ShipToName, ADDRESS1, ADDRESS2, ADDRESS3, CITY, STATE, ZIPCODE, COUNTRY,  PHNUMBR1, 
+	PHNUMBR2, PHONE3, FAXNUMBR, COMAPPTO, COMMAMNT, OCOMMAMT, CMMSLAMT, ORCOSAMT,   NCOMAMNT, ORNCMAMT, SHIPMTHD, TRDISAMT, ORTDISAM, TRDISPCT, SUBTOTAL, ORSUBTOT, REMSUBTO, OREMSUBT,  EXTDCOST, OREXTCST, MISCAMNT, FRTAMNT, ORFRTAMT, ORMISCAMT, TXENGCLD, TAXEXMT2, 
+	TAXEXMT1,  TXRGNNUM, TAXSCHID, TXSCHSRC, BSIVCTTL, FRTSCHID, FRTTXAMT, ORFRTTAX, FRGTTXBL, MSCSCHID, MSCTXAMT,   ORMSCTAX, MISCTXBL, BKTFRTAM, ORBKTFRT, BKTMSCAM, ORBKTMSC, BCKTXAMT, OBTAXAMT, TXBTXAMT, OTAXTAMT,   TAXAMNT, ORTAXAMT, ECTRX, DOCAMNT, 
+	ORDOCAMT, PYMTRCVD, ORPMTRVD, DEPRECVD, ORDEPRVD, CODAMNT,  ORCODAMT, ACCTAMNT, ORACTAMT, SALSTERR, SLPRSNID, UPSZONE, TIMESPRT, PSTGSTUS, 1, ALLOCABY,  NOTEINDX, CURNCYID, CURRNIDX, RATETPID, EXGTBLID, XCHGRATE, DENXRATE, EXCHDATE,TIME1, RTCLCMTD,   MCTRXSTT,
+	TRXSORCE, SOPHDRE1, SOPHDRE2, SOPLNERR, SOPHDRFL, COMMNTID, REFRENCE, POSTEDDT, PTDUSRID, USER2ENT, CREATDDT, MODIFDT, Tax_Date, APLYWITH, WITHHAMT, SHPPGDOC, CORRCTN, SIMPLIFD,  DOCNCORR, SEQNCORR, SALEDATE,EXCEPTIONALDEMAND,Flags  
+	FROM SOP10100 WHERE SOP10100.SOPTYPE = @SOPTYPE AND SOP10100.SOPNUMBE = @SopNumber  
+
+
+	INSERT INTO SOP30300 (SOPTYPE, SOPNUMBE, LNITMSEQ, CMPNTSEQ,ITEMNMBR, ITEMDESC, NONINVEN, UNITPRCE, ORUNTCST, UNITCOST, LOCNCODE, UOFM, DROPSHIP, ORUNTPRC, XTNDPRCE, OXTNDPRC, REMPRICE, 
+	OREPRICE, EXTDCOST,  OREXTCST, MRKDNAMT, ORMRKDAM, MRKDNPCT, MRKDNTYP, INVINDX, CSLSINDX, SLSINDX, MKDNINDX,   RTNSINDX, INUSINDX, INSRINDX, DMGDINDX, ITMTSHID, IVITMTXB, BKTSLSAM, ORBKTSLS, ORTAXAMT, TAXAMNT,   TXBTXAMT, OTAXTAMT, BSIVCTTL, TRDISAMT, 
+	ORTDISAM, DISCSALE, ORDAVSLS, QUANTITY, ATYALLOC, QTYINSVC,   QTYINUSE, QTYDMGED, QTYRTRND, QTYONHND, QTYCANCE, QTYCANOT, QTYORDER, QTYPRBAC, QTYPRBOO,  QTYPRINV, QTYPRORD, QTYREMAI, QTYREMBO, QTYTBAOR, QTYTOINV, QTYTORDR, QTYFULFI, QTYSLCTD, QTYBSUOM,  
+	EXTQTYAL, EXTQTYSEL, ReqShipDate, FUFILDAT, ACTLSHIP, SHIPMTHD, SALSTERR, SLPRSNID, PRCLEVEL, COMMNTID,   BRKFLD1, BRKFLD2, BRKFLD3, CURRNIDX, TRXSORCE, SOPLNERR, PURCHSTAT, QTYRECVD, QTYPRVRECVD, ORGSEQNM, ITEMCODE, DECPLQTY, DECPLCUR, ODECPLCU,ADDRESS1, 
+	ADDRESS2, ADDRESS3, CITY, CNTCPRSN, CONTENDDTE, CONTLNSEQNBR, CONTNBR, CONTSERIALNBR, CONTSTARTDTE, COUNTRY,EXCEPTIONALDEMAND, FAXNUMBR, Flags, PHONE1, PHONE2, PHONE3, PRSTADCD, ShipToName, STATE, TAXSCHID, TXSCHSRC, ZIPCODE ) 
+	SELECT SOPTYPE, SOPNUMBE, LNITMSEQ,
+	 CMPNTSEQ,ITEMNMBR, ITEMDESC, NONINVEN, UNITPRCE, ORUNTCST,   UNITCOST, LOCNCODE, UOFM, DROPSHIP, ORUNTPRC, XTNDPRCE, OXTNDPRC, REMPRICE, OREPRICE, EXTDCOST,   OREXTCST, MRKDNAMT, ORMRKDAM, MRKDNPCT, MRKDNTYP, INVINDX, CSLSINDX, SLSINDX, MKDNINDX,   
+	RTNSINDX, INUSINDX, INSRINDX, DMGDINDX, ITMTSHID, IVITMTXB, BKTSLSAM, ORBKTSLS, ORTAXAMT, TAXAMNT,   TXBTXAMT, OTAXTAMT, BSIVCTTL, TRDISAMT, ORTDISAM, DISCSALE, ORDAVSLS, QUANTITY, ATYALLOC, QTYINSVC,  QTYINUSE, QTYDMGED, QTYRTRND, QTYONHND, QTYCANCE, 
+	QTYCANOT, QTYORDER, QTYPRBAC, QTYPRBOO, QTYPRINV, QTYPRORD, QTYREMAI, QTYREMBO, QTYTBAOR, QTYTOINV, QTYTORDR, QTYFULFI, QTYSLCTD, QTYBSUOM, EXTQTYAL, EXTQTYSEL, ReqShipDate, FUFILDAT, ACTLSHIP, SHIPMTHD, SALSTERR, SLPRSNID, PRCLEVEL, COMMNTID,  BRKFLD1, BRKFLD2, 
+	BRKFLD3, CURRNIDX, TRXSORCE, SOPLNERR, PURCHSTAT, QTYRECVD, QTYPRVRECVD,  ORGSEQNM, ITEMCODE, DECPLQTY, DECPLCUR, ODECPLCU,ADDRESS1, ADDRESS2, ADDRESS3, CITY, CNTCPRSN, CONTENDDTE, CONTLNSEQNBR, CONTNBR, CONTSERIALNBR, CONTSTARTDTE, COUNTRY,
+	EXCEPTIONALDEMAND, FAXNUMBR, Flags, PHONE1, PHONE2, PHONE3, PRSTADCD, ShipToName, STATE, TAXSCHID, TXSCHSRC, ZIPCODE  
+	FROM SOP10200  WHERE SOP10200.SOPTYPE = @SOPTYPE AND SOP10200.SOPNUMBE = @SopNumber 
+
+	UPDATE SOP10100 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType, PCKSLPNO = @NewPckSlpNumber, PICTICNU = '', SOPSTATUS = @NewSopWorkflowStatus, BACHNUMB = @NewBatchNumber, TIMESPRT = 0, DOCDATE = @UserDate WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+	UPDATE SOP10200 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType, INDPICKPRNT = 0 WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+	UPDATE SOP10101 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+	UPDATE SOP10102 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+	UPDATE SOP10103 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+	UPDATE SOP10104 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+	UPDATE SOP10105 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+	UPDATE SOP10106 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+	UPDATE SOP10201 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+	UPDATE SOP10202 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+	UPDATE SOP10203 SET SOPNUMBE= @NewSopNumber, SOPTYPE = @NewSopType WHERE SOPNUMBE = @SopNumber  AND SOPTYPE=@SOPTYPE 
+
+	if exists (select * from sysobjects where id = object_id(N'[CLGD10100]') and OBJECTPROPERTY(id, N'IsUserTable') = 1) 
+		UPDATE CLGD10100 SET INVONUMBR=@NewSopNumber WHERE INVONUMBR = @SopNumber  
+END
+
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[LoCh_Process_SOPVoid] TO [DYNGRP] 
+GO 
+
+/*End_LoCh_Process_SOPVoid*/
+/*Begin_CashbookBalance*/
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS OFF 
+GO
+
+if exists (select * from dbo.sysobjects where id = object_id(N'[dbo].[CashbookBalance]') and OBJECTPROPERTY(id, N'IsProcedure') = 1)
+drop procedure [dbo].[CashbookBalance]
+GO
+
+ Create PROCEDURE [dbo].[CashbookBalance]  
+@CashbookTable char(100) output,
+@Debit numeric(19,5) out,
+@Credit numeric(19,5) out
+AS
+BEGIN
+declare @DebitOpen nvarchar(2000),
+ @CreditOpen nvarchar(2000),
+ @BalnceOpen nvarchar(2000),
+ @DebitAmt nvarchar(2000),
+ @CreditAmt nvarchar(2000), 
+@test1 numeric(19,5),  
+@test2 numeric(19,5),  
+@test3 numeric(19,5),  
+@test4 numeric(19,5),  
+@l_ParmDefinition   nvarchar(500)
+
+select @DebitOpen='(select @DebitO= sum(x.DebitOpening) from (select Distinct ACTINDX, DebitOpening, Ledger_ID, PERIODID from [' + @CashbookTable  
+set @DebitOpen= @DebitOpen + '] ) as x)'
+set @l_ParmDefinition = N'@DebitO numeric(19,5) output'    
+		execute sp_executesql @DebitOpen,   
+		@l_ParmDefinition,   
+		@DebitO = @test1 output
+select @CreditOpen ='(select @creditopen= sum(y.CreditOpening) from (select Distinct yy.ACTINDX, yy.CreditOpening, yy.Ledger_ID, yy.PERIODID from ' +@CashbookTable  
+select @CreditOpen= @CreditOpen+'  yy) as y)'
+set @l_ParmDefinition = N'@creditopen numeric(19,5) output'    
+		execute sp_executesql @CreditOpen,   
+		@l_ParmDefinition,   
+		@creditopen = @test2 output  
+set @DebitAmt ='select @Dbt=sum(DEBITAMT) from '+ @CashbookTable 
+set @l_ParmDefinition = N'@Dbt numeric(19,5) output'    
+		execute sp_executesql @DebitAmt,   
+		@l_ParmDefinition,   
+		@Dbt = @test3 output
+set @CreditAmt ='select @cdt=sum(CRDTAMNT) from '+ @CashbookTable
+set @l_ParmDefinition = N'@cdt numeric(19,5) output'    
+		execute sp_executesql @CreditAmt,   
+		@l_ParmDefinition,   
+		@cdt = @test4 output
+set @Debit=@test1+@test3 
+set @Credit=@test2+@test4
+
+END
+GO
+SET QUOTED_IDENTIFIER OFF 
+GO
+SET ANSI_NULLS ON 
+GO
+
+GRANT EXECUTE ON [dbo].[CashbookBalance] TO [DYNGRP] 
+GO 
+
+/*End_CashbookBalance*/
