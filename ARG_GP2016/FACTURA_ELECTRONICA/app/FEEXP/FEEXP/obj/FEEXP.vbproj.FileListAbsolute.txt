@@ -1,0 +1,11 @@
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\bin\Debug\FEEXP.dll.config
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\bin\Debug\FEEXP.dll
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\bin\Debug\FEEXP.pdb
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\bin\Debug\FEEXP.xml
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\bin\Debug\FEEXP.tlb
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\obj\Debug\FEEXP.Resources.resources
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\obj\Debug\FEEXP.vbproj.GenerateResource.Cache
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\obj\Debug\FEEXP.dll
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\obj\Debug\FEEXP.xml
+C:\Users\LinaToro\Documents\Visual Studio 2005\Projects\FEEXP\FEEXP\obj\Debug\FEEXP.pdb
