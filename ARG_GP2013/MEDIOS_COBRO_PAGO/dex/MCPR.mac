@@ -1,31 +1,32 @@
-Logging file ':C:/dexterity/TII/gp2013/MCPR - ACA/MACLOG.TXT'
+Logging file ':C:jcTii/Desarrollo/GPDex/scc/ar03_MCPGP2013v12001920Es/CNKLOG.TXT'
   MenuSelect title File entry 'Open Source Dictionary...' 
-FileOpen file ':C:/dexterity/TII/gp2013/MCPR - ACA/dynamics.dic' type 0  
+FileOpen file ':C:jcTii/Desarrollo/GPDex/scc/ar03_MCPGP2013v12001920Es/DynGp2013R2v12001920Dev.dic' type 0  
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   MoveTo field 'Toolbar Utilities Button' item 0 
   ClickHit field 'Toolbar Utilities Button' item 6  # 'Extract' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 ActivateWindow dictionary 'default'  form Extractor window Extractor 
   ClickHit field '(L) Extract Button' 
-  FileSave file ':C:/dexterity/TII/gp2013/MCPR - ACA/MCPRM75.dic' 
+  FileSave file ':C:jcTii/Desarrollo/GPDex/scc/ar03_MCPGP2013v12001920Es/extract.dic' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
   MenuSelect title File entry 'Open Editable Dictionary...' 
-  FileOpen file ':C:/dexterity/TII/gp2013/MCPR - ACA/MCPRM75.dic' type 0 
+  FileOpen file ':C:jcTii/Desarrollo/GPDex/scc/ar03_MCPGP2013v12001920Es/extract.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 9  # 'Auto-Chunk' 
 NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
 ActivateWindow dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
   ClickHit field 'Lookup Button 3' 
-  FileSave file ':C:/dexterity/TII/gp2013/MCPR - ACA/MCPRM.cnk' 
+  FileSave file ':C:jcTii/Desarrollo/GPDex/scc/ar03_MCPGP2013v12001920Es/MCPRM.cnk' 
   MoveTo field 'Dictionary Name' 
+  TypeTo field 'Dictionary Name' , 'MCPRM75.dic'
   MoveTo field 'Accounting Modules' item 0 
   ClickHit field 'Accounting Modules' item 1  # 'Module 001' 
   ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
   MoveTo field '(L) Major Version' 
-  TypeTo field '(L) Major Version' , '16'
+  TypeTo field '(L) Major Version' , '13'
   MoveTo field '(L) Minor Version' 
-  TypeTo field '(L) Minor Version' , '0'
+  TypeTo field '(L) Minor Version' , '1'
   MoveTo field '(L) Build Number' 
  TypeTo field '(L) Build Number' , '1613'	
   MoveTo field 'Ok Button' 
@@ -59,6 +60,11 @@ ActivateWindow dictionary 'default'  form 'Product Res' window 'Product Resource
   TypeTo field '(L) Compatiblity Message' , 'Use Dynamics Utilities to update your modified forms and reports' 
   MoveTo field 'Ok Button' 
   ClickHit field 'Ok Button' 
-NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+#NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+#  MoveTo field 'Ok Button' 
+#  ClickHit field 'Ok Button' 
+#NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
+#  MenuSelect title File entry 'Close Editable Dictionary' 
+#MenuSelect title File entry Exit
 #   ClickHit field 'Ok Button' 
 # NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
