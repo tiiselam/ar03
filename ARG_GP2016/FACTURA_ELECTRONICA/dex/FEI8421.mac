@@ -1,18 +1,18 @@
 # DEXVERSION=DEX 8.00m076 2 2
   MenuSelect title File entry 'Open Source Dictionary...' 
-  FileOpen file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Facturación Electronica/Dynamics.dic' type 0 
+  FileOpen file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2016/FACTURA_ELECTRONICA/dex/Dynamics ESP v16.00.0552.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   MoveTo field 'Toolbar Utilities Button' item 0 
   ClickHit field 'Toolbar Utilities Button' item 6  # 'Extract' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 ActivateWindow dictionary 'default'  form Extractor window Extractor 
   ClickHit field '(L) Extract Button' 
-  FileSave file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Facturación Electronica/Extract.dic' 
+  FileSave file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2016/FACTURA_ELECTRONICA/dex/Extract.dic' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
   MenuSelect title File entry 'Close Source Dictionary' 
   MenuSelect title File entry 'Open Editable Dictionary...' 
-  FileOpen file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Facturación Electronica/Extract.dic' type 0 
+  FileOpen file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2016/FACTURA_ELECTRONICA/dex/Extract.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 5  # 'Create Product Information' 
 NewActiveWin dictionary 'default'  form 'Product Res' window 'Product Resource' 
@@ -41,12 +41,12 @@ ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar'
 NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
 ActivateWindow dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
   ClickHit field 'Lookup Button 3' 
-  FileSave file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Facturación Electronica/FEI8421.CNK' 
+  FileSave file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2016/FACTURA_ELECTRONICA/dex/FEI8421.CNK' 
   MoveTo field 'Dictionary Name' 
   TypeTo field 'Dictionary Name' , 'D8421.DIC'
   MoveTo field 'Accounting Modules' item 0 
   ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
   MoveTo field '(L) Major Version' 
-  TypeTo field '(L) Major Version' , '14'
+  TypeTo field '(L) Major Version' , '15'
   MoveTo field '(L) Minor Version' 
   MoveTo field '(L) Build Number' 
