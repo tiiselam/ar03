@@ -1,0 +1,389 @@
+    Public Function ObtieneCAEPRODv1PI(ByVal cuit As String, _
+        ByVal strId As String, _
+        ByVal strToken As String, _
+        ByVal strSign As String, _
+        ByVal strcantidadreg As String, _
+        ByVal presta_serv As String, _
+        ByVal tipo_doc As String, _
+        ByVal nro_doc As String, _
+        ByVal tipo_cbte As String, _
+        ByVal punto_vta As String, _
+        ByRef cbt_desde As String, _
+        ByRef cbt_hasta As String, _
+        ByVal imp_total As String, _
+        ByVal imp_tot_conc As String, _
+        ByVal imp_neto As String, _
+        ByVal impto_liq As String, _
+        ByVal impto_liq_rni As String, _
+        ByVal imp_op_ex As String, _
+        ByVal imp_trib As String, _
+        ByVal fecha_cbte As String, _
+        ByVal fecha_serv_desde As String, _
+        ByVal fecha_serv_hasta As String, _
+        ByVal fecha_venc_pago As String, _
+        ByRef cbte_estado As String, _
+        ByRef vencimiento_cae As String, _
+        ByRef cbte_cae As String, _
+        ByRef motivo_rechazo As String, _
+        ByRef desc_rechazo As String, _
+        ByRef codeerr As String, _
+        ByRef msgerr As String, _
+        ByRef reproceso As String, _
+        ByVal concepto As String, _
+        ByVal moneda As String, _
+        ByVal tipo_cbio As String, _
+        ByVal tributos As String, _
+        ByVal ivastr As String, _
+        ByVal adicionalesstr As String) As Boolean
+
+        gGrabaLog("C O M I E N Z O")
+        gGrabaLog(cuit)
+        gGrabaLog(strcantidadreg)
+        gGrabaLog(presta_serv)
+        gGrabaLog(tipo_doc)
+        gGrabaLog(nro_doc)
+        gGrabaLog(tipo_cbte)
+        gGrabaLog(punto_vta)
+        gGrabaLog(cbt_desde)
+        gGrabaLog(cbt_hasta)
+        gGrabaLog(imp_total)
+        gGrabaLog(imp_tot_conc)
+        gGrabaLog(imp_neto)
+        gGrabaLog(impto_liq)
+        gGrabaLog(impto_liq_rni)
+        gGrabaLog(imp_op_ex)
+        gGrabaLog(imp_trib)
+        gGrabaLog(fecha_cbte)
+        gGrabaLog(fecha_serv_desde)
+        gGrabaLog(fecha_serv_hasta)
+        gGrabaLog(fecha_venc_pago)
+        gGrabaLog(cbte_estado)
+        gGrabaLog(vencimiento_cae)
+        gGrabaLog(cbte_cae)
+        gGrabaLog(motivo_rechazo)
+        gGrabaLog(desc_rechazo)
+        gGrabaLog(codeerr)
+        gGrabaLog(msgerr)
+        gGrabaLog(reproceso)
+        gGrabaLog(concepto)
+        gGrabaLog(moneda)
+        gGrabaLog(tipo_cbio)
+        gGrabaLog(tributos)
+        gGrabaLog(ivastr)
+        gGrabaLog(adicionalesstr)
+
+        Dim objWSFE As New wsfev1p.Service
+        Dim objFEAuthRequest As New wsfev1p.FEAuthRequest
+        Dim cantidadreg As Integer = 1
+        Dim indicemax As Integer = 0
+        Dim d As Integer = 0
+        Dim t As Integer = 1
+        Dim iv As Integer = 0
+        Dim derr As Integer = 0
+        Dim ii, tt As Integer
+        Dim tribxml, opcionalxml As String
+        Dim tipotrib, tipoiva, opcionalesid As Integer
+        Dim objFERequest As New wsfev1p.FECAERequest
+        Dim objFECabeceraRequest As New wsfev1p.FECAECabRequest
+        Dim ArrayOfFEDetalleRequest(indicemax) As wsfev1p.FECAEDetRequest
+        Dim objFEResponse As New wsfev1p.FECAEResponse
+        Dim ArrayOfFEDetalleResponse(indicemax) As wsfev1p.FECAEDetResponse
+        Dim ArrayOfTributoTax(0) As wsfev1p.Tributo
+        Dim ArrayOfAlicIva(0) As wsfev1p.AlicIva
+        Dim ArrayOfAdicionales(0) As wsfev1p.Opcional
+        Dim objFEDetalleResponse(indicemax) As wsfev1p.FECAEDetResponse
+        Dim TributoId(10) As Integer
+        Dim TributoDesc(10) As String
+        Dim TributoBaseImp(10), TributoAlic(10), TributoImporte(10) As Double
+        Dim OpcionalID(1), OpcionalValor(1) As String
+        Dim TempValue As String
+        tipotrib = 0
+        tipoiva = 0
+        objFEAuthRequest.Cuit = cuit
+        objFEAuthRequest.Token = strToken
+        objFEAuthRequest.Sign = strSign
+
+        objFECabeceraRequest.CantReg = Val(strcantidadreg)
+        objFECabeceraRequest.CbteTipo = Val(tipo_cbte)
+        objFECabeceraRequest.PtoVta = Val(punto_vta)
+        objFERequest.FeCabReq = objFECabeceraRequest
+        Dim reader As StringReader = New StringReader(tributos)
+        Dim testxml As XmlTextReader = New XmlTextReader(reader)
+        Dim readeriva As StringReader = New StringReader(ivastr)
+        Dim testxmliva As XmlTextReader = New XmlTextReader(readeriva)
+        Dim readeropcioanl As StringReader = New StringReader(adicionalesstr)
+        Dim testxmlopcional As XmlTextReader = New XmlTextReader(readeropcioanl)
+
+        tribxml = ""
+        'Obtengo los datos del DataGridView DGV_FEDetalleRequest
+        For d = 0 To (indicemax)
+            Dim objFEDetalleRequest As New wsfev1p.FECAEDetRequest
+
+            With objFEDetalleRequest
+                .Concepto = Val(concepto)
+                .MonId = moneda
+                .MonCotiz = Val(tipo_cbio)
+                .DocTipo = Val(tipo_doc)
+                .DocNro = Val(nro_doc)
+                .CbteDesde = Val(cbt_desde)
+                .CbteHasta = Val(cbt_hasta)
+                .ImpTotal = Val(imp_total)
+                .ImpTotConc = Val(imp_tot_conc)
+                .ImpNeto = Val(imp_neto)
+                .ImpIVA = Val(impto_liq)
+                .ImpTrib = Val(imp_trib)
+                '. = Val(impto_liq_rni)
+                .ImpOpEx = Val(imp_op_ex)
+                .CbteFch = fecha_cbte
+                If tributos <> "" Then
+                    Do While (testxml.Read())
+                        Select Case testxml.NodeType
+                            Case XmlNodeType.Element 'Mostrar comienzo del elemento.
+                                tribxml = tribxml & "<" & testxml.Name & ">"
+                                Select Case testxml.Name
+                                    Case "Id"
+                                        tipotrib = 1
+                                    Case "Desc"
+                                        tipotrib = 2
+                                    Case "BaseImp"
+                                        tipotrib = 3
+                                    Case "Alic"
+                                        tipotrib = 4
+                                    Case "Importe"
+                                        tipotrib = 5
+                                End Select
+                            Case XmlNodeType.Text 'Mostrar el texto en cada elemento.
+                                tribxml = tribxml & testxml.Value
+                                Select Case tipotrib
+                                    Case 1
+                                        TempValue = testxml.Value
+                                        TributoId(t) = Val(TempValue)
+                                    Case 2
+                                        TempValue = testxml.Value
+                                        TributoDesc(t) = TempValue
+                                    Case 3
+                                        TempValue = testxml.Value
+                                        TributoBaseImp(t) = Val(TempValue)
+                                    Case 4
+                                        TempValue = testxml.Value
+                                        TributoAlic(t) = Val(TempValue)
+                                    Case 5
+                                        TempValue = testxml.Value
+                                        TributoImporte(t) = Val(TempValue)
+                                End Select
+                            Case XmlNodeType.EndElement
+                                tribxml = tribxml & "</" & testxml.Name & ">"
+                                If testxml.Name = "Tributo" Then
+                                    t = t + 1
+                                End If
+                        End Select
+                    Loop
+                    'MsgBox(tribxml)
+                    For tt = 1 To t - 1
+                        Dim TributoTax As New wsfev1p.Tributo
+                        With TributoTax
+                            .Id = TributoId(tt)
+                            .Desc = TributoDesc(tt)
+                            .BaseImp = TributoBaseImp(tt)
+                            .Alic = TributoAlic(tt)
+                            .Importe = TributoImporte(tt)
+                        End With
+                        If tt > 1 Then
+                            ReDim Preserve ArrayOfTributoTax(tt - 1)
+                        End If
+                        ArrayOfTributoTax(tt - 1) = TributoTax
+                    Next tt
+                    objFEDetalleRequest.Tributos = ArrayOfTributoTax
+                    For tt = 1 To t - 1
+                        TributoId(tt) = 0
+                        TributoDesc(tt) = ""
+                        TributoBaseImp(tt) = 0
+                        TributoAlic(tt) = 0
+                        TributoImporte(tt) = 0
+                    Next
+                    t = 1
+                    tribxml = ""
+                End If
+                If ivastr <> "" Then
+                    Do While (testxmliva.Read())
+                        Select Case testxmliva.NodeType
+                            Case XmlNodeType.Element 'Mostrar comienzo del elemento.
+                                tribxml = tribxml & "<" & testxmliva.Name & ">"
+                                Select Case testxmliva.Name
+                                    Case "Id"
+                                        tipotrib = 1
+                                    Case "BaseImp"
+                                        tipotrib = 2
+                                    Case "Alic"
+                                        tipotrib = 3
+                                    Case "Importe"
+                                        tipotrib = 4
+                                End Select
+                            Case XmlNodeType.Text 'Mostrar el texto en cada elemento.
+                                tribxml = tribxml & testxmliva.Value
+                                Select Case tipotrib
+                                    Case 1
+                                        TempValue = testxmliva.Value
+                                        TributoId(t) = Val(TempValue)
+                                    Case 2
+                                        TempValue = testxmliva.Value
+                                        TributoBaseImp(t) = Val(TempValue)
+                                    Case 3
+                                        TempValue = testxmliva.Value
+                                        TributoAlic(t) = Val(TempValue)
+                                    Case 4
+                                        TempValue = testxmliva.Value
+                                        TributoImporte(t) = Val(TempValue)
+                                End Select
+                            Case XmlNodeType.EndElement
+                                tribxml = tribxml & "</" & testxmliva.Name & ">"
+                                If testxmliva.Name = "AlicIva" Then
+                                    t = t + 1
+                                End If
+                        End Select
+                    Loop
+                    'MsgBox(tribxml)
+                    gGrabaLog("1- " & desc_rechazo)
+                    For tt = 1 To t - 1
+                        Dim AlicIva As New wsfev1p.AlicIva
+                        With AlicIva
+                            .Id = TributoId(tt)
+                            .BaseImp = TributoBaseImp(tt)
+                            .Importe = TributoImporte(tt)
+                        End With
+                        If tt > 1 Then
+                            ReDim Preserve ArrayOfAlicIva(tt - 1)
+                        End If
+                        ArrayOfAlicIva(tt - 1) = AlicIva
+                    Next tt
+                    gGrabaLog("2- " & desc_rechazo)
+                    objFEDetalleRequest.Iva = ArrayOfAlicIva
+                End If
+                opcionalxml = ""
+                t = 1
+                If adicionalesstr <> "" Then
+                    Do While (testxmlopcional.Read())
+                        Select Case testxmlopcional.NodeType
+                            Case XmlNodeType.Element 'Mostrar comienzo del elemento.
+                                opcionalxml = opcionalxml & "<" & testxmlopcional.Name & ">"
+                                Select Case testxmlopcional.Name
+                                    Case "Id"
+                                        opcionalesid = 1
+                                    Case "Valor"
+                                        opcionalesid = 2
+                                End Select
+                            Case XmlNodeType.Text 'Mostrar el texto en cada elemento.
+                                opcionalxml = opcionalxml & testxmlopcional.Value
+                                Select Case opcionalesid
+                                    Case 1
+                                        TempValue = testxmlopcional.Value
+                                        OpcionalID(t) = Val(TempValue)
+                                    Case 2
+                                        TempValue = testxmlopcional.Value
+                                        OpcionalValor(t) = TempValue
+                                End Select
+                            Case XmlNodeType.EndElement
+                                opcionalxml = opcionalxml & "</" & testxmlopcional.Name & ">"
+                                If testxmlopcional.Name = "Opcional" Then
+                                    t = t + 1
+                                End If
+                        End Select
+                    Loop
+                    'MsgBox(tribxml)
+                    gGrabaLog("1- " & desc_rechazo)
+                    For tt = 1 To t - 1
+                        Dim Opcional As New wsfev1p.Opcional
+                        With Opcional
+                            .Id = OpcionalID(tt)
+                            .Valor = OpcionalValor(tt)
+                        End With
+                        If tt > 1 Then
+                            ReDim Preserve ArrayOfAdicionales(tt - 1)
+                        End If
+                        ArrayOfAdicionales(tt - 1) = Opcional
+                    Next tt
+                    gGrabaLog("2- " & desc_rechazo)
+                    objFEDetalleRequest.Opcionales = ArrayOfAdicionales
+                End If
+                'MSAL
+                If presta_serv > "1" Then
+                    .FchServDesde = fecha_serv_desde
+                    .FchServHasta = fecha_serv_hasta
+                    .FchVtoPago = fecha_venc_pago
+                End If
+                If Val(tipo_cbte) = 201 Or Val(tipo_cbte) = 206 Or Val(tipo_cbte) = 211 Then
+                    .FchVtoPago = fecha_venc_pago
+                End If
+
+            End With
+            ArrayOfFEDetalleRequest(d) = objFEDetalleRequest
+        Next d
+        objFERequest.FeDetReq = ArrayOfFEDetalleRequest
+        gGrabaLog("21- " & strToken)
+        gGrabaLog("21- " & strSign)
+
+        ' Invoco al método FEAutRequest
+        Try
+            objFEResponse = objWSFE.FECAESolicitar(objFEAuthRequest, objFERequest)
+            objFEDetalleResponse = objFEResponse.FeDetResp
+            'codeerr = objFEResponse.Errors(0).Code.ToString
+            'msgerr = objFEResponse.Errors(0).Msg
+            If Not objFEResponse.Errors Is Nothing Then
+                desc_rechazo = objFEResponse.Errors(0).Msg
+                ObtieneCAEPRODv1PI = False
+            Else
+                ii = objFEResponse.FeCabResp.CantReg
+                reproceso = objFEResponse.FeCabResp.Reproceso
+                For d = 0 To (ii - 1)
+                    'If objFEResponse.FedResp(d) Is not Nothing Then
+                    cbte_estado = objFEResponse.FeDetResp(d).Resultado
+                    vencimiento_cae = IIf(objFEResponse.FeDetResp(d).CAEFchVto = "NULL", "", objFEResponse.FeDetResp(d).CAEFchVto)
+                    cbte_cae = IIf(objFEResponse.FeDetResp(d).CAE = "NULL", "", objFEResponse.FeDetResp(d).CAE)
+                    If objFEResponse.FeCabResp.Reproceso = "S" Then
+                        gGrabaLog("3- " & desc_rechazo)
+                        cbt_desde = objFEResponse.FeDetResp(d).CbteDesde.ToString
+                        cbt_hasta = objFEResponse.FeDetResp(d).CbteHasta.ToString
+                    End If
+                    'motivo_rechazo = IIf(objFEResponse.FeCabResp(d).motivo = "NULL", "", objFEResponse.FedResp(d).motivo)
+                    gGrabaLog("4- " & desc_rechazo)
+                    If Not objFEResponse.FeDetResp(d).Observaciones Is Nothing Then
+                        gGrabaLog("41 " + objFEResponse.FeDetResp(d).Observaciones.Length.ToString)
+                        For derr = 0 To objFEResponse.FeDetResp(d).Observaciones.Length - 1
+                            desc_rechazo = desc_rechazo & "; " & objFEResponse.FeDetResp(d).Observaciones(derr).Msg
+                            gGrabaLog("5- " & desc_rechazo)
+                        Next derr
+                    End If
+                    gGrabaLog("6- " & desc_rechazo)
+                    ObtieneCAEPRODv1PI = True
+                    'Else
+                    'cbte_estado = objFEResponse.FecResp.resultado
+                    'desc_rechazo = "FEResponse.FecResp.motivo: " + objFEResponse.FecResp.motivo + vbCrLf + _
+                    '"FEResponse.FecResp.reproceso: " + objFEResponse.FecResp.reproceso + vbCrLf + _
+                    '"FEResponse.FecResp.resultado: " + objFEResponse.FecResp.resultado
+                    'For d = 0 To (indicemax)
+                    '   desc_rechazo = "FEResponse.FedResp(" + d.ToString + ").cae: " + objFEResponse.FedResp(d).cae.ToString + vbCrLf + _
+                    '   "FEResponse.FedResp(" + d.ToString + ").resultado: " + objFEResponse.FedResp(d).resultado
+                    'Next d
+                    'desc_rechazo = "FEResponse.RError.percode: " + objFEResponse.RError.percode.ToString + vbCrLf + _
+                    '"FEResponse.RError.perrmsg: " + objFEResponse.RError.perrmsg
+                    'End If
+                Next d
+            End If
+            gGrabaLog("F I N A L")
+        Catch ex As Exception
+            gGrabaLog("7- " & desc_rechazo)
+            desc_rechazo = ex.Message
+            gGrabaLog("8- " & desc_rechazo)
+            ObtieneCAEPRODv1PI = False
+        End Try
+
+        ' Obtengo los XML de request/response y los escribo en el disco
+        'Dim writer1 As New XmlSerializer(GetType(wsw.FERequest))
+        'Dim file1 As New StreamWriter("C:\wsfe_FERequest.xml")
+        'writer1.Serialize(file1, objFERequest)
+        'file1.Close()
+        'Dim writer2 As New XmlSerializer(GetType(wsw.FEResponse))
+        'Dim file2 As New StreamWriter("C:\wsfe_FEResponse.xml")
+        'writer2.Serialize(file2, objFEResponse)
+        'file2.Close()
+    End Function
