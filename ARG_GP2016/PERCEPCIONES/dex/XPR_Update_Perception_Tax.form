@@ -1,0 +1,5570 @@
+Form	"XPR_Update_Perception_Tax"
+{
+	Commands
+	{
+	}
+	ConfigurableMenus	"false"
+	Constants
+	{
+	}
+	Datatypes
+	{
+		Datatype	"CB_TypeID"		
+		{
+			Control	"CheckBox"
+			StaticType	"Text"
+			~StaticItems
+			{
+			}
+		}
+		Datatype	"ChkName"		
+		{
+			Control	"Boolean"
+		}
+		Datatype	"Date"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"Default Tax"		
+		{
+			Control	"PushButton"
+			DefaultDown	"00000"
+			DefaultMouseOver	"00000"
+			DefaultUp	"00000"
+			Prompt	"Impuesto predeterminado"
+			PromptDown	""
+			PromptMouseOver	""
+			StaticType	"Picture"
+			~ItemImages
+			{
+			}
+		}
+		Datatype	"DtFrom"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"DtTo"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"File Location"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"255"
+			StorageLength	"256"
+		}
+		Datatype	"File Name"		
+		{
+			AllowOddLength	"false"
+			Control	"ComboBox"
+			KeyableLength	"30"
+			Sort	"true"
+			StorageLength	"32"
+			~StaticItems
+			{
+			}
+		}
+		Datatype	"Filelocation"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"MensualTucumán"		
+		{
+			Control	"RadioButton"
+			Prompt	"Actualiza IIBB de Tucumán para todos los clientes."
+		}
+		Datatype	"Modify"		
+		{
+			Control	"CheckBox"
+			StaticType	"Text"
+			~StaticItems
+			{
+				TextItem	"00001"				
+				{
+					Item	"Modificar"
+				}
+			}
+		}
+		Datatype	"MonthlyTucuman"		
+		{
+			Control	"RadioButton"
+			Prompt	"Actualizar imp. sobre la renta bruta de Tucumán para todos los clientes"
+		}
+		Datatype	"Monthly_Cus"		
+		{
+			Control	"RadioButton"
+			Prompt	"Actualizar impuesto estatal mensual para todos los clientes"
+		}
+		Datatype	"Quaterly_cust"		
+		{
+			Control	"RadioButton"
+			Prompt	"Actualizar impuesto municipal trimestral para clientes de alto riesgo"
+		}
+		Datatype	"RadioButton26"		
+		{
+			Control	"RadioButton"
+			Prompt	""
+		}
+		Datatype	"SelwhTyID"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"Show"		
+		{
+			Control	"DropDownList"
+			Sort	"false"
+			StaticType	"Text"
+			~StaticItems
+			{
+				TextItem	"00001"				
+				{
+					Item	"Mostrar todo"
+				}
+				TextItem	"00002"				
+				{
+					Item	"Mostrar elementos seleccionados"
+				}
+				TextItem	"00003"				
+				{
+					Item	"Mostrar elementos no seleccionados"
+				}
+			}
+		}
+		Datatype	"Tax ID All"		
+		{
+			Control	"RadioButton"
+			Prompt	"Todo"
+		}
+		Datatype	"Tax ID From"		
+		{
+			Control	"RadioButton"
+			Prompt	"Desde:"
+		}
+		Datatype	"TaxID"		
+		{
+			Control	"RadioGroup"
+		}
+		Datatype	"TaxdetailID"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"TxDetTo"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"XPR_Option"		
+		{
+			Control	"RadioGroup"
+		}
+		Datatype	"chkRecord"		
+		{
+			Control	"Integer"
+			Format	""
+			KeyableLength	"0"
+		}
+		Datatype	"monthly_ BA"		
+		{
+			Control	"RadioButton"
+			Prompt	"Actualizar imp. sobre la renta bruta de BA mensual para pequeños contribuyentes"
+		}
+		Datatype	"selectOpt"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+	}
+	EventPost	""
+	EventPre	""
+	Fields
+	{
+		Field	"CB_TypeID"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) CB_TypeID"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"ChkName"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) ChkName"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Date"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Date"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Default Tax"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Default Tax"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Default_Tax"		
+		{
+			ArraySize	"0"
+			Datatype	"DLR5_%2"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"DtFrom"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) DtFrom"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"DtTo"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) DtTo"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"File Location"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) File Location"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"File Name"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) File Name"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Filelocation"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Filelocation"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"FromTyp"		
+		{
+			ArraySize	"0"
+			Datatype	"STR30_LBAU"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"MensualTucumán"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) MensualTucumán"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Modify"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Modify"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"MonthlyTucuman"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) MonthlyTucuman"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Monthly_Cus"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Monthly_Cus"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Quaterly_cust"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Quaterly_cust"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"RadioButton26"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) RadioButton26"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"SelwhTyID"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) SelwhTyID"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Show"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Show"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Tax ID All"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Tax ID All"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Tax ID From"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Tax ID From"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"TaxID"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) TaxID"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"TaxdetailID"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) TaxdetailID"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"ToTyp"		
+		{
+			ArraySize	"0"
+			Datatype	"STR30_LBAU"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"TxDetTo"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) TxDetTo"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"XPR_Option"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) XPR_Option"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"chkRecord"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) chkRecord"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"monthly_ BA"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) monthly_ BA"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"selectOpt"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) selectOpt"
+			LookupForm	""
+			PhysicalName	""
+		}
+	}
+	Menus
+	{
+	}
+	Series	"Sales"
+	Tables
+	{
+		FormTable	"TX_Detail_MSTR"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"10"
+			Table	"TX_Detail_MSTR"
+		}
+		FormTable	"XPR_Customer_Address_Config"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"9"
+			Table	"XPR_Customer_Address_Config"
+		}
+		FormTable	"XPR_Default_Perception_Tax"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"5"
+			Table	"XPR_Default_Perception_Tax"
+		}
+		FormTable	"XPR_Default_Perception_Tax_By_Name"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"1"
+			Table	"XPR_Default_Perception_Tax_By_Name"
+		}
+		FormTable	"XPR_Default_Perception_Tax_HighRisk"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"4"
+			Table	"XPR_Default_Perception_Tax_HighRisk"
+		}
+		FormTable	"XPR_MonoContributors_Maint_Tax"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"3"
+			Table	"XPR_MonoContributors_Maint_Tax"
+		}
+		FormTable	"XPR_Update_Perc_Tax_Rep_Ex_Temp"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"2"
+			Table	"XPR_Update_Perc_Tax_Rep_Ex_Temp"
+		}
+		FormTable	"XPR_Update_Perception_Tax"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"6"
+			Table	"XPR_Update_Perception_Tax"
+		}
+		FormTable	"XPR_Update_Perception_Tax_Detail"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"7"
+			Table	"XPR_Update_Perception_Tax_Detail"
+		}
+		FormTable	"XPR_Update_Perception_Tax_Detail_Temp"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"8"
+			Table	"XPR_Update_Perception_Tax_Detail_Temp"
+		}
+	}
+	Windows
+	{
+		Window	"Perception_Default_Tax"		
+		{
+			AutoLinkTable	"XPR_Default_Perception_Tax"
+			AutoOpen	"false"
+			BackGround	"true"
+			CloseBox	"true"
+			ControlArea	"true"
+			DisplayName	"Impuesto predeterminado de percepción"
+			EventActivate	""
+			EventContextMenu	""
+			EventPost	"Perception_Default_Tax_WIN_POST"
+			EventPre	"Perception_Default_Tax_WIN_PRE"
+			EventPrint	""
+			Fields
+			{
+				WindowControl	"(L) Default_Tax"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"Currency"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	"Perception_Default_Tax l_Default_Tax_POST"
+					EventPre	""
+					Field	"(L) Default_Tax"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"20"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"165"
+					PositionTop	"50"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"81"
+					TabStop	"true"
+					Tag	"32"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"2"
+					Zoom	"false"
+				}
+				WindowControl	"(L) Modify"				
+				{
+					Alignment	"left"
+					Appearance	"3D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ButtonStyle	"Standard"
+					ControlType	"CheckBox"
+					Editable	"true"
+					EventChange	"Perception_Default_Tax l_Modify_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Modify"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PatternSelect	"50% Shading"
+					PositionLeft	"15"
+					PositionTop	"29"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"false"
+					SizeHeight	"20"
+					SizeWidth	"55"
+					TabStop	"true"
+					Tag	"17"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"1"
+				}
+				WindowControl	"(L) chkRecord"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"Integer"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) chkRecord"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"8"
+					PositionTop	"193"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"112"
+					TabStop	"true"
+					Tag	"31"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"12"
+					Zoom	"false"
+				}
+				WindowLine	"13"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"71"
+					PositionTop	"4"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"17"
+					SizeWidth	"0"
+					ZOrder	"4"
+				}
+				WindowPrompt	"20"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"11"
+					PositionTop	"50"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"144"
+					Text	"Impuesto predeterminado de percepción:"
+					Visible	"true"
+					ZOrder	"5"
+					Zoom	"false"
+				}
+				WindowLine	"21"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"14"
+					PositionTop	"69"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"161"
+					ZOrder	"6"
+				}
+				WindowLine	"22"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"1"
+					PositionTop	"77"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"271"
+					ZOrder	"7"
+				}
+				WindowControl	"Dummy Note Show Hide"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"true"
+					BackColor	"Yellow"
+					Border	"true"
+					ControlType	"Integer"
+					DisableLookup	"false"
+					Editable	"false"
+					EventChange	"Perception_Default_Tax Dummy Note Show Hide_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Dummy Note Show Hide"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"8"
+					PositionTop	"155"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"false"
+					SizeHeight	"20"
+					SizeWidth	"240"
+					TabStop	"false"
+					Tag	"26"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"10"
+					Zoom	"false"
+				}
+				WindowControl	"Handle Changes"				
+				{
+					Alignment	"left"
+					Appearance	"3D Border"
+					AutoCopy	"true"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ButtonStyle	"Standard"
+					ControlType	"CheckBox"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Handle Changes"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PatternSelect	"50% Shading"
+					PositionLeft	"8"
+					PositionTop	"174"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"112"
+					TabStop	"true"
+					Tag	"29"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"11"
+				}
+				WindowControl	"Note Absent Button - Toolbar"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Perception_Default_Tax Note Absent Button - Toolbar_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Note Absent Button - Toolbar"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"218"
+					PositionTop	"84"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayBottom"
+					SizeHeight	"19"
+					SizeWidth	"24"
+					TabStop	"false"
+					Tag	"24"
+					Tooltip	"Agregar nota de ventana"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"9"
+					Zoom	"false"
+				}
+				WindowControl	"Note Present - Toolbar"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Perception_Default_Tax Note Present - Toolbar_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Note Present - Toolbar"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"218"
+					PositionTop	"84"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"19"
+					SizeWidth	"24"
+					TabStop	"false"
+					Tag	"25"
+					Tooltip	"Abrir nota de ventana"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"0"
+					Zoom	"false"
+				}
+				WindowControl	"OK Button "				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Perception_Default_Tax OK Button _CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"OK Button "
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"2"
+					PositionTop	"1"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"22"
+					SizeWidth	"67"
+					TabStop	"true"
+					Tag	"11"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"3"
+					Zoom	"false"
+				}
+				WindowControl	"WindowHelp"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Perception_Default_Tax WindowHelp_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"WindowHelp"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"249"
+					PositionTop	"86"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"19"
+					TabStop	"false"
+					Tag	"23"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"8"
+					Zoom	"false"
+				}
+			}
+			LastTag	"32"
+			Position	"2"
+			PositionLeft	"1"
+			PositionTop	"1"
+			Resizable	"true"
+			SizeHeight	"109"
+			SizeWidth	"274"
+			WindowType	"Primary"
+		}
+		Window	"PleaseWait"		
+		{
+			AutoLinkTable	""
+			AutoOpen	"false"
+			BackGround	"true"
+			CloseBox	"false"
+			ControlArea	"false"
+			DisplayName	"Espere... ..."
+			EventActivate	""
+			EventContextMenu	""
+			EventPost	""
+			EventPre	""
+			EventPrint	""
+			Fields
+			{
+				WindowPrompt	"1"				
+				{
+					Alignment	"center"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"104"
+					PositionTop	"34"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"160"
+					Text	"Actualizando impuestos de percepción."
+					Visible	"true"
+					ZOrder	"0"
+					Zoom	"false"
+				}
+			}
+			LastTag	"1"
+			Position	"3"
+			PositionLeft	"1"
+			PositionTop	"1"
+			Resizable	"true"
+			SizeHeight	"100"
+			SizeWidth	"400"
+			WindowType	"ModalDialog"
+		}
+		Window	"Update_Perception_Tax"		
+		{
+			AutoLinkTable	"XPR_Update_Perception_Tax"
+			AutoOpen	"true"
+			BackGround	"true"
+			CloseBox	"true"
+			ControlArea	"true"
+			DisplayName	"Actualizar impuesto de percepción"
+			EventActivate	""
+			EventContextMenu	""
+			EventPost	"Update Perception Tax_WIN_POST"
+			EventPre	"Update Perception Tax_WIN_PRE"
+			EventPrint	""
+			Fields
+			{
+				WindowControl	"(L) ChkName"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"Pink"
+					ControlType	"Boolean"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					Field	"(L) ChkName"
+					FontColor	"System - Window Text"
+					PositionLeft	"56"
+					PositionTop	"623"
+					SavedOnRestart	"false"
+					SizeHeight	"20"
+					SizeWidth	"96"
+					Tag	"128"
+					ZOrder	"58"
+				}
+				WindowControl	"(L) Date"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Date"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"17"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"168"
+					PositionTop	"661"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"155"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"68"
+					Zoom	"false"
+				}
+				WindowControl	"(L) Default Tax"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"false"
+					EndTransaction	"false"
+					EventChange	"Update Perception Tax l_Default Tax_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Default Tax"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"709"
+					PositionTop	"79"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"22"
+					SizeWidth	"72"
+					TabStop	"true"
+					Tag	"24"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"4"
+					Zoom	"false"
+				}
+				WindowControl	"(L) Default_Tax"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"Currency"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Default_Tax"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"182"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"594"
+					PositionTop	"77"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"48"
+					TabStop	"true"
+					Tag	"181"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"74"
+					Zoom	"false"
+				}
+				WindowControl	"(L) DtFrom"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) DtFrom"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"18"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"168"
+					PositionTop	"680"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"156"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"69"
+					Zoom	"false"
+				}
+				WindowControl	"(L) DtTo"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) DtTo"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"19"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"168"
+					PositionTop	"699"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"157"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"70"
+					Zoom	"false"
+				}
+				WindowControl	"(L) File Location"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) File Location"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"70"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"170"
+					PositionTop	"469"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"450"
+					TabStop	"true"
+					Tag	"129"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"18"
+					Zoom	"false"
+				}
+				WindowControl	"(L) File Name"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					ControlType	"ComboBox"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update Perception Tax l_File Name_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) File Name"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"16"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"180"
+					PositionTop	"35"
+					ReadingOrder	"LeftToRight"
+					Required	"true"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"false"
+					SizeHeight	"19"
+					SizeWidth	"320"
+					TabStop	"true"
+					Tag	"12"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					VisibleItems	"8"
+					ZOrder	"1"
+				}
+				WindowControl	"(L) Filelocation"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Filelocation"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"70"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"168"
+					PositionTop	"756"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"160"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"73"
+					Zoom	"false"
+				}
+				WindowControl	"(L) FromTyp"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update_Perception_Tax l_FromTyp_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) FromTyp"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"47"
+					LinkedPrompt	"0"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"233"
+					PositionTop	"245"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"163"
+					TabStop	"true"
+					Tag	"143"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"13"
+					Zoom	"false"
+				}
+				WindowControl	"(L) MensualTucumán"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) MensualTucumán"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"20"
+					PositionTop	"184"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"272"
+					TabStop	"true"
+					Tag	"183"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"9"
+				}
+				WindowControl	"(L) Monthly_Cus"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) Monthly_Cus"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"20"
+					PositionTop	"119"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"416"
+					TabStop	"true"
+					Tag	"166"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"6"
+				}
+				WindowControl	"(L) Quaterly_cust"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) Quaterly_cust"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"20"
+					PositionTop	"140"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"416"
+					TabStop	"true"
+					Tag	"167"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"7"
+				}
+				WindowControl	"(L) SelwhTyID"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) SelwhTyID"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"42"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"168"
+					PositionTop	"642"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"154"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"67"
+					Zoom	"false"
+				}
+				WindowControl	"(L) Show"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					ControlType	"DropDownList"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update_Perception_Tax l_Show_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Show"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"75"
+					PositionTop	"508"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"149"
+					TabStop	"true"
+					Tag	"115"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					VisibleItems	"8"
+					ZOrder	"20"
+				}
+				WindowControl	"(L) Tax ID All"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) Tax ID All"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"121"
+					PositionTop	"246"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"15"
+					SizeWidth	"56"
+					TabStop	"true"
+					Tag	"37"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"11"
+				}
+				WindowControl	"(L) Tax ID From"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) Tax ID From"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"176"
+					PositionTop	"246"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"15"
+					SizeWidth	"64"
+					TabStop	"true"
+					Tag	"38"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"12"
+				}
+				WindowControl	"(L) TaxID"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"Transparent"
+					Border	"false"
+					ControlType	"RadioGroup"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update Perception Tax l_TaxID_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) TaxID"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LineColor	"System"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"95"
+					PositionTop	"244"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"171"
+					TabStop	"true"
+					Tag	"36"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"10"
+				}
+				WindowControl	"(L) TaxdetailID"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) TaxdetailID"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"108"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"168"
+					PositionTop	"718"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"158"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"71"
+					Zoom	"false"
+				}
+				WindowControl	"(L) ToTyp"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) ToTyp"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"48"
+					LinkedPrompt	"0"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"233"
+					PositionTop	"262"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"163"
+					TabStop	"true"
+					Tag	"144"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"14"
+					Zoom	"false"
+				}
+				WindowControl	"(L) TxDetTo"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) TxDetTo"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"49"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"168"
+					PositionTop	"737"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"159"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"72"
+					Zoom	"false"
+				}
+				WindowControl	"(L) XPR_Option"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"Transparent"
+					Border	"false"
+					ControlType	"RadioGroup"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update_Perception_Tax l_XPR_Option_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) XPR_Option"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LineColor	"System"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"9"
+					PositionTop	"124"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"95"
+					SizeWidth	"672"
+					TabStop	"true"
+					Tag	"165"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"5"
+				}
+				WindowControl	"(L) chkRecord"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"Pink"
+					Border	"true"
+					ControlType	"Integer"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) chkRecord"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"56"
+					PositionTop	"604"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"96"
+					TabStop	"false"
+					Tag	"127"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"57"
+					Zoom	"false"
+				}
+				WindowControl	"(L) monthly_ BA"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) monthly_ BA"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"20"
+					PositionTop	"161"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"416"
+					TabStop	"true"
+					Tag	"169"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"8"
+				}
+				WindowControl	"(L) selectOpt"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) selectOpt"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"66"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"168"
+					PositionTop	"623"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"153"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"66"
+					Zoom	"false"
+				}
+				ScrollingWindow	"0105-XPR_Update_Perception_Tax_Scroll"				
+				{
+					AltLineColor	"false"
+					Appearance	"2D Border"
+					BackColor	"System - Window Background"
+					BigLineItem	"19"
+					DefaultDblClick	"false"
+					EventLineChange	"XPR_Update_Perception_Tax_Scroll SCROLL_CHG"
+					EventLineContextMenu	""
+					EventLineDelete	""
+					EventLineFill	"XPR_Update_Perception_Tax_Scroll SCROLL_FILL"
+					EventLineInsert	""
+					EventLinePost	""
+					EventLinePre	""
+					Fields
+					{
+						WindowControl	"(L) CB_TypeID"						
+						{
+							Alignment	"left"
+							Appearance	"2D Border"
+							AutoCopy	"false"
+							BackColor	"System - Window Background"
+							Border	"true"
+							ButtonStyle	"Standard"
+							ControlType	"CheckBox"
+							Editable	"true"
+							EventChange	"XPR_Update_Perception_Tax_Scroll l_CB_TypeID_CHG"
+							EventContextMenu	""
+							EventMouseEnter	""
+							EventMouseExit	""
+							EventOther	""
+							EventPost	""
+							EventPre	""
+							Field	"(L) CB_TypeID"
+							Font	"System (generic)"
+							FontBold	"false"
+							FontColor	"System - Window Text"
+							FontItalic	"false"
+							FontUnderline	"false"
+							HyperSpace	"false"
+							LinkedLookup	"0"
+							LinkedPrompt	"0"
+							Pattern	"(none)"
+							PatternColor	"White"
+							PatternSelect	"50% Shading"
+							PositionLeft	"3"
+							PositionTop	"1"
+							Required	"false"
+							ResizeHoriz	"StayLeft"
+							ResizeVert	"StayTop"
+							SavedOnRestart	"false"
+							SetChangeFlag	"true"
+							SizeHeight	"19"
+							SizeWidth	"17"
+							TabStop	"true"
+							Tag	"15"
+							Tooltip	""
+							UseUniqueHelp	"true"
+							Visible	"true"
+							ZOrder	"2"
+						}
+						WindowLine	"5"						
+						{
+							Appearance	"3D Border"
+							LineColor	"System"
+							LineSize	"1"
+							PositionLeft	"1"
+							PositionTop	"19"
+							ResizeHoriz	"StayLeft"
+							ResizeVert	"StayTop"
+							SizeHeight	"0"
+							SizeWidth	"580"
+							ZOrder	"0"
+						}
+						WindowLine	"6"						
+						{
+							Appearance	"3D Border"
+							LineColor	"System"
+							LineSize	"1"
+							PositionLeft	"183"
+							PositionTop	"0"
+							ResizeHoriz	"StayLeft"
+							ResizeVert	"StayTop"
+							SizeHeight	"20"
+							SizeWidth	"0"
+							ZOrder	"1"
+						}
+						WindowControl	"Tax Detail Description"						
+						{
+							Alignment	"left"
+							Appearance	"2D Border"
+							AutoComplete	"false"
+							AutoCopy	"true"
+							BackColor	"White"
+							Border	"false"
+							ControlType	"String"
+							DisableLookup	"false"
+							Editable	"false"
+							EventChange	""
+							EventContextMenu	""
+							EventMouseEnter	""
+							EventMouseExit	""
+							EventOther	""
+							EventPost	""
+							EventPre	""
+							Field	"Tax Detail Description"
+							Font	"System (generic)"
+							FontBold	"false"
+							FontColor	"System - Window Text"
+							FontItalic	"false"
+							FontUnderline	"false"
+							LinkedFormat	"0"
+							LinkedLookup	"0"
+							LinkedPrompt	"0"
+							Password	"false"
+							Pattern	"(none)"
+							PatternColor	"White"
+							PositionLeft	"183"
+							PositionTop	"0"
+							ReadingOrder	"LeftToRight"
+							Required	"false"
+							ResizeHoriz	"StayLeft"
+							ResizeVert	"StayTop"
+							SavedOnRestart	"false"
+							SetChangeFlag	"true"
+							SizeHeight	"20"
+							SizeWidth	"395"
+							TabStop	"true"
+							Tag	"19"
+							Tooltip	""
+							UseUniqueHelp	"true"
+							Visible	"true"
+							ZOrder	"4"
+							Zoom	"false"
+						}
+						WindowControl	"Tax Detail ID"						
+						{
+							Alignment	"left"
+							Appearance	"2D Border"
+							AutoComplete	"false"
+							AutoCopy	"true"
+							BackColor	"White"
+							Border	"false"
+							ControlType	"String"
+							DisableLookup	"false"
+							Editable	"false"
+							EventChange	""
+							EventContextMenu	""
+							EventMouseEnter	""
+							EventMouseExit	""
+							EventOther	""
+							EventPost	""
+							EventPre	""
+							Field	"Tax Detail ID"
+							Font	"System (generic)"
+							FontBold	"false"
+							FontColor	"System - Window Text"
+							FontItalic	"false"
+							FontUnderline	"false"
+							LinkedFormat	"0"
+							LinkedLookup	"0"
+							LinkedPrompt	"0"
+							Password	"false"
+							Pattern	"(none)"
+							PatternColor	"White"
+							PositionLeft	"18"
+							PositionTop	"0"
+							ReadingOrder	"LeftToRight"
+							Required	"false"
+							ResizeHoriz	"StayLeft"
+							ResizeVert	"StayTop"
+							SavedOnRestart	"false"
+							SetChangeFlag	"true"
+							SizeHeight	"20"
+							SizeWidth	"165"
+							TabStop	"true"
+							Tag	"16"
+							Tooltip	""
+							UseUniqueHelp	"true"
+							Visible	"true"
+							ZOrder	"3"
+							Zoom	"false"
+						}
+					}
+					FontColor	"System - Window Text"
+					IgnoreActiveLine	"false"
+					LastTag	"19"
+					LinkTable	"XPR_Update_Perception_Tax_Detail_Temp"
+					LinkTableKey	"0"
+					Name	"XPR_Update_Perception_Tax_Scroll"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"22"
+					PositionTop	"308"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					ScrollToBottom	"false"
+					SizeHeight	"135"
+					SizeWidth	"580"
+					SmallLineItem	"19"
+					WindowType	"Editable"
+					ZOrder	"17"
+				}
+				WindowPrompt	"106"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - List Header2"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"22"
+					PositionTop	"289"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"184"
+					Text	"Id. de detalle imp."
+					Visible	"true"
+					ZOrder	"51"
+					Zoom	"false"
+				}
+				WindowPrompt	"107"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - List Header2"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"205"
+					PositionTop	"289"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"396"
+					Text	"Descripción"
+					Visible	"true"
+					ZOrder	"52"
+					Zoom	"false"
+				}
+				WindowPrompt	"108"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"18"
+					PositionTop	"244"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"92"
+					Text	"Id. de detalle imp.:"
+					Visible	"true"
+					ZOrder	"53"
+					Zoom	"false"
+				}
+				WindowLine	"109"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"24"
+					PositionTop	"263"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"204"
+					ZOrder	"54"
+				}
+				WindowLine	"11"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"300"
+					PositionTop	"4"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"16"
+					SizeWidth	"0"
+					ZOrder	"31"
+				}
+				WindowLine	"151"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"193"
+					PositionTop	"263"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"17"
+					SizeWidth	"0"
+					ZOrder	"64"
+				}
+				WindowPrompt	"16"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"15"
+					PositionTop	"35"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"112"
+					Text	"Nombre del archivo:"
+					Visible	"true"
+					ZOrder	"32"
+					Zoom	"false"
+				}
+				WindowPrompt	"17"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"15"
+					PositionTop	"62"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"41"
+					Text	"Fecha:"
+					Visible	"true"
+					ZOrder	"33"
+					Zoom	"false"
+				}
+				WindowPrompt	"18"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"132"
+					PositionTop	"63"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"19"
+					SizeWidth	"49"
+					Text	"Desde:"
+					Visible	"true"
+					ZOrder	"34"
+					Zoom	"false"
+				}
+				WindowPrompt	"182"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"418"
+					PositionTop	"77"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"176"
+					Text	"% para quien no está en padrón:"
+					Visible	"true"
+					ZOrder	"75"
+					Zoom	"false"
+				}
+				WindowPrompt	"19"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"132"
+					PositionTop	"79"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"48"
+					Text	"Hasta:"
+					Visible	"true"
+					ZOrder	"35"
+					Zoom	"false"
+				}
+				WindowLine	"20"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"19"
+					PositionTop	"53"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"171"
+					ZOrder	"36"
+				}
+				WindowLine	"21"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"17"
+					PositionTop	"79"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"172"
+					ZOrder	"37"
+				}
+				WindowLine	"22"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"133"
+					PositionTop	"96"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"53"
+					ZOrder	"38"
+				}
+				WindowLine	"23"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"132"
+					PositionTop	"80"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"17"
+					SizeWidth	"0"
+					ZOrder	"39"
+				}
+				WindowLine	"3"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"0"
+					PositionTop	"24"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"658"
+					ZOrder	"24"
+				}
+				WindowShape	"32"				
+				{
+					Appearance	"3D Border"
+					BackColor	"Transparent"
+					LineColor	"System"
+					LineSize	"1"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"12"
+					PositionTop	"231"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					Shape	"RoundedRectangle"
+					SizeHeight	"226"
+					SizeWidth	"630"
+					ZOrder	"40"
+				}
+				WindowLine	"4"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"72"
+					PositionTop	"5"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"15"
+					SizeWidth	"0"
+					ZOrder	"25"
+				}
+				WindowPrompt	"42"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"29"
+					PositionTop	"220"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"206"
+					Text	"Seleccionar Id. de detalle de impuestos"
+					Visible	"true"
+					ZOrder	"41"
+					Zoom	"false"
+				}
+				WindowPrompt	"49"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"191"
+					PositionTop	"262"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"17"
+					SizeWidth	"43"
+					Text	"Hasta: "
+					Visible	"true"
+					ZOrder	"44"
+					Zoom	"false"
+				}
+				WindowLine	"50"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"193"
+					PositionTop	"279"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"35"
+					ZOrder	"45"
+				}
+				WindowLine	"6"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"147"
+					PositionTop	"4"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"16"
+					SizeWidth	"0"
+					ZOrder	"27"
+				}
+				WindowShape	"65"				
+				{
+					Appearance	"3D Border"
+					BackColor	"Transparent"
+					LineColor	"System"
+					LineSize	"1"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"13"
+					PositionTop	"110"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					Shape	"RoundedRectangle"
+					SizeHeight	"101"
+					SizeWidth	"631"
+					ZOrder	"0"
+				}
+				WindowPrompt	"66"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"29"
+					PositionTop	"99"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"123"
+					Text	"Seleccionar una opción"
+					Visible	"true"
+					ZOrder	"46"
+					Zoom	"false"
+				}
+				WindowPrompt	"70"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"13"
+					PositionTop	"465"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"79"
+					Text	"Ubicación del archivo:"
+					Visible	"true"
+					ZOrder	"47"
+					Zoom	"true"
+				}
+				WindowLine	"71"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"15"
+					PositionTop	"486"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"155"
+					ZOrder	"48"
+				}
+				WindowLine	"8"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"219"
+					PositionTop	"4"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"16"
+					SizeWidth	"0"
+					ZOrder	"29"
+				}
+				WindowLine	"83"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"2"
+					PositionTop	"498"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"658"
+					ZOrder	"49"
+				}
+				WindowControl	"Cancel Button"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Perception Tax Cancel Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Cancel Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"568"
+					PositionTop	"506"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"22"
+					SizeWidth	"72"
+					TabStop	"true"
+					Tag	"102"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"22"
+					Zoom	"false"
+				}
+				WindowControl	"Clear Button"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Perception  Tax Clear Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Clear Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"74"
+					PositionTop	"0"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"24"
+					SizeWidth	"72"
+					TabStop	"true"
+					Tag	"5"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"26"
+					Zoom	"false"
+				}
+				WindowControl	"Delete Button"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update_Perception_Tax Delete Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Delete Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"148"
+					PositionTop	"0"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"24"
+					SizeWidth	"68"
+					TabStop	"true"
+					Tag	"7"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"28"
+					Zoom	"false"
+				}
+				WindowControl	"Dummy Note Show Hide"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"true"
+					BackColor	"Yellow"
+					Border	"true"
+					ControlType	"Integer"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update_Perception_Tax Dummy Note Show Hide_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Dummy Note Show Hide"
+					Font	"System (generic)"
+					FontBold	"true"
+					FontColor	"Black"
+					FontItalic	"true"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"Black"
+					PositionLeft	"168"
+					PositionTop	"566"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"false"
+					SizeHeight	"20"
+					SizeWidth	"224"
+					TabStop	"false"
+					Tag	"133"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"59"
+					Zoom	"false"
+				}
+				WindowControl	"End Tax Detail ID"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"true"
+					BackColor	"Pink"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"End Tax Detail ID"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"56"
+					PositionTop	"585"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"96"
+					TabStop	"false"
+					Tag	"123"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"56"
+					Zoom	"false"
+				}
+				WindowControl	"From Date"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"true"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"Date"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update_Perception_Tax From Date_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	"Update_Perception_Tax From Date_POST"
+					EventPre	""
+					Field	"From Date"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"17"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"180"
+					PositionTop	"62"
+					ReadingOrder	"LeftToRight"
+					Required	"true"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"165"
+					TabStop	"true"
+					Tag	"14"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"2"
+					Zoom	"false"
+				}
+				WindowControl	"Handle Changes"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					AutoCopy	"true"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ButtonStyle	"Standard"
+					ControlType	"CheckBox"
+					Editable	"true"
+					EventChange	"Update_Perception_Tax Handle Changes_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Handle Changes"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PatternSelect	"50% Shading"
+					PositionLeft	"168"
+					PositionTop	"585"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"134"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"60"
+				}
+				WindowControl	"Lookup Button 1"				
+				{
+					Alignment	"center"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update_Perception_Tax Lookup Button 1_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Lookup Button 1"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"143"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"395"
+					PositionTop	"245"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"18"
+					TabStop	"false"
+					Tag	"47"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"42"
+					Zoom	"false"
+				}
+				WindowControl	"Lookup Button 2"				
+				{
+					Alignment	"center"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update_Perception_Tax Lookup Button 2_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Lookup Button 2"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"144"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"395"
+					PositionTop	"262"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"18"
+					TabStop	"false"
+					Tag	"48"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"43"
+					Zoom	"false"
+				}
+				WindowControl	"Mark All"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Perception TaxMark All_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Mark All"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"Black"
+					PositionLeft	"451"
+					PositionTop	"261"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"22"
+					SizeWidth	"72"
+					TabStop	"true"
+					Tag	"51"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"15"
+					Zoom	"false"
+				}
+				WindowControl	"Mark None"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Perception Tax Mark None_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Mark None"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"526"
+					PositionTop	"261"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"22"
+					SizeWidth	"88"
+					TabStop	"true"
+					Tag	"52"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"16"
+					Zoom	"false"
+				}
+				WindowControl	"Note Absent Button - Toolbar"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update_Perception_Tax Note Absent Button - Toolbar_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Note Absent Button - Toolbar"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"14"
+					PositionTop	"506"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayBottom"
+					SizeHeight	"24"
+					SizeWidth	"24"
+					TabStop	"false"
+					Tag	"84"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"63"
+					Zoom	"false"
+				}
+				WindowControl	"Note Present - Toolbar"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update_Perception_Tax Note Present - Toolbar_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Note Present - Toolbar"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"15"
+					PositionTop	"505"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayBottom"
+					SizeHeight	"24"
+					SizeWidth	"24"
+					TabStop	"false"
+					Tag	"91"
+					Tooltip	"Abrir nota de ventana"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"62"
+					Zoom	"false"
+				}
+				WindowControl	"Path Button[1]"				
+				{
+					Alignment	"center"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update_Perception_Tax Path Button[1]_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Path Button[1]"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"619"
+					PositionTop	"469"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"18"
+					TabStop	"true"
+					Tag	"69"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"19"
+					Zoom	"false"
+				}
+				WindowControl	"Process Button P"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update_Perception_Tax Process Button P_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Process Button P"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"480"
+					PositionTop	"506"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"22"
+					SizeWidth	"72"
+					TabStop	"true"
+					Tag	"161"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"21"
+					Zoom	"false"
+				}
+				WindowControl	"Redisplay Button"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Perception  Tax Redisplay Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Redisplay Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"220"
+					PositionTop	"0"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"24"
+					SizeWidth	"80"
+					TabStop	"true"
+					Tag	"9"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"30"
+					Zoom	"false"
+				}
+				WindowControl	"Save Button"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Perception Tax Save Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Save Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"0"
+					PositionTop	"0"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"24"
+					SizeWidth	"72"
+					TabStop	"true"
+					Tag	"2"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"23"
+					Zoom	"false"
+				}
+				WindowControl	"Save Record"				
+				{
+					Alignment	"left"
+					Appearance	"3D Border"
+					AutoCopy	"true"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ButtonStyle	"Standard"
+					ControlType	"CheckBox"
+					Editable	"true"
+					EventChange	"Update_Perception_Tax Save Record_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Save Record"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PatternSelect	"50% Shading"
+					PositionLeft	"168"
+					PositionTop	"604"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"152"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"65"
+				}
+				WindowControl	"Start Tax Detail ID"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"true"
+					BackColor	"Pink"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Start Tax Detail ID"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"56"
+					PositionTop	"566"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"96"
+					TabStop	"false"
+					Tag	"122"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"55"
+					Zoom	"false"
+				}
+				WindowControl	"To Date"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"true"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"Date"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	"Update_Perception_Tax To Date_POST"
+					EventPre	""
+					Field	"To Date"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"180"
+					PositionTop	"79"
+					ReadingOrder	"LeftToRight"
+					Required	"true"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"165"
+					TabStop	"true"
+					Tag	"15"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"3"
+					Zoom	"false"
+				}
+				WindowControl	"WindowHelp"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update_Perception_Tax WindowHelp_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"WindowHelp"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"36"
+					PositionTop	"507"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"23"
+					SizeWidth	"24"
+					TabStop	"false"
+					Tag	"93"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"50"
+					Zoom	"false"
+				}
+				WindowControl	"Zoom Button"				
+				{
+					Alignment	"center"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update_Perception_Tax Zoom Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Zoom Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"16"
+					PositionTop	"465"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"72"
+					TabStop	"false"
+					Tag	"138"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"61"
+					Zoom	"true"
+				}
+			}
+			LastTag	"184"
+			Position	"1"
+			PositionLeft	"1"
+			PositionTop	"1"
+			Resizable	"true"
+			SizeHeight	"539"
+			SizeWidth	"658"
+			WindowType	"Primary"
+		}
+	}
+	~EventScripts
+	{
+		EventScript	"Perception_Default_Tax Dummy Note Show Hide_CHG"		
+		{
+			Documentation	""
+			Script	"call Check_For_Note,technicalname(window Perception_Default_Tax of form XPR_Update_Perception_Tax),'Dummy Note Show Hide';
+if 'Dummy Note Show Hide'  = 1 then
+	hide 'Note Absent Button - Toolbar';
+	show 'Note Present - Toolbar';
+else
+	hide 'Note Present - Toolbar';
+	show 'Note Absent Button - Toolbar';
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Perception_Default_Tax Note Absent Button - Toolbar_CHG"		
+		{
+			Documentation	""
+			Script	"{--------------------------------------------------------------------------------
+	Open the note for the window if possible.
+--------------------------------------------------------------------------------}
+local string l_Note_ID,l_Display_Name;
+local boolean isthere;
+local integer form_number;
+local integer l_exists;
+
+{-------------------------------------------------------------------------------
+	Initialize local variables before calling global script
+--------------------------------------------------------------------------------}
+{get the current display name to display}
+system 5017, window Perception_Default_Tax, l_Display_Name;
+
+{get the original display name as the key into the notes file. This should be the
+ same name as in the 'Dummy Record Show Hide' script.} 
+set l_Note_ID to technicalname(window Perception_Default_Tax of form XPR_Update_Perception_Tax);
+
+{check to see if someone created or deleted a note since entering the window}
+call Check_For_Note,l_Note_ID,l_exists;
+if 'Dummy Note Show Hide'=1 and l_exists=0 then
+	call Warning_Dialog,1380,\"\",\"\",\"\";
+elseif 'Dummy Note Show Hide'=0 and l_exists=1 then
+	call Warning_Dialog,5500,\"\",\"\",\"\";
+end if;
+
+set isthere to false;
+set form_number to 0;
+
+{--------------------------------------------------------------------------------
+	Check if a note form for this window is already open.  If one isn't, then
+	get the number of an unused note form.  If all of the note forms are being
+	used, then give a warning and abort the script.  Otherwise, open the note
+	form for this window.
+--------------------------------------------------------------------------------}
+call Check_Note_ID_String,l_Note_ID,isthere,form_number;
+if isthere=false then
+	call Get_Next_Form_Note_To_Open,form_number;
+	if form_number = 0 then
+		abort script;
+	end if;
+end if;
+if form_number = 1 then
+	open form Form_Note_1 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_1 of form Form_Note_1 to l_Note_ID;
+	set 'Display Name' of window Form_Note_1 of form Form_Note_1 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_1 of form Form_Note_1;
+	end if;
+elseif form_number = 2 then
+	open form Form_Note_2 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_2 of form Form_Note_2 to l_Note_ID;
+	set 'Display Name' of window Form_Note_2 of form Form_Note_2 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_2 of form Form_Note_2;
+	end if;
+elseif form_number = 3 then
+	open form Form_Note_3 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_3 of form Form_Note_3 to l_Note_ID;
+	set 'Display Name' of window Form_Note_3 of form Form_Note_3 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_3 of form Form_Note_3;
+	end if;
+elseif form_number = 4 then
+	open form Form_Note_4 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_4 of form Form_Note_4 to l_Note_ID;
+	set 'Display Name' of window Form_Note_4 of form Form_Note_4 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_4 of form Form_Note_4;
+	end if;
+else {form_number = 5}
+	open form Form_Note_5 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_5 of form Form_Note_5 to l_Note_ID;
+	set 'Display Name' of window Form_Note_5 of form Form_Note_5 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_5 of form Form_Note_5;
+	end if;
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Perception_Default_Tax Note Present - Toolbar_CHG"		
+		{
+			Documentation	""
+			Script	"run script 'Note Absent Button - Toolbar';"
+			UserProperties	""
+		}
+		EventScript	"Perception_Default_Tax OK Button _CHG"		
+		{
+			Documentation	""
+			Script	"{Modufied for RF7643 By GKulkarni@Partners }
+{RF7643 Start}
+if '(L) XPR_Option' of window Update_Perception_Tax=0 then
+	if '(L) Default_Tax' = 0 then
+		call Warning_Dialog, 2351,\"\",\"\",\"\"; {-- Required fields --}
+		set '(L) chkRecord' to 1;
+		abort script;
+	end if;
+	release table XPR_Default_Perception_Tax; 
+	get first table XPR_Default_Perception_Tax;
+	change table XPR_Default_Perception_Tax;
+	if '(L) Modify' = true then
+ 		set Percentage of table XPR_Default_Perception_Tax to '(L) Default_Tax';
+ 		save table XPR_Default_Perception_Tax;
+	end if;
+	set 'Handle Changes' to true;
+	close window Perception_Default_Tax;
+elseif '(L) XPR_Option' of window Update_Perception_Tax=2 then
+	if '(L) Default_Tax' = 0 then
+		call Warning_Dialog, 2351,\"\",\"\",\"\"; {-- Required fields --}
+		set '(L) chkRecord' to 1;
+		abort script;
+	end if;
+	release table XPR_Default_Perception_Tax_HighRisk; 
+	get first table XPR_Default_Perception_Tax_HighRisk;
+	change table XPR_Default_Perception_Tax_HighRisk;
+	if '(L) Modify' = true then
+ 		set Percentage of table XPR_Default_Perception_Tax_HighRisk to '(L) Default_Tax';
+ 		save table XPR_Default_Perception_Tax_HighRisk;
+	end if;
+	set 'Handle Changes' to true;
+	close window Perception_Default_Tax;
+end if;
+{RF7643 End}"
+			UserProperties	""
+		}
+		EventScript	"Perception_Default_Tax WindowHelp_CHG"		
+		{
+			Documentation	""
+			Script	"local boolean result;
+
+result=Menu_Invoke(MENU_ACTION_HELPWINDOW);"
+			UserProperties	""
+		}
+		EventScript	"Perception_Default_Tax l_Default_Tax_POST"		
+		{
+			Documentation	""
+			Script	"{VMurthyBR@partners Pr 50914}
+if '(L) Default_Tax'> 100 then  
+	warning getmsg(22055);
+	restart field;
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Perception_Default_Tax l_Modify_CHG"		
+		{
+			Documentation	""
+			Script	"local boolean result;
+if '(L) Modify' = true then
+	enable '(L) Default_Tax';
+	result = Field_SetBooleanProperty('(L) Default_Tax', FIELD_PROP_REQUIRED, true);
+else
+	disable '(L) Default_Tax';
+	result = Field_SetBooleanProperty('(L) Default_Tax', FIELD_PROP_REQUIRED, false);
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Perception_Default_Tax_WIN_POST"		
+		{
+			Documentation	""
+			Script	"local integer l_Ask;
+if 'Handle Changes' = true then
+	abort script;
+end if;
+if changed(window Perception_Default_Tax) then
+	set l_Ask to ask(getmsg(1000),getmsg(2),getmsg(4),getmsg(1));
+	if l_Ask = ASKBUTTON1 then
+		set '(L) chkRecord' to 0;
+		run script 'OK Button ';
+		if '(L) chkRecord' = 1 then
+		    abort close;
+			abort script;
+		end if;
+		set 'Handle Changes' to true;
+		clear changes window Perception_Default_Tax;
+	elseif l_Ask = ASKBUTTON2 then
+			clear changes window Perception_Default_Tax;
+			set 'Handle Changes' to true;
+		 	abort script;		
+	elseif l_Ask = ASKBUTTON3 then
+		abort close;
+	end if;
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Perception_Default_Tax_WIN_PRE"		
+		{
+			Documentation	""
+			Script	"{Modufied for RF7643 By GKulkarni@Partners }
+run script 'Dummy Note Show Hide';
+if '(L) XPR_Option' of window Update_Perception_Tax=0 then
+	get first table XPR_Default_Perception_Tax;
+	if not empty (Percentage of table XPR_Default_Perception_Tax)then
+		disable '(L) Default_Tax';
+		set '(L) Default_Tax' to Percentage of table XPR_Default_Perception_Tax;
+		set '(L) Modify' to false;
+	else
+		disable '(L) Default_Tax';
+		set '(L) Default_Tax' to 3.00;
+		set '(L) Modify' to false;
+	end if;
+{RF7643 Start}
+elseif '(L) XPR_Option' of window Update_Perception_Tax=2 then
+	get first table XPR_Default_Perception_Tax_HighRisk;
+	if not empty (Percentage of table XPR_Default_Perception_Tax_HighRisk)then
+		disable '(L) Default_Tax';
+		set '(L) Default_Tax' to Percentage of table XPR_Default_Perception_Tax_HighRisk;
+		set '(L) Modify' to false;
+	else
+		disable '(L) Default_Tax';
+		set '(L) Default_Tax' to 2.00;
+		set '(L) Modify' to false;
+	end if;
+{RF7643 End}
+end if;
+ set 'Handle Changes' to false;"
+			UserProperties	""
+		}
+		EventScript	"Update Perception  Tax Clear Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Clear button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+release table XPR_Update_Perception_Tax;
+clear table XPR_Update_Perception_Tax;
+range clear table XPR_Update_Perception_Tax;
+get first table XPR_Update_Perception_Tax; 
+Name of table XPR_Update_Perception_Tax='(L) File Name';
+get table XPR_Update_Perception_Tax;
+if err() = OKAY then
+	clear changes window Perception_Default_Tax;
+	{set 'Handle Changes' to true;}
+	{abort script;}
+else
+	clear table XPR_Update_Perception_Tax_Detail;
+	release table XPR_Update_Perception_Tax_Detail;
+	range clear table XPR_Update_Perception_Tax_Detail;
+	Name of table XPR_Update_Perception_Tax_Detail = '(L) File Name';
+	range start table XPR_Update_Perception_Tax_Detail;
+	fill field 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail;
+	range end table XPR_Update_Perception_Tax_Detail;
+	remove range table XPR_Update_Perception_Tax_Detail;
+end if;
+disable '(L) File Location';
+disable '(L) FromTyp';
+disable '(L) ToTyp';
+disable 'Lookup Button 1';
+disable 'Lookup Button 2';
+disable '(L) XPR_Option';
+disable '(L) Show';
+disable '(L) TaxID';
+disable 'From Date';
+disable 'To Date';
+disable 'Path Button'[1];
+disable 'Process Button P';
+disable 'Mark All';
+disable 'Mark None';
+disable 'Zoom Button';
+restart form; "
+			UserProperties	""
+		}
+		EventScript	"Update Perception  Tax Redisplay Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Redisplay button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local text SqlQry;
+local boolean result;
+if empty ('(L) File Name') then
+	abort script;
+end if;
+{PR61848:Start}
+if '(L) XPR_Option'=0 or '(L) XPR_Option'=1 then
+{PR61848:End}
+		range clear table XPR_Update_Perception_Tax_Detail_Temp; 
+		clear table XPR_Update_Perception_Tax_Detail_Temp; 
+		remove range table XPR_Update_Perception_Tax_Detail_Temp;
+		release table XPR_Update_Perception_Tax_Detail_Temp;
+		clear window XPR_Update_Perception_Tax_Scroll;
+		if '(L) TaxID'of window Update_Perception_Tax = RANGE then
+			  remove range table XPR_Update_Perception_Tax_Detail_Temp;
+			  clear window XPR_Update_Perception_Tax_Scroll;
+		   	  'Start Tax Detail ID'='(L) FromTyp';
+			  'End Tax Detail ID'='(L) ToTyp';
+			   release table TX_Detail_MSTR;
+			   range clear table TX_Detail_MSTR;
+			    
+			  SqlQry = physicalname('Tax Detail ID' of table TX_Detail_MSTR)+ \" > = \" +SQL_FormatStrings ('Start Tax Detail ID' of window Update_Perception_Tax) 
+			  + \" and \" + physicalname('Tax Detail ID' of table TX_Detail_MSTR)+ \" < = \" + SQL_FormatStrings ('End Tax Detail ID' of window Update_Perception_Tax) 
+			  + \" and \" + physicalname('Tax Detail Type' of table TX_Detail_MSTR)+ \" = \" +  str(1); 
+			   get first table TX_Detail_MSTR; 
+			   range table TX_Detail_MSTR where SqlQry;
+			   while err() = OKAY do
+			     set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 0;
+			     set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail ID' of table TX_Detail_MSTR;
+		         set 'Tax Detail Description' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail Description' of table TX_Detail_MSTR;
+				 get first table XPR_Update_Perception_Tax_Detail;
+				 while err() = OKAY do
+				  if '(L) File Name' = Name of table XPR_Update_Perception_Tax_Detail then
+				     if 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail= 'Tax Detail ID' of table TX_Detail_MSTR then
+					   set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 1;
+					   exit while;
+				     end if;
+				  end if;
+				  get next table XPR_Update_Perception_Tax_Detail; 
+				 end while;
+			     save table XPR_Update_Perception_Tax_Detail_Temp;
+		         get next table TX_Detail_MSTR;
+		       end while;		
+			   get first table XPR_Update_Perception_Tax_Detail_Temp; 
+			   clear window XPR_Update_Perception_Tax_Scroll;
+			   fill window XPR_Update_Perception_Tax_Scroll;
+		elseif '(L) TaxID'of window Update_Perception_Tax = ALL then
+			release table XPR_Update_Perception_Tax_Detail_Temp;
+			clear table XPR_Update_Perception_Tax_Detail_Temp; 
+			remove range table XPR_Update_Perception_Tax_Detail_Temp;
+			release table TX_Detail_MSTR;
+			range clear table TX_Detail_MSTR;
+			SqlQry = physicalname('Tax Detail Type' of table TX_Detail_MSTR)+ \" = \" +  str(1);
+			range table TX_Detail_MSTR where SqlQry;
+			get first table TX_Detail_MSTR; 
+			while err() = OKAY do
+				  set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 0;
+				  set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail ID' of table TX_Detail_MSTR;
+				  set'Tax Detail Description' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail Description' of table TX_Detail_MSTR;
+				  get first table XPR_Update_Perception_Tax_Detail;
+				  while err() = OKAY do
+				  if '(L) File Name' = Name of table XPR_Update_Perception_Tax_Detail then
+				     if 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail = 'Tax Detail ID' of table TX_Detail_MSTR then
+					   set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 1;
+					   exit while;
+				     end if;
+				  end if;
+				  get next table XPR_Update_Perception_Tax_Detail; 
+				  end while;
+				  save table XPR_Update_Perception_Tax_Detail_Temp;
+				  get next table TX_Detail_MSTR;
+			end while;
+			clear window XPR_Update_Perception_Tax_Scroll;	
+			get first table XPR_Update_Perception_Tax_Detail_Temp;
+			fill window XPR_Update_Perception_Tax_Scroll; 
+		end if;
+		run script '(L) Show'; 
+{PR61848:Start}		
+elseif '(L) XPR_Option'=2 then
+{set '(L) Show' to 1; }
+	call XPR_remove_taxdetail_id,table XPR_Update_Perception_Tax_Detail_Temp,2;
+	{result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, true);}
+	enable '(L) Default Tax';
+	clear window XPR_Update_Perception_Tax_Scroll;	
+	get first table XPR_Update_Perception_Tax_Detail_Temp;
+	fill window XPR_Update_Perception_Tax_Scroll; 
+	set '(L) ChkName' to false;
+	set '(L) Show' to 1; 
+	run script '(L) Show';
+end if;
+{PR61848:End}
+"
+			UserProperties	""
+		}
+		EventScript	"Update Perception Tax Cancel Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Close button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+release table XPR_Update_Perception_Tax;
+clear table XPR_Update_Perception_Tax;
+range clear table XPR_Update_Perception_Tax;
+get first table XPR_Update_Perception_Tax; 
+Name of table XPR_Update_Perception_Tax='(L) File Name';
+get table XPR_Update_Perception_Tax;
+if err() = OKAY then
+	clear changes window Update_Perception_Tax;
+	set 'Handle Changes' to true;
+	close form XPR_Update_Perception_Tax;
+	{abort script;}
+else
+	clear table XPR_Update_Perception_Tax_Detail;
+	release table XPR_Update_Perception_Tax_Detail;
+	range clear table XPR_Update_Perception_Tax_Detail;
+	Name of table XPR_Update_Perception_Tax_Detail = '(L) File Name';
+	range start table XPR_Update_Perception_Tax_Detail;
+	fill field 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail;
+	range end table XPR_Update_Perception_Tax_Detail;
+	remove range table XPR_Update_Perception_Tax_Detail;
+end if;
+set 'Handle Changes' to true;
+clear changes window Update_Perception_Tax;
+close form XPR_Update_Perception_Tax;"
+			UserProperties	""
+		}
+		EventScript	"Update Perception Tax Mark None_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of UnMarkAll button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local text SqlQry;
+if '(L) XPR_Option' of window Update_Perception_Tax of form XPR_Update_Perception_Tax=0 or  '(L) XPR_Option' of window Update_Perception_Tax of form XPR_Update_Perception_Tax=1 then
+		release table XPR_Update_Perception_Tax_Detail_Temp;
+		range clear table XPR_Update_Perception_Tax_Detail_Temp;
+		remove range table XPR_Update_Perception_Tax_Detail_Temp;
+		clear window XPR_Update_Perception_Tax_Scroll;
+		if '(L) TaxID'of window Update_Perception_Tax = RANGE then
+		   	  'Start Tax Detail ID'='(L) FromTyp';
+			  'End Tax Detail ID'='(L) ToTyp';
+			   SqlQry = physicalname('Tax Detail ID' of table TX_Detail_MSTR)+ \" > = \" +SQL_FormatStrings ('Start Tax Detail ID' of window Update_Perception_Tax) 
+			   + \" and \" + physicalname('Tax Detail ID' of table TX_Detail_MSTR)+ \" < = \" + SQL_FormatStrings ('End Tax Detail ID' of window Update_Perception_Tax) 
+			   + \" and \" + physicalname('Tax Detail Type' of table TX_Detail_MSTR)+ \" = \" +  str(1); 
+			   range table TX_Detail_MSTR where SqlQry;
+			   get first table TX_Detail_MSTR; 
+			   while err() = OKAY do
+			     set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 0; 
+			     set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail ID' of table TX_Detail_MSTR;
+		         set 'Tax Detail Description' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail Description' of table TX_Detail_MSTR;
+		         save table XPR_Update_Perception_Tax_Detail_Temp;
+		         get next table TX_Detail_MSTR;
+		       end while;		
+			   get first table XPR_Update_Perception_Tax_Detail_Temp; 
+			   fill window XPR_Update_Perception_Tax_Scroll;
+		else
+			set '(L) chkRecord' to 0;
+			release table TX_Detail_MSTR;
+			range clear table TX_Detail_MSTR;
+			SqlQry = physicalname('Tax Detail Type' of table TX_Detail_MSTR)+ \" = \" +  str(1);
+			range table TX_Detail_MSTR where SqlQry;
+			get first table TX_Detail_MSTR;
+			while err() = OKAY do
+			  set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 0;
+			  set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail ID' of table TX_Detail_MSTR;
+			  set'Tax Detail Description' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail Description' of table TX_Detail_MSTR;
+			  save table XPR_Update_Perception_Tax_Detail_Temp;
+			  get next table TX_Detail_MSTR;
+			end while;		
+			clear window XPR_Update_Perception_Tax_Scroll;	
+			get first table XPR_Update_Perception_Tax_Detail_Temp;
+		    fill window XPR_Update_Perception_Tax_Scroll; 
+		end if;
+		release table XPR_Update_Perception_Tax_Detail;
+		clear table XPR_Update_Perception_Tax_Detail;
+		range clear table XPR_Update_Perception_Tax_Detail;
+		Name of table XPR_Update_Perception_Tax_Detail = '(L) File Name' of window Update_Perception_Tax;
+		range start table XPR_Update_Perception_Tax_Detail;
+		fill field 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail;
+		range end table XPR_Update_Perception_Tax_Detail;
+		remove range table XPR_Update_Perception_Tax_Detail;
+		get first table XPR_Update_Perception_Tax_Detail_Temp;
+		while err() = OKAY do
+			if XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp = 1 then
+			    set  Name of table XPR_Update_Perception_Tax_Detail to '(L) File Name' of window Update_Perception_Tax;
+			    set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail to 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp;
+				save table XPR_Update_Perception_Tax_Detail;
+			end if;
+			
+			get next table XPR_Update_Perception_Tax_Detail_Temp;
+		end while;
+		run script '(L) Show';
+
+end if;
+	if '(L) XPR_Option' of window Update_Perception_Tax of form XPR_Update_Perception_Tax=2 then
+		release table XPR_Update_Perception_Tax_Detail_Temp;
+		range clear table XPR_Update_Perception_Tax_Detail_Temp;
+		get first table XPR_Update_Perception_Tax_Detail_Temp;
+		while err(table XPR_Update_Perception_Tax_Detail_Temp) = OKAY do
+			if XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp = 1 then
+				change table XPR_Update_Perception_Tax_Detail_Temp;
+			     XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp=0;
+				 save table XPR_Update_Perception_Tax_Detail_Temp;
+			end if;
+			get next table XPR_Update_Perception_Tax_Detail_Temp;
+		end while;
+		
+		fill window XPR_Update_Perception_Tax_Scroll; 
+		set '(L) ChkName' to false;
+		set '(L) Show' to 1; 
+		run script '(L) Show';
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Update Perception Tax Save Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Save button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+
+set '(L) chkRecord' to 0;
+run script 'Save Record';
+if '(L) chkRecord' = 1 then
+	abort script;
+end if;
+restart form;
+
+"
+			UserProperties	""
+		}
+		EventScript	"Update Perception Tax l_Default Tax_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Default button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+open window Perception_Default_Tax;"
+			UserProperties	""
+		}
+		EventScript	"Update Perception Tax l_File Name_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of '(L) File Name' field
+
+20Nov08 VMurthyBR, Initial Implementation
+Modified for PR61848
+------------------------------------------------------------------------------}
+local text SqlQry;
+local Name l_Name;
+local boolean l_Found;
+local integer l_ask,xpr_option;
+local string l_Temp_Report_Options;
+local string l_Message;
+local boolean result;
+local long  SQL_connection, status;
+local text SQL_str;
+local string l_tax_detail_id;
+local string l_tax_detail_desc;
+set l_Found to false;
+if empty ('(L) File Name') then
+	run script 'Clear Button';
+	abort script;
+end if;
+
+if changed(window Update_Perception_Tax)  or '(L) ChkName' {and not empty(old())} then
+	{Ask if they what to save changes to the current option before continuing
+		 to another option}
+	set l_Message to getmsg(1000);
+	substitute l_Message,old(); 
+	set l_ask to ask(l_Message, getmsg(SAVE), getmsg(DISCARD), getmsg(CANCEL));
+	{Save changes}
+	if l_ask = ASKBUTTON1 then
+		set l_Temp_Report_Options to '(L) File Name';
+		if not empty(old()) then
+			set '(L) File Name' to old();
+		end if;	
+		{to indicate to the save button script not to restart window}
+		set '(L) chkRecord' to 0;
+		run script 'Save Record';
+		if '(L) chkRecord' = 1 then
+			abort script;
+		end if;
+		{if '(L) Cancel Save Flag' of window Main_Reports then
+			abort script;
+		end if;}
+		set '(L) ChkName' to false;
+		set '(L) File Name' to l_Temp_Report_Options;
+		set '(L) ChkName' to false;
+	{Delete the changes}	
+	elseif l_ask = ASKBUTTON2 then
+		{release file GL_Options_ROPT;}
+	{Cancel the save and return to the window without losing the changes}
+	elseif l_ask = ASKBUTTON3 then
+		set '(L) File Name' to old();
+		abort script;		
+	end if;
+end if;
+
+release table XPR_Update_Perception_Tax_Detail_Temp;
+clear table XPR_Update_Perception_Tax_Detail_Temp; 
+range clear table XPR_Update_Perception_Tax_Detail_Temp; 
+remove range table XPR_Update_Perception_Tax_Detail_Temp;
+release table XPR_Update_Perception_Tax;
+clear table XPR_Update_Perception_Tax;
+range clear table XPR_Update_Perception_Tax;
+get first table XPR_Update_Perception_Tax; 
+Name of table XPR_Update_Perception_Tax='(L) File Name';
+get table XPR_Update_Perception_Tax;
+if err() = OKAY then
+		set 'From Date' to 'From Date' of table XPR_Update_Perception_Tax;
+		set 'To Date' to 'To Date' of table XPR_Update_Perception_Tax;
+		set '(L) XPR_Option' to  XPR_Option of table XPR_Update_Perception_Tax;
+		set  '(L) File Location' to FilePath of table XPR_Update_Perception_Tax;
+		set xpr_option to XPR_Option of table XPR_Update_Perception_Tax;
+else
+	   l_Name = '(L) File Name';
+	   restart form; 
+	   '(L) File Name'=l_Name;
+	   focus 'From Date';
+	   set xpr_option to 1;
+end if;  
+
+clear '(L) Default_Tax';
+clear table XPR_Default_Perception_Tax_By_Name;
+release table XPR_Default_Perception_Tax_By_Name;
+Name of table XPR_Default_Perception_Tax_By_Name = '(L) File Name';
+get table XPR_Default_Perception_Tax_By_Name;
+if err()=OKAY then
+	set '(L) Default_Tax' to Percentage of table XPR_Default_Perception_Tax_By_Name;  
+end if;
+
+
+{PR61848:Start}
+if xpr_option=0 or xpr_option=1 or xpr_option=3 then
+		call XPR_remove_taxdetail_id,table XPR_Update_Perception_Tax_Detail_Temp,1;
+end if;
+if xpr_option=2 then
+		call XPR_remove_taxdetail_id,table XPR_Update_Perception_Tax_Detail_Temp,2;
+	    save table XPR_Update_Perception_Tax_Detail_Temp;
+end if;
+{PR61848:End}
+if '(L) XPR_Option' = 1  then
+	result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, true);
+	{disable '(L) Default Tax';}
+else
+	result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, false);
+	{enable '(L) Default Tax';}
+end if;
+if '(L) XPR_Option' = 2 then
+    result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, true);
+end if;
+enable '(L) File Location';
+enable '(L) FromTyp';
+enable '(L) ToTyp';
+enable 'Lookup Button 1';
+enable 'Lookup Button 2';
+enable '(L) XPR_Option';
+enable '(L) Show';
+enable '(L) TaxID';
+enable 'From Date';
+enable 'To Date';
+enable 'Path Button'[1];
+enable 'Process Button P';
+enable 'Mark All';
+enable 'Mark None';
+enable 'Zoom Button';
+enable '(L) selectOpt';{Partners@VMurthyBR PR50916 start}
+enable '(L) SelwhTyID';
+enable '(L) Date';
+enable '(L) TaxdetailID';
+enable '(L) TxDetTo';
+enable '(L) DtFrom';
+enable '(L) DtTo';
+enable '(L) Filelocation';{Partners@VMurthyBR PR50916 end}
+focus 'From Date';
+clear window XPR_Update_Perception_Tax_Scroll;	
+get first table XPR_Update_Perception_Tax_Detail_Temp;
+fill window XPR_Update_Perception_Tax_Scroll; 
+set '(L) ChkName' to false;
+set '(L) Show' to 1; 
+run script '(L) Show';
+"
+			UserProperties	""
+		}
+		EventScript	"Update Perception Tax l_TaxID_CHG"		
+		{
+			Documentation	""
+			Script	"clear '(L) FromTyp';
+clear '(L) ToTyp';
+{set '(L) Show' of window Update_Perception_Tax to 1;}
+
+"
+			UserProperties	""
+		}
+		EventScript	"Update Perception TaxMark All_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of MarkAll button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local text SqlQry;
+if '(L) XPR_Option' of window Update_Perception_Tax of form XPR_Update_Perception_Tax=0 or '(L) XPR_Option' of window Update_Perception_Tax of form XPR_Update_Perception_Tax=1 then
+		remove range table XPR_Update_Perception_Tax_Detail_Temp;
+		release table XPR_Update_Perception_Tax_Detail_Temp;
+		range clear table XPR_Update_Perception_Tax_Detail_Temp;
+		remove range table XPR_Update_Perception_Tax_Detail_Temp;
+		clear window XPR_Update_Perception_Tax_Scroll;
+		if '(L) TaxID'of window Update_Perception_Tax = RANGE then
+		   	  'Start Tax Detail ID'='(L) FromTyp';
+			  'End Tax Detail ID'='(L) ToTyp';
+			   SqlQry = physicalname('Tax Detail ID' of table TX_Detail_MSTR)+ \" > = \" +SQL_FormatStrings ('Start Tax Detail ID' of window Update_Perception_Tax) 
+			   + \" and \" + physicalname('Tax Detail ID' of table TX_Detail_MSTR)+ \" < = \" + SQL_FormatStrings ('End Tax Detail ID' of window Update_Perception_Tax) 
+			   + \" and \" + physicalname('Tax Detail Type' of table TX_Detail_MSTR)+ \" = \" +  str(1); 
+			   range table TX_Detail_MSTR where SqlQry;
+			   get first table TX_Detail_MSTR; 
+			   while err() = OKAY do
+			     set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 1; 
+			     set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail ID' of table TX_Detail_MSTR;
+		         set 'Tax Detail Description' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail Description' of table TX_Detail_MSTR;
+		         save table XPR_Update_Perception_Tax_Detail_Temp;
+		         get next table TX_Detail_MSTR;
+		       end while;		
+			   get first table XPR_Update_Perception_Tax_Detail_Temp; 
+			   fill window XPR_Update_Perception_Tax_Scroll;
+		else
+			{set '(L) chkRecord' to 1;}
+			release table TX_Detail_MSTR;
+			range clear table TX_Detail_MSTR;
+			SqlQry = physicalname('Tax Detail Type' of table TX_Detail_MSTR)+ \" = \" +  str(1);
+			range table TX_Detail_MSTR where SqlQry;
+			get first table TX_Detail_MSTR;
+			while err() = OKAY do
+			  set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 1;
+			  set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail ID' of table TX_Detail_MSTR;
+			  set'Tax Detail Description' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail Description' of table TX_Detail_MSTR;
+			  save table XPR_Update_Perception_Tax_Detail_Temp;
+			  get next table TX_Detail_MSTR;
+			end while;		
+			clear window XPR_Update_Perception_Tax_Scroll;	
+			get first table XPR_Update_Perception_Tax_Detail_Temp;
+		    fill window XPR_Update_Perception_Tax_Scroll; 
+		end if;
+		release table XPR_Update_Perception_Tax_Detail;
+		clear table XPR_Update_Perception_Tax_Detail;
+		range clear table XPR_Update_Perception_Tax_Detail;
+		Name of table XPR_Update_Perception_Tax_Detail = '(L) File Name' of window Update_Perception_Tax;
+		range start table XPR_Update_Perception_Tax_Detail;
+		fill field 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail;
+		range end table XPR_Update_Perception_Tax_Detail;
+		remove range table XPR_Update_Perception_Tax_Detail;
+		get first table XPR_Update_Perception_Tax_Detail_Temp;
+		while err() = OKAY do
+			if XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp = 1 then
+			    set  Name of table XPR_Update_Perception_Tax_Detail to '(L) File Name' of window Update_Perception_Tax;
+			    set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail to 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp;
+				save table XPR_Update_Perception_Tax_Detail;
+			end if;
+			
+			get next table XPR_Update_Perception_Tax_Detail_Temp;
+		end while;
+		run script '(L) Show'; 
+end if;
+
+if '(L) XPR_Option' of window Update_Perception_Tax of form XPR_Update_Perception_Tax=2 then
+		release table XPR_Update_Perception_Tax_Detail_Temp;
+		range clear table XPR_Update_Perception_Tax_Detail_Temp;
+		get first table XPR_Update_Perception_Tax_Detail_Temp;
+		while err(table XPR_Update_Perception_Tax_Detail_Temp) = OKAY do
+			if XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp = 0 then
+				change table XPR_Update_Perception_Tax_Detail_Temp;
+			     XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp=1;
+				 save table XPR_Update_Perception_Tax_Detail_Temp;
+			end if;
+			get next table XPR_Update_Perception_Tax_Detail_Temp;
+		end while;
+		
+		fill window XPR_Update_Perception_Tax_Scroll; 
+		set '(L) ChkName' to false;
+		set '(L) Show' to 1; 
+		run script '(L) Show';
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Update Perception Tax_WIN_POST"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of WinPost
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local integer l_Ask;
+
+if changed(window Update_Perception_Tax) then
+	run script 'Handle Changes';
+	if not 'Handle Changes' then
+		abort close;
+		abort script;
+	end if;
+end if;
+if 'Handle Changes' = true then
+	abort script;
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Update Perception Tax_WIN_PRE"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of WinPre
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local boolean result;
+run script 'Dummy Note Show Hide';
+release table XPR_Update_Perception_Tax;
+range clear table XPR_Update_Perception_Tax;
+get first table XPR_Update_Perception_Tax;
+clear field '(L) File Name';
+while err() = OKAY do
+	add item (Name of table XPR_Update_Perception_Tax) to '(L) File Name';
+	get next table XPR_Update_Perception_Tax;
+end while;
+disable '(L) File Location';
+disable '(L) FromTyp';
+disable '(L) ToTyp';
+disable 'Lookup Button 1';
+disable 'Lookup Button 2';
+disable '(L) XPR_Option';
+disable '(L) Show';
+disable '(L) TaxID';
+disable 'From Date';
+disable 'To Date';
+disable 'Path Button'[1];
+disable 'Process Button P';
+disable 'Mark All';
+disable 'Mark None';
+disable 'Zoom Button';
+disable '(L) Default Tax';{Partners@VMurthyBR PR50916 start}
+disable '(L) selectOpt';
+disable '(L) SelwhTyID';
+disable '(L) Date';
+disable '(L) TaxdetailID';
+disable '(L) TxDetTo';
+disable '(L) DtFrom';
+disable '(L) DtTo';
+disable '(L) Filelocation';{Partners@VMurthyBR PR50916 End}"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Delete Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Delete button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local   integer     l_Ask;
+if empty ('(L) File Name') then
+	abort script;
+end if;
+set l_Ask to ask(getmsg(22039), getmsg(3), getmsg(1),\"\");
+if l_Ask = ASKBUTTON1 then 
+    release table XPR_Update_Perception_Tax; 
+	get first table XPR_Update_Perception_Tax;
+	set Name of table XPR_Update_Perception_Tax to '(L) File Name';
+	change table XPR_Update_Perception_Tax; 
+	if err() = OKAY then
+		remove table  XPR_Update_Perception_Tax;
+	end if;
+	{restart form;}
+	clear table XPR_Update_Perception_Tax_Detail;
+	release table XPR_Update_Perception_Tax_Detail;
+	range clear table XPR_Update_Perception_Tax_Detail;
+	Name of table XPR_Update_Perception_Tax_Detail = '(L) File Name';
+	range start table XPR_Update_Perception_Tax_Detail;
+	fill field 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail;
+	range end table XPR_Update_Perception_Tax_Detail;
+	remove range table XPR_Update_Perception_Tax_Detail;
+	restart form;
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Dummy Note Show Hide_CHG"		
+		{
+			Documentation	""
+			Script	"call Check_For_Note,technicalname(window Update_Perception_Tax of form XPR_Update_Perception_Tax),'Dummy Note Show Hide';
+if 'Dummy Note Show Hide'  = 1 then
+	hide 'Note Absent Button - Toolbar';
+	show 'Note Present - Toolbar';
+else
+	hide 'Note Present - Toolbar';
+	show 'Note Absent Button - Toolbar';
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax From Date_CHG"		
+		{
+			Documentation	""
+			Script	"if ('From Date' > 'To Date') and (not empty('To Date'))then
+	call Warning_Dialog,3001,\"\",\"\",\"\";
+	focus 'From Date';
+	{focus 'To Date';}
+	restart field;
+	abort script;
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax From Date_POST"		
+		{
+			Documentation	""
+			Script	"if ('From Date' > 'To Date') and (not empty('To Date'))then
+	call Warning_Dialog,3001,\"\",\"\",\"\";
+	focus 'From Date';
+	{focus 'To Date';}
+	restart field;
+	abort script;
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Handle Changes_CHG"		
+		{
+			Documentation	""
+			Script	"local integer l_Ask;
+
+if changed(window Update_Perception_Tax) then
+
+	{------------------------------------------------------------------------
+		Ask the if the user wishes to save changes or cancel whatever action
+		is being taken.
+	-------------------------------------------------------------------------}
+	set l_Ask to ask(getmsg(1000), getmsg(2), getmsg(4), getmsg(1));
+
+	if l_Ask = ASKBUTTON1 then
+		{-------------------------------------------------------------------
+			The user has chosen to save the changes to the record.
+		--------------------------------------------------------------------}
+		{-------------------------------------------------------------------
+			Try to save the record. The record will not be saved if a required
+			field is empty or if there is a collision.
+		---------------------------------------------------------------------}
+		set '(L) chkRecord' to 0;
+		run script 'Save Record';
+		if '(L) chkRecord' = 1 then
+			abort script;
+		end if;
+		set 'Handle Changes' to true;
+		clear changes window Perception_Default_Tax;
+		
+	
+	elseif l_Ask = ASKBUTTON2 then
+		
+		{New code}
+		release table XPR_Update_Perception_Tax;
+		clear table XPR_Update_Perception_Tax;
+		range clear table XPR_Update_Perception_Tax;
+		get first table XPR_Update_Perception_Tax; 
+		Name of table XPR_Update_Perception_Tax='(L) File Name';
+		get table XPR_Update_Perception_Tax;
+		if err() = OKAY then
+			clear changes window Perception_Default_Tax;
+			set 'Handle Changes' to true;
+		 	abort script;
+		else
+			clear table XPR_Update_Perception_Tax_Detail;
+			release table XPR_Update_Perception_Tax_Detail;
+			range clear table XPR_Update_Perception_Tax_Detail;
+			Name of table XPR_Update_Perception_Tax_Detail = '(L) File Name';
+			range start table XPR_Update_Perception_Tax_Detail;
+			fill field 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail;
+			range end table XPR_Update_Perception_Tax_Detail;
+			remove range table XPR_Update_Perception_Tax_Detail;
+		end if;
+		clear changes window Perception_Default_Tax;
+		set 'Handle Changes' to true;		
+	else
+		{---------------------------------------------------------------------
+			The user has chosen to cancel the action being taken.
+		----------------------------------------------------------------------}
+		set 'Handle Changes' to false;
+		abort script;
+	end if;
+
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Lookup Button 1_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Lookup Button 
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+open form XPR_Tax_Detail_Lookup return to '(L) FromTyp';
+set 'Tax Detail ID' of window Tax_Detail_Lookup of form XPR_Tax_Detail_Lookup to '(L) FromTyp';
+run script 'Redisplay Button' of window Tax_Detail_Lookup of form XPR_Tax_Detail_Lookup;"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Lookup Button 2_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Lookup Button 
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+open form XPR_Tax_Detail_Lookup return to '(L) ToTyp';
+set 'Tax Detail ID' of window Tax_Detail_Lookup of form XPR_Tax_Detail_Lookup to '(L) ToTyp';
+run script 'Redisplay Button' of window Tax_Detail_Lookup of form XPR_Tax_Detail_Lookup;
+"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Note Absent Button - Toolbar_CHG"		
+		{
+			Documentation	""
+			Script	"
+{--------------------------------------------------------------------------------
+	Open the note for the window if possible.
+--------------------------------------------------------------------------------}
+local string l_Note_ID,l_Display_Name;
+local boolean isthere;
+local integer form_number;
+local integer l_exists;
+
+{-------------------------------------------------------------------------------
+	Initialize local variables before calling global script
+--------------------------------------------------------------------------------}
+{get the current display name to display}
+system 5017, window 'Update_Perception_Tax', l_Display_Name;
+{get the original display name as the key into the notes file. This should be the
+ same name as in the 'Dummy Record Show Hide' script.} 
+set l_Note_ID to technicalname(window Update_Perception_Tax of form XPR_Update_Perception_Tax);
+
+{check to see if someone created or deleted a note since entering the window}
+call Check_For_Note,l_Note_ID,l_exists;
+if 'Dummy Note Show Hide'=1 and l_exists=0 then
+	call Warning_Dialog,1380,\"\",\"\",\"\";
+elseif 'Dummy Note Show Hide'=0 and l_exists=1 then
+	call Warning_Dialog,5500,\"\",\"\",\"\";
+end if;
+
+set isthere to false;
+set form_number to 0;
+
+{--------------------------------------------------------------------------------
+	Check if a note form for this window is already open.  If one isn't, then
+	get the number of an unused note form.  If all of the note forms are being
+	used, then give a warning and abort the script.  Otherwise, open the note
+	form for this window.
+--------------------------------------------------------------------------------}
+call Check_Note_ID_String,l_Note_ID,isthere,form_number;
+if isthere=false then
+	call Get_Next_Form_Note_To_Open,form_number;
+	if form_number = 0 then
+		abort script;
+	end if;
+end if;
+if form_number = 1 then
+	open form Form_Note_1 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_1 of form Form_Note_1 to l_Note_ID;
+	set 'Display Name' of window Form_Note_1 of form Form_Note_1 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_1 of form Form_Note_1;
+	end if;
+elseif form_number = 2 then
+	open form Form_Note_2 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_2 of form Form_Note_2 to l_Note_ID;
+	set 'Display Name' of window Form_Note_2 of form Form_Note_2 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_2 of form Form_Note_2;
+	end if;
+elseif form_number = 3 then
+	open form Form_Note_3 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_3 of form Form_Note_3 to l_Note_ID;
+	set 'Display Name' of window Form_Note_3 of form Form_Note_3 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_3 of form Form_Note_3;
+	end if;
+elseif form_number = 4 then
+	open form Form_Note_4 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_4 of form Form_Note_4 to l_Note_ID;
+	set 'Display Name' of window Form_Note_4 of form Form_Note_4 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_4 of form Form_Note_4;
+	end if;
+else {form_number = 5}
+	open form Form_Note_5 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_5 of form Form_Note_5 to l_Note_ID;
+	set 'Display Name' of window Form_Note_5 of form Form_Note_5 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_5 of form Form_Note_5;
+	end if;
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Note Present - Toolbar_CHG"		
+		{
+			Documentation	""
+			Script	"run script 'Note Absent Button - Toolbar';"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Path Button[1]_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Path button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local string l_generic_path,l_native_path;
+local boolean l_result;
+local	string	l_file, l_fileLowerCase;
+local	string	sCustomFilter;
+	sCustomFilter = getmsg(22041){Text file} +CH_LEFTPAREN +CH_ASTERISK{*} +getmsg(22042){.txt}
+					+ CH_RIGHTPAREN +\"|\" +CH_ASTERISK{*} +getmsg(22042){.txt};
+
+	if getfile(getmsg(12982){Select a file}, TEXTFILE, l_file, sCustomFilter{Text file(*.txt)|*.txt}) then
+		l_fileLowerCase = lower(l_file);
+		{if l_file doesnot end with \".txt\" then +\".txt\"...}
+		if not (pos(l_fileLowerCase, getmsg(22042){.txt}, 1)=length(l_fileLowerCase)-3) then
+			l_file =l_file +getmsg(22042){.txt};
+		end if;
+		'(L) File Location' = Path_MakeNative(l_file);
+	end if;"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Process Button P_CHG"		
+		{
+			Documentation	""
+			Script	"{21Nov08 JMathew@Partners Initial Implementation for RegF4893} 
+{15Dec08JMathew@Partners	Edited to fix PR50432}
+{Modufied for RF7643 By GKulkarni@Partners }
+local long	lSQLReturnStatus,lSQLErrState;
+local 	string 		s_StartDt, s_EndDt;
+local 	string 		l_SQLScriptLocation;
+local integer l_Ask;
+local string FileName;
+local 		string 		sRptDest;
+local 		string 		sRptName,sLegend;
+local integer ProcessType;
+
+local string lineread, Field;
+local integer Position, counter, NumberOfLetters, l_File_ID, OldPos, Strnlen, i;
+local boolean Error, Ret;
+local integer NumberOfCharacters[11];
+local integer NumberOfColumns;
+
+range clear table XPR_Update_Perception_Tax_Detail_Temp;
+range table XPR_Update_Perception_Tax_Detail_Temp where physicalname(XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp) + \" = \" + str(1);
+get first table XPR_Update_Perception_Tax_Detail_Temp;
+	if err()<>OKAY then
+		warning getmsg(22052);
+		range clear table XPR_Update_Perception_Tax_Detail_Temp;
+		abort script;
+	end if;
+range clear table XPR_Update_Perception_Tax_Detail_Temp;
+
+FileName='(L) File Name';
+if changed(form XPR_Update_Perception_Tax) then
+	set l_Ask to ask(getmsg(1000),getmsg(2),getmsg(1),\"\");
+	if l_Ask = ASKBUTTON1 then
+		run script 'Save Record';{VMurthyBR}
+		if 'Handle Changes' = false then
+			abort script;
+		end if;
+		'(L) File Name'=FileName;
+		run script '(L) File Name';	
+	elseif l_Ask = ASKBUTTON2 then
+		abort script;
+	end if;
+else{This is required since if you select the file to import through lookup the Save message not triggering}
+	run script 'Save Record';
+	'(L) File Name'=FileName;
+	run script '(L) File Name';	
+end if;
+
+set s_StartDt to pad(str(day('From Date')),LEADING,\"0\",2) + pad(str(month('From Date')),LEADING,\"0\",2) + pad(str(year('From Date')),LEADING,\"0\",4);
+set s_EndDt to pad(str(day('To Date')),LEADING,\"0\",2) + pad(str(month('To Date')),LEADING,\"0\",2) + pad(str(year('To Date')),LEADING,\"0\",4);
+
+if '(L) XPR_Option'=0 then
+	NumberOfCharacters[1]=1;
+	NumberOfCharacters[2]=8;
+	NumberOfCharacters[3]=8;
+	NumberOfCharacters[4]=8;
+	NumberOfCharacters[5]=11;
+	NumberOfCharacters[6]=1;
+	NumberOfCharacters[7]=1;
+	NumberOfCharacters[8]=1;
+	NumberOfCharacters[9]=4;
+	NumberOfCharacters[10]=2;
+	NumberOfColumns=10;
+elseif '(L) XPR_Option'=3 then
+	NumberOfCharacters[1]=11;
+	NumberOfCharacters[2]=5;
+	NumberOfCharacters[3]=8;
+	NumberOfCharacters[4]=6;
+	NumberOfCharacters[5]=152;
+	NumberOfCharacters[6]=10;
+	NumberOfColumns=6;
+else
+	NumberOfCharacters[1]=8;
+	NumberOfCharacters[2]=8;
+	NumberOfCharacters[3]=8;
+	NumberOfCharacters[4]=11;
+	NumberOfCharacters[5]=1;
+	NumberOfCharacters[6]=1;
+	NumberOfCharacters[7]=1;
+	NumberOfCharacters[8]=4;
+	NumberOfCharacters[9]=4;
+	NumberOfCharacters[10]=2;
+	NumberOfCharacters[11]=2;
+	NumberOfColumns=11;
+
+end if;
+
+
+{set ReadInDefaults to 1; } { flag an error if saving data doesn't reset the flag }
+l_File_ID = TextFile_Open('(L) File Location', 0, 1);  { open the file }
+Error = false;  { shouldn't need to set this right before the ReadLine }
+Error = TextFile_ReadLine(l_File_ID,lineread); 
+if Error = false and '(L) XPR_Option' <> 3 then{ while not EOF }
+ { read a line }
+	set Position to 0;  { start of line }
+	set counter to 1;  { which field do we want to start with }
+	set i to 1;  { set column to 1st one }
+
+	Strnlen = length(lineread);  { this is the length of the whole line }
+	{if Error = false then}  { not sure why this is here, as Error = false from above }
+		for i equals 1 to 11 do  { for each column }
+			if  Position <> -1 then  { if not at the end of the line }
+				OldPos = Position + 1;  { set oldpos to the character following the tab (or start of line ) }
+				Position = pos(lineread, char(59), Position+1);  { find the next tab beginning at the next position }		
+				if Position = 0 then  { if a tab isn't found, we're at EOL }
+					Position = -1;  { EOL indicator }
+
+				end if;
+				if Position <> -1 then  { if we're not at EOL }
+					NumberOfLetters = Position - OldPos;  { read from oldpos up to the tab }				
+				else  { if we are at EOL }
+					
+					NumberOfLetters = (Strnlen + 1) - OldPos;  { read from oldpos up to EOL }
+					Position = 0;
+				end if;
+			end if;
+
+
+			case i  { set the fields in the table buffer }
+				in [1]
+					if (NumberOfLetters<>NumberOfCharacters[1]) then
+						warning getmsg(22045);
+						abort script;
+					end if;
+					{if (value(Str1) = 0 or value(Str2) = 0) and '(L) XPR_Option'<>0  then
+						warning getmsg(22045);
+						abort script;
+					end if;	}				
+				in [2] 
+					if (NumberOfLetters<>NumberOfCharacters[2]) then
+						warning getmsg(22045);
+						abort script;
+					end if;	
+					if  s_StartDt<> substring(lineread, OldPos, NumberOfLetters) and '(L) XPR_Option'<>0 then
+						warning getmsg(22046);
+						abort script;
+					end if;
+				in [3] 
+					if (NumberOfLetters<>NumberOfCharacters[3]) then
+						warning getmsg(22045);
+						abort script;
+					end if;
+					if  s_EndDt<> substring(lineread, OldPos, NumberOfLetters) and '(L) XPR_Option'<>0 then
+						warning getmsg(22046);
+						abort script;
+					end if;
+				in [4]
+					if (NumberOfLetters<>NumberOfCharacters[4]) then
+						warning getmsg(22045);
+						abort script;
+					end if;	
+				in	[5]
+					if (NumberOfLetters<>NumberOfCharacters[5]) then
+						warning getmsg(22045);
+						abort script;
+					end if;	
+				in	[6]
+					if (NumberOfLetters<>NumberOfCharacters[6]) then
+						warning getmsg(22045);
+						abort script;
+					end if;
+				in	[7]
+					if (NumberOfLetters<>NumberOfCharacters[7]) then
+						warning getmsg(22045);
+						abort script;
+					end if;
+				in	[8]
+					if (NumberOfLetters<>NumberOfCharacters[8]) then
+						warning getmsg(22045);
+						abort script;
+					end if;
+				in	[9]
+					if (NumberOfLetters<>NumberOfCharacters[9]) then
+						warning getmsg(22045);
+						abort script;
+					end if;
+				in	[10]
+					if (NumberOfLetters<>NumberOfCharacters[10]) then
+						warning getmsg(22045);
+						abort script;
+					end if;
+				in	[11]
+					if (NumberOfLetters<>NumberOfCharacters[11]) then
+						warning getmsg(22045);
+						abort script;
+					end if;
+
+			end case;
+		end for;
+	{end if;}	  { not sure why this is used }
+	{ save the info to whereever you need it }
+
+end if;	
+Ret = TextFile_Close(l_File_ID);  { close the text file }
+{PR50432:Changed the Order of message:JMathew@Partners}
+if '(L) XPR_Option'=0 then
+	if  empty ('(L) File Location') then
+		set l_Ask to ask(getmsg(22043),getmsg(10557),getmsg(1),\"\");
+		if l_Ask = ASKBUTTON1 then 
+			ProcessType=2;
+		else
+			abort script;
+		end if;
+	else
+		set l_Ask to ask(getmsg(22044),getmsg(5),getmsg(1),\"\");
+		if l_Ask = ASKBUTTON2 then
+			abort script;
+		end if;
+		ProcessType=1;
+	end if;
+elseif '(L) XPR_Option'=1 then
+	set l_Ask to ask(getmsg(22044),getmsg(5),getmsg(1),\"\");
+	if l_Ask = ASKBUTTON2 then
+		abort script;
+	end if;
+	ProcessType=3;
+{START:RF7643}
+elseif '(L) XPR_Option'=2 then
+	if  empty ('(L) File Location') then
+		warning (getmsg(06058));
+		abort script;
+	else
+		set l_Ask to ask(getmsg(22044),getmsg(5),getmsg(1),\"\");
+		if l_Ask = ASKBUTTON2 then
+			abort script;
+		else
+			ProcessType=4;{06058-Not all required fields have been entered.}
+		end if;
+	end if;
+	
+{END:RF7643}
+{MSAL PErcepciones de Tucuman}
+elseif '(L) XPR_Option'=3 then
+	if  empty ('(L) File Location') then
+		warning (getmsg(06058));
+		abort script;
+	else
+		set l_Ask to ask(getmsg(22044),getmsg(5),getmsg(1),\"\");
+		if l_Ask = ASKBUTTON2 then
+			abort script;
+		else
+			ProcessType=5;{06058-Not all required fields have been entered.}
+		end if;
+	end if;
+end if;
+open window PleaseWait;
+Window_ForceRedraw(window PleaseWait);
+set l_SQLScriptLocation to SQLScriptLocation of globals;
+set SQLScriptLocation of globals to 'Intercompany ID' of globals;
+call XPRUpdatePerceptionTax,
+				lSQLReturnStatus,
+				'(L) File Name',
+				s_StartDt,s_EndDt,
+				'From Date','To Date',
+				trim('(L) File Location'),
+				ProcessType,				
+				lSQLErrState;
+				
+	
+	if (lSQLReturnStatus <> 0 and  lSQLReturnStatus <> -127) or (lSQLErrState > 0) then
+		call Warning_Dialog, 35100, \"XPRUpdatePerceptionTax\",
+			str(lSQLReturnStatus),
+			str(lSQLErrState),
+			WARNINGDIALOGGET;
+			set SQLScriptLocation of globals to l_SQLScriptLocation;
+			close window PleaseWait;
+			abort script;		
+	end if;				
+close window PleaseWait;
+								
+set SQLScriptLocation of globals to l_SQLScriptLocation;
+warning getmsg(22047);
+
+{MSAL Agrego ProcessType5 al primer if}
+if ProcessType=1 or ProcessType=2 or ProcessType=5 then
+	run report XPR_Update_Perceptions_Tax_Report
+	legends str('From Date'),str('To Date'),getmsg(22048);
+	if countrecords(table XPR_Update_Perc_Tax_Rep_Ex_Temp)>0 then
+		run report XPR_Update_Perceptions_Tax_Exceptions_Report
+		legends str('From Date'),str('To Date'),getmsg(22053);
+	end if;
+elseif ProcessType=3 then
+	run report XPR_Update_Perceptions_Tax_Report
+	legends str('From Date'),str('To Date'),getmsg(22049);
+	if countrecords(table XPR_Update_Perc_Tax_Rep_Ex_Temp)>0 then
+		run report XPR_Update_Perceptions_Tax_Exceptions_Report
+		legends str('From Date'),str('To Date'),getmsg(22054);
+	end if;
+elseif ProcessType=4 then
+	call RetrieveEmptyDestination of form ReportDestObj,
+					getmsg(22064),
+					\"\",
+					sRptDest;
+	run report XPR_Update_Perceptions_Tax_Report
+	legends str('From Date'),str('To Date'),getmsg(22064) destination sRptDest;
+	
+	if countrecords(table XPR_Update_Perc_Tax_Rep_Ex_Temp)>0 then
+	call RetrieveEmptyDestination of form ReportDestObj,
+					getmsg(22065),
+					\"\",
+					sRptDest;
+		run report XPR_Update_Perceptions_Tax_Exceptions_Report
+		legends str('From Date'),str('To Date'),getmsg(22065) destination sRptDest;
+	end if;
+end if;
+run script 'Clear Button';{Partners@VMurthyBR PR50916}
+
+
+
+
+"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Save Record_CHG"		
+		{
+			Documentation	""
+			Script	"{PR50618:VMurthyBR:Start}
+set 'Handle Changes' to false;
+if '(L) XPR_Option'=1 or '(L) XPR_Option'=2 then
+	if empty ('(L) File Name') or empty ('From Date') or empty ('To Date') or empty ('(L) File Location') then
+		call Warning_Dialog, 2351,\"\",\"\",\"\"; {-- Required fields --}
+		set '(L) chkRecord' to 1;
+		abort script;
+	end if;
+else
+	if empty ('(L) File Name') or empty ('From Date') or empty ('To Date')  then
+		call Warning_Dialog, 2351,\"\",\"\",\"\"; {-- Required fields --}
+		set '(L) chkRecord' to 1;
+		abort script;
+	end if;
+end if;
+if ('From Date' > 'To Date') and (not empty('To Date'))then
+	call Warning_Dialog,3001,\"\",\"\",\"\";
+	focus 'From Date';
+	restart field;
+	abort script;
+end if;
+{PR50618:End}
+Name of table XPR_Update_Perception_Tax = '(L) File Name';
+get table XPR_Update_Perception_Tax;
+if err()=OKAY then
+	change table XPR_Update_Perception_Tax;  
+	set Name of table XPR_Update_Perception_Tax to '(L) File Name';
+	set 'From Date' of table XPR_Update_Perception_Tax to 'From Date';
+	set 'To Date' of table XPR_Update_Perception_Tax to 'To Date';
+	set XPR_Option of table XPR_Update_Perception_Tax to '(L) XPR_Option';
+	set FilePath of table XPR_Update_Perception_Tax to '(L) File Location';
+	save table XPR_Update_Perception_Tax;
+else
+	set Name of table XPR_Update_Perception_Tax to '(L) File Name';
+	set 'From Date' of table XPR_Update_Perception_Tax to 'From Date';
+	set 'To Date' of table XPR_Update_Perception_Tax to 'To Date';
+	set XPR_Option of table XPR_Update_Perception_Tax to '(L) XPR_Option';
+	set FilePath of table XPR_Update_Perception_Tax to '(L) File Location';
+	save table XPR_Update_Perception_Tax;
+end if;
+
+clear table XPR_Default_Perception_Tax_By_Name;
+release table XPR_Default_Perception_Tax_By_Name;
+Name of table XPR_Default_Perception_Tax_By_Name = '(L) File Name';
+get table XPR_Default_Perception_Tax_By_Name;
+if err()=OKAY then
+	change table XPR_Default_Perception_Tax_By_Name;  
+end if;
+set Percentage of table XPR_Default_Perception_Tax_By_Name to '(L) Default_Tax';
+save table XPR_Default_Perception_Tax_By_Name;
+
+release table XPR_Update_Perception_Tax_Detail;
+clear table XPR_Update_Perception_Tax_Detail;
+range clear table XPR_Update_Perception_Tax_Detail;
+Name of table XPR_Update_Perception_Tax_Detail = '(L) File Name';
+range start table XPR_Update_Perception_Tax_Detail;
+fill field 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail;
+range end table XPR_Update_Perception_Tax_Detail;
+remove range table XPR_Update_Perception_Tax_Detail;
+get first table XPR_Update_Perception_Tax_Detail_Temp;
+while err() = OKAY do
+	if XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp = 1 then
+	    set  Name of table XPR_Update_Perception_Tax_Detail to '(L) File Name' of window Update_Perception_Tax;
+	    set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail to 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp;
+		save table XPR_Update_Perception_Tax_Detail;
+	end if;
+	
+	get next table XPR_Update_Perception_Tax_Detail_Temp;
+end while;
+set 'Handle Changes' to true;
+remove range table XPR_Update_Perception_Tax_Detail_Temp;
+release table XPR_Update_Perception_Tax_Detail_Temp;
+clear changes window Update_Perception_Tax;
+"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax To Date_POST"		
+		{
+			Documentation	""
+			Script	"if ('From Date' > 'To Date') and (not empty('To Date'))then
+	call Warning_Dialog,3001,\"\",\"\",\"\";
+	focus 'From Date';
+	restart field;
+	abort script;
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax WindowHelp_CHG"		
+		{
+			Documentation	""
+			Script	"local boolean result;
+
+result=Menu_Invoke(MENU_ACTION_HELPWINDOW);"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax Zoom Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Zoom button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local integer l_ask;
+local string l_file_and_path,hyper_generic;
+local string sWrapInDoubleQuotes;
+
+set l_ask to ask(getmsg(22000), getmsg(5), getmsg(6),\"\");
+if l_ask = ASKBUTTON1 then 
+if not empty('(L) File Location') then
+		{ *** check to see if the paths exist for the comm link and upload file *** }
+	l_file_and_path = '(L) File Location';
+	hyper_generic = Path_MakeGeneric(l_file_and_path);
+	if File_Probe(hyper_generic) = false then
+		warning getmsg(22040);
+		{warning \"The path to your communications link does not exist. This EFT Transactions file must be uploaded manually before another batch is processed.\";}
+		abort script;
+	else
+		set sWrapInDoubleQuotes to char(34) {\"} + l_file_and_path + char(34) {\"};
+		run application \"\", sWrapInDoubleQuotes;
+	end if;
+end if;
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax l_FromTyp_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of '(L) FromTyp' field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local	integer	f_ok;
+set f_ok to ProcessFrom('(L) TaxID', '(L) FromTyp', '(L) ToTyp') 
+				of form SystemLib;"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax l_Show_CHG"		
+		{
+			Documentation	""
+			Script	"local text SqlQry;
+release table XPR_Update_Perception_Tax_Detail_Temp;
+range clear table XPR_Update_Perception_Tax_Detail_Temp;
+clear window XPR_Update_Perception_Tax_Scroll;
+if '(L) Show' = 1 then
+    if '(L) TaxID'of window Update_Perception_Tax = RANGE then
+   	  'Start Tax Detail ID'='(L) FromTyp';
+	  'End Tax Detail ID'='(L) ToTyp';
+	   release table XPR_Update_Perception_Tax_Detail_Temp;
+       range clear table XPR_Update_Perception_Tax_Detail_Temp;
+	   set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Start Tax Detail ID' of window Update_Perception_Tax;
+	   range start table XPR_Update_Perception_Tax_Detail_Temp;
+	   set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'End Tax Detail ID' of window Update_Perception_Tax;
+	   range end table XPR_Update_Perception_Tax_Detail_Temp;
+	   get first table XPR_Update_Perception_Tax_Detail_Temp; 
+	   fill window XPR_Update_Perception_Tax_Scroll;
+    else 
+	   fill window XPR_Update_Perception_Tax_Scroll;
+	end if;
+elseif '(L) Show' = 2 then
+  if '(L) TaxID'of window Update_Perception_Tax = RANGE then
+   	  'Start Tax Detail ID'='(L) FromTyp';
+	  'End Tax Detail ID'='(L) ToTyp';
+	   release table XPR_Update_Perception_Tax_Detail_Temp;
+       range clear table XPR_Update_Perception_Tax_Detail_Temp;
+	   set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Start Tax Detail ID' of window Update_Perception_Tax;
+	   range start table XPR_Update_Perception_Tax_Detail_Temp;
+	   set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'End Tax Detail ID' of window Update_Perception_Tax;
+	   range end table XPR_Update_Perception_Tax_Detail_Temp;
+	   SqlQry = physicalname(XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp) + \" = \" + str(1);
+	   range table XPR_Update_Perception_Tax_Detail_Temp where SqlQry;
+	   fill window XPR_Update_Perception_Tax_Scroll;
+    else
+		SqlQry = physicalname(XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp) + \" = \" + str(1);
+		range table XPR_Update_Perception_Tax_Detail_Temp where SqlQry;
+		fill window XPR_Update_Perception_Tax_Scroll;
+	end if;
+elseif '(L) Show'=3 then
+       if '(L) TaxID'of window Update_Perception_Tax = RANGE then
+   	  'Start Tax Detail ID'='(L) FromTyp';
+	  'End Tax Detail ID'='(L) ToTyp';
+	   release table XPR_Update_Perception_Tax_Detail_Temp;
+       range clear table XPR_Update_Perception_Tax_Detail_Temp;
+	   set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Start Tax Detail ID' of window Update_Perception_Tax;
+	   range start table XPR_Update_Perception_Tax_Detail_Temp;
+	   set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'End Tax Detail ID' of window Update_Perception_Tax;
+	   range end table XPR_Update_Perception_Tax_Detail_Temp;
+	   SqlQry = physicalname(XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp) + \" = \" + str(0);
+	   range table XPR_Update_Perception_Tax_Detail_Temp where SqlQry;
+	   fill window XPR_Update_Perception_Tax_Scroll;
+    else
+	SqlQry = physicalname(XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp) + \" = \" + str(0);
+	range table XPR_Update_Perception_Tax_Detail_Temp where SqlQry;
+	fill window XPR_Update_Perception_Tax_Scroll;
+	end if;
+end if;
+
+"
+			UserProperties	""
+		}
+		EventScript	"Update_Perception_Tax l_XPR_Option_CHG"		
+		{
+			Documentation	""
+			Script	"{Modufied for RF7643 By GKulkarni@Partners }
+local boolean result;
+local integer flag;
+flag=1;
+warning (\" XPR Option \" + str('(L) XPR_Option'));
+if '(L) XPR_Option' = 1 then
+	{PR61848:Start}
+	call XPR_remove_taxdetail_id,table XPR_Update_Perception_Tax_Detail_Temp,1;
+	{PR61848:End}
+	result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, true);
+	{disable '(L) Default Tax';}
+elseif '(L) XPR_Option' = 0 then 
+	{PR61848:Start}
+	call XPR_remove_taxdetail_id,table XPR_Update_Perception_Tax_Detail_Temp,1;
+	{PR61848:End}
+	result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, false);
+	{enable '(L) Default Tax';}
+elseif '(L) XPR_Option' = 2 then 
+	{PR61848:Start}
+	call XPR_remove_taxdetail_id,table XPR_Update_Perception_Tax_Detail_Temp,2;
+	{PR61848:End}
+	result =Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, true);
+	{enable '(L) Default Tax';}
+elseif '(L) XPR_Option' = 3 then 
+	{PR61848:Start}
+	call XPR_remove_taxdetail_id,table XPR_Update_Perception_Tax_Detail_Temp,1;
+	{PR61848:End}
+	result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, true);
+	{enable '(L) Default Tax';}	
+end if;
+
+
+clear window XPR_Update_Perception_Tax_Scroll;	
+get first table XPR_Update_Perception_Tax_Detail_Temp;
+fill window XPR_Update_Perception_Tax_Scroll; 
+set '(L) ChkName' to false;
+set '(L) Show' to 1; 
+run script '(L) Show';
+"
+			UserProperties	""
+		}
+		EventScript	"XPR_Update_Perception_Tax_Scroll SCROLL_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Scrolling Window
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+{clear table XPR_Update_Perception_Tax_Detail_Temp;
+set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail ID' of window XPR_Update_Perception_Tax_Scroll;
+set 'Tax Detail Description' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail Description' of window XPR_Update_Perception_Tax_Scroll;
+if '(L) CB_TypeID' of window XPR_Update_Perception_Tax_Scroll = true {or ('(L) chkRecord') =1} then
+	set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 1;
+else
+	set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 0;
+end if;	
+save table XPR_Update_Perception_Tax_Detail_Temp; 
+}	"
+			UserProperties	""
+		}
+		EventScript	"XPR_Update_Perception_Tax_Scroll SCROLL_FILL"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Fill event of Scrolling Window
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+	set 'Tax Detail ID' of window XPR_Update_Perception_Tax_Scroll to 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp;
+	set 'Tax Detail Description' of window XPR_Update_Perception_Tax_Scroll to 'Tax Detail Description' of table XPR_Update_Perception_Tax_Detail_Temp;
+	if XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp = 1 then
+		set '(L) CB_TypeID' of window XPR_Update_Perception_Tax_Scroll to true;
+	else
+		set '(L) CB_TypeID' of window XPR_Update_Perception_Tax_Scroll to false;
+	end if;
+
+			
+
+
+
+"
+			UserProperties	""
+		}
+		EventScript	"XPR_Update_Perception_Tax_Scroll l_CB_TypeID_CHG"		
+		{
+			Documentation	""
+			Script	"local long status;
+release table XPR_Update_Perception_Tax_Detail_Temp;
+clear table XPR_Update_Perception_Tax_Detail_Temp;
+set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail ID' of window XPR_Update_Perception_Tax_Scroll;
+set 'Tax Detail Description' of table XPR_Update_Perception_Tax_Detail_Temp to 'Tax Detail Description' of window XPR_Update_Perception_Tax_Scroll;
+change table XPR_Update_Perception_Tax_Detail_Temp;
+release table XPR_Update_Perception_Tax_Detail;
+clear table XPR_Update_Perception_Tax_Detail;
+range clear table XPR_Update_Perception_Tax_Detail;
+if '(L) CB_TypeID' of window XPR_Update_Perception_Tax_Scroll = true {or ('(L) chkRecord') =1} then
+	set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 1;
+	set  Name of table XPR_Update_Perception_Tax_Detail to '(L) File Name' of window Update_Perception_Tax;
+    set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail to 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp;
+	save table XPR_Update_Perception_Tax_Detail;
+else
+	status = Table_SetRefreshFlags(table XPR_Update_Perception_Tax_Detail);
+	set XPR_Ckbox of table XPR_Update_Perception_Tax_Detail_Temp to 0;
+	set  Name of table XPR_Update_Perception_Tax_Detail to '(L) File Name' of window Update_Perception_Tax;
+	set 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail to 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail_Temp;
+	change table XPR_Update_Perception_Tax_Detail;
+	fill field 'Tax Detail ID' of table XPR_Update_Perception_Tax_Detail;
+	remove table XPR_Update_Perception_Tax_Detail; 
+end if;	
+save table XPR_Update_Perception_Tax_Detail_Temp; 
+if '(L) Show' of window Update_Perception_Tax <> 1 then
+	fill window XPR_Update_Perception_Tax_Scroll;
+end if;"
+			UserProperties	""
+		}
+	}
+	~Functions
+	{
+	}
+	~Procedures
+	{
+	}
+}
