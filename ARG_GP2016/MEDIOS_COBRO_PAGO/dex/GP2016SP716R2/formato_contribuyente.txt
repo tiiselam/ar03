@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<BCPFORMAT xmlns="http://schemas.microsoft.com/sqlserver/2004/bulkload/format" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<RECORD>
+  <FIELD ID="TaxIDCode" xsi:type="CharFixed" LENGTH="11"/>
+  <FIELD ID="StatInd" xsi:type="CharFixed" LENGTH="5"/>
+  <FIELD ID="Convenio" xsi:type="CharFixed" LENGTH="4"/>
+  <FIELD ID="DueDateFrm" xsi:type="CharFixed" LENGTH="10"/>
+  <FIELD ID="DueDateTo" xsi:type="CharFixed" LENGTH="10"/>
+  <FIELD ID="VendorName" xsi:type="CharFixed" LENGTH="152"/>
+  <FIELD ID="PercPer" xsi:type="CharTerm" TERMINATOR="\r\n" MAX_LENGTH="10"/>
+</RECORD>
+<ROW>
+  <COLUMN SOURCE="TaxIDCode" NAME="TaxIDCode" xsi:type="SQLCHAR" LENGTH="11"/>
+  <COLUMN SOURCE="StatInd"  NAME="StatInd" xsi:type="SQLCHAR" LENGTH="5"/>
+  <COLUMN SOURCE="Convenio"  NAME="Convenio" xsi:type="SQLCHAR" LENGTH="4"/>
+  <COLUMN SOURCE="DueDateFrm" NAME="DueDateFrm" xsi:type="SQLCHAR"  LENGTH="10"/>
+  <COLUMN SOURCE="DueDateTo" NAME="DueDateFrm" xsi:type="SQLCHAR"  LENGTH="10"/>
+  <COLUMN SOURCE="VendorName" NAME="VendorName" xsi:type="SQLCHAR"  LENGTH="152"/>
+  <COLUMN SOURCE="PercPer" NAME="PercPer" xsi:type="SQLCHAR" LENGTH="10"/>
+</ROW>
+</BCPFORMAT>
