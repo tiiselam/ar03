@@ -1,0 +1,6557 @@
+Form	"nfMCP_Update_Withhold_Tax"
+{
+	Commands
+	{
+	}
+	ConfigurableMenus	"false"
+	Constants
+	{
+	}
+	Datatypes
+	{
+		Datatype	"CB_TypeID"		
+		{
+			Control	"CheckBox"
+			StaticType	"Text"
+			~StaticItems
+			{
+			}
+		}
+		Datatype	"Checkbox33"		
+		{
+			Control	"CheckBox"
+			StaticType	"Text"
+			~StaticItems
+			{
+			}
+		}
+		Datatype	"ChkName"		
+		{
+			Control	"Boolean"
+		}
+		Datatype	"Date"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"Default Tax"		
+		{
+			Control	"PushButton"
+			DefaultDown	"00000"
+			DefaultMouseOver	"00000"
+			DefaultUp	"00000"
+			Prompt	"Impuesto predeterminado"
+			PromptDown	""
+			PromptMouseOver	""
+			StaticType	"Picture"
+			~ItemImages
+			{
+			}
+		}
+		Datatype	"DtFrom"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"DtTo"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"Edit_Button"		
+		{
+			Control	"PushButton"
+			DefaultDown	"00000"
+			DefaultMouseOver	"00000"
+			DefaultUp	"00000"
+			Prompt	"&Editar"
+			PromptDown	""
+			PromptMouseOver	""
+			StaticType	"Picture"
+			~ItemImages
+			{
+			}
+		}
+		Datatype	"File Button"		
+		{
+			Control	"PushButton"
+			DefaultDown	"00000"
+			DefaultMouseOver	"00000"
+			DefaultUp	"00000"
+			Prompt	"&Archivo"
+			PromptDown	""
+			PromptMouseOver	""
+			StaticType	"Picture"
+			~ItemImages
+			{
+			}
+		}
+		Datatype	"File Location"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"255"
+			StorageLength	"256"
+		}
+		Datatype	"File Name"		
+		{
+			AllowOddLength	"false"
+			Control	"ComboBox"
+			KeyableLength	"30"
+			Sort	"true"
+			StorageLength	"32"
+			~StaticItems
+			{
+			}
+		}
+		Datatype	"Filelocation"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"FormatFileLocation"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"255"
+			StorageLength	"256"
+		}
+		Datatype	"Modify"		
+		{
+			Control	"CheckBox"
+			StaticType	"Text"
+			~StaticItems
+			{
+				TextItem	"00001"				
+				{
+					Item	"Modificar"
+				}
+			}
+		}
+		Datatype	"Monthly Mono Tax"		
+		{
+			Control	"RadioButton"
+			Prompt	"Actualizar imp. mensual de BA s/renta bruta para prov. pequeños contribuyentes"
+		}
+		Datatype	"Monthly Tax"		
+		{
+			Control	"RadioButton"
+			Prompt	"Actualizar impuesto estatal mensual para todos los proveedores"
+		}
+		Datatype	"ProgIndicator"		
+		{
+			Control	"ProgressIndicator"
+		}
+		Datatype	"PushButton36"		
+		{
+			Control	"PushButton"
+			DefaultDown	"00000"
+			DefaultMouseOver	"00000"
+			DefaultUp	"00000"
+			Prompt	""
+			PromptDown	""
+			PromptMouseOver	""
+			StaticType	"Native Picture"
+			~ItemImages
+			{
+			}
+		}
+		Datatype	"Quarterly Tax"		
+		{
+			Control	"RadioButton"
+			Prompt	"Actualizar impuesto municipal mensual general para proveedores"
+		}
+		Datatype	"RadioButton6"		
+		{
+			Control	"RadioButton"
+			Prompt	""
+		}
+		Datatype	"SelOp"		
+		{
+			Control	"RadioGroup"
+		}
+		Datatype	"Select Option"		
+		{
+			Control	"RadioGroup"
+		}
+		Datatype	"Select an Option"		
+		{
+			Control	"RadioGroup"
+		}
+		Datatype	"SelwhTyID"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"Show"		
+		{
+			Control	"DropDownList"
+			Sort	"false"
+			StaticType	"Text"
+			~StaticItems
+			{
+				TextItem	"00001"				
+				{
+					Item	"Mostrar todo"
+				}
+				TextItem	"00002"				
+				{
+					Item	"Mostrar elementos seleccionados"
+				}
+				TextItem	"00003"				
+				{
+					Item	"Mostrar elementos no seleccionados"
+				}
+			}
+		}
+		Datatype	"Tax ID All"		
+		{
+			Control	"RadioButton"
+			Prompt	"Todo"
+		}
+		Datatype	"Tax ID From"		
+		{
+			Control	"RadioButton"
+			Prompt	"Desde:"
+		}
+		Datatype	"TaxID"		
+		{
+			Control	"RadioGroup"
+		}
+		Datatype	"Tool_Button"		
+		{
+			Control	"PushButton"
+			DefaultDown	"00000"
+			DefaultMouseOver	"00000"
+			DefaultUp	"00000"
+			Prompt	"&Herramientas"
+			PromptDown	""
+			PromptMouseOver	""
+			StaticType	"Picture"
+			~ItemImages
+			{
+			}
+		}
+		Datatype	"TucumanAcreditan"		
+		{
+			Control	"RadioButton"
+			Prompt	"Actualizar IIBB de Tucumán padrón \"Contribuyente\""
+		}
+		Datatype	"TucumanCoef116"		
+		{
+			Control	"RadioButton"
+			Prompt	"Actauliza IIBB Tucumán padrón \"Coefrg116\""
+		}
+		Datatype	"TypIdTo"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"TypeId"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+		Datatype	"chkRecord"		
+		{
+			Control	"Integer"
+			Format	""
+			KeyableLength	"0"
+		}
+		Datatype	"selectOpt"		
+		{
+			AllowOddLength	"false"
+			Control	"String"
+			Format	""
+			KeyableLength	"31"
+			StorageLength	"32"
+		}
+	}
+	EventPost	""
+	EventPre	""
+	Fields
+	{
+		Field	"CB_TypeID"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) CB_TypeID"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Checkbox33"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Checkbox33"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"ChkName"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) ChkName"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Date"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Date"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Default Tax"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Default Tax"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Default_Tax"		
+		{
+			ArraySize	"0"
+			Datatype	"DLR5_%2"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"DtFrom"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) DtFrom"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"DtTo"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) DtTo"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Edit_Button"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Edit_Button"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"File Button"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) File Button"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"File Location"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) File Location"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"File Name"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) File Name"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Filelocation"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Filelocation"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"FormatFileLocation"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) FormatFileLocation"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"FromTyp"		
+		{
+			ArraySize	"0"
+			Datatype	"STR30_LA"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Modify"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Modify"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Monthly Mono Tax"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Monthly Mono Tax"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Monthly Tax"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Monthly Tax"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"ProgIndicator"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) ProgIndicator"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"PushButton36"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) PushButton36"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Quarterly Tax"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Quarterly Tax"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"RadioButton6"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) RadioButton6"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"SelOp"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) SelOp"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Select Option"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Select Option"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Select an Option"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Select an Option"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"SelwhTyID"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) SelwhTyID"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Show"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Show"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Tax ID All"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Tax ID All"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Tax ID From"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Tax ID From"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"TaxID"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) TaxID"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"ToTyp"		
+		{
+			ArraySize	"0"
+			Datatype	"STR30_LA"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"Tool_Button"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) Tool_Button"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"TucumanAcreditan"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) TucumanAcreditan"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"TucumanCoef116"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) TucumanCoef116"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"TypIdTo"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) TypIdTo"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"TypeId"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) TypeId"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"chkRecord"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) chkRecord"
+			LookupForm	""
+			PhysicalName	""
+		}
+		Field	"selectOpt"		
+		{
+			ArraySize	"0"
+			Datatype	"(L) selectOpt"
+			LookupForm	""
+			PhysicalName	""
+		}
+	}
+	Menus
+	{
+	}
+	Series	"Purchasing"
+	Tables
+	{
+		FormTable	"nfRET_Default_Withhold_By_Name"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"1"
+			Table	"nfRET_Default_Withhold_By_Name"
+		}
+		FormTable	"nfRET_Default_Withhold_Tax"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"4"
+			Table	"nfRET_Default_Withhold_Tax"
+		}
+		FormTable	"nfRET_Default_Withhold_Tax_HighRisk"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"2"
+			Table	"nfRET_Default_Withhold_Tax_HighRisk"
+		}
+		FormTable	"nfRET_Mono_Setup"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"9"
+			Table	"nfRET_Mono_Setup"
+		}
+		FormTable	"nfRET_TIPO_MSTR"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"6"
+			Table	"nfRET_TIPO_MSTR"
+		}
+		FormTable	"nfRET_Update_Withhold_Tax"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"7"
+			Table	"nfRET_Update_Withhold_Tax"
+		}
+		FormTable	"nfRET_Update_Withhold_Tax_Detail"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"8"
+			Table	"nfRET_Update_Withhold_Tax_Detail"
+		}
+		FormTable	"nfRET_Update_Withhold_Tax_Detail_TEMP"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"5"
+			Table	"nfRET_Update_Withhold_Tax_Detail_TEMP"
+		}
+		FormTable	"nfRET_Update_Withhold_Tax_RepEx_Temp"		
+		{
+			AutoOpen	"false"
+			CursorBlockSize	"0"
+			OpenMode	"ReadWrite"
+			Position	"3"
+			Table	"nfRET_Update_Withhold_Tax_RepEx_Temp"
+		}
+	}
+	Windows
+	{
+		Window	"PleaseWait"		
+		{
+			AutoLinkTable	""
+			AutoOpen	"false"
+			BackGround	"true"
+			CloseBox	"false"
+			ControlArea	"false"
+			DisplayName	"Espere... ..."
+			EventActivate	""
+			EventContextMenu	""
+			EventPost	""
+			EventPre	""
+			EventPrint	""
+			Fields
+			{
+				WindowPrompt	"1"				
+				{
+					Alignment	"center"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"74"
+					PositionTop	"36"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"256"
+					Text	"Actualizando impuestos de retención."
+					Visible	"true"
+					ZOrder	"0"
+					Zoom	"false"
+				}
+			}
+			LastTag	"1"
+			Position	"3"
+			PositionLeft	"1"
+			PositionTop	"1"
+			Resizable	"true"
+			SizeHeight	"100"
+			SizeWidth	"400"
+			WindowType	"ModalDialog"
+		}
+		Window	"Update Withhold Tax"		
+		{
+			AutoLinkTable	"nfRET_Update_Withhold_Tax"
+			AutoOpen	"true"
+			BackGround	"true"
+			CloseBox	"true"
+			ControlArea	"true"
+			DisplayName	"Actualizar impuesto de retención"
+			EventActivate	""
+			EventContextMenu	""
+			EventPost	"Update Withhold Tax_WIN_POST"
+			EventPre	"Update Withhold Tax_WIN_PRE"
+			EventPrint	""
+			Fields
+			{
+				WindowControl	"(L) ChkName"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"Pink"
+					ControlType	"Boolean"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					Field	"(L) ChkName"
+					FontColor	"System - Window Text"
+					PositionLeft	"56"
+					PositionTop	"745"
+					SavedOnRestart	"false"
+					SizeHeight	"20"
+					SizeWidth	"96"
+					Tag	"128"
+					ZOrder	"51"
+				}
+				WindowControl	"(L) Date"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Date"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"17"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"296"
+					PositionTop	"764"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"145"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"62"
+					Zoom	"false"
+				}
+				WindowControl	"(L) Default Tax"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"false"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax l_Default Tax_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Default Tax"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"679"
+					PositionTop	"60"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"22"
+					SizeWidth	"153"
+					TabStop	"true"
+					Tag	"24"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"3"
+					Zoom	"false"
+				}
+				WindowControl	"(L) Default_Tax"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"Currency"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Default_Tax"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"156"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"578"
+					PositionTop	"73"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"64"
+					TabStop	"true"
+					Tag	"157"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"68"
+					Zoom	"false"
+				}
+				WindowControl	"(L) DtFrom"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) DtFrom"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"18"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"296"
+					PositionTop	"783"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"143"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"60"
+					Zoom	"false"
+				}
+				WindowControl	"(L) DtTo"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) DtTo"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"19"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"296"
+					PositionTop	"802"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"144"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"61"
+					Zoom	"false"
+				}
+				WindowControl	"(L) File Location"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) File Location"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"169"
+					PositionTop	"473"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"442"
+					TabStop	"true"
+					Tag	"129"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"18"
+					Zoom	"false"
+				}
+				WindowControl	"(L) File Name"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					ControlType	"ComboBox"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update Withhold Tax l_File Name_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) File Name"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"16"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"176"
+					PositionTop	"31"
+					ReadingOrder	"LeftToRight"
+					Required	"true"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"false"
+					SizeHeight	"19"
+					SizeWidth	"320"
+					TabStop	"true"
+					Tag	"12"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					VisibleItems	"8"
+					ZOrder	"0"
+				}
+				WindowControl	"(L) Filelocation"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Filelocation"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"70"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"296"
+					PositionTop	"859"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"148"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"65"
+					Zoom	"true"
+				}
+				WindowControl	"(L) FormatFileLocation"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) FormatFileLocation"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"201"
+					PositionTop	"494"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"410"
+					TabStop	"true"
+					Tag	"163"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"70"
+					Zoom	"false"
+				}
+				WindowControl	"(L) FromTyp"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update Withhold Tax l_FromTyp_CHG_DUP"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) FromTyp"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"47"
+					LinkedPrompt	"0"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"205"
+					PositionTop	"249"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"17"
+					SizeWidth	"161"
+					TabStop	"true"
+					Tag	"112"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"13"
+					Zoom	"false"
+				}
+				WindowControl	"(L) Monthly Mono Tax"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) Monthly Mono Tax"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"26"
+					PositionTop	"157"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"416"
+					TabStop	"true"
+					Tag	"152"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"7"
+				}
+				WindowControl	"(L) Monthly Tax"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) Monthly Tax"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"26"
+					PositionTop	"115"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"336"
+					TabStop	"true"
+					Tag	"61"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"5"
+				}
+				WindowControl	"(L) Quarterly Tax"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) Quarterly Tax"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"26"
+					PositionTop	"136"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"384"
+					TabStop	"true"
+					Tag	"62"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"6"
+				}
+				WindowControl	"(L) SelOp"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"Transparent"
+					Border	"true"
+					ControlType	"RadioGroup"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update Withhold Tax l_SelOp_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) SelOp"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LineColor	"System"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"12"
+					PositionTop	"107"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"117"
+					SizeWidth	"630"
+					TabStop	"true"
+					Tag	"59"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"4"
+				}
+				WindowControl	"(L) SelwhTyID"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) SelwhTyID"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"42"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"296"
+					PositionTop	"745"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"142"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"59"
+					Zoom	"false"
+				}
+				WindowControl	"(L) Show"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					ControlType	"DropDownList"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update Withhold Tax l_Show_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Show"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"71"
+					PositionTop	"530"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"133"
+					TabStop	"true"
+					Tag	"115"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					VisibleItems	"8"
+					ZOrder	"20"
+				}
+				WindowControl	"(L) Tax ID All"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) Tax ID All"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"80"
+					PositionTop	"249"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"15"
+					SizeWidth	"56"
+					TabStop	"true"
+					Tag	"37"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"11"
+				}
+				WindowControl	"(L) Tax ID From"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) Tax ID From"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"137"
+					PositionTop	"248"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"16"
+					SizeWidth	"80"
+					TabStop	"true"
+					Tag	"38"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"12"
+				}
+				WindowControl	"(L) TaxID"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"Transparent"
+					Border	"false"
+					ControlType	"RadioGroup"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update Withhold Tax l_TaxID_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) TaxID"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LineColor	"System"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"75"
+					PositionTop	"249"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"17"
+					SizeWidth	"171"
+					TabStop	"true"
+					Tag	"36"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"10"
+				}
+				WindowControl	"(L) ToTyp"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) ToTyp"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"48"
+					LinkedPrompt	"0"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"205"
+					PositionTop	"265"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"161"
+					TabStop	"true"
+					Tag	"113"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"14"
+					Zoom	"false"
+				}
+				WindowControl	"(L) TucumanAcreditan"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) TucumanAcreditan"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"26"
+					PositionTop	"178"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"288"
+					TabStop	"true"
+					Tag	"158"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"8"
+				}
+				WindowControl	"(L) TucumanCoef116"				
+				{
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					ControlType	"RadioButton"
+					Field	"(L) TucumanCoef116"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"26"
+					PositionTop	"199"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"272"
+					TabStop	"true"
+					Tag	"159"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"9"
+				}
+				WindowControl	"(L) TypIdTo"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) TypIdTo"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"49"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"296"
+					PositionTop	"840"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"147"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"64"
+					Zoom	"false"
+				}
+				WindowControl	"(L) TypeId"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) TypeId"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"108"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"296"
+					PositionTop	"821"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"146"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"63"
+					Zoom	"false"
+				}
+				WindowControl	"(L) chkRecord"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"Pink"
+					Border	"true"
+					ControlType	"Integer"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) chkRecord"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"56"
+					PositionTop	"726"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"96"
+					TabStop	"false"
+					Tag	"127"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"50"
+					Zoom	"false"
+				}
+				WindowControl	"(L) selectOpt"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) selectOpt"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"66"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"296"
+					PositionTop	"726"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"192"
+					TabStop	"false"
+					Tag	"141"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"58"
+					Zoom	"false"
+				}
+				ScrollingWindow	"0105-nfRET_Update_Withhold_Tax_Scroll"				
+				{
+					AltLineColor	"false"
+					Appearance	"2D Border"
+					BackColor	"System - Window Background"
+					BigLineItem	"19"
+					DefaultDblClick	"false"
+					EventLineChange	"nfRET_Update_Withhold_Tax_Scroll SCROLL_CHG"
+					EventLineContextMenu	""
+					EventLineDelete	""
+					EventLineFill	"nfRET_Update_Withhold_Tax_Scroll SCROLL_FILL"
+					EventLineInsert	""
+					EventLinePost	""
+					EventLinePre	""
+					Fields
+					{
+						WindowControl	"(L) CB_TypeID"						
+						{
+							Alignment	"left"
+							Appearance	"2D Border"
+							AutoCopy	"false"
+							BackColor	"System - Window Background"
+							Border	"true"
+							ButtonStyle	"Standard"
+							ControlType	"CheckBox"
+							Editable	"true"
+							EventChange	"nfRET_Update_Withhold_Tax_Scroll l_CB_TypeID_CHG"
+							EventContextMenu	""
+							EventMouseEnter	""
+							EventMouseExit	""
+							EventOther	""
+							EventPost	""
+							EventPre	""
+							Field	"(L) CB_TypeID"
+							Font	"System (generic)"
+							FontBold	"false"
+							FontColor	"System - Window Text"
+							FontItalic	"false"
+							FontUnderline	"false"
+							HyperSpace	"false"
+							LinkedLookup	"0"
+							LinkedPrompt	"0"
+							Pattern	"(none)"
+							PatternColor	"White"
+							PatternSelect	"50% Shading"
+							PositionLeft	"3"
+							PositionTop	"1"
+							Required	"false"
+							ResizeHoriz	"StayLeft"
+							ResizeVert	"StayTop"
+							SavedOnRestart	"false"
+							SetChangeFlag	"true"
+							SizeHeight	"19"
+							SizeWidth	"17"
+							TabStop	"true"
+							Tag	"15"
+							Tooltip	""
+							UseUniqueHelp	"true"
+							Visible	"true"
+							ZOrder	"4"
+						}
+						WindowLine	"5"						
+						{
+							Appearance	"3D Border"
+							LineColor	"System"
+							LineSize	"1"
+							PositionLeft	"1"
+							PositionTop	"19"
+							ResizeHoriz	"StayLeft"
+							ResizeVert	"StayTop"
+							SizeHeight	"0"
+							SizeWidth	"562"
+							ZOrder	"1"
+						}
+						WindowLine	"6"						
+						{
+							Appearance	"3D Border"
+							LineColor	"System"
+							LineSize	"1"
+							PositionLeft	"178"
+							PositionTop	"0"
+							ResizeHoriz	"StayLeft"
+							ResizeVert	"StayTop"
+							SizeHeight	"20"
+							SizeWidth	"0"
+							ZOrder	"2"
+						}
+						WindowControl	"nfRET Descripcion"						
+						{
+							Alignment	"left"
+							Appearance	"2D Border"
+							AutoComplete	"false"
+							AutoCopy	"true"
+							BackColor	"White"
+							Border	"false"
+							ControlType	"String"
+							DisableLookup	"false"
+							Editable	"false"
+							EventChange	""
+							EventContextMenu	""
+							EventMouseEnter	""
+							EventMouseExit	""
+							EventOther	""
+							EventPost	""
+							EventPre	""
+							Field	"nfRET Descripcion"
+							Font	"System (generic)"
+							FontBold	"false"
+							FontColor	"System - Window Text"
+							FontItalic	"false"
+							FontUnderline	"false"
+							LinkedFormat	"0"
+							LinkedLookup	"0"
+							LinkedPrompt	"0"
+							Password	"false"
+							Pattern	"(none)"
+							PatternColor	"White"
+							PositionLeft	"178"
+							PositionTop	"0"
+							ReadingOrder	"LeftToRight"
+							Required	"false"
+							ResizeHoriz	"StayLeft"
+							ResizeVert	"StayTop"
+							SavedOnRestart	"false"
+							SetChangeFlag	"true"
+							SizeHeight	"20"
+							SizeWidth	"382"
+							TabStop	"true"
+							Tag	"13"
+							Tooltip	""
+							UseUniqueHelp	"true"
+							Visible	"true"
+							ZOrder	"3"
+							Zoom	"false"
+						}
+						WindowControl	"nfRET Tipo ID"						
+						{
+							Alignment	"left"
+							Appearance	"2D Border"
+							AutoComplete	"false"
+							AutoCopy	"true"
+							BackColor	"White"
+							Border	"false"
+							ControlType	"String"
+							DisableLookup	"false"
+							Editable	"false"
+							EventChange	""
+							EventContextMenu	""
+							EventMouseEnter	""
+							EventMouseExit	""
+							EventOther	""
+							EventPost	""
+							EventPre	""
+							Field	"nfRET Tipo ID"
+							Font	"System (generic)"
+							FontBold	"false"
+							FontColor	"System - Window Text"
+							FontItalic	"false"
+							FontUnderline	"false"
+							LinkedFormat	"0"
+							LinkedLookup	"0"
+							LinkedPrompt	"0"
+							Password	"false"
+							Pattern	"(none)"
+							PatternColor	"White"
+							PositionLeft	"18"
+							PositionTop	"0"
+							ReadingOrder	"LeftToRight"
+							Required	"false"
+							ResizeHoriz	"StayLeft"
+							ResizeVert	"StayTop"
+							SavedOnRestart	"false"
+							SetChangeFlag	"true"
+							SizeHeight	"20"
+							SizeWidth	"160"
+							TabStop	"true"
+							Tag	"1"
+							Tooltip	""
+							UseUniqueHelp	"true"
+							Visible	"true"
+							ZOrder	"0"
+							Zoom	"false"
+						}
+					}
+					FontColor	"System - Window Text"
+					IgnoreActiveLine	"true"
+					LastTag	"15"
+					LinkTable	"nfRET_Update_Withhold_Tax_Detail_TEMP"
+					LinkTableKey	"0"
+					Name	"nfRET_Update_Withhold_Tax_Scroll"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"24"
+					PositionTop	"312"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					ScrollToBottom	"true"
+					SizeHeight	"135"
+					SizeWidth	"562"
+					SmallLineItem	"19"
+					WindowType	"Editable"
+					ZOrder	"17"
+				}
+				WindowPrompt	"106"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - List Header2"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"24"
+					PositionTop	"293"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"179"
+					Text	"Id. de tipo"
+					Visible	"true"
+					ZOrder	"45"
+					Zoom	"false"
+				}
+				WindowPrompt	"107"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - List Header2"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"202"
+					PositionTop	"293"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"384"
+					Text	"Descripción"
+					Visible	"true"
+					ZOrder	"46"
+					Zoom	"false"
+				}
+				WindowPrompt	"108"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"19"
+					PositionTop	"248"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"56"
+					Text	"Id. de tipo:"
+					Visible	"true"
+					ZOrder	"47"
+					Zoom	"false"
+				}
+				WindowLine	"11"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"332"
+					PositionTop	"4"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"16"
+					SizeWidth	"0"
+					ZOrder	"31"
+				}
+				WindowLine	"150"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"26"
+					PositionTop	"265"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"144"
+					ZOrder	"66"
+				}
+				WindowPrompt	"156"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"402"
+					PositionTop	"73"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"176"
+					Text	"% para quien no está en padrón:"
+					Visible	"true"
+					ZOrder	"67"
+					Zoom	"false"
+				}
+				WindowPrompt	"16"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"15"
+					PositionTop	"32"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"161"
+					Text	"Nombre del archivo:"
+					Visible	"true"
+					ZOrder	"32"
+					Zoom	"false"
+				}
+				WindowPrompt	"164"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"12"
+					PositionTop	"493"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"17"
+					SizeWidth	"176"
+					Text	"Ubicacion del archivo de formato"
+					Visible	"true"
+					ZOrder	"71"
+					Zoom	"true"
+				}
+				WindowPrompt	"17"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"15"
+					PositionTop	"58"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"125"
+					Text	"Fecha:"
+					Visible	"true"
+					ZOrder	"33"
+					Zoom	"false"
+				}
+				WindowPrompt	"18"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"83"
+					PositionTop	"57"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"19"
+					SizeWidth	"53"
+					Text	"Desde:"
+					Visible	"true"
+					ZOrder	"34"
+					Zoom	"false"
+				}
+				WindowPrompt	"19"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"82"
+					PositionTop	"75"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"54"
+					Text	"Hasta:"
+					Visible	"true"
+					ZOrder	"35"
+					Zoom	"false"
+				}
+				WindowLine	"3"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"0"
+					PositionTop	"24"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"657"
+					ZOrder	"27"
+				}
+				WindowShape	"32"				
+				{
+					Appearance	"3D Border"
+					BackColor	"Transparent"
+					LineColor	"System"
+					LineSize	"1"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"12"
+					PositionTop	"235"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					Shape	"RoundedRectangle"
+					SizeHeight	"226"
+					SizeWidth	"630"
+					ZOrder	"36"
+				}
+				WindowLine	"4"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"72"
+					PositionTop	"5"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"15"
+					SizeWidth	"0"
+					ZOrder	"28"
+				}
+				WindowPrompt	"42"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"31"
+					PositionTop	"226"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"188"
+					Text	"Seleccionar Id. de tipo de retención"
+					Visible	"true"
+					ZOrder	"37"
+					Zoom	"false"
+				}
+				WindowPrompt	"49"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"151"
+					PositionTop	"266"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"17"
+					SizeWidth	"55"
+					Text	"Hasta: "
+					Visible	"true"
+					ZOrder	"40"
+					Zoom	"false"
+				}
+				WindowLine	"6"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"147"
+					PositionTop	"4"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"16"
+					SizeWidth	"0"
+					ZOrder	"29"
+				}
+				WindowPrompt	"66"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"30"
+					PositionTop	"96"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"139"
+					Text	"Seleccionar una opción"
+					Visible	"true"
+					ZOrder	"41"
+					Zoom	"false"
+				}
+				WindowPrompt	"70"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"12"
+					PositionTop	"474"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"17"
+					SizeWidth	"157"
+					Text	"Ubicación del archivo:"
+					Visible	"true"
+					ZOrder	"42"
+					Zoom	"true"
+				}
+				WindowLine	"8"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"219"
+					PositionTop	"4"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"16"
+					SizeWidth	"0"
+					ZOrder	"30"
+				}
+				WindowLine	"83"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"1"
+					PositionTop	"521"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"658"
+					ZOrder	"43"
+				}
+				WindowControl	"Cancel Button"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Cancel Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Cancel Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"567"
+					PositionTop	"528"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"23"
+					SizeWidth	"73"
+					TabStop	"true"
+					Tag	"102"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"22"
+					Zoom	"false"
+				}
+				WindowControl	"Clear Button"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Clear Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Clear Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"74"
+					PositionTop	"0"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"24"
+					SizeWidth	"72"
+					TabStop	"true"
+					Tag	"5"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"24"
+					Zoom	"false"
+				}
+				WindowControl	"Delete Button"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Delete Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Delete Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"148"
+					PositionTop	"0"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"24"
+					SizeWidth	"68"
+					TabStop	"true"
+					Tag	"7"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"25"
+					Zoom	"false"
+				}
+				WindowControl	"Dummy Note Show Hide"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"true"
+					BackColor	"Yellow"
+					Border	"true"
+					ControlType	"Integer"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update Withhold Tax Dummy Note Show Hide_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Dummy Note Show Hide"
+					Font	"System (generic)"
+					FontBold	"true"
+					FontColor	"Black"
+					FontItalic	"true"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"Black"
+					PositionLeft	"168"
+					PositionTop	"688"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"false"
+					SizeHeight	"20"
+					SizeWidth	"224"
+					TabStop	"false"
+					Tag	"133"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"52"
+					Zoom	"false"
+				}
+				WindowControl	"End Tax Detail ID"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"true"
+					BackColor	"Pink"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"End Tax Detail ID"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"56"
+					PositionTop	"707"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"96"
+					TabStop	"false"
+					Tag	"123"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"49"
+					Zoom	"false"
+				}
+				WindowControl	"From Date"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"true"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"Date"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Update Withhold Tax From Date_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	"Update Withhold Tax From Date_POST"
+					EventPre	""
+					Field	"From Date"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"17"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"139"
+					PositionTop	"58"
+					ReadingOrder	"LeftToRight"
+					Required	"true"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"117"
+					TabStop	"true"
+					Tag	"14"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"1"
+					Zoom	"false"
+				}
+				WindowControl	"Handle Changes"				
+				{
+					Alignment	"left"
+					Appearance	"3D Highlight"
+					AutoCopy	"true"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ButtonStyle	"Standard"
+					ControlType	"CheckBox"
+					Editable	"true"
+					EventChange	"Update Withhold Tax Handle Changes_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Handle Changes"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PatternSelect	"50% Shading"
+					PositionLeft	"168"
+					PositionTop	"707"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"112"
+					TabStop	"true"
+					Tag	"134"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"53"
+				}
+				WindowControl	"Lookup Button 1"				
+				{
+					Alignment	"center"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Lookup Button 1_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Lookup Button 1"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"365"
+					PositionTop	"249"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"17"
+					SizeWidth	"18"
+					TabStop	"false"
+					Tag	"47"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"38"
+					Zoom	"false"
+				}
+				WindowControl	"Lookup Button 2"				
+				{
+					Alignment	"center"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Lookup Button 2_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Lookup Button 2"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"365"
+					PositionTop	"265"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"18"
+					TabStop	"false"
+					Tag	"48"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"39"
+					Zoom	"false"
+				}
+				WindowControl	"Mark All"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Mark All_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Mark All"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"Black"
+					PositionLeft	"443"
+					PositionTop	"261"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"22"
+					SizeWidth	"87"
+					TabStop	"true"
+					Tag	"51"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"15"
+					Zoom	"false"
+				}
+				WindowControl	"Mark None"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Mark None_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Mark None"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"533"
+					PositionTop	"261"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"22"
+					SizeWidth	"87"
+					TabStop	"true"
+					Tag	"52"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"16"
+					Zoom	"false"
+				}
+				WindowControl	"Note Absent Button - Toolbar"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Note Absent Button - Toolbar_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Note Absent Button - Toolbar"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"9"
+					PositionTop	"527"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayBottom"
+					SizeHeight	"24"
+					SizeWidth	"24"
+					TabStop	"false"
+					Tag	"84"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"55"
+					Zoom	"false"
+				}
+				WindowControl	"Note Present - Toolbar"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Note Present - Toolbar_CHG_DUP"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Note Present - Toolbar"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"8"
+					PositionTop	"529"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayBottom"
+					SizeHeight	"24"
+					SizeWidth	"24"
+					TabStop	"false"
+					Tag	"91"
+					Tooltip	"Abrir nota de ventana"
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"54"
+					Zoom	"false"
+				}
+				WindowControl	"Path Button Format File"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Path Button Format File_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Path Button Format File"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"611"
+					PositionTop	"495"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"18"
+					TabStop	"true"
+					Tag	"162"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"69"
+					Zoom	"false"
+				}
+				WindowControl	"Path Button[1]"				
+				{
+					Alignment	"center"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Path Button[1]_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Path Button[1]"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"610"
+					PositionTop	"473"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"18"
+					TabStop	"true"
+					Tag	"69"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"19"
+					Zoom	"false"
+				}
+				WindowControl	"Process Button P"				
+				{
+					Alignment	"center"
+					Appearance	"3D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Process Button P_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Process Button P"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"482"
+					PositionTop	"528"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"23"
+					SizeWidth	"71"
+					TabStop	"true"
+					Tag	"101"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"21"
+					Zoom	"false"
+				}
+				WindowControl	"Redisplay Button"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Redisplay Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Redisplay Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"220"
+					PositionTop	"0"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"24"
+					SizeWidth	"112"
+					TabStop	"true"
+					Tag	"9"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"26"
+					Zoom	"false"
+				}
+				WindowControl	"Save Button"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Save Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Save Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"0"
+					PositionTop	"0"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"24"
+					SizeWidth	"72"
+					TabStop	"true"
+					Tag	"2"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"23"
+					Zoom	"false"
+				}
+				WindowControl	"Save Record"				
+				{
+					Alignment	"left"
+					Appearance	"3D Border"
+					AutoCopy	"true"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ButtonStyle	"Standard"
+					ControlType	"CheckBox"
+					Editable	"true"
+					EventChange	"Update Withhold Tax Save Record_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Save Record"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PatternSelect	"50% Shading"
+					PositionLeft	"168"
+					PositionTop	"726"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"112"
+					TabStop	"true"
+					Tag	"139"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"57"
+				}
+				WindowControl	"Start Tax Detail ID"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					AutoComplete	"false"
+					AutoCopy	"true"
+					BackColor	"Pink"
+					Border	"true"
+					ControlType	"String"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Start Tax Detail ID"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Password	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"56"
+					PositionTop	"688"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"96"
+					TabStop	"false"
+					Tag	"122"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"48"
+					Zoom	"false"
+				}
+				WindowControl	"To Date"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"true"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"Date"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	"Update Withhold Tax To Date_POST"
+					EventPre	""
+					Field	"To Date"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"139"
+					PositionTop	"75"
+					ReadingOrder	"LeftToRight"
+					Required	"true"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"18"
+					SizeWidth	"117"
+					TabStop	"true"
+					Tag	"15"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"2"
+					Zoom	"false"
+				}
+				WindowControl	"WindowHelp"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax WindowHelp_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"WindowHelp"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"36"
+					PositionTop	"529"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"23"
+					SizeWidth	"24"
+					TabStop	"false"
+					Tag	"93"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"44"
+					Zoom	"false"
+				}
+				WindowControl	"Zoom Button"				
+				{
+					Alignment	"center"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Update Withhold Tax Zoom Button_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Zoom Button"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"16"
+					PositionTop	"471"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"152"
+					TabStop	"false"
+					Tag	"138"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"56"
+					Zoom	"true"
+				}
+			}
+			LastTag	"164"
+			Position	"1"
+			PositionLeft	"1"
+			PositionTop	"1"
+			Resizable	"true"
+			SizeHeight	"558"
+			SizeWidth	"658"
+			WindowType	"Primary"
+		}
+		Window	"Withhold_Default_Tax"		
+		{
+			AutoLinkTable	"nfRET_Default_Withhold_Tax"
+			AutoOpen	"false"
+			BackGround	"true"
+			CloseBox	"true"
+			ControlArea	"true"
+			DisplayName	"Impuesto predeterminado de retención"
+			EventActivate	""
+			EventContextMenu	""
+			EventPost	"Withhold_Default_Tax_WIN_POST"
+			EventPre	"Withhold_Default_Tax_WIN_PRE"
+			EventPrint	""
+			Fields
+			{
+				WindowControl	"(L) Default_Tax"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"Currency"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	"Withhold_Default_Tax l_Default_Tax_POST_DUP"
+					EventPre	""
+					Field	"(L) Default_Tax"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"20"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"168"
+					PositionTop	"54"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"80"
+					TabStop	"true"
+					Tag	"33"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"2"
+					Zoom	"false"
+				}
+				WindowControl	"(L) Modify"				
+				{
+					Alignment	"left"
+					Appearance	"3D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ButtonStyle	"Standard"
+					ControlType	"CheckBox"
+					Editable	"true"
+					EventChange	"Withhold_Default_Tax l_Modify_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) Modify"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PatternSelect	"50% Shading"
+					PositionLeft	"15"
+					PositionTop	"31"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"false"
+					SizeHeight	"20"
+					SizeWidth	"71"
+					TabStop	"true"
+					Tag	"17"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"1"
+				}
+				WindowControl	"(L) chkRecord"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"false"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ControlType	"Integer"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	""
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"(L) chkRecord"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"8"
+					PositionTop	"167"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"112"
+					TabStop	"true"
+					Tag	"32"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"12"
+					Zoom	"false"
+				}
+				WindowLine	"13"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"71"
+					PositionTop	"4"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"17"
+					SizeWidth	"0"
+					ZOrder	"4"
+				}
+				WindowPrompt	"20"				
+				{
+					Alignment	"left"
+					Appearance	"2D Border"
+					BackColor	"System - Button Face"
+					Border	"false"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"11"
+					PositionTop	"54"
+					ReadingOrder	"LeftToRight"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"20"
+					SizeWidth	"128"
+					Text	"Impuesto predeterminado de retención:"
+					Visible	"true"
+					ZOrder	"5"
+					Zoom	"false"
+				}
+				WindowLine	"21"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"14"
+					PositionTop	"73"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"161"
+					ZOrder	"6"
+				}
+				WindowLine	"22"				
+				{
+					Appearance	"3D Border"
+					LineColor	"System"
+					LineSize	"1"
+					PositionLeft	"1"
+					PositionTop	"88"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"0"
+					SizeWidth	"271"
+					ZOrder	"7"
+				}
+				WindowControl	"Dummy Note Show Hide"				
+				{
+					Appearance	"2D Border"
+					AutoCopy	"true"
+					BackColor	"Yellow"
+					Border	"true"
+					ControlType	"Integer"
+					DisableLookup	"false"
+					Editable	"true"
+					EventChange	"Withhold_Default_Tax Dummy Note Show Hide_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Dummy Note Show Hide"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					LinkedFormat	"0"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"8"
+					PositionTop	"129"
+					ReadingOrder	"LeftToRight"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"false"
+					SizeHeight	"20"
+					SizeWidth	"240"
+					TabStop	"false"
+					Tag	"26"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"10"
+					Zoom	"false"
+				}
+				WindowControl	"Handle Changes"				
+				{
+					Alignment	"left"
+					Appearance	"3D Border"
+					AutoCopy	"true"
+					BackColor	"System - Window Background"
+					Border	"true"
+					ButtonStyle	"Standard"
+					ControlType	"CheckBox"
+					Editable	"true"
+					EventChange	"Withhold_Default_Tax Handle Changes_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Handle Changes"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Window Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PatternSelect	"50% Shading"
+					PositionLeft	"8"
+					PositionTop	"148"
+					Required	"false"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SavedOnRestart	"false"
+					SetChangeFlag	"true"
+					SizeHeight	"20"
+					SizeWidth	"112"
+					TabStop	"true"
+					Tag	"29"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"false"
+					ZOrder	"11"
+				}
+				WindowControl	"Note Absent Button - Toolbar"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Withhold_Default_Tax Note Absent Button - Toolbar_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Note Absent Button - Toolbar"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"218"
+					PositionTop	"92"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayBottom"
+					SizeHeight	"22"
+					SizeWidth	"24"
+					TabStop	"false"
+					Tag	"24"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"9"
+					Zoom	"false"
+				}
+				WindowControl	"Note Present - Toolbar"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Withhold_Default_Tax Note Present - Toolbar_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"Note Present - Toolbar"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"217"
+					PositionTop	"93"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"24"
+					SizeWidth	"24"
+					TabStop	"false"
+					Tag	"25"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"0"
+					Zoom	"false"
+				}
+				WindowControl	"OK Button "				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"TextOnRight"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Withhold_Default_Tax OK Button _CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"OK Button "
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"2"
+					PositionTop	"1"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"22"
+					SizeWidth	"67"
+					TabStop	"true"
+					Tag	"11"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"3"
+					Zoom	"false"
+				}
+				WindowControl	"WindowHelp"				
+				{
+					Alignment	"center"
+					Appearance	"3D Highlight"
+					BackColor	"System - Button Face"
+					Border	"true"
+					ButtonStyle	"GraphicOnly"
+					Cancel	"false"
+					ControlType	"PushButton"
+					Default	"false"
+					Editable	"true"
+					EndTransaction	"false"
+					EventChange	"Withhold_Default_Tax WindowHelp_CHG"
+					EventContextMenu	""
+					EventMouseEnter	""
+					EventMouseExit	""
+					EventOther	""
+					EventPost	""
+					EventPre	""
+					Field	"WindowHelp"
+					Font	"System (generic)"
+					FontBold	"false"
+					FontColor	"System - Button Text"
+					FontItalic	"false"
+					FontUnderline	"false"
+					HyperSpace	"false"
+					LinkedLookup	"0"
+					LinkedPrompt	"0"
+					Pattern	"(none)"
+					PatternColor	"White"
+					PositionLeft	"249"
+					PositionTop	"95"
+					ResizeHoriz	"StayLeft"
+					ResizeVert	"StayTop"
+					SizeHeight	"18"
+					SizeWidth	"19"
+					TabStop	"false"
+					Tag	"23"
+					Tooltip	""
+					UseUniqueHelp	"true"
+					Visible	"true"
+					ZOrder	"8"
+					Zoom	"false"
+				}
+			}
+			LastTag	"33"
+			Position	"2"
+			PositionLeft	"1"
+			PositionTop	"1"
+			Resizable	"true"
+			SizeHeight	"121"
+			SizeWidth	"274"
+			WindowType	"Primary"
+		}
+	}
+	~EventScripts
+	{
+		EventScript	"Update Withhold Tax Cancel Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Cancel button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+release table nfRET_Update_Withhold_Tax;
+clear table nfRET_Update_Withhold_Tax;
+range clear table nfRET_Update_Withhold_Tax;
+Name of table nfRET_Update_Withhold_Tax='(L) File Name';
+get table nfRET_Update_Withhold_Tax;
+if err() = OKAY then
+	clear changes window 'Update Withhold Tax';
+else
+	clear table nfRET_Update_Withhold_Tax_Detail;
+	release table nfRET_Update_Withhold_Tax_Detail;
+	range clear table nfRET_Update_Withhold_Tax_Detail;
+	Name of table nfRET_Update_Withhold_Tax_Detail = '(L) File Name';
+	range start table nfRET_Update_Withhold_Tax_Detail;
+	fill field 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail;
+	range end table nfRET_Update_Withhold_Tax_Detail;
+	remove range table nfRET_Update_Withhold_Tax_Detail;
+end if;
+set 'Handle Changes' to true;
+clear changes window 'Update Withhold Tax';
+close form nfMCP_Update_Withhold_Tax;"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Clear Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Clear button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+release table nfRET_Update_Withhold_Tax;
+clear table nfRET_Update_Withhold_Tax;
+range clear table nfRET_Update_Withhold_Tax;
+Name of table nfRET_Update_Withhold_Tax='(L) File Name';
+get table nfRET_Update_Withhold_Tax;
+if err() = OKAY then
+	clear changes window 'Update Withhold Tax';
+else
+	clear table nfRET_Update_Withhold_Tax_Detail;
+	release table nfRET_Update_Withhold_Tax_Detail;
+	range clear table nfRET_Update_Withhold_Tax_Detail;
+	Name of table nfRET_Update_Withhold_Tax_Detail = '(L) File Name';
+	range start table nfRET_Update_Withhold_Tax_Detail;
+	fill field 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail;
+	range end table nfRET_Update_Withhold_Tax_Detail;
+	remove range table nfRET_Update_Withhold_Tax_Detail;
+end if;
+
+disable '(L) File Location';
+disable '(L) FromTyp';
+disable '(L) ToTyp';
+disable 'Lookup Button 1';
+disable 'Lookup Button 2';
+disable '(L) SelOp';
+disable '(L) Show';
+disable '(L) TaxID';
+disable 'From Date';
+disable 'To Date';
+disable 'Path Button'[1];
+disable 'Process Button P';
+disable 'Mark All';
+disable 'Mark None';
+disable 'Zoom Button';
+disable '(L) Default Tax';
+
+restart form; "
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Delete Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Delete button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local   integer     l_Ask;
+local text SqlQry;
+if empty ('(L) File Name') then
+	abort script;
+end if;
+set l_Ask to ask(getmsg(30010), getmsg(3), getmsg(1),\"\");
+if l_Ask = ASKBUTTON1 then 
+	get first table nfRET_Update_Withhold_Tax;
+	set Name of table nfRET_Update_Withhold_Tax to '(L) File Name';
+	change table nfRET_Update_Withhold_Tax; 
+	if err() = OKAY then
+		remove table  nfRET_Update_Withhold_Tax;
+    end if;
+	clear table nfRET_Update_Withhold_Tax_Detail;
+	release table nfRET_Update_Withhold_Tax_Detail;
+	range clear table nfRET_Update_Withhold_Tax_Detail;
+	Name of table nfRET_Update_Withhold_Tax_Detail = '(L) File Name';
+	range start table nfRET_Update_Withhold_Tax_Detail;
+	fill field 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail;
+	range end table nfRET_Update_Withhold_Tax_Detail;
+	remove range table nfRET_Update_Withhold_Tax_Detail;
+	restart form;
+end if;  
+ 
+  "
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Dummy Note Show Hide_CHG"		
+		{
+			Documentation	""
+			Script	"
+
+call Check_For_Note,technicalname(window 'Update Withhold Tax' of form nfMCP_Update_Withhold_Tax),'Dummy Note Show Hide';
+if 'Dummy Note Show Hide'  = 1 then
+	hide 'Note Absent Button - Toolbar';
+	show 'Note Present - Toolbar';
+else
+	hide 'Note Present - Toolbar';
+	show 'Note Absent Button - Toolbar';
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax From Date_CHG"		
+		{
+			Documentation	""
+			Script	"if ('From Date' > 'To Date') and (not empty('To Date')) then
+	call Warning_Dialog,3001,\"\",\"\",\"\";
+	focus 'From Date';
+	restart field;
+	abort script;
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax From Date_POST"		
+		{
+			Documentation	""
+			Script	"{if ('From Date' > 'To Date') and (not empty('To Date'))then
+	call Warning_Dialog,3001,\"\",\"\",\"\";
+	{focus 'From Date';}
+	restart field;
+	{abort script;}
+end if;
+}
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Handle Changes_CHG"		
+		{
+			Documentation	""
+			Script	"local integer l_Ask;
+
+if changed(window 'Update Withhold Tax') then
+
+	{------------------------------------------------------------------------
+		Ask the if the user wishes to save changes or cancel whatever action
+		is being taken.
+	-------------------------------------------------------------------------}
+	set l_Ask to ask(getmsg(1000), getmsg(2), getmsg(4), getmsg(1));
+
+	if l_Ask = ASKBUTTON1 then
+		{-------------------------------------------------------------------
+			The user has chosen to save the changes to the record.
+		--------------------------------------------------------------------}
+		{-------------------------------------------------------------------
+			Try to save the record. The record will not be saved if a required
+			field is empty or if there is a collision.
+		---------------------------------------------------------------------}
+		set '(L) chkRecord' to 0;
+		run script 'Save Button';
+		if '(L) chkRecord' = 1 then
+			abort script;
+		end if;
+		set 'Handle Changes' to true;
+		clear changes window 'Update Withhold Tax';
+	elseif l_Ask = ASKBUTTON2 then
+		
+		{New code}
+		release table nfRET_Update_Withhold_Tax;
+		clear table nfRET_Update_Withhold_Tax;
+		range clear table nfRET_Update_Withhold_Tax;
+		Name of table nfRET_Update_Withhold_Tax='(L) File Name';
+		get table nfRET_Update_Withhold_Tax;
+		if err() = OKAY then
+			clear changes window 'Update Withhold Tax';
+			set 'Handle Changes' to true;
+		 	abort script;
+		else
+			clear table nfRET_Update_Withhold_Tax_Detail;
+			release table nfRET_Update_Withhold_Tax_Detail;
+			range clear table nfRET_Update_Withhold_Tax_Detail;
+			Name of table nfRET_Update_Withhold_Tax_Detail = '(L) File Name';
+			range start table nfRET_Update_Withhold_Tax_Detail;
+			fill field 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail;
+			range end table nfRET_Update_Withhold_Tax_Detail;
+			remove range table nfRET_Update_Withhold_Tax_Detail;
+	    end if;
+		clear changes window 'Update Withhold Tax';
+		set 'Handle Changes' to true;		
+	else
+		{---------------------------------------------------------------------
+			The user has chosen to cancel the action being taken.
+		----------------------------------------------------------------------}
+		set 'Handle Changes' to false;
+		abort script;
+	end if;
+
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Lookup Button 1_CHG"		
+		{
+			Documentation	""
+			Script	"open form 'nfRET_Update_Withhold_Tax_Typeid_Lookup' return to '(L) FromTyp';"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Lookup Button 2_CHG"		
+		{
+			Documentation	""
+			Script	"open form 'nfRET_Update_Withhold_Tax_Typeid_Lookup' return to '(L) ToTyp';
+
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Mark All_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of MarkAll button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local text SqlQry;
+{RF7162:Start}
+local long SQL_connection, status, l_CountRet;
+local text S;
+local string P;
+local long GPS_error_number, SQL_error_number;
+local string SQL_error_string, ODBC_error_string;
+{RF7162:End}
+
+release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+clear window nfRET_Update_Withhold_Tax_Scroll;
+if '(L) TaxID'of window 'Update Withhold Tax' = RANGE then
+	'Start Tax Detail ID'='(L) FromTyp';
+	'End Tax Detail ID'='(L) ToTyp';
+	SqlQry = physicalname('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+ \" > = \" + SQL_FormatStrings ('Start Tax Detail ID' of window 'Update Withhold Tax') 
+	+ \" and \" + physicalname('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+ \" < = \" + SQL_FormatStrings ('End Tax Detail ID' of window 'Update Withhold Tax')
+	+ \" and \" +\" ( \"+ physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(3) 
+	+ \" or \" + physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(4) + \")\";
+	range table nfRET_TIPO_MSTR where SqlQry;
+	get first table nfRET_TIPO_MSTR;
+	while err() = OKAY do
+	 {rsaha:RF7162:Start}
+		if '(L) SelOp' = 2 then 
+			P = char(13);
+			status = SQL_Connect(SQL_connection);
+			if status = 0 then
+				pragma(disable warning LiteralStringUsed);	
+				S = \"USE \" + 'Intercompany ID' of globals + P;
+				S = S + \"SELECT COUNT(*) FROM nfRET_GL00030 WHERE nfRET_Tipo_ID= \" +SQL_FormatStrings('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+\" AND nfRET_Monotributistas=1\";
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Execute(SQL_connection, S);
+				if status = 0 then
+					status = SQL_FetchNext(SQL_connection);
+					if status <> 31 then
+						status = SQL_GetData(SQL_connection, 1 , l_CountRet);
+						if l_CountRet <= 0 then
+							 get next table nfRET_TIPO_MSTR;
+							continue while;
+						end if;
+					end if;
+				else
+					error getmsg(05174);{An error occurred executing SQL statements.}
+					{Retrieve the specific error information.}
+					status = SQL_GetError(SQL_connection, GPS_error_number, SQL_error_number, SQL_error_string, ODBC_error_string);
+					if status = 0 then
+						pragma(disable warning LiteralStringUsed);
+						warning \"GPS \" + getmsg(30539) +  \": \" + str(GPS_error_number);
+						warning \"SQL \" + getmsg(30539) +  \": \" + str(SQL_error_number) + \" \" + SQL_error_string;
+						warning \"ODBC \" + getmsg(30539) +  \": \" + ODBC_error_string;
+					else
+						error getmsg(30540);{Unable to retrieve SQL error information.}
+					end if;
+					abort script;
+				end if;
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Terminate(SQL_connection);
+			end if;
+		end if;	
+	 {RF7162:End}
+	  set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 1;
+	  set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Tipo ID' of table nfRET_TIPO_MSTR;
+	  set 'nfRET Descripcion' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Descripcion' of table nfRET_TIPO_MSTR;
+	  save table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	  get next table nfRET_TIPO_MSTR;
+	end while;		
+	get first table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+	fill window nfRET_Update_Withhold_Tax_Scroll;
+
+elseif '(L) TaxID'of window 'Update Withhold Tax' = ALL then
+
+	remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	release table nfRET_TIPO_MSTR;
+	range clear table nfRET_TIPO_MSTR;
+	SqlQry = physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(3) + \" or \" + physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(4);
+	range table nfRET_TIPO_MSTR where SqlQry;
+	get first table nfRET_TIPO_MSTR;
+	while err() = OKAY do
+		{rsaha:RF7162:Start}
+		if '(L) SelOp' = 2 then 
+			P = char(13);
+			status = SQL_Connect(SQL_connection);
+			if status = 0 then
+				pragma(disable warning LiteralStringUsed);	
+				S = \"USE \" + 'Intercompany ID' of globals + P;
+				S = S + \"SELECT COUNT(*) FROM nfRET_GL00030 WHERE nfRET_Tipo_ID= \" +SQL_FormatStrings('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+\" AND nfRET_Monotributistas=1\";
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Execute(SQL_connection, S);
+				if status = 0 then
+					status = SQL_FetchNext(SQL_connection);
+					if status <> 31 then
+						status = SQL_GetData(SQL_connection, 1 , l_CountRet);
+						if l_CountRet <= 0 then
+							 get next table nfRET_TIPO_MSTR;
+							continue while;
+						end if;
+					end if;
+				else
+					error getmsg(05174);{An error occurred executing SQL statements.}
+					{Retrieve the specific error information.}
+					status = SQL_GetError(SQL_connection, GPS_error_number, SQL_error_number, SQL_error_string, ODBC_error_string);
+					if status = 0 then
+						pragma(disable warning LiteralStringUsed);
+						warning \"GPS \" + getmsg(30539) +  \": \" + str(GPS_error_number);
+						warning \"SQL \" + getmsg(30539) +  \": \" + str(SQL_error_number) + \" \" + SQL_error_string;
+						warning \"ODBC \" + getmsg(30539) +  \": \" + ODBC_error_string;
+					else
+						error getmsg(30540);{Unable to retrieve SQL error information.}
+					end if;
+					abort script;
+				end if;
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Terminate(SQL_connection);
+			end if;
+		end if;	
+	 {RF7162:End}
+		set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 1;
+		set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Tipo ID' of table nfRET_TIPO_MSTR;
+		set 'nfRET Descripcion' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Descripcion' of table nfRET_TIPO_MSTR;
+		save table nfRET_Update_Withhold_Tax_Detail_TEMP;
+		get next table nfRET_TIPO_MSTR;
+	end while;		
+	clear window nfRET_Update_Withhold_Tax_Scroll;	
+	get first table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	fill window nfRET_Update_Withhold_Tax_Scroll;
+end if;
+release table nfRET_Update_Withhold_Tax_Detail;
+clear table nfRET_Update_Withhold_Tax_Detail;
+range clear table nfRET_Update_Withhold_Tax_Detail;
+Name of table nfRET_Update_Withhold_Tax_Detail = '(L) File Name';
+range start table nfRET_Update_Withhold_Tax_Detail;
+fill field 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail;
+range end table nfRET_Update_Withhold_Tax_Detail;
+remove range table nfRET_Update_Withhold_Tax_Detail;
+get first table nfRET_Update_Withhold_Tax_Detail_TEMP;
+while err() = OKAY do
+	if nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP = 1 then
+	    set  Name of table nfRET_Update_Withhold_Tax_Detail to '(L) File Name' of window 'Update Withhold Tax';
+	    set 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail to 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP;
+		save table nfRET_Update_Withhold_Tax_Detail;
+	end if;
+	
+	get next table nfRET_Update_Withhold_Tax_Detail_TEMP;
+end while;
+run script '(L) Show';"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Mark None_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of UnMarkAll button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local text SqlQry;
+{RF7162:Start}
+local long SQL_connection, status, l_CountRet;
+local text S;
+local string P;
+local long GPS_error_number, SQL_error_number;
+local string SQL_error_string, ODBC_error_string;
+{RF7162:End}
+
+set '(L) chkRecord' to 1;
+release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+clear window nfRET_Update_Withhold_Tax_Scroll;
+if '(L) TaxID'of window 'Update Withhold Tax' = RANGE then
+	'Start Tax Detail ID'='(L) FromTyp';
+	'End Tax Detail ID'='(L) ToTyp';
+	SqlQry = physicalname('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+ \" > = \" + SQL_FormatStrings ('Start Tax Detail ID' of window 'Update Withhold Tax') 
+	+ \" and \" + physicalname('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+ \" < = \" + SQL_FormatStrings ('End Tax Detail ID' of window 'Update Withhold Tax')
+	+ \" and \" +\" ( \"+ physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(3) 
+	+ \" or \" + physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(4) + \")\";
+	range table nfRET_TIPO_MSTR where SqlQry;
+	get first table nfRET_TIPO_MSTR;
+	while err() = OKAY do
+	 	 {rsaha:RF7162:Start}
+		if '(L) SelOp' = 2 then 
+			P = char(13);
+			status = SQL_Connect(SQL_connection);
+			if status = 0 then
+				pragma(disable warning LiteralStringUsed);	
+				S = \"USE \" + 'Intercompany ID' of globals + P;
+				S = S + \"SELECT COUNT(*) FROM nfRET_GL00030 WHERE nfRET_Tipo_ID= \" +SQL_FormatStrings('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+\" AND nfRET_Monotributistas=1\";
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Execute(SQL_connection, S);
+				if status = 0 then
+					status = SQL_FetchNext(SQL_connection);
+					if status <> 31 then
+						status = SQL_GetData(SQL_connection, 1 , l_CountRet);
+						if l_CountRet <= 0 then
+							 get next table nfRET_TIPO_MSTR;
+							continue while;
+						end if;
+					end if;
+				else
+					error getmsg(05174);{An error occurred executing SQL statements.}
+					{Retrieve the specific error information.}
+					status = SQL_GetError(SQL_connection, GPS_error_number, SQL_error_number, SQL_error_string, ODBC_error_string);
+					if status = 0 then
+						pragma(disable warning LiteralStringUsed);
+						warning \"GPS \" + getmsg(30539) +  \": \" + str(GPS_error_number);
+						warning \"SQL \" + getmsg(30539) +  \": \" + str(SQL_error_number) + \" \" + SQL_error_string;
+						warning \"ODBC \" + getmsg(30539) +  \": \" + ODBC_error_string;
+					else
+						error getmsg(30540);{Unable to retrieve SQL error information.}
+					end if;
+					abort script;
+				end if;
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Terminate(SQL_connection);
+			end if;
+		end if;	
+		{RF7162:End}
+		set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 0;
+	  	set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Tipo ID' of table nfRET_TIPO_MSTR;
+	    set 'nfRET Descripcion' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Descripcion' of table nfRET_TIPO_MSTR;
+	    save table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	    get next table nfRET_TIPO_MSTR;
+	end while;		
+	get first table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+	fill window nfRET_Update_Withhold_Tax_Scroll;
+
+elseif '(L) TaxID'of window 'Update Withhold Tax' = ALL then
+
+	remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	release table nfRET_TIPO_MSTR;
+	range clear table nfRET_TIPO_MSTR;
+	SqlQry = physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(3) + \" or \" + physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(4);
+	range table nfRET_TIPO_MSTR where SqlQry;
+	get first table nfRET_TIPO_MSTR;
+	while err() = OKAY do
+		 {rsaha:RF7162:Start}
+		if '(L) SelOp' = 2 then 
+			P = char(13);
+			status = SQL_Connect(SQL_connection);
+			if status = 0 then
+				pragma(disable warning LiteralStringUsed);	
+				S = \"USE \" + 'Intercompany ID' of globals + P;
+				S = S + \"SELECT COUNT(*) FROM nfRET_GL00030 WHERE nfRET_Tipo_ID= \" +SQL_FormatStrings('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+\" AND nfRET_Monotributistas=1\";
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Execute(SQL_connection, S);
+				if status = 0 then
+					status = SQL_FetchNext(SQL_connection);
+					if status <> 31 then
+						status = SQL_GetData(SQL_connection, 1 , l_CountRet);
+						if l_CountRet <= 0 then
+							 get next table nfRET_TIPO_MSTR;
+							continue while;
+						end if;
+					end if;
+				else
+					error getmsg(05174);{An error occurred executing SQL statements.}
+					{Retrieve the specific error information.}
+					status = SQL_GetError(SQL_connection, GPS_error_number, SQL_error_number, SQL_error_string, ODBC_error_string);
+					if status = 0 then
+						pragma(disable warning LiteralStringUsed);
+						warning \"GPS \" + getmsg(30539) +  \": \" + str(GPS_error_number);
+						warning \"SQL \" + getmsg(30539) +  \": \" + str(SQL_error_number) + \" \" + SQL_error_string;
+						warning \"ODBC \" + getmsg(30539) +  \": \" + ODBC_error_string;
+					else
+						error getmsg(30540);{Unable to retrieve SQL error information.}
+					end if;
+					abort script;
+				end if;
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Terminate(SQL_connection);
+			end if;
+		end if;	
+	    {RF7162:End}
+		set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 0;
+		set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Tipo ID' of table nfRET_TIPO_MSTR;
+		set 'nfRET Descripcion' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Descripcion' of table nfRET_TIPO_MSTR;
+		save table nfRET_Update_Withhold_Tax_Detail_TEMP;
+		get next table nfRET_TIPO_MSTR;
+	end while;		
+	clear window nfRET_Update_Withhold_Tax_Scroll;	
+	get first table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	fill window nfRET_Update_Withhold_Tax_Scroll;
+end if;
+
+release table nfRET_Update_Withhold_Tax_Detail;
+clear table nfRET_Update_Withhold_Tax_Detail;
+range clear table nfRET_Update_Withhold_Tax_Detail;
+Name of table nfRET_Update_Withhold_Tax_Detail = '(L) File Name';
+range start table nfRET_Update_Withhold_Tax_Detail;
+fill field 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail;
+range end table nfRET_Update_Withhold_Tax_Detail;
+remove range table nfRET_Update_Withhold_Tax_Detail;
+get first table nfRET_Update_Withhold_Tax_Detail_TEMP;
+while err() = OKAY do
+	if nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP = 1 then
+	    set  Name of table nfRET_Update_Withhold_Tax_Detail to '(L) File Name' of window 'Update Withhold Tax';
+	    set 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail to 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP;
+		save table nfRET_Update_Withhold_Tax_Detail;
+	end if;
+	get next table nfRET_Update_Withhold_Tax_Detail_TEMP;
+end while;
+run script '(L) Show';"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Note Absent Button - Toolbar_CHG"		
+		{
+			Documentation	""
+			Script	"
+{-----------------------------------------------------------------------------------------------------------
+	Procedure Name 	: Update Withhold Tax Note Absent Button - Toolbar_CHG
+	Created by 		: VMurthyBR
+	Created on		: 20Nov2008
+	Summary			: This script is used to open the note for the window if possible.
+	Change History	:
+-------------------------------------------------------------------------------------------------------------}
+
+
+{--------------------------------------------------------------------------------
+	Open the note for the window if possible.
+--------------------------------------------------------------------------------}
+local string l_Note_ID,l_Display_Name;
+local boolean isthere;
+local integer form_number;
+local integer l_exists;
+
+{-------------------------------------------------------------------------------
+	Initialize local variables before calling global script
+--------------------------------------------------------------------------------}
+{get the current display name to display}
+system 5017, window 'Update Withhold Tax', l_Display_Name;
+
+{get the original display name as the key into the notes file. This should be the
+ same name as in the 'Dummy Record Show Hide' script.} 
+set l_Note_ID to technicalname(window 'Update Withhold Tax' of form nfMCP_Update_Withhold_Tax);
+
+{check to see if someone created or deleted a note since entering the window}
+call Check_For_Note,l_Note_ID,l_exists;
+if 'Dummy Note Show Hide'=1 and l_exists=0 then
+	call Warning_Dialog,1380,\"\",\"\",\"\";
+elseif 'Dummy Note Show Hide'=0 and l_exists=1 then
+	call Warning_Dialog,5500,\"\",\"\",\"\";
+end if;
+
+set isthere to false;
+set form_number to 0;
+
+{--------------------------------------------------------------------------------
+	Check if a note form for this window is already open.  If one isn't, then
+	get the number of an unused note form.  If all of the note forms are being
+	used, then give a warning and abort the script.  Otherwise, open the note
+	form for this window.
+--------------------------------------------------------------------------------}
+call Check_Note_ID_String,l_Note_ID,isthere,form_number;
+if isthere=false then
+	call Get_Next_Form_Note_To_Open,form_number;
+	if form_number = 0 then
+		abort script;
+	end if;
+end if;
+if form_number = 1 then
+	open form Form_Note_1 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_1 of form Form_Note_1 to l_Note_ID;
+	set 'Display Name' of window Form_Note_1 of form Form_Note_1 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_1 of form Form_Note_1;
+	end if;
+elseif form_number = 2 then
+	open form Form_Note_2 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_2 of form Form_Note_2 to l_Note_ID;
+	set 'Display Name' of window Form_Note_2 of form Form_Note_2 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_2 of form Form_Note_2;
+	end if;
+elseif form_number = 3 then
+	open form Form_Note_3 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_3 of form Form_Note_3 to l_Note_ID;
+	set 'Display Name' of window Form_Note_3 of form Form_Note_3 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_3 of form Form_Note_3;
+	end if;
+elseif form_number = 4 then
+	open form Form_Note_4 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_4 of form Form_Note_4 to l_Note_ID;
+	set 'Display Name' of window Form_Note_4 of form Form_Note_4 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_4 of form Form_Note_4;
+	end if;
+else {form_number = 5}
+	open form Form_Note_5 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_5 of form Form_Note_5 to l_Note_ID;
+	set 'Display Name' of window Form_Note_5 of form Form_Note_5 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_5 of form Form_Note_5;
+	end if;
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Note Present - Toolbar_CHG"		
+		{
+			Documentation	""
+			Script	"{-----------------------------------------------------------------------------------------------------------
+	Procedure Name 	: Loch_F3323_VAT_Tax_Detail_Setup Note Absent Button - Toolbar_CHG
+	Created by 		: Raju	rsaha@PARTNERS
+	Created on		: 22thAug2008
+	Summary			: This script is used to open the note for the window if possible.
+	Change History	:
+-------------------------------------------------------------------------------------------------------------}
+
+
+{--------------------------------------------------------------------------------
+	Open the note for the window if possible.
+--------------------------------------------------------------------------------}
+local string l_Note_ID,l_Display_Name;
+local boolean isthere;
+local integer form_number;
+local integer l_exists;
+
+{-------------------------------------------------------------------------------
+	Initialize local variables before calling global script
+--------------------------------------------------------------------------------}
+{get the current display name to display}
+system 5017, window Loch_F3323_VAT_Tax_Detail_Setup, l_Display_Name;
+
+{get the original display name as the key into the notes file. This should be the
+ same name as in the 'Dummy Record Show Hide' script.} 
+set l_Note_ID to F3323VATTaxDetailsSetup;
+
+{check to see if someone created or deleted a note since entering the window}
+call Check_For_Note,l_Note_ID,l_exists;
+if 'Dummy Note Show Hide'=1 and l_exists=0 then
+	call Warning_Dialog,1380,\"\",\"\",\"\";
+elseif 'Dummy Note Show Hide'=0 and l_exists=1 then
+	call Warning_Dialog,5500,\"\",\"\",\"\";
+end if;
+
+set isthere to false;
+set form_number to 0;
+
+{--------------------------------------------------------------------------------
+	Check if a note form for this window is already open.  If one isn't, then
+	get the number of an unused note form.  If all of the note forms are being
+	used, then give a warning and abort the script.  Otherwise, open the note
+	form for this window.
+--------------------------------------------------------------------------------}
+call Check_Note_ID_String,l_Note_ID,isthere,form_number;
+if isthere=false then
+	call Get_Next_Form_Note_To_Open,form_number;
+	if form_number = 0 then
+		abort script;
+	end if;
+end if;
+if form_number = 1 then
+	open form Form_Note_1 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_1 of form Form_Note_1 to l_Note_ID;
+	set 'Display Name' of window Form_Note_1 of form Form_Note_1 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_1 of form Form_Note_1;
+	end if;
+elseif form_number = 2 then
+	open form Form_Note_2 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_2 of form Form_Note_2 to l_Note_ID;
+	set 'Display Name' of window Form_Note_2 of form Form_Note_2 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_2 of form Form_Note_2;
+	end if;
+elseif form_number = 3 then
+	open form Form_Note_3 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_3 of form Form_Note_3 to l_Note_ID;
+	set 'Display Name' of window Form_Note_3 of form Form_Note_3 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_3 of form Form_Note_3;
+	end if;
+elseif form_number = 4 then
+	open form Form_Note_4 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_4 of form Form_Note_4 to l_Note_ID;
+	set 'Display Name' of window Form_Note_4 of form Form_Note_4 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_4 of form Form_Note_4;
+	end if;
+else {form_number = 5}
+	open form Form_Note_5 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_5 of form Form_Note_5 to l_Note_ID;
+	set 'Display Name' of window Form_Note_5 of form Form_Note_5 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_5 of form Form_Note_5;
+	end if;
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Note Present - Toolbar_CHG_DUP"		
+		{
+			Documentation	""
+			Script	"run script 'Note Absent Button - Toolbar';"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Path Button Format File_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Path Button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local string l_generic_path,l_native_path;
+local boolean l_result;
+local	string	l_file, l_fileLowerCase;
+local	string	sCustomFilter;
+	sCustomFilter = getmsg(22075){Text file} +CH_LEFTPAREN +CH_ASTERISK{*} +getmsg(22076){.txt}
+					+ CH_RIGHTPAREN +\"|\" +CH_ASTERISK{*} +getmsg(22076){.txt};
+
+	if getfile(getmsg(12982){Select a file}, TEXTFILE, l_file, sCustomFilter{Text file(*.txt)|*.txt}) then
+		l_fileLowerCase = lower(l_file);
+		{if l_file doesnot end with \".txt\" then +\".txt\"...}
+		if not (pos(l_fileLowerCase, getmsg(22076){.txt}, 1)=length(l_fileLowerCase)-3) then
+			l_file =l_file +getmsg(22076){.txt};
+		end if;
+		'(L) FormatFileLocation' = Path_MakeNative(l_file);
+	end if;"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Path Button[1]_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Path Button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local string l_generic_path,l_native_path;
+local boolean l_result;
+local	string	l_file, l_fileLowerCase;
+local	string	sCustomFilter;
+	sCustomFilter = getmsg(22075){Text file} +CH_LEFTPAREN +CH_ASTERISK{*} +getmsg(22076){.txt}
+					+ CH_RIGHTPAREN +\"|\" +CH_ASTERISK{*} +getmsg(22076){.txt};
+
+	if getfile(getmsg(12982){Select a file}, TEXTFILE, l_file, sCustomFilter{Text file(*.txt)|*.txt}) then
+		l_fileLowerCase = lower(l_file);
+		{if l_file doesnot end with \".txt\" then +\".txt\"...}
+		if not (pos(l_fileLowerCase, getmsg(22076){.txt}, 1)=length(l_fileLowerCase)-3) then
+			l_file =l_file +getmsg(22076){.txt};
+		end if;
+		'(L) File Location' = Path_MakeNative(l_file);
+	end if;"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Process Button P_CHG"		
+		{
+			Documentation	""
+			Script	"{21Nov08 JMathew@Partners Initial Implementation for RegF4893} 
+{15Dec08 JMathew@Partners Edited to Fix PR50432:Changed the order of message scripts}
+local long	lSQLReturnStatus,lSQLErrState;
+local 	string 		s_StartDt, s_EndDt,Str1,Str2;
+local 	string 		l_SQLScriptLocation;
+local integer l_Ask;
+local string FileName,sRptDest;
+local integer ProcessType;
+
+local string lineread, Field;
+local integer Position, counter, NumberOfLetters, l_File_ID, OldPos, Strnlen, i, NumberOfColumns;
+local boolean Error, Ret;
+local integer NumberOfCharacters[11];
+
+range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+range table nfRET_Update_Withhold_Tax_Detail_TEMP where physicalname(nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP) + \" = \" + str(1);
+get first table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	if err()<>OKAY then
+		warning getmsg(22078);
+		range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+		abort script;
+	end if;
+range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+
+FileName='(L) File Name';
+if changed(form nfMCP_Update_Withhold_Tax) then
+	set l_Ask to ask(getmsg(1000),getmsg(2),getmsg(1),\"\");
+	if l_Ask = ASKBUTTON1 then
+		{PR50410\"JMathew:Start}
+		run script 'Save Record';{VMurthyBR}
+		if 'Handle Changes' = false then
+			abort script;
+		end if;
+		'(L) File Name'=FileName;
+		run script '(L) File Name';	
+		{PR50410:End}	
+	elseif l_Ask = ASKBUTTON2 then
+		abort script;
+	end if;
+else{This portion is added if you select a file to import through lookup and process it's not asking to save}
+	run script 'Save Record';{VMurthyBR}
+	'(L) File Name'=FileName;
+	run script '(L) File Name';		
+end if;
+set s_StartDt to pad(str(day('From Date')),LEADING,\"0\",2) + pad(str(month('From Date')),LEADING,\"0\",2) + pad(str(year('From Date')),LEADING,\"0\",4);
+set s_EndDt to pad(str(day('To Date')),LEADING,\"0\",2) + pad(str(month('To Date')),LEADING,\"0\",2) + pad(str(year('To Date')),LEADING,\"0\",4);
+
+if '(L) SelOp'=0 then
+	NumberOfCharacters[1]=1;
+	NumberOfCharacters[2]=8;
+	NumberOfCharacters[3]=8;
+	NumberOfCharacters[4]=8;
+	NumberOfCharacters[5]=11;
+	NumberOfCharacters[6]=1;
+	NumberOfCharacters[7]=1;
+	NumberOfCharacters[8]=1;
+	NumberOfCharacters[9]=4;
+	NumberOfCharacters[10]=2;
+	NumberOfColumns=10;
+elseif 	'(L) SelOp'=3 then
+	NumberOfCharacters[1]=11;
+	NumberOfCharacters[2]=5;
+	NumberOfCharacters[3]=4;
+	NumberOfCharacters[4]=10;
+	NumberOfCharacters[5]=10;
+	NumberOfCharacters[6]=152;
+	NumberOfCharacters[7]=10;
+	NumberOfColumns=7;
+elseif 	'(L) SelOp'=4 then
+	NumberOfCharacters[1]=11;
+	NumberOfCharacters[2]=5;
+	NumberOfCharacters[3]=8;
+	NumberOfCharacters[4]=6;
+	NumberOfCharacters[5]=152;
+	NumberOfCharacters[6]=10;
+	NumberOfColumns=6;	
+else
+	NumberOfCharacters[1]=8;
+	NumberOfCharacters[2]=8;
+	NumberOfCharacters[3]=8;
+	NumberOfCharacters[4]=11;
+	NumberOfCharacters[5]=1;
+	NumberOfCharacters[6]=1;
+	NumberOfCharacters[7]=1;
+	NumberOfCharacters[8]=4;
+	NumberOfCharacters[9]=4;
+	NumberOfCharacters[10]=2;
+	NumberOfCharacters[11]=2;
+	NumberOfColumns=11;
+
+end if;
+{set ReadInDefaults to 1; } { flag an error if saving data doesn't reset the flag }
+l_File_ID = TextFile_Open('(L) File Location', 0, 1);  { open the file }
+Error = false;  { shouldn't need to set this right before the ReadLine }
+Error = TextFile_ReadLine(l_File_ID,lineread);{Bug}  { read a line }
+
+warning \"Arhivo Abierto\";
+if Error = false  and '(L) SelOp' <> 3 and '(L) SelOp' <> 4 then{ while not EOF }
+	{Error = TextFile_ReadLine(l_File_ID,lineread);{Bug}}
+	set Position to 0;  { start of line }
+	set counter to 1;  { which field do we want to start with }
+	set i to 1;  { set column to 1st one }
+
+	Strnlen = length(lineread);  { this is the length of the whole line }
+	{if Error = false then}  { not sure why this is here, as Error = false from above }
+		for i equals 1 to NumberOfColumns do  { for each column }
+		
+			if  Position <> -1 then  { if not at the end of the line }
+				OldPos = Position + 1;  { set oldpos to the character following the tab (or start of line ) }
+				Position = pos(lineread, char(59), Position+1);  { find the next tab beginning at the next position }		
+				if Position = 0 then  { if a tab isn't found, we're at EOL }
+					Position = -1;  { EOL indicator }
+
+				end if;
+				if Position <> -1 then  { if we're not at EOL }
+					NumberOfLetters = Position - OldPos;  { read from oldpos up to the tab }
+					if OldPos = 1 then
+						Str1 = substring(lineread, OldPos, 2);
+						Str2 = substring(lineread, 3,2);
+					end if;					
+					{'(L) String1' = substring(lineread, OldPos, NumberOfLetters).}					
+				else  { if we are at EOL }
+					{OldPos = OldPos + NumberOfLetters -1.}
+					NumberOfLetters = (Strnlen + 1) - OldPos;  { read from oldpos up to EOL }
+					{'(L) String1' = substring(lineread, OldPos, NumberOfLetters).}
+					Position = 0;
+				end if;
+			end if;
+
+			case i  { set the fields in the table buffer }
+				in [1]
+					if (NumberOfLetters<>NumberOfCharacters[1]) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+					if (value(Str1) = 0 or value(Str2) = 0) and '(L) SelOp'<>0  then
+						warning getmsg(22079);
+						abort script;
+					end if;					
+				in [2] 
+					if (NumberOfLetters<>NumberOfCharacters[2]) then
+						warning getmsg(22079);
+						abort script;
+					end if;	
+					if  s_StartDt<> substring(lineread, OldPos, NumberOfLetters) and '(L) SelOp'<>0 then
+						warning getmsg(22080);
+						abort script;
+					end if;
+				in [3] 
+					if (NumberOfLetters<>NumberOfCharacters[3]) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+					if  s_EndDt<> substring(lineread, OldPos, NumberOfLetters) and '(L) SelOp'<>0 then
+						warning getmsg(22080);
+						abort script;
+					end if;
+				in [4]
+					if (NumberOfLetters<>NumberOfCharacters[4]) then
+						warning getmsg(22079);
+						abort script;
+					end if;	
+				in	[5]
+					if (NumberOfLetters<>NumberOfCharacters[5]) then
+						warning getmsg(22079);
+						abort script;
+					end if;	
+				in	[6]
+					if (NumberOfLetters<>NumberOfCharacters[6]) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+				in	[7]
+					if (NumberOfLetters<>NumberOfCharacters[7]) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+				in	[8]
+					if (NumberOfLetters<>NumberOfCharacters[8]) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+				in	[9]
+					if (NumberOfLetters<>NumberOfCharacters[9]) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+				in	[10]
+					if (NumberOfLetters<>NumberOfCharacters[10]) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+				in	[11]
+					if (NumberOfLetters<>NumberOfCharacters[11]) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+			end case;
+		end for;
+		{RF7162:Start}
+
+		if '(L) SelOp'=1 or '(L) SelOp'=2 then
+			if  Position <> -1 then  { if not at the end of the line }
+				OldPos = Position + 1;  { set oldpos to the character following the tab (or start of line ) }
+				Position = pos(lineread, char(59), Position+1);  { find the next tab beginning at the next position }		
+				if Position = 0 then  { if a tab isn't found, we're at EOL }
+					Position = -1;  { EOL indicator }
+
+				end if;
+				if Position <> -1 then  { if we're not at EOL }
+					NumberOfLetters = Position - OldPos;  { read from oldpos up to the tab }
+					{'(L) String1' = substring(lineread, OldPos, NumberOfLetters).}					
+				else  { if we are at EOL }
+					{OldPos = OldPos + NumberOfLetters -1.}
+					NumberOfLetters = (Strnlen + 1) - OldPos;  { read from oldpos up to EOL }
+					{'(L) String1' = substring(lineread, OldPos, NumberOfLetters).}
+					Position = 0;
+				end if;
+			end if;
+			if (NumberOfLetters<=0) then
+				warning getmsg(22079);
+				abort script;
+			end if;
+		else
+			if  Position <> -1 and Position <>55 then
+				warning getmsg(22079);
+				abort script;
+			end if;
+		end if;
+	 {RF7162:End}
+	{end if;	  }
+	
+
+end if;{Bug}	
+Ret = TextFile_Close(l_File_ID);  { close the text file }
+
+if '(L) SelOp'=0 then
+	if  empty ('(L) File Location') then
+		set l_Ask to ask(getmsg(22081),getmsg(10557),getmsg(1),\"\");
+		if l_Ask = ASKBUTTON1 then 
+			ProcessType=2;
+		else
+			abort script;
+		end if;
+	else
+		set l_Ask to ask(getmsg(22077),getmsg(5),getmsg(1),\"\");
+		if l_Ask = ASKBUTTON2 then
+			abort script;
+		end if;
+		ProcessType=1;
+	end if;
+elseif '(L) SelOp'=1  then
+	ProcessType=3;
+	set l_Ask to ask(getmsg(22077),getmsg(5),getmsg(1),\"\");
+	if l_Ask = ASKBUTTON2 then
+		abort script;
+	end if;
+elseif '(L) SelOp'=2  then{RF7162}
+	ProcessType=4;
+	set l_Ask to ask(getmsg(22077),getmsg(5),getmsg(1),\"\");
+	if l_Ask = ASKBUTTON2 then
+		abort script;
+	end if;{Commented}
+{MSAL 202020303. Se incorpora ProcessType 5 y 6 para IIbB Tucuman}
+elseif '(L) SelOp'=3  then{RF7162}
+	ProcessType=5;
+	set l_Ask to ask(getmsg(22077),getmsg(5),getmsg(1),\"\");
+	if l_Ask = ASKBUTTON2 then
+		abort script;
+	end if;{Commented}
+elseif '(L) SelOp'=4  then{RF7162}
+	ProcessType=6;
+	set l_Ask to ask(getmsg(22077),getmsg(5),getmsg(1),\"\");
+	if l_Ask = ASKBUTTON2 then
+		abort script;
+	end if;{Commented}
+end if;
+
+open window PleaseWait;
+Window_ForceRedraw(window PleaseWait); 
+set l_SQLScriptLocation to SQLScriptLocation of globals;
+set SQLScriptLocation of globals to 'Intercompany ID' of globals;
+{call nfRETMCPUpdateWithholdTax,
+				lSQLReturnStatus,
+				'(L) File Name',
+				s_StartDt,s_EndDt,
+				sqlDate('From Date'),sqlDate('To Date'),
+				trim('(L) File Location'),
+				ProcessType,				
+				lSQLErrState;}
+				
+call nfRETMCPUpdateWithholdTax,
+				lSQLReturnStatus,
+				'(L) File Name',
+				s_StartDt,s_EndDt,
+				'From Date','To Date',
+				trim('(L) File Location'),
+				ProcessType,				
+				trim('(L) FormatFileLocation'),
+				lSQLErrState;				
+				
+	
+	if (lSQLReturnStatus <> 0 and  lSQLReturnStatus <> -127) or (lSQLErrState > 0) then
+		call Warning_Dialog, 35100, \"nfRETMCPUpdateWithholdTax\",
+			str(lSQLReturnStatus),
+			str(lSQLErrState),
+			WARNINGDIALOGGET;
+			set SQLScriptLocation of globals to l_SQLScriptLocation;
+			close window PleaseWait;
+			abort script;		
+	end if;				
+close window PleaseWait;								
+set SQLScriptLocation of globals to l_SQLScriptLocation;
+warning getmsg(22082);
+{MSAL 202020303. Se incorpora ProcessType 5 y 6 para IIbB Tucuman}
+if ProcessType=1 or ProcessType=2 or ProcessType=5 or ProcessType=6 then
+	run report nfRET_Update_Withhold_Tax_Report
+	legends str('From Date'),str('To Date'),getmsg(22083);
+	if countrecords(table nfRET_Update_Withhold_Tax_RepEx_Temp)>0 then
+		run report nfRET_Update_Withhold_Tax_Exception_Report
+		legends str('From Date'),str('To Date'),getmsg(22086);
+	end if;
+elseif ProcessType=3 then
+	run report nfRET_Update_Withhold_Tax_Report
+	legends str('From Date'),str('To Date'),getmsg(22084);
+	if countrecords(table nfRET_Update_Withhold_Tax_RepEx_Temp)>0 then
+		run report nfRET_Update_Withhold_Tax_Exception_Report
+			legends str('From Date'),str('To Date'),getmsg(22087);
+	end if;
+elseif ProcessType=4 then
+	call RetrieveEmptyDestination of form ReportDestObj,
+					getmsg(22090),
+					\"\",
+					sRptDest;
+	run report nfRET_Update_Withhold_Tax_Report
+	legends str('From Date'),str('To Date'),getmsg(22090)destination sRptDest;
+	
+	if countrecords(table nfRET_Update_Withhold_Tax_RepEx_Temp)>0 then
+		call RetrieveEmptyDestination of form ReportDestObj,
+						getmsg(22091),
+						\"\",
+						sRptDest;	
+		run report nfRET_Update_Withhold_Tax_Exception_Report
+			legends str('From Date'),str('To Date'),getmsg(22091)destination sRptDest;
+	end if;	
+end if;
+run script 'Clear Button';{partners@VMurthyBR for PR 50915}
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Redisplay Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Redisplay button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local text SqlQry;
+local text SqlQry1;
+{RF7162:Start}
+local long SQL_connection, status, l_CountRet;
+local text S;
+local string P;
+local long GPS_error_number, SQL_error_number;
+local string SQL_error_string, ODBC_error_string;
+{RF7162:End}
+
+
+if empty ('(L) File Name') then
+abort script;
+end if;
+range clear table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+clear table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+clear window nfRET_Update_Withhold_Tax_Scroll;
+if '(L) TaxID'of window 'Update Withhold Tax' = RANGE then
+	remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	'Start Tax Detail ID'='(L) FromTyp';
+	'End Tax Detail ID'='(L) ToTyp';
+	SqlQry = physicalname('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+ \" > = \" + SQL_FormatStrings ('Start Tax Detail ID' of window 'Update Withhold Tax') 
+	+ \" and \" + physicalname('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+ \" < = \" + SQL_FormatStrings ('End Tax Detail ID' of window 'Update Withhold Tax')
+	+ \" and \" +\" ( \"+ physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(3) 
+	+ \" or \" + physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(4) + \")\";
+	range table nfRET_TIPO_MSTR where SqlQry;
+	get first table nfRET_TIPO_MSTR;
+	while err() = OKAY do
+		{rsaha:RF7162:Start}
+		if '(L) SelOp' = 2 then 
+			P = char(13);
+			status = SQL_Connect(SQL_connection);
+			if status = 0 then
+				pragma(disable warning LiteralStringUsed);	
+				S = \"USE \" + 'Intercompany ID' of globals + P;
+				S = S + \"SELECT COUNT(*) FROM nfRET_GL00030 WHERE nfRET_Tipo_ID= \" +SQL_FormatStrings('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+\" AND nfRET_Monotributistas=1\";
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Execute(SQL_connection, S);
+				if status = 0 then
+					status = SQL_FetchNext(SQL_connection);
+					if status <> 31 then
+						status = SQL_GetData(SQL_connection, 1 , l_CountRet);
+						if l_CountRet <= 0 then
+							 get next table nfRET_TIPO_MSTR;
+							continue while;
+						end if;
+					end if;
+				else
+					error getmsg(05174);{An error occurred executing SQL statements.}
+					{Retrieve the specific error information.}
+					status = SQL_GetError(SQL_connection, GPS_error_number, SQL_error_number, SQL_error_string, ODBC_error_string);
+					if status = 0 then
+						pragma(disable warning LiteralStringUsed);
+						warning \"GPS \" + getmsg(30539) +  \": \" + str(GPS_error_number);
+						warning \"SQL \" + getmsg(30539) +  \": \" + str(SQL_error_number) + \" \" + SQL_error_string;
+						warning \"ODBC \" + getmsg(30539) +  \": \" + ODBC_error_string;
+					else
+						error getmsg(30540);{Unable to retrieve SQL error information.}
+					end if;
+					abort script;
+				end if;
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Terminate(SQL_connection);
+			end if;
+		end if;	
+	{RF7162:End}
+	  set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Tipo ID' of table nfRET_TIPO_MSTR;
+	  set 'nfRET Descripcion' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Descripcion' of table nfRET_TIPO_MSTR;
+	  set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 0;
+	  release table nfRET_Update_Withhold_Tax_Detail;
+	  clear table nfRET_Update_Withhold_Tax_Detail;
+	  range clear table nfRET_Update_Withhold_Tax_Detail;
+	  get first table nfRET_Update_Withhold_Tax_Detail;
+
+	  while err() = OKAY do
+	     if '(L) File Name' = Name of table nfRET_Update_Withhold_Tax_Detail then
+		     if 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail = 'nfRET Tipo ID' of table nfRET_TIPO_MSTR then
+			   set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 1;
+			   exit while;
+		     end if;
+		 end if;  	 
+		 get next table nfRET_Update_Withhold_Tax_Detail; 
+	   end while;
+	     save table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	     get next table nfRET_TIPO_MSTR;
+	end while;
+	clear window nfRET_Update_Withhold_Tax_Scroll;		
+	get first table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+	fill window nfRET_Update_Withhold_Tax_Scroll;
+	
+elseif '(L) TaxID'of window 'Update Withhold Tax' = ALL then
+	release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	clear table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+	remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	release table nfRET_TIPO_MSTR;
+	range clear table nfRET_TIPO_MSTR;
+	SqlQry = physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(3) + \" or \" + physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(4);
+	range table nfRET_TIPO_MSTR where SqlQry;
+	get first table nfRET_TIPO_MSTR; 
+	while err() = OKAY do
+	{RF7162:Start}
+	  if '(L) SelOp' = 2 then 
+			P = char(13);
+			status = SQL_Connect(SQL_connection);
+			if status = 0 then
+				pragma(disable warning LiteralStringUsed);	
+				S = \"USE \" + 'Intercompany ID' of globals + P;
+				S = S + \"SELECT COUNT(*) FROM nfRET_GL00030 WHERE nfRET_Tipo_ID= \" +SQL_FormatStrings('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+\" AND nfRET_Monotributistas=1\";
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Execute(SQL_connection, S);
+				if status = 0 then
+					status = SQL_FetchNext(SQL_connection);
+					if status <> 31 then
+						status = SQL_GetData(SQL_connection, 1 , l_CountRet);
+						if l_CountRet <= 0 then
+							 get next table nfRET_TIPO_MSTR;
+							continue while;
+						end if;
+					end if;
+				else
+					error getmsg(05174);{An error occurred executing SQL statements.}
+					{Retrieve the specific error information.}
+					status = SQL_GetError(SQL_connection, GPS_error_number, SQL_error_number, SQL_error_string, ODBC_error_string);
+					if status = 0 then
+						pragma(disable warning LiteralStringUsed);
+						warning \"GPS \" + getmsg(30539) +  \": \" + str(GPS_error_number);
+						warning \"SQL \" + getmsg(30539) +  \": \" + str(SQL_error_number) + \" \" + SQL_error_string;
+						warning \"ODBC \" + getmsg(30539) +  \": \" + ODBC_error_string;
+					else
+						error getmsg(30540);{Unable to retrieve SQL error information.}
+					end if;
+					abort script;
+				end if;
+				pragma(enable warning LiteralStringUsed);
+				status = SQL_Terminate(SQL_connection);
+			end if;
+	  end if;
+	  {RF7162:End}	
+	  set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 0;
+	  set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Tipo ID' of table nfRET_TIPO_MSTR;
+	  set 'nfRET Descripcion' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Descripcion' of table nfRET_TIPO_MSTR;
+	  release table nfRET_Update_Withhold_Tax_Detail;
+	  clear table nfRET_Update_Withhold_Tax_Detail;
+	  range clear table nfRET_Update_Withhold_Tax_Detail;
+	  get first table nfRET_Update_Withhold_Tax_Detail;
+	  while err() = OKAY do
+	  if '(L) File Name' = Name of table nfRET_Update_Withhold_Tax_Detail then
+	     if 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail = 'nfRET Tipo ID' of table nfRET_TIPO_MSTR then
+		   set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 1;
+		   exit while;
+	     end if;
+	  end if;
+	  get next table nfRET_Update_Withhold_Tax_Detail; 
+	  end while;
+	  save table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	  get next table nfRET_TIPO_MSTR;
+	end while;
+	clear window nfRET_Update_Withhold_Tax_Scroll;	
+	get first table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	fill window nfRET_Update_Withhold_Tax_Scroll; 	
+end if;
+run script '(L) Show';
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Save Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Save button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+set '(L) chkRecord' to 0;
+run script 'Save Record';
+if '(L) chkRecord' = 1 then
+	abort script;
+end if;
+release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+restart form; "
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Save Record_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Save button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local   integer     l_Ask;
+set 'Handle Changes' to false;{VMurthyBR}
+{JMathew:PR50410:start}
+if '(L) SelOp'=1 or '(L) SelOp'=2 then {RF 7162}
+	if empty ('(L) File Name') or empty ('From Date') or empty ('To Date') or empty ('(L) File Location') then
+		call Warning_Dialog, 2351,\"\",\"\",\"\"; {-- Required fields --}
+		set '(L) chkRecord' to 1;
+		abort script;
+	end if;
+else
+	if empty ('(L) File Name') or empty ('From Date') or empty ('To Date')  then
+		call Warning_Dialog, 2351,\"\",\"\",\"\"; {-- Required fields --}
+		set '(L) chkRecord' to 1;
+		abort script;
+	end if;
+end if;
+{PR50410:End}
+if ('From Date' > 'To Date') and (not empty('To Date'))then
+	call Warning_Dialog,3001,\"\",\"\",\"\";
+	focus 'From Date';
+	restart field;
+	abort script;
+end if;
+Name of table nfRET_Update_Withhold_Tax = '(L) File Name';
+get table nfRET_Update_Withhold_Tax;
+if err()=OKAY then
+	change table nfRET_Update_Withhold_Tax;  
+	set Name of table nfRET_Update_Withhold_Tax to '(L) File Name';
+	set 'From Date' of table nfRET_Update_Withhold_Tax to 'From Date';
+	set 'To Date' of table nfRET_Update_Withhold_Tax to 'To Date';
+	set nfRET_Option of table nfRET_Update_Withhold_Tax to '(L) SelOp';
+	set FilePath of table nfRET_Update_Withhold_Tax to '(L) File Location';
+	save table nfRET_Update_Withhold_Tax;
+else
+	set Name of table nfRET_Update_Withhold_Tax to '(L) File Name';
+	set 'From Date' of table nfRET_Update_Withhold_Tax to 'From Date';
+	set 'To Date' of table nfRET_Update_Withhold_Tax to 'To Date';
+	set nfRET_Option of table nfRET_Update_Withhold_Tax to '(L) SelOp';
+	set FilePath of table nfRET_Update_Withhold_Tax to '(L) File Location';
+	save table nfRET_Update_Withhold_Tax;
+end if;
+
+clear table nfRET_Default_Withhold_By_Name;
+Name of table nfRET_Default_Withhold_By_Name ='(L) File Name';
+get table nfRET_Default_Withhold_By_Name;
+if err() = OKAY then
+	change table nfRET_Default_Withhold_By_Name;
+end if;
+set Percentage of table nfRET_Default_Withhold_By_Name to '(L) Default_Tax';
+save table nfRET_Default_Withhold_By_Name;
+
+
+release table nfRET_Update_Withhold_Tax_Detail;
+clear table nfRET_Update_Withhold_Tax_Detail;
+range clear table nfRET_Update_Withhold_Tax_Detail;
+Name of table nfRET_Update_Withhold_Tax_Detail = '(L) File Name';
+range start table nfRET_Update_Withhold_Tax_Detail;
+fill field 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail;
+range end table nfRET_Update_Withhold_Tax_Detail;
+remove range table nfRET_Update_Withhold_Tax_Detail;
+get first table nfRET_Update_Withhold_Tax_Detail_TEMP;
+while err() = OKAY do
+	if nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP = 1 then
+	    set  Name of table nfRET_Update_Withhold_Tax_Detail to '(L) File Name' of window 'Update Withhold Tax';
+	    set 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail to 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP;
+		save table nfRET_Update_Withhold_Tax_Detail;
+	end if;
+	
+	get next table nfRET_Update_Withhold_Tax_Detail_TEMP;
+end while;
+set 'Handle Changes' to true;
+remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+set '(L) ChkName' to false;
+clear changes window 'Update Withhold Tax';
+
+{restart form;}"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax To Date_POST"		
+		{
+			Documentation	""
+			Script	"if ('From Date' > 'To Date') and (not empty('To Date'))then
+	call Warning_Dialog,3001,\"\",\"\",\"\";
+	focus 'From Date';
+	{focus 'To Date';}
+	restart field;
+	{abort script;}
+end if;
+
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax WindowHelp_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Help field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local boolean result;
+
+result=Menu_Invoke(MENU_ACTION_HELPWINDOW);"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax Zoom Button_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Zoom Button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local integer l_ask;
+local string l_file_and_path,hyper_generic;
+local string sWrapInDoubleQuotes;
+
+
+set l_ask to ask(getmsg(22074), getmsg(5), getmsg(6),\"\");
+if l_ask = ASKBUTTON1 then 
+if not empty('(L) File Location') then
+		{ *** check to see if the paths exist for the comm link and upload file *** }
+	l_file_and_path = '(L) File Location';
+	hyper_generic = Path_MakeGeneric(l_file_and_path);
+	if File_Probe(hyper_generic) = false then
+		warning getmsg(30611);
+		abort script;
+	else
+		set sWrapInDoubleQuotes to char(34) {\"} + l_file_and_path + char(34) {\"};
+		run application \"\", sWrapInDoubleQuotes;
+	end if;
+end if;
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax l_Checkbox33_CHG"		
+		{
+			Documentation	""
+			Script	"{21Nov08 JMathew@Partners Initial Implementation for RegF4893} 
+{15Dec08 JMathew@Partners Edited to Fix PR50432:Changed the order of message scripts}
+local long	lSQLReturnStatus,lSQLErrState;
+local 	string 		s_StartDt, s_EndDt,Str1,Str2;
+local 	string 		l_SQLScriptLocation;
+local integer l_Ask;
+local string FileName,sRptDest;
+local integer ProcessType;
+
+local string lineread, Field;
+local integer Position, counter, NumberOfLetters, l_File_ID, OldPos, Strnlen, i;
+local boolean Error, Ret;
+
+range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+range table nfRET_Update_Withhold_Tax_Detail_TEMP where physicalname(nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP) + \" = \" + str(1);
+get first table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	if err()<>OKAY then
+		warning getmsg(22078);
+		range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+		abort script;
+	end if;
+range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+
+FileName='(L) File Name';
+if changed(form nfMCP_Update_Withhold_Tax) then
+	set l_Ask to ask(getmsg(1000),getmsg(2),getmsg(1),\"\");
+	if l_Ask = ASKBUTTON1 then
+		{PR50410\"JMathew:Start}
+		run script 'Save Record';{VMurthyBR}
+		if 'Handle Changes' = false then
+			abort script;
+		end if;
+		'(L) File Name'=FileName;
+		run script '(L) File Name';	
+		{PR50410:End}	
+	elseif l_Ask = ASKBUTTON2 then
+		abort script;
+	end if;
+else{This portion is added if you select a file to import through lookup and process it's not asking to save}
+	run script 'Save Record';{VMurthyBR}
+	'(L) File Name'=FileName;
+	run script '(L) File Name';		
+end if;
+set s_StartDt to pad(str(day('From Date')),LEADING,\"0\",2) + pad(str(month('From Date')),LEADING,\"0\",2) + pad(str(year('From Date')),LEADING,\"0\",4);
+set s_EndDt to pad(str(day('To Date')),LEADING,\"0\",2) + pad(str(month('To Date')),LEADING,\"0\",2) + pad(str(year('To Date')),LEADING,\"0\",4);
+
+{set ReadInDefaults to 1; } { flag an error if saving data doesn't reset the flag }
+l_File_ID = TextFile_Open('(L) File Location', 0, 1);  { open the file }
+Error = false;  { shouldn't need to set this right before the ReadLine }
+Error = TextFile_ReadLine(l_File_ID,lineread);{Bug}  { read a line }
+if Error = false then  { while not EOF }
+	{Error = TextFile_ReadLine(l_File_ID,lineread);{Bug}}
+	set Position to 0;  { start of line }
+	set counter to 1;  { which field do we want to start with }
+	set i to 1;  { set column to 1st one }
+
+	Strnlen = length(lineread);  { this is the length of the whole line }
+	{if Error = false then}  { not sure why this is here, as Error = false from above }
+		for i equals 1 to 10 do  { for each column }
+			if  Position <> -1 then  { if not at the end of the line }
+				OldPos = Position + 1;  { set oldpos to the character following the tab (or start of line ) }
+				Position = pos(lineread, char(59), Position+1);  { find the next tab beginning at the next position }		
+				if Position = 0 then  { if a tab isn't found, we're at EOL }
+					Position = -1;  { EOL indicator }
+
+				end if;
+				if Position <> -1 then  { if we're not at EOL }
+					NumberOfLetters = Position - OldPos;  { read from oldpos up to the tab }
+					if OldPos = 1 then
+						Str1 = substring(lineread, OldPos, 2);
+						Str2 = substring(lineread, 3,2);
+					end if;					
+					{'(L) String1' = substring(lineread, OldPos, NumberOfLetters).}					
+				else  { if we are at EOL }
+					{OldPos = OldPos + NumberOfLetters -1.}
+					NumberOfLetters = (Strnlen + 1) - OldPos;  { read from oldpos up to EOL }
+					{'(L) String1' = substring(lineread, OldPos, NumberOfLetters).}
+					Position = 0;
+				end if;
+			end if;
+
+
+			case i  { set the fields in the table buffer }
+				in [1]
+					if (NumberOfLetters<>1) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+					if substring(lineread, OldPos, NumberOfLetters) <> \"R\" then
+						warning getmsg(22079);
+						abort script;
+					end if;					
+				in [2] 
+					if (NumberOfLetters<>8) then
+						warning getmsg(22079);
+						abort script;
+					end if;	
+					if value(Str1) = 0 or value(Str2) = 0 then
+						warning getmsg(22079);
+						abort script;
+					end if;
+				in [3] 
+					if (NumberOfLetters<>8) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+					if  s_StartDt<> substring(lineread, OldPos, NumberOfLetters)then
+						warning getmsg(22080);
+						abort script;
+					end if;
+				in [4]
+					if (NumberOfLetters<>8) then
+						warning getmsg(22079);
+						abort script;
+					end if;	
+					if  s_EndDt<> substring(lineread, OldPos, NumberOfLetters)then
+						warning getmsg(22080);
+						abort script;
+					end if;
+				in	[5]
+					if (NumberOfLetters<>11) then
+						warning getmsg(22079);
+						abort script;
+					end if;	
+				in	[6]
+					if (NumberOfLetters<>1) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+				in	[7]
+					if (NumberOfLetters<>1) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+				in	[8]
+					if (NumberOfLetters<>1) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+				in	[9]
+					if (NumberOfLetters<>4) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+				in	[10]
+					if (NumberOfLetters<>2) then
+						warning getmsg(22079);
+						abort script;
+					end if;
+			end case;
+		end for;
+		{RF7162:Start}
+		if '(L) SelOp'=1 or '(L) SelOp'=2 then
+			if  Position <> -1 then  { if not at the end of the line }
+				OldPos = Position + 1;  { set oldpos to the character following the tab (or start of line ) }
+				Position = pos(lineread, char(59), Position+1);  { find the next tab beginning at the next position }		
+				if Position = 0 then  { if a tab isn't found, we're at EOL }
+					Position = -1;  { EOL indicator }
+
+				end if;
+				if Position <> -1 then  { if we're not at EOL }
+					NumberOfLetters = Position - OldPos;  { read from oldpos up to the tab }
+					{'(L) String1' = substring(lineread, OldPos, NumberOfLetters).}					
+				else  { if we are at EOL }
+					{OldPos = OldPos + NumberOfLetters -1.}
+					NumberOfLetters = (Strnlen + 1) - OldPos;  { read from oldpos up to EOL }
+					{'(L) String1' = substring(lineread, OldPos, NumberOfLetters).}
+					Position = 0;
+				end if;
+			end if;
+			if (NumberOfLetters<=0) then
+				warning getmsg(22079);
+				abort script;
+			end if;
+		else
+			if  Position <> -1 and Position <>0 then
+				warning getmsg(22079);
+				abort script;
+			end if;
+		end if;
+	 {RF7162:End}
+	{end if;	  }
+	
+
+end if;{Bug}	
+Ret = TextFile_Close(l_File_ID);  { close the text file }
+
+if '(L) SelOp'=0 then
+	if  empty ('(L) File Location') then
+		set l_Ask to ask(getmsg(22081),getmsg(10557),getmsg(1),\"\");
+		if l_Ask = ASKBUTTON1 then 
+			ProcessType=2;
+		else
+			abort script;
+		end if;
+	else
+		set l_Ask to ask(getmsg(22077),getmsg(5),getmsg(1),\"\");
+		if l_Ask = ASKBUTTON2 then
+			abort script;
+		end if;
+		ProcessType=1;
+	end if;
+elseif '(L) SelOp'=1  then
+	ProcessType=3;
+	set l_Ask to ask(getmsg(22077),getmsg(5),getmsg(1),\"\");
+	if l_Ask = ASKBUTTON2 then
+		abort script;
+	end if;
+elseif '(L) SelOp'=2  then{RF7162}
+	ProcessType=4;
+	set l_Ask to ask(getmsg(22077),getmsg(5),getmsg(1),\"\");
+	if l_Ask = ASKBUTTON2 then
+		abort script;
+	end if;{Commented}
+end if;
+open window PleaseWait;
+Window_ForceRedraw(window PleaseWait); 
+set l_SQLScriptLocation to SQLScriptLocation of globals;
+set SQLScriptLocation of globals to 'Intercompany ID' of globals;
+{call nfRETMCPUpdateWithholdTax,
+				lSQLReturnStatus,
+				'(L) File Name',
+				s_StartDt,s_EndDt,
+				sqlDate('From Date'),sqlDate('To Date'),
+				trim('(L) File Location'),
+				ProcessType,				
+				lSQLErrState;}
+call nfRETMCPUpdateWithholdTax,
+				lSQLReturnStatus,
+				'(L) File Name',
+				s_StartDt,s_EndDt,
+				'From Date','To Date',
+				trim('(L) File Location'),
+				ProcessType,				
+				lSQLErrState;				
+				
+	
+	if (lSQLReturnStatus <> 0 and  lSQLReturnStatus <> -127) or (lSQLErrState > 0) then
+		call Warning_Dialog, 35100, \"nfRETMCPUpdateWithholdTax\",
+			str(lSQLReturnStatus),
+			str(lSQLErrState),
+			WARNINGDIALOGGET;
+			set SQLScriptLocation of globals to l_SQLScriptLocation;
+			close window PleaseWait;
+			abort script;		
+	end if;				
+close window PleaseWait;								
+set SQLScriptLocation of globals to l_SQLScriptLocation;
+warning getmsg(22082);
+if ProcessType=1 or ProcessType=2 then
+	run report nfRET_Update_Withhold_Tax_Report
+	legends str('From Date'),str('To Date'),getmsg(22083);
+	if countrecords(table nfRET_Update_Withhold_Tax_RepEx_Temp)>0 then
+		run report nfRET_Update_Withhold_Tax_Exception_Report
+		legends str('From Date'),str('To Date'),getmsg(22086);
+	end if;
+elseif ProcessType=3 then
+	run report nfRET_Update_Withhold_Tax_Report
+	legends str('From Date'),str('To Date'),getmsg(22084);
+	if countrecords(table nfRET_Update_Withhold_Tax_RepEx_Temp)>0 then
+		run report nfRET_Update_Withhold_Tax_Exception_Report
+			legends str('From Date'),str('To Date'),getmsg(22087);
+	end if;
+elseif ProcessType=4 then
+	call RetrieveEmptyDestination of form ReportDestObj,
+					getmsg(22090),
+					\"\",
+					sRptDest;
+	run report nfRET_Update_Withhold_Tax_Report
+	legends str('From Date'),str('To Date'),getmsg(22090)destination sRptDest;
+	
+	if countrecords(table nfRET_Update_Withhold_Tax_RepEx_Temp)>0 then
+		call RetrieveEmptyDestination of form ReportDestObj,
+						getmsg(22091),
+						\"\",
+						sRptDest;	
+		run report nfRET_Update_Withhold_Tax_Exception_Report
+			legends str('From Date'),str('To Date'),getmsg(22091)destination sRptDest;
+	end if;	
+end if;
+run script 'Clear Button';{partners@VMurthyBR for PR 50915}"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax l_Default Tax_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Default button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+open window Withhold_Default_Tax;"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax l_File Name_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of '(L) File Name' field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local text SqlQry;
+local Name l_Name;
+local boolean l_Found;
+local integer l_ask;
+local string l_Temp_Report_Options;
+local string l_Message;
+local boolean result;
+
+local long SQL_connection, status, l_CountRet;
+local text S;
+local string P;
+local long GPS_error_number, SQL_error_number;
+local string SQL_error_string, ODBC_error_string;
+
+
+
+set l_Found to false;
+
+
+
+if empty ('(L) File Name') then
+	run script 'Clear Button';
+	abort script;
+end if;
+
+if (changed(window 'Update Withhold Tax')  or '(L) ChkName') {and not empty(old())} then
+	{Ask if they what to save changes to the current option before continuing
+		 to another option}
+	set l_Message to getmsg(1000);
+	substitute l_Message,old(); 
+	set l_ask to ask(l_Message, getmsg(SAVE), getmsg(DISCARD), getmsg(CANCEL));
+	{Save changes}
+	if l_ask = ASKBUTTON1 then
+		set l_Temp_Report_Options to '(L) File Name';
+		if not empty(old()) then
+			set '(L) File Name' to old();
+		end if;	
+		{to indicate to the save button script not to restart window}
+		set '(L) ChkName' to true;
+		set '(L) chkRecord' to 0;
+		run script 'Save Record';
+		if '(L) chkRecord' = 1 then
+			abort script;
+		end if;
+		set '(L) ChkName' to false;
+		set '(L) File Name' to l_Temp_Report_Options;
+		set '(L) ChkName' to false;
+	{Delete the changes}	
+	elseif l_ask = ASKBUTTON2 then
+		{release file GL_Options_ROPT;}
+	{Cancel the save and return to the window without losing the changes}
+	elseif l_ask = ASKBUTTON3 then
+		set '(L) File Name' to old();
+		abort script;		
+	end if;
+end if;
+
+release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+clear table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+range clear table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+release table nfRET_Update_Withhold_Tax;
+clear table nfRET_Update_Withhold_Tax;
+range clear table nfRET_Update_Withhold_Tax;
+Name of table nfRET_Update_Withhold_Tax='(L) File Name';
+get table nfRET_Update_Withhold_Tax;
+if err() = OKAY then
+		set 'From Date' to 'From Date' of table nfRET_Update_Withhold_Tax;
+		set 'To Date' to 'To Date' of table nfRET_Update_Withhold_Tax;
+		set '(L) SelOp' to  nfRET_Option of table nfRET_Update_Withhold_Tax;
+		set '(L) File Location' to FilePath of table nfRET_Update_Withhold_Tax;
+else
+	l_Name = '(L) File Name';
+	restart form; 
+	'(L) File Name'=l_Name;
+	focus 'From Date';
+end if;
+
+remove range table nfRET_Update_Withhold_Tax_Detail_TEMP;
+release table nfRET_TIPO_MSTR;
+range clear table nfRET_TIPO_MSTR;
+SqlQry = physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(3) + \" or \" + physicalname('nfRET Rutina de calculo' of table nfRET_TIPO_MSTR)+ \" = \" +  str(4);
+range table nfRET_TIPO_MSTR where SqlQry;
+get first table nfRET_TIPO_MSTR; 
+while err() = OKAY do
+{rsaha:RF7162:Start}
+	if '(L) SelOp' = 2 then 
+		P = char(13);
+		status = SQL_Connect(SQL_connection);
+		if status = 0 then
+			pragma(disable warning LiteralStringUsed);	
+			S = \"USE \" + 'Intercompany ID' of globals + P;
+			S = S + \"SELECT COUNT(*) FROM nfRET_GL00030 WHERE nfRET_Tipo_ID= \" +SQL_FormatStrings('nfRET Tipo ID' of table nfRET_TIPO_MSTR)+\" AND nfRET_Monotributistas=1\";
+			pragma(enable warning LiteralStringUsed);
+			status = SQL_Execute(SQL_connection, S);
+			if status = 0 then
+				status = SQL_FetchNext(SQL_connection);
+				if status <> 31 then
+					status = SQL_GetData(SQL_connection, 1 , l_CountRet);
+					if l_CountRet <= 0 then
+						get next table nfRET_TIPO_MSTR;
+						continue while;
+					end if;
+				end if;
+			else
+				error getmsg(05174);{An error occurred executing SQL statements.}
+				{Retrieve the specific error information.}
+				status = SQL_GetError(SQL_connection, GPS_error_number, SQL_error_number, SQL_error_string, ODBC_error_string);
+				if status = 0 then
+					pragma(disable warning LiteralStringUsed);
+					warning \"GPS \" + getmsg(30539) +  \": \" + str(GPS_error_number);
+					warning \"SQL \" + getmsg(30539) +  \": \" + str(SQL_error_number) + \" \" + SQL_error_string;
+					warning \"ODBC \" + getmsg(30539) +  \": \" + ODBC_error_string;
+				else
+					error getmsg(30540);{Unable to retrieve SQL error information.}
+				end if;
+				abort script;
+			end if;
+			pragma(enable warning LiteralStringUsed);
+			status = SQL_Terminate(SQL_connection);
+		end if;
+	end if;	
+	
+	set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 0;
+	set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Tipo ID' of table nfRET_TIPO_MSTR;
+	set 'nfRET Descripcion' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Descripcion' of table nfRET_TIPO_MSTR;
+	release table nfRET_Update_Withhold_Tax_Detail;
+    clear table nfRET_Update_Withhold_Tax_Detail;
+    range clear table nfRET_Update_Withhold_Tax_Detail;
+	get first table nfRET_Update_Withhold_Tax_Detail;
+	while err() = OKAY do
+		if '(L) File Name' = Name of table nfRET_Update_Withhold_Tax_Detail then
+			if 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail = 'nfRET Tipo ID' of table nfRET_TIPO_MSTR then
+				set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 1;
+				exit while;
+			end if;
+		end if;
+		get next table nfRET_Update_Withhold_Tax_Detail; 
+	end while;
+	save table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	get next table nfRET_TIPO_MSTR;
+end while;
+
+set '(L) Default_Tax' to 0;
+clear table nfRET_Default_Withhold_By_Name;
+Name of table nfRET_Default_Withhold_By_Name ='(L) File Name';
+get table nfRET_Default_Withhold_By_Name;
+if err() = OKAY then
+	{change table nfRET_Default_Withhold_By_Name;
+	set Percentage of table nfRET_Default_Withhold_By_Name to '(L) Default_Tax';
+	save table nfRET_Default_Withhold_By_Name;}
+	set '(L) Default_Tax' to Percentage of table nfRET_Default_Withhold_By_Name;
+end if;
+
+if '(L) SelOp' = 1 then{RF7162:rsaha}
+	result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, true);
+	enable '(L) Default Tax';
+elseif '(L) SelOp' = 2 then
+	result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, true);
+	enable '(L) Default Tax';
+else
+	result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, false);
+	enable '(L) Default Tax';
+end if;
+{RF7162:End}
+enable '(L) File Location';
+enable '(L) FromTyp';
+enable '(L) ToTyp';
+enable 'Lookup Button 1';
+enable 'Lookup Button 2';
+enable '(L) SelOp';
+enable '(L) Show';
+enable '(L) TaxID';
+enable 'From Date';
+enable 'To Date';
+enable 'Path Button'[1];
+enable 'Process Button P';
+enable 'Mark All';
+enable 'Mark None';
+enable 'Zoom Button';
+enable '(L) selectOpt';  {partners@VMurthyBR for PR 50915 start}
+enable '(L) SelwhTyID';
+enable '(L) Date';
+enable '(L) TypeId';
+enable '(L) TypIdTo';
+enable '(L) DtFrom';
+enable '(L) DtTo';
+enable '(L) Filelocation';{partners@VMurthyBR for PR 50915 end}
+focus 'From Date';
+clear window nfRET_Update_Withhold_Tax_Scroll;
+get first table nfRET_Update_Withhold_Tax_Detail_TEMP;
+fill window nfRET_Update_Withhold_Tax_Scroll; 
+set '(L) ChkName' to false;
+set '(L) Show' to 1; 
+run script '(L) Show';
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax l_FromTyp_CHG"		
+		{
+			Documentation	""
+			Script	"{local	integer	f_ok;
+
+set f_ok to ProcessFrom('(L) All From Group Box', '(L) From Customer ID', '(L) To Customer ID') 
+				of form SystemLib;
+}"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax l_FromTyp_CHG_DUP"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of '(L) FromTyp' field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local	integer	f_ok;
+set f_ok to ProcessFrom('(L) TaxID', '(L) FromTyp', '(L) ToTyp') 
+				of form SystemLib;
+				
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax l_SelOp_CHG"		
+		{
+			Documentation	""
+			Script	"local boolean result;
+if '(L) SelOp' = 1  then
+	result = Field_SetBooleanProperty('(L) Filelocation', FIELD_PROP_REQUIRED, true);
+	enable '(L) Default Tax';
+elseif '(L) SelOp' = 2  then{RF7162}
+	result = Field_SetBooleanProperty('(L) Filelocation', FIELD_PROP_REQUIRED, true);
+	enable '(L) Default Tax';
+{MSAL 202020303. Se incorpora SelOp 3 y 4 para IIbB Tucuman}	
+elseif '(L) SelOp' = 3  then{RF7162}
+	result = Field_SetBooleanProperty('(L) Filelocation', FIELD_PROP_REQUIRED, true);
+	enable '(L) Default Tax';
+	'(L) FormatFileLocation' = Defaults_Read(\"FormDictionaryPath\") + \"formato_contribuyente.txt\";
+elseif '(L) SelOp' = 4  then{RF7162}
+	result = Field_SetBooleanProperty('(L) Filelocation', FIELD_PROP_REQUIRED, true);
+	enable '(L) Default Tax';
+	'(L) FormatFileLocation' = Defaults_Read(\"FormDictionaryPath\") + \"formato_efgr116.txt\";
+else	
+	result = Field_SetBooleanProperty('(L) Filelocation', FIELD_PROP_REQUIRED, false);
+	enable '(L) Default Tax';
+end if;
+
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax l_Show_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of '(L) Show' field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local text SqlQry;
+release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+clear window nfRET_Update_Withhold_Tax_Scroll;
+
+if '(L) Show' = 1 then
+    if '(L) TaxID'of window 'Update Withhold Tax' = RANGE then
+   	  'Start Tax Detail ID'='(L) FromTyp';
+	  'End Tax Detail ID'='(L) ToTyp';
+	   release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+       range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	   set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'Start Tax Detail ID' of window 'Update Withhold Tax';
+	   range start table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	   set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'End Tax Detail ID' of window 'Update Withhold Tax';
+	   range end table nfRET_TIPO_MSTR;
+	   get first table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+	   fill window nfRET_Update_Withhold_Tax_Scroll;
+    else 
+       clear window nfRET_Update_Withhold_Tax_Scroll;	
+	   get first table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+	   fill window nfRET_Update_Withhold_Tax_Scroll;
+	end if;
+elseif '(L) Show' = 2 then
+  if '(L) TaxID'of window 'Update Withhold Tax' = RANGE then
+   	  'Start Tax Detail ID'='(L) FromTyp';
+	  'End Tax Detail ID'='(L) ToTyp';
+	   release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+       range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	   set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'Start Tax Detail ID' of window 'Update Withhold Tax';
+	   range start table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	   set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'End Tax Detail ID' of window 'Update Withhold Tax';
+	   range end table nfRET_TIPO_MSTR;
+	   SqlQry = physicalname(nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP) + \" = \" + str(1);
+	   range table nfRET_Update_Withhold_Tax_Detail_TEMP where SqlQry;
+	   fill window nfRET_Update_Withhold_Tax_Scroll;
+    else
+		SqlQry = physicalname(nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP) + \" = \" + str(1);
+		range table nfRET_Update_Withhold_Tax_Detail_TEMP where SqlQry;
+		fill window nfRET_Update_Withhold_Tax_Scroll;
+	end if;
+elseif '(L) Show'=3 then
+       if '(L) TaxID'of window 'Update Withhold Tax' = RANGE then
+   	  'Start Tax Detail ID'='(L) FromTyp';
+	  'End Tax Detail ID'='(L) ToTyp';
+	   release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+       range clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	   set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'Start Tax Detail ID' of window 'Update Withhold Tax';
+	   range start table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	   set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'End Tax Detail ID' of window 'Update Withhold Tax';
+	   range end table nfRET_TIPO_MSTR;
+	   SqlQry = physicalname(nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP) + \" = \" + str(0);
+	   range table nfRET_Update_Withhold_Tax_Detail_TEMP where SqlQry;
+	   fill window nfRET_Update_Withhold_Tax_Scroll;
+    else
+		SqlQry = physicalname(nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP) + \" = \" + str(0);
+		range table nfRET_Update_Withhold_Tax_Detail_TEMP where SqlQry;
+		fill window nfRET_Update_Withhold_Tax_Scroll;
+	end if;
+end if;
+
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax l_TaxID_CHG"		
+		{
+			Documentation	""
+			Script	"clear '(L) FromTyp';
+clear '(L) ToTyp';
+set '(L) Show' of window 'Update Withhold Tax' to 1;
+
+"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax_WIN_POST"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of WinPost
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local integer l_Ask;
+{old code
+if 'Handle Changes' = true then
+	abort script;
+end if;
+if changed(form nfMCP_Update_Withhold_Tax) then
+	set l_Ask to ask(getmsg(1000),getmsg(2),getmsg(4),getmsg(1));
+	if l_Ask = ASKBUTTON1 then
+		run script 'Save Button';
+		if 'Handle Changes' = true then
+		    set 'Handle Changes' to false;
+			abort close;
+		end if;
+	elseif l_Ask = ASKBUTTON3 then
+		abort close;
+	end if;
+end if;
+}
+
+{Edited}
+
+if changed(window 'Update Withhold Tax' ) then
+	run script 'Handle Changes';
+	if not 'Handle Changes' then
+		abort close;
+		abort script;
+	end if;
+end if;
+if 'Handle Changes' = true then
+	abort script;
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Update Withhold Tax_WIN_PRE"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of WinPost
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local boolean result;
+run script 'Dummy Note Show Hide';
+release table nfRET_Update_Withhold_Tax;
+range clear table nfRET_Update_Withhold_Tax;
+get first table nfRET_Update_Withhold_Tax;
+clear window nfRET_Update_Withhold_Tax_Scroll;
+clear field '(L) File Name';
+while err() = OKAY do
+	add item (Name of table nfRET_Update_Withhold_Tax) to '(L) File Name';
+	get next table nfRET_Update_Withhold_Tax;
+end while;
+focus 'From Date';
+
+
+if '(L) SelOp' = 1 then
+	result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, true);
+	enable '(L) Default Tax';
+{MSAL 202020303. Se incorpora SelOp 3 y 4 para IIbB Tucuman}	
+elseif '(L) SelOp' = 3  then{RF7162}
+	result = Field_SetBooleanProperty('(L) Filelocation', FIELD_PROP_REQUIRED, true);
+	enable '(L) Default Tax';
+	'(L) FormatFileLocation' = Defaults_Read(\"FormDictionaryPath\") + \"formato_contribuyente.txt\";
+elseif '(L) SelOp' = 4  then{RF7162}
+	result = Field_SetBooleanProperty('(L) Filelocation', FIELD_PROP_REQUIRED, true);
+	enable '(L) Default Tax';
+	'(L) FormatFileLocation' = Defaults_Read(\"FormDictionaryPath\") + \"formato_efgr116.txt\";	
+else
+	result = Field_SetBooleanProperty('(L) File Location', FIELD_PROP_REQUIRED, false);
+	enable '(L) Default Tax';
+end if;
+
+disable '(L) File Location';
+disable '(L) FromTyp';
+disable '(L) ToTyp';
+disable 'Lookup Button 1';
+disable 'Lookup Button 2';
+disable '(L) SelOp';
+disable '(L) Show';
+disable '(L) TaxID';
+disable 'From Date';
+disable 'To Date';
+disable 'Path Button'[1];
+disable 'Process Button P';
+disable 'Mark All';
+disable 'Mark None';
+disable 'Zoom Button';
+disable '(L) Default Tax';
+disable '(L) selectOpt';{partners@VMurthyBR for PR 50915 start}
+disable '(L) SelwhTyID';
+disable '(L) Date';
+disable '(L) TypeId';
+disable '(L) TypIdTo';
+disable '(L) DtFrom';
+disable '(L) DtTo';
+disable '(L) Filelocation';{partners@VMurthyBR for PR 50915 end}"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax Dummy Note Show Hide_CHG"		
+		{
+			Documentation	""
+			Script	"
+
+call Check_For_Note,technicalname(window 'Withhold_Default_Tax' of form nfMCP_Update_Withhold_Tax),'Dummy Note Show Hide';
+if 'Dummy Note Show Hide'  = 1 then
+	hide 'Note Absent Button - Toolbar';
+	show 'Note Present - Toolbar';
+else
+	hide 'Note Present - Toolbar';
+	show 'Note Absent Button - Toolbar';
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax Handle Changes_CHG"		
+		{
+			Documentation	""
+			Script	"local integer l_Ask;
+if changed(window Withhold_Default_Tax) then
+	set l_Ask to ask(getmsg(1000),getmsg(2),getmsg(4),getmsg(1));
+	if l_Ask = ASKBUTTON1 then
+		set '(L) chkRecord' to 0;
+		run script 'OK Button ';
+		if '(L) chkRecord' = 1 then
+		    set 'Handle Changes' to false;
+			abort close;
+			abort script;
+		end if;
+		set 'Handle Changes' to true;
+		clear changes window Withhold_Default_Tax;
+	elseif l_Ask = ASKBUTTON2 then
+			clear changes window Withhold_Default_Tax;
+			set 'Handle Changes' to true;
+		 	abort script;	
+	elseif l_Ask = ASKBUTTON3 then
+		abort close;
+	end if;
+end if;
+
+"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax Note Absent Button - Toolbar_CHG"		
+		{
+			Documentation	""
+			Script	"
+{-----------------------------------------------------------------------------------------------------------
+	Procedure Name 	: LWithhold_Default_Tax Note Absent Button - Toolbar_CHG
+	Created by 		: RVMurthyBR
+	Created on		: 20Nov2008
+	Summary			: This script is used to open the note for the window if possible.
+	Change History	:
+-------------------------------------------------------------------------------------------------------------}
+
+
+{--------------------------------------------------------------------------------
+	Open the note for the window if possible.
+--------------------------------------------------------------------------------}
+local string l_Note_ID,l_Display_Name;
+local boolean isthere;
+local integer form_number;
+local integer l_exists;
+
+{-------------------------------------------------------------------------------
+	Initialize local variables before calling global script
+--------------------------------------------------------------------------------}
+{get the current display name to display}
+system 5017, window Withhold_Default_Tax, l_Display_Name;
+
+{get the original display name as the key into the notes file. This should be the
+ same name as in the 'Dummy Record Show Hide' script.} 
+set l_Note_ID to technicalname(window 'Withhold_Default_Tax' of form nfMCP_Update_Withhold_Tax);
+
+{check to see if someone created or deleted a note since entering the window}
+call Check_For_Note,l_Note_ID,l_exists;
+if 'Dummy Note Show Hide'=1 and l_exists=0 then
+	call Warning_Dialog,1380,\"\",\"\",\"\";
+elseif 'Dummy Note Show Hide'=0 and l_exists=1 then
+	call Warning_Dialog,5500,\"\",\"\",\"\";
+end if;
+
+set isthere to false;
+set form_number to 0;
+
+{--------------------------------------------------------------------------------
+	Check if a note form for this window is already open.  If one isn't, then
+	get the number of an unused note form.  If all of the note forms are being
+	used, then give a warning and abort the script.  Otherwise, open the note
+	form for this window.
+--------------------------------------------------------------------------------}
+call Check_Note_ID_String,l_Note_ID,isthere,form_number;
+if isthere=false then
+	call Get_Next_Form_Note_To_Open,form_number;
+	if form_number = 0 then
+		abort script;
+	end if;
+end if;
+if form_number = 1 then
+	open form Form_Note_1 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_1 of form Form_Note_1 to l_Note_ID;
+	set 'Display Name' of window Form_Note_1 of form Form_Note_1 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_1 of form Form_Note_1;
+	end if;
+elseif form_number = 2 then
+	open form Form_Note_2 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_2 of form Form_Note_2 to l_Note_ID;
+	set 'Display Name' of window Form_Note_2 of form Form_Note_2 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_2 of form Form_Note_2;
+	end if;
+elseif form_number = 3 then
+	open form Form_Note_3 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_3 of form Form_Note_3 to l_Note_ID;
+	set 'Display Name' of window Form_Note_3 of form Form_Note_3 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_3 of form Form_Note_3;
+	end if;
+elseif form_number = 4 then
+	open form Form_Note_4 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_4 of form Form_Note_4 to l_Note_ID;
+	set 'Display Name' of window Form_Note_4 of form Form_Note_4 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_4 of form Form_Note_4;
+	end if;
+else {form_number = 5}
+	open form Form_Note_5 return to 'Dummy Note Show Hide';
+	set 'Note ID' of window Form_Note_5 of form Form_Note_5 to l_Note_ID;
+	set 'Display Name' of window Form_Note_5 of form Form_Note_5 to l_Display_Name;
+	if not isthere then
+		run script '(L) Dummy WIN PRE' of window Form_Note_5 of form Form_Note_5;
+	end if;
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax Note Present - Toolbar_CHG"		
+		{
+			Documentation	""
+			Script	"run script 'Note Absent Button - Toolbar';"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax OK Button _CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Ok button field
+
+20Nov08 VMurthyBR, Initial Implementation
+10Jan11 rsaha@Partners Made changes for RF7162
+------------------------------------------------------------------------------}
+if '(L) Default_Tax' = 0 then
+	call Warning_Dialog, 2351,\"\",\"\",\"\"; {-- Required fields --}
+	set '(L) chkRecord' to 1;
+	abort script;
+end if;
+if '(L) Modify' = true then
+	if '(L) SelOp' of window 'Update Withhold Tax'=2 then
+		release table nfRET_Default_Withhold_Tax_HighRisk; 
+		get first table nfRET_Default_Withhold_Tax_HighRisk;
+		change table nfRET_Default_Withhold_Tax_HighRisk;
+		set Percentage of table nfRET_Default_Withhold_Tax_HighRisk to '(L) Default_Tax';
+		save table nfRET_Default_Withhold_Tax_HighRisk;
+	else
+		release table nfRET_Default_Withhold_Tax; 
+		get first table nfRET_Default_Withhold_Tax;
+		change table nfRET_Default_Withhold_Tax;
+		set Percentage of table nfRET_Default_Withhold_Tax to '(L) Default_Tax';
+		save table nfRET_Default_Withhold_Tax;
+	end if;
+end if;
+clear changes window Withhold_Default_Tax;
+set 'Handle Changes' to true;
+close window Withhold_Default_Tax;
+"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax WindowHelp_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Help button field
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+local boolean result;
+
+result=Menu_Invoke(MENU_ACTION_HELPWINDOW);"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax l_Default_Tax_POST"		
+		{
+			Documentation	""
+			Script	"if ('(L) Default_Tax' > 100) then
+warning getmsg(31106);
+focus '(L) Default_Tax';
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax l_Default_Tax_POST_DUP"		
+		{
+			Documentation	""
+			Script	"{VMurthyBR@partners PR:50913}
+if '(L) Default_Tax'> 100 then  
+	warning getmsg(31106);
+	restart field;
+end if;"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax l_Modify_CHG"		
+		{
+			Documentation	""
+			Script	"local boolean result;
+if '(L) Modify' = true then
+	enable '(L) Default_Tax';
+	result = Field_SetBooleanProperty('(L) Default_Tax', FIELD_PROP_REQUIRED, true);
+else
+	disable '(L) Default_Tax';
+	result = Field_SetBooleanProperty('(L) Default_Tax', FIELD_PROP_REQUIRED, false);
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax_WIN_POST"		
+		{
+			Documentation	""
+			Script	"if 'Handle Changes' = true then
+	abort script;
+end if;
+
+if changed(window Withhold_Default_Tax) then
+	run script 'Handle Changes';
+	if not 'Handle Changes' then
+		abort close;
+		abort script;
+	end if;
+end if;
+
+"
+			UserProperties	""
+		}
+		EventScript	"Withhold_Default_Tax_WIN_PRE"		
+		{
+			Documentation	""
+			Script	"{08Jan11 rsaha@Partners Made changes for RF7162}
+run script 'Dummy Note Show Hide';
+if '(L) SelOp' of window 'Update Withhold Tax'=2 then
+	get first table nfRET_Default_Withhold_Tax_HighRisk;
+	if not empty (Percentage of table nfRET_Default_Withhold_Tax_HighRisk)then
+		disable '(L) Default_Tax';
+		set '(L) Default_Tax' to Percentage of table nfRET_Default_Withhold_Tax_HighRisk;
+		set '(L) Modify' to false;
+	else
+		disable '(L) Default_Tax';
+		set '(L) Default_Tax' to 2.00;
+		set '(L) Modify' to false;
+	end if;
+	set 'Handle Changes' to false;
+else
+	get first table nfRET_Default_Withhold_Tax;
+	if not empty (Percentage of table nfRET_Default_Withhold_Tax)then
+		disable '(L) Default_Tax';
+		set '(L) Default_Tax' to Percentage of table nfRET_Default_Withhold_Tax;
+		set '(L) Modify' to false;
+	else
+		disable '(L) Default_Tax';
+		set '(L) Default_Tax' to 1.75;
+		set '(L) Modify' to false;
+	end if;
+	set 'Handle Changes' to false;
+end if;"
+			UserProperties	""
+		}
+		EventScript	"nfRET_Update_Withhold_Tax_Scroll SCROLL_CHG"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Change event of Scrolling window
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+{clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Tipo ID' of window nfRET_Update_Withhold_Tax_Scroll;
+set 'nfRET Descripcion' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Descripcion' of window nfRET_Update_Withhold_Tax_Scroll;
+if '(L) CB_TypeID' of window nfRET_Update_Withhold_Tax_Scroll = true {or ('(L) chkRecord')=1} then
+	set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 1;
+else
+	set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 0;
+end if;	
+save table nfRET_Update_Withhold_Tax_Detail_TEMP; 
+fill window nfRET_Update_Withhold_Tax_Scroll;}
+
+{
+release table nfRET_Update_Withhold_Tax_Detail;
+clear table nfRET_Update_Withhold_Tax_Detail;
+range clear table nfRET_Update_Withhold_Tax_Detail;
+Name of table nfRET_Update_Withhold_Tax_Detail = '(L) File Name';
+range start table nfRET_Update_Withhold_Tax_Detail;
+fill field 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail;
+range end table nfRET_Update_Withhold_Tax_Detail;
+remove range table nfRET_Update_Withhold_Tax_Detail;
+get first table nfRET_Update_Withhold_Tax_Detail_TEMP;
+while err() = OKAY do
+	if nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP = 1 then
+	    set  Name of table nfRET_Update_Withhold_Tax_Detail to '(L) File Name' of window 'Update Withhold Tax';
+	    set 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail to 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP;
+		save table nfRET_Update_Withhold_Tax_Detail;
+	end if;
+	
+	get next table nfRET_Update_Withhold_Tax_Detail_TEMP;
+end while;
+
+}	"
+			UserProperties	""
+		}
+		EventScript	"nfRET_Update_Withhold_Tax_Scroll SCROLL_FILL"		
+		{
+			Documentation	""
+			Script	"{------------------------------------------------------------------------------
+Script: Fill event of Scrolling window
+
+20Nov08 VMurthyBR, Initial Implementation
+------------------------------------------------------------------------------}
+
+set 'nfRET Tipo ID' of window nfRET_Update_Withhold_Tax_Scroll to 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP;
+set 'nfRET Descripcion' of window nfRET_Update_Withhold_Tax_Scroll to 'nfRET Descripcion' of table nfRET_Update_Withhold_Tax_Detail_TEMP;
+if nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP = 1 then
+	set '(L) CB_TypeID' of window nfRET_Update_Withhold_Tax_Scroll to true;
+else
+	set '(L) CB_TypeID' of window nfRET_Update_Withhold_Tax_Scroll to false;
+end if;
+"
+			UserProperties	""
+		}
+		EventScript	"nfRET_Update_Withhold_Tax_Scroll l_CB_TypeID_CHG"		
+		{
+			Documentation	""
+			Script	"release table nfRET_Update_Withhold_Tax_Detail_TEMP;
+clear table nfRET_Update_Withhold_Tax_Detail_TEMP;
+set 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Tipo ID' of window nfRET_Update_Withhold_Tax_Scroll;
+set 'nfRET Descripcion' of table nfRET_Update_Withhold_Tax_Detail_TEMP to 'nfRET Descripcion' of window nfRET_Update_Withhold_Tax_Scroll;
+change table nfRET_Update_Withhold_Tax_Detail_TEMP;
+release table nfRET_Update_Withhold_Tax_Detail;
+clear table nfRET_Update_Withhold_Tax_Detail;
+range clear table nfRET_Update_Withhold_Tax_Detail;
+{change table nfRET_Update_Withhold_Tax_Detail;}
+if '(L) CB_TypeID' of window nfRET_Update_Withhold_Tax_Scroll = true {or ('(L) chkRecord')=1} then
+	set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 1;
+	set  Name of table nfRET_Update_Withhold_Tax_Detail to '(L) File Name' of window 'Update Withhold Tax';
+	set 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail to 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	save table nfRET_Update_Withhold_Tax_Detail;
+else
+	set nfRET_CKBox of table nfRET_Update_Withhold_Tax_Detail_TEMP to 0;
+	set  Name of table nfRET_Update_Withhold_Tax_Detail to '(L) File Name' of window 'Update Withhold Tax';
+	set 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail to 'nfRET Tipo ID' of table nfRET_Update_Withhold_Tax_Detail_TEMP;
+	change table nfRET_Update_Withhold_Tax_Detail;
+	fill field 'Tax Detail ID' of table nfRET_Update_Withhold_Tax_Detail;
+	remove table nfRET_Update_Withhold_Tax_Detail; 
+	end if;	
+save table nfRET_Update_Withhold_Tax_Detail_TEMP;
+if '(L) Show' of window 'Update Withhold Tax' <> 1 then
+	fill window nfRET_Update_Withhold_Tax_Scroll;
+end if; 
+
+"
+			UserProperties	""
+		}
+	}
+	~Functions
+	{
+	}
+	~Procedures
+	{
+	}
+}

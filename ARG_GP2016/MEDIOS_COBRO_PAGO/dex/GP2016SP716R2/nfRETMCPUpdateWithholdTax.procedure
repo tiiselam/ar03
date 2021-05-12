@@ -1,0 +1,47 @@
+Procedure	"nfRETMCPUpdateWithholdTax"
+{
+	Core	"System"
+	Documentation	""
+	Script	"{
+	Name: nfRETMCPUpdateWithholdTax
+						
+	06Mar08	JMathew@Partners 	Initial Implementation for RegF4893
+		
+} 
+
+sproc returns	long			O_SQL_Return_Status;
+
+
+
+in string	IFileName;
+in  string	FileFromDate;
+in 	string		FileToDate;
+in date FromDate;
+in date	ToDate;
+in string FileLocation;
+in integer ProcessType;
+inout long   O_SQL_Error_State;
+
+local long 	 l_ErrorCode;
+
+
+call sproc \"nfRETMCPUpdateWithholdTax\",
+				O_SQL_Return_Status,
+				IFileName,
+				FileFromDate,
+				FileToDate,
+				FromDate,
+				ToDate,
+				FileLocation,
+				ProcessType,				
+				O_SQL_Error_State;
+	
+set O_SQL_Error_State 	to 	l_ErrorCode;
+"
+	ServiceAction	""
+	ServiceCustomAciton	""
+	ServiceEnabled	"FALSE"
+	ServiceRawRequest	"FALSE"
+	ServiceUriTemplate	""
+	UserProperties	""
+}
