@@ -1,24 +1,24 @@
-Logging file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Perceptions/MACLOG.TXT'
+Logging file ':C:/TiiSelam/DESA_MSAL/RepositorioDex/PERCEPCIONES_GP2016_v16.00.0552/MACLOG.TXT'
   MenuSelect title File entry 'Open Source Dictionary...' 
-  FileOpen file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Perceptions/dynamics.dic' type 0 
+  FileOpen file ':C:/TiiSelam/DESA_MSAL/RepositorioDex/PERCEPCIONES_GP2016_v16.00.0552/DynGp2016R2v16000552-dev.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 6  # 'Extract' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 ActivateWindow dictionary 'default'  form Extractor window Extractor 
 WindowSize dictionary 'default'  form Extractor window Extractor pointh 487 pointv 74 
   ClickHit field '(L) Extract Button' 
-  FileSave file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Perceptions/XPR.dic' 
+  FileSave file ':C:/TiiSelam/DESA_MSAL/RepositorioDex/PERCEPCIONES_GP2016_v16.00.0552/XPR.dic' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
   MenuSelect title File entry 'Open Editable Dictionary...' 
-  FileOpen file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Perceptions/XPR.dic' type 0 
+  FileOpen file ':C:/TiiSelam/DESA_MSAL/RepositorioDex/PERCEPCIONES_GP2016_v16.00.0552/XPR.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 9  # 'Auto-Chunk' 
 NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
 ActivateWindow dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
 WindowSize dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' pointh 466 pointv 381 
   ClickHit field 'Lookup Button 3' 
-  FileSave file ':C:/TiiSelam/Upgrade Localizacion ARGENTINA 2016/Funcionalidades GP 2016/Perceptions/XPR.cnk' 
+  FileSave file ':C:/TiiSelam/DESA_MSAL/RepositorioDex/PERCEPCIONES_GP2016_v16.00.0552/XPR.cnk' 
   MoveTo field 'Accounting Modules' item 0 
   ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
   ClickHit field 'Accounting Modules' item 51  # 'Module 051' 
