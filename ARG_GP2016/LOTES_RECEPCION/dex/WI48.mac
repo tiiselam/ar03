@@ -1,6 +1,6 @@
 # DEXVERSION=10.0.193.0 2 2
   MenuSelect title File entry 'Open Editable Dictionary...' 
-  FileOpen file ':C:/dexterity/TII/GP2016/WI48/dynamics.dic' type 0 
+  FileOpen file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2016/LOTES_RECEPCION/dex/Dynamics ESP v16.00.0553.dic' type 0 
 ActivateWindow dictionary 'default' form 'Main Menu' window 'DexUtils Toolbar' 
   MoveTo field 'Toolbar Resources Button' item 0 
   ClickHit field 'Toolbar Resources Button' item 2  # 'Series Resources' 
@@ -23,18 +23,18 @@ ActivateWindow dictionary 'default'  form Synchronize window 'Synchronize Dictio
 NewActiveWin dictionary 'default'  form Synchronize window 'Synchronize Dictionary' 
   MenuSelect title File entry 'Close Editable Dictionary' 
   MenuSelect title File entry 'Open Source Dictionary...' 
-  FileOpen file ':C:/dexterity/TII/GP2016/WI48/dynamics.dic' type 0 
+  FileOpen file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2016/LOTES_RECEPCION/dex/Dynamics ESP v16.00.0553.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 6  # 'Extract' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 ActivateWindow dictionary 'default'  form Extractor window Extractor 
   ClickHit field '(L) Extract Button' 
-  FileSave file ':C:/dexterity/TII/GP2016/WI48/extWI48.dic' 
+  FileSave file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2016/LOTES_RECEPCION/dex/extWI48.dic' 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
 NewActiveWin dictionary 'default'  form Extractor window Extractor 
   MenuSelect title File entry 'Close Source Dictionary' 
   MenuSelect title File entry 'Open Editable Dictionary...' 
-  FileOpen file ':C:/dexterity/TII/GP2016/WI48/extWI48.dic' type 0 
+  FileOpen file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2016/LOTES_RECEPCION/dex/extWI48.dic' type 0 
 ActivateWindow dictionary 'default'  form 'Main Menu' window 'DexUtils Toolbar' 
   ClickHit field 'Toolbar Utilities Button' item 9  # 'Auto-Chunk' 
 NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
@@ -63,7 +63,7 @@ ActivateWindow dictionary 'default'  form 'Product Res' window 'Product Resource
   ClickHit field 'Ok Button' 
 NewActiveWin dictionary 'default'  form 'Auto Chunk' window 'Auto Chunk' 
   ClickHit field 'Lookup Button 3'
-  FileSave file ':C:/dexterity/TII/GP2016/WI48/WI48.cnk'
+  FileSave file ':C:/TiiSelam/DESA_MSAL/ar03/ARG_GP2016/LOTES_RECEPCION/dex/WI48.cnk'
   MoveTo field 'Dictionary Name'  
   TypeTo field 'Dictionary Name' , 'WI48.dic'
 ClickHit field 'Accounting Modules' item 99  # 'Module 099'
