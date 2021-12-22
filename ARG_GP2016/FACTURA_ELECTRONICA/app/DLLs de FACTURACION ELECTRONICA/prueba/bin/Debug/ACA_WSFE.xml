@@ -1,0 +1,3339 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ACA_WSFE
+</name>
+</assembly>
+<members>
+<member name="T:ACA_WSFE.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:ACA_WSFE.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:ACA_WSFE.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="M:ACA_WSFE.Principal.ObtieneCAETEST(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String@,System.String@,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@,System.String@)">
+ <summary>
+ Funcion Principal 
+ </summary>
+ <returns>0 si terminó bien, valores negativos si hubieron errores</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ACA_WSFE.LoginTicket.ObtenerLoginTicketResponse(System.String,System.String,System.String,System.Security.SecureString,System.String,System.String,System.String,System.String@,System.DateTime@,System.DateTime@,System.String@,System.String@,System.String@,System.Int32)">
+ <summary>
+ Construye un Login Ticket obtenido del WSAA
+ </summary>
+ <param name="argServicio">Servicio al que se desea acceder</param>
+ <param name="argUrlWsaa">URL del WSAA</param>
+ <param name="argRutaCertX509Firmante">Ruta del certificado X509 (con clave privada) usado para firmar</param>
+ <param name="argPassword">Password del certificado X509 (con clave privada) usado para firmar</param>
+ <param name="argProxy">IP:port del proxy</param>
+ <param name="argProxyUser">Usuario del proxy</param>''' 
+ <param name="argProxyPassword">Password del proxy</param>
+ <remarks></remarks>
+</member>
+<member name="M:ACA_WSFE.CertificadosX509Lib.FirmaBytesMensaje(System.Byte[],System.Security.Cryptography.X509Certificates.X509Certificate2)">
+ <summary>
+ Firma mensaje
+ </summary>
+ <param name="argBytesMsg">Bytes del mensaje</param>
+ <param name="argCertFirmante">Certificado usado para firmar</param>
+ <returns>Bytes del mensaje firmado</returns>
+ <remarks></remarks>
+</member>
+<member name="M:ACA_WSFE.CertificadosX509Lib.ObtieneCertificadoDesdeArchivo(System.String,System.Security.SecureString)">
+ <summary>
+ Lee certificado de disco
+ </summary>
+ <param name="argArchivo">Ruta del certificado a leer.</param>
+ <returns>Un objeto certificado X509</returns>
+ <remarks></remarks>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.Service">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.#ctor">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FECAESolicitarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FECompTotXRequestCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEDummyCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FECompUltimoAutorizadoCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FECompConsultarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FECAEARegInformativoCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FECAEASolicitarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FECAEASinMovimientoConsultarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FECAEASinMovimientoInformarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FECAEAConsultarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEParamGetCotizacionCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEParamGetTiposTributosCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEParamGetTiposMonedasCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEParamGetTiposIvaCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEParamGetTiposOpcionalCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEParamGetTiposConceptoCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEParamGetPtosVentaCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEParamGetTiposCbteCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEParamGetTiposDocCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1t.Service.FEParamGetTiposPaisesCompleted">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAESolicitar(ACA_WSFE.wsfev1t.FEAuthRequest,ACA_WSFE.wsfev1t.FECAERequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAESolicitarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,ACA_WSFE.wsfev1t.FECAERequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAESolicitarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,ACA_WSFE.wsfev1t.FECAERequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECompTotXRequest(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECompTotXRequestAsync(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECompTotXRequestAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEDummy">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEDummyAsync">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEDummyAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECompUltimoAutorizado(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECompUltimoAutorizadoAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECompUltimoAutorizadoAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECompConsultar(ACA_WSFE.wsfev1t.FEAuthRequest,ACA_WSFE.wsfev1t.FECompConsultaReq)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECompConsultarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,ACA_WSFE.wsfev1t.FECompConsultaReq)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECompConsultarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,ACA_WSFE.wsfev1t.FECompConsultaReq,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEARegInformativo(ACA_WSFE.wsfev1t.FEAuthRequest,ACA_WSFE.wsfev1t.FECAEARequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEARegInformativoAsync(ACA_WSFE.wsfev1t.FEAuthRequest,ACA_WSFE.wsfev1t.FECAEARequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEARegInformativoAsync(ACA_WSFE.wsfev1t.FEAuthRequest,ACA_WSFE.wsfev1t.FECAEARequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEASolicitar(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.Int16)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEASolicitarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.Int16)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEASolicitarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.Int16,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEASinMovimientoConsultar(ACA_WSFE.wsfev1t.FEAuthRequest,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEASinMovimientoConsultarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEASinMovimientoConsultarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEASinMovimientoInformar(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEASinMovimientoInformarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEASinMovimientoInformarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEAConsultar(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.Int16)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEAConsultarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.Int16)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FECAEAConsultarAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Int32,System.Int16,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetCotizacion(ACA_WSFE.wsfev1t.FEAuthRequest,System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetCotizacionAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetCotizacionAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposTributos(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposTributosAsync(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposTributosAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposMonedas(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposMonedasAsync(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposMonedasAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposIva(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposIvaAsync(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposIvaAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposOpcional(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposOpcionalAsync(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposOpcionalAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposConcepto(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposConceptoAsync(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposConceptoAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetPtosVenta(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetPtosVentaAsync(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetPtosVentaAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposCbte(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposCbteAsync(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposCbteAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposDoc(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposDocAsync(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposDocAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposPaises(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposPaisesAsync(ACA_WSFE.wsfev1t.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.FEParamGetTiposPaisesAsync(ACA_WSFE.wsfev1t.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1t.Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEAuthRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEAuthRequest.Token">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEAuthRequest.Sign">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEAuthRequest.Cuit">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.PaisTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.PaisTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.PaisTipo.Desc">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEPaisResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEPaisResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEPaisResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEPaisResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.Err">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Err.Code">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Err.Msg">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.Evt">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Evt.Code">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Evt.Msg">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.DocTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.DocTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.DocTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.DocTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.DocTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.DocTipoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.DocTipoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.DocTipoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.DocTipoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.CbteTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.CbteTipoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteTipoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteTipoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteTipoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.PtoVenta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.PtoVenta.Nro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.PtoVenta.EmisionTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.PtoVenta.Bloqueado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.PtoVenta.FchBaja">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEPtoVentaResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEPtoVentaResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEPtoVentaResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEPtoVentaResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.ConceptoTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.ConceptoTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.ConceptoTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.ConceptoTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.ConceptoTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.ConceptoTipoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.ConceptoTipoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.ConceptoTipoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.ConceptoTipoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.OpcionalTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.OpcionalTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.OpcionalTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.OpcionalTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.OpcionalTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.OpcionalTipoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.OpcionalTipoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.OpcionalTipoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.OpcionalTipoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.IvaTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.IvaTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.IvaTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.IvaTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.IvaTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.IvaTipoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.IvaTipoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.IvaTipoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.IvaTipoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.Moneda">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Moneda.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Moneda.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Moneda.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Moneda.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.MonedaResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.MonedaResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.MonedaResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.MonedaResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.TributoTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.TributoTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.TributoTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.TributoTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.TributoTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FETributoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FETributoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FETributoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FETributoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.Cotizacion">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Cotizacion.MonId">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Cotizacion.MonCotiz">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Cotizacion.FchCotiz">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECotizacionResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECotizacionResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECotizacionResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECotizacionResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEASinMov">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMov.CAEA">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMov.FchProceso">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMov.PtoVta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEASinMovResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMovResponse.Resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMovResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMovResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEASinMovConsResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMovConsResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMovConsResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMovConsResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEAGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGet.CAEA">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGet.Periodo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGet.Orden">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGet.FchVigDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGet.FchVigHasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGet.FchTopeInf">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGet.FchProceso">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGet.Observaciones">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.Obs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Obs.Code">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Obs.Msg">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEAGetResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGetResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGetResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAGetResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEAResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAResponse.FeCabResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAResponse.FeDetResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAResponse.Events">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAResponse.Errors">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEACabResponse">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECabResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECabResponse.Cuit">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECabResponse.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECabResponse.CbteTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECabResponse.FchProceso">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECabResponse.CantReg">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECabResponse.Resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECabResponse.Reproceso">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAECabResponse">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEADetResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEADetResponse.CAEA">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEDetResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetResponse.Concepto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetResponse.DocTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetResponse.DocNro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetResponse.CbteDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetResponse.CbteHasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetResponse.CbteFch">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetResponse.Resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetResponse.Observaciones">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEDetResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEDetResponse.CAE">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEDetResponse.CAEFchVto">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEARequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEARequest.FeCabReq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEARequest.FeDetReq">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEACabRequest">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECabRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECabRequest.CantReg">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECabRequest.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECabRequest.CbteTipo">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAECabRequest">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEADetRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEADetRequest.CAEA">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEADetRequest.CbteFchHsGen">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEDetRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.Concepto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.DocTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.DocNro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.CbteDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.CbteHasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.CbteFch">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.ImpTotal">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.ImpTotConc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.ImpNeto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.ImpOpEx">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.ImpTrib">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.ImpIVA">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.FchServDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.FchServHasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.FchVtoPago">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.MonId">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.MonCotiz">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.CbtesAsoc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.Tributos">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.Iva">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.Opcionales">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDetRequest.Compradores">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.CbteAsoc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteAsoc.Tipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteAsoc.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteAsoc.Nro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteAsoc.Cuit">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.CbteAsoc.CbteFch">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.Tributo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Tributo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Tributo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Tributo.BaseImp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Tributo.Alic">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Tributo.Importe">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.AlicIva">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.AlicIva.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.AlicIva.BaseImp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.AlicIva.Importe">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.Opcional">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Opcional.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Opcional.Valor">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.Comprador">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Comprador.DocTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Comprador.DocNro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.Comprador.Porcentaje">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEDetRequest">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECompConsResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsResponse.Resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsResponse.CodAutorizacion">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsResponse.EmisionTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsResponse.FchVto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsResponse.FchProceso">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsResponse.Observaciones">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsResponse.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsResponse.CbteTipo">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECompConsultaResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsultaResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsultaResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsultaResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECompConsultaReq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsultaReq.CbteTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsultaReq.CbteNro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsultaReq.PtoVta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FERecuperaLastCbteResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FERecuperaLastCbteResponse.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FERecuperaLastCbteResponse.CbteTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FERecuperaLastCbteResponse.CbteNro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FERecuperaLastCbteResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FERecuperaLastCbteResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.DummyResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.DummyResponse.AppServer">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.DummyResponse.DbServer">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.DummyResponse.AuthServer">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FERegXReqResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FERegXReqResponse.RegXReq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FERegXReqResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FERegXReqResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEResponse.FeCabResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEResponse.FeDetResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEResponse.Events">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEResponse.Errors">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAERequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAERequest.FeCabReq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAERequest.FeDetReq">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAESolicitarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAESolicitarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAESolicitarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECompTotXRequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECompTotXRequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompTotXRequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEDummyCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEDummyCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEDummyCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECompUltimoAutorizadoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECompUltimoAutorizadoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompUltimoAutorizadoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECompConsultarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECompConsultarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECompConsultarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEARegInformativoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEARegInformativoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEARegInformativoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEASolicitarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEASolicitarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASolicitarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEASinMovimientoConsultarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEASinMovimientoConsultarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMovimientoConsultarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEASinMovimientoInformarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEASinMovimientoInformarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEASinMovimientoInformarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEAConsultarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FECAEAConsultarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FECAEAConsultarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetCotizacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetCotizacionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEParamGetCotizacionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposTributosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposTributosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEParamGetTiposTributosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposMonedasCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposMonedasCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEParamGetTiposMonedasCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposIvaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposIvaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEParamGetTiposIvaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposOpcionalCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposOpcionalCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEParamGetTiposOpcionalCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposConceptoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposConceptoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEParamGetTiposConceptoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetPtosVentaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetPtosVentaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEParamGetPtosVentaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposCbteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposCbteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEParamGetTiposCbteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposDocCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposDocCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEParamGetTiposDocCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposPaisesCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1t.FEParamGetTiposPaisesCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1t.FEParamGetTiposPaisesCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.Service">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.#ctor">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FECAESolicitarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FECompTotXRequestCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEDummyCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FECompUltimoAutorizadoCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FECompConsultarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FECAEARegInformativoCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FECAEASolicitarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FECAEASinMovimientoConsultarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FECAEASinMovimientoInformarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FECAEAConsultarCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEParamGetCotizacionCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEParamGetTiposTributosCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEParamGetTiposMonedasCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEParamGetTiposIvaCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEParamGetTiposOpcionalCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEParamGetTiposConceptoCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEParamGetPtosVentaCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEParamGetTiposCbteCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEParamGetTiposDocCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsfev1p.Service.FEParamGetTiposPaisesCompleted">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAESolicitar(ACA_WSFE.wsfev1p.FEAuthRequest,ACA_WSFE.wsfev1p.FECAERequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAESolicitarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,ACA_WSFE.wsfev1p.FECAERequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAESolicitarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,ACA_WSFE.wsfev1p.FECAERequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECompTotXRequest(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECompTotXRequestAsync(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECompTotXRequestAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEDummy">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEDummyAsync">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEDummyAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECompUltimoAutorizado(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECompUltimoAutorizadoAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.Int32)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECompUltimoAutorizadoAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECompConsultar(ACA_WSFE.wsfev1p.FEAuthRequest,ACA_WSFE.wsfev1p.FECompConsultaReq)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECompConsultarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,ACA_WSFE.wsfev1p.FECompConsultaReq)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECompConsultarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,ACA_WSFE.wsfev1p.FECompConsultaReq,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEARegInformativo(ACA_WSFE.wsfev1p.FEAuthRequest,ACA_WSFE.wsfev1p.FECAEARequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEARegInformativoAsync(ACA_WSFE.wsfev1p.FEAuthRequest,ACA_WSFE.wsfev1p.FECAEARequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEARegInformativoAsync(ACA_WSFE.wsfev1p.FEAuthRequest,ACA_WSFE.wsfev1p.FECAEARequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEASolicitar(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.Int16)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEASolicitarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.Int16)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEASolicitarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.Int16,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEASinMovimientoConsultar(ACA_WSFE.wsfev1p.FEAuthRequest,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEASinMovimientoConsultarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.String,System.Int32)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEASinMovimientoConsultarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.String,System.Int32,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEASinMovimientoInformar(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEASinMovimientoInformarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEASinMovimientoInformarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEAConsultar(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.Int16)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEAConsultarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.Int16)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FECAEAConsultarAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Int32,System.Int16,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetCotizacion(ACA_WSFE.wsfev1p.FEAuthRequest,System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetCotizacionAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetCotizacionAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposTributos(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposTributosAsync(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposTributosAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposMonedas(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposMonedasAsync(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposMonedasAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposIva(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposIvaAsync(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposIvaAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposOpcional(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposOpcionalAsync(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposOpcionalAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposConcepto(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposConceptoAsync(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposConceptoAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetPtosVenta(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetPtosVentaAsync(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetPtosVentaAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposCbte(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposCbteAsync(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposCbteAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposDoc(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposDocAsync(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposDocAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposPaises(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposPaisesAsync(ACA_WSFE.wsfev1p.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.FEParamGetTiposPaisesAsync(ACA_WSFE.wsfev1p.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsfev1p.Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEAuthRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEAuthRequest.Token">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEAuthRequest.Sign">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEAuthRequest.Cuit">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.PaisTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.PaisTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.PaisTipo.Desc">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEPaisResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEPaisResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEPaisResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEPaisResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.Err">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Err.Code">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Err.Msg">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.Evt">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Evt.Code">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Evt.Msg">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.DocTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.DocTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.DocTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.DocTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.DocTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.DocTipoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.DocTipoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.DocTipoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.DocTipoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.CbteTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.CbteTipoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteTipoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteTipoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteTipoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.PtoVenta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.PtoVenta.Nro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.PtoVenta.EmisionTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.PtoVenta.Bloqueado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.PtoVenta.FchBaja">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEPtoVentaResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEPtoVentaResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEPtoVentaResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEPtoVentaResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.ConceptoTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.ConceptoTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.ConceptoTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.ConceptoTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.ConceptoTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.ConceptoTipoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.ConceptoTipoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.ConceptoTipoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.ConceptoTipoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.OpcionalTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.OpcionalTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.OpcionalTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.OpcionalTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.OpcionalTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.OpcionalTipoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.OpcionalTipoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.OpcionalTipoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.OpcionalTipoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.IvaTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.IvaTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.IvaTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.IvaTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.IvaTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.IvaTipoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.IvaTipoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.IvaTipoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.IvaTipoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.Moneda">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Moneda.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Moneda.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Moneda.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Moneda.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.MonedaResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.MonedaResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.MonedaResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.MonedaResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.TributoTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.TributoTipo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.TributoTipo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.TributoTipo.FchDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.TributoTipo.FchHasta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FETributoResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FETributoResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FETributoResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FETributoResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.Cotizacion">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Cotizacion.MonId">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Cotizacion.MonCotiz">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Cotizacion.FchCotiz">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECotizacionResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECotizacionResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECotizacionResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECotizacionResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEASinMov">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMov.CAEA">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMov.FchProceso">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMov.PtoVta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEASinMovResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMovResponse.Resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMovResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMovResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEASinMovConsResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMovConsResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMovConsResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMovConsResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEAGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGet.CAEA">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGet.Periodo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGet.Orden">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGet.FchVigDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGet.FchVigHasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGet.FchTopeInf">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGet.FchProceso">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGet.Observaciones">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.Obs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Obs.Code">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Obs.Msg">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEAGetResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGetResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGetResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAGetResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEAResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAResponse.FeCabResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAResponse.FeDetResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAResponse.Events">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAResponse.Errors">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEACabResponse">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECabResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECabResponse.Cuit">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECabResponse.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECabResponse.CbteTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECabResponse.FchProceso">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECabResponse.CantReg">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECabResponse.Resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECabResponse.Reproceso">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAECabResponse">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEADetResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEADetResponse.CAEA">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEDetResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetResponse.Concepto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetResponse.DocTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetResponse.DocNro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetResponse.CbteDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetResponse.CbteHasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetResponse.CbteFch">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetResponse.Resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetResponse.Observaciones">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEDetResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEDetResponse.CAE">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEDetResponse.CAEFchVto">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEARequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEARequest.FeCabReq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEARequest.FeDetReq">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEACabRequest">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECabRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECabRequest.CantReg">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECabRequest.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECabRequest.CbteTipo">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAECabRequest">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEADetRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEADetRequest.CAEA">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEADetRequest.CbteFchHsGen">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEDetRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.Concepto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.DocTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.DocNro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.CbteDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.CbteHasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.CbteFch">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.ImpTotal">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.ImpTotConc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.ImpNeto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.ImpOpEx">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.ImpTrib">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.ImpIVA">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.FchServDesde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.FchServHasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.FchVtoPago">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.MonId">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.MonCotiz">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.CbtesAsoc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.Tributos">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.Iva">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.Opcionales">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDetRequest.Compradores">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.CbteAsoc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteAsoc.Tipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteAsoc.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteAsoc.Nro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteAsoc.Cuit">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.CbteAsoc.CbteFch">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.Tributo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Tributo.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Tributo.Desc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Tributo.BaseImp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Tributo.Alic">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Tributo.Importe">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.AlicIva">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.AlicIva.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.AlicIva.BaseImp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.AlicIva.Importe">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.Opcional">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Opcional.Id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Opcional.Valor">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.Comprador">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Comprador.DocTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Comprador.DocNro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.Comprador.Porcentaje">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEDetRequest">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECompConsResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsResponse.Resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsResponse.CodAutorizacion">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsResponse.EmisionTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsResponse.FchVto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsResponse.FchProceso">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsResponse.Observaciones">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsResponse.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsResponse.CbteTipo">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECompConsultaResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsultaResponse.ResultGet">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsultaResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsultaResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECompConsultaReq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsultaReq.CbteTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsultaReq.CbteNro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsultaReq.PtoVta">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FERecuperaLastCbteResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FERecuperaLastCbteResponse.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FERecuperaLastCbteResponse.CbteTipo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FERecuperaLastCbteResponse.CbteNro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FERecuperaLastCbteResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FERecuperaLastCbteResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.DummyResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.DummyResponse.AppServer">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.DummyResponse.DbServer">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.DummyResponse.AuthServer">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FERegXReqResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FERegXReqResponse.RegXReq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FERegXReqResponse.Errors">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FERegXReqResponse.Events">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEResponse.FeCabResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEResponse.FeDetResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEResponse.Events">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEResponse.Errors">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAERequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAERequest.FeCabReq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAERequest.FeDetReq">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAESolicitarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAESolicitarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAESolicitarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECompTotXRequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECompTotXRequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompTotXRequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEDummyCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEDummyCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEDummyCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECompUltimoAutorizadoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECompUltimoAutorizadoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompUltimoAutorizadoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECompConsultarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECompConsultarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECompConsultarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEARegInformativoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEARegInformativoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEARegInformativoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEASolicitarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEASolicitarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASolicitarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEASinMovimientoConsultarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEASinMovimientoConsultarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMovimientoConsultarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEASinMovimientoInformarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEASinMovimientoInformarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEASinMovimientoInformarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEAConsultarCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FECAEAConsultarCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FECAEAConsultarCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetCotizacionCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetCotizacionCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEParamGetCotizacionCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposTributosCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposTributosCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEParamGetTiposTributosCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposMonedasCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposMonedasCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEParamGetTiposMonedasCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposIvaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposIvaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEParamGetTiposIvaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposOpcionalCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposOpcionalCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEParamGetTiposOpcionalCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposConceptoCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposConceptoCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEParamGetTiposConceptoCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetPtosVentaCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetPtosVentaCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEParamGetPtosVentaCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposCbteCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposCbteCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEParamGetTiposCbteCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposDocCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposDocCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEParamGetTiposDocCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposPaisesCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsfev1p.FEParamGetTiposPaisesCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsfev1p.FEParamGetTiposPaisesCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsaaprod.LoginCMSService">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsaaprod.LoginCMSService.#ctor">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsaaprod.LoginCMSService.loginCmsCompleted">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsaaprod.LoginCMSService.loginCms(System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsaaprod.LoginCMSService.loginCmsAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsaaprod.LoginCMSService.loginCmsAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsaaprod.LoginCMSService.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsaaprod.loginCmsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsaaprod.loginCmsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsaaprod.loginCmsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.Wsaa.LoginCMSService">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.Wsaa.LoginCMSService.#ctor">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.Wsaa.LoginCMSService.loginCmsCompleted">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.Wsaa.LoginCMSService.loginCms(System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.Wsaa.LoginCMSService.loginCmsAsync(System.String)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.Wsaa.LoginCMSService.loginCmsAsync(System.String,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.Wsaa.LoginCMSService.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.Wsaa.loginCmsCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.Wsaa.loginCmsCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.Wsaa.loginCmsCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.Service">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.#ctor">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wswprod.Service.FERecuperaQTYRequestCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wswprod.Service.FEDummyCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wswprod.Service.FERecuperaLastCMPRequestCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wswprod.Service.FEUltNroRequestCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wswprod.Service.FEAutRequestCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wswprod.Service.FEConsultaCAERequestCompleted">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FERecuperaQTYRequest(ACA_WSFE.wswprod.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FERecuperaQTYRequestAsync(ACA_WSFE.wswprod.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FERecuperaQTYRequestAsync(ACA_WSFE.wswprod.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEDummy">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEDummyAsync">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEDummyAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FERecuperaLastCMPRequest(ACA_WSFE.wswprod.FEAuthRequest,ACA_WSFE.wswprod.FELastCMPtype)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FERecuperaLastCMPRequestAsync(ACA_WSFE.wswprod.FEAuthRequest,ACA_WSFE.wswprod.FELastCMPtype)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FERecuperaLastCMPRequestAsync(ACA_WSFE.wswprod.FEAuthRequest,ACA_WSFE.wswprod.FELastCMPtype,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEUltNroRequest(ACA_WSFE.wswprod.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEUltNroRequestAsync(ACA_WSFE.wswprod.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEUltNroRequestAsync(ACA_WSFE.wswprod.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEAutRequest(ACA_WSFE.wswprod.FEAuthRequest,ACA_WSFE.wswprod.FERequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEAutRequestAsync(ACA_WSFE.wswprod.FEAuthRequest,ACA_WSFE.wswprod.FERequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEAutRequestAsync(ACA_WSFE.wswprod.FEAuthRequest,ACA_WSFE.wswprod.FERequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEConsultaCAERequest(ACA_WSFE.wswprod.FEAuthRequest,ACA_WSFE.wswprod.FEConsultaCAEReq)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEConsultaCAERequestAsync(ACA_WSFE.wswprod.FEAuthRequest,ACA_WSFE.wswprod.FEConsultaCAEReq)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.FEConsultaCAERequestAsync(ACA_WSFE.wswprod.FEAuthRequest,ACA_WSFE.wswprod.FEConsultaCAEReq,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wswprod.Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEAuthRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEAuthRequest.Token">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEAuthRequest.Sign">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEAuthRequest.cuit">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEConsultaCAEResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEConsultaCAEResponse.Resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEConsultaCAEResponse.RError">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.vError">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.vError.percode">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.vError.perrmsg">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEConsultaCAEReq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEConsultaCAEReq.cuit_emisor">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEConsultaCAEReq.tipo_cbte">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEConsultaCAEReq.punto_vta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEConsultaCAEReq.cbt_nro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEConsultaCAEReq.imp_total">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEConsultaCAEReq.cae">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEConsultaCAEReq.fecha_cbte">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEDetalleResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.tipo_doc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.nro_doc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.tipo_cbte">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.punto_vta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.cbt_desde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.cbt_hasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.imp_total">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.imp_tot_conc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.imp_neto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.impto_liq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.impto_liq_rni">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.imp_op_ex">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.cae">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.fecha_cbte">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.fecha_vto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.motivo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.fecha_serv_desde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.fecha_serv_hasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleResponse.fecha_venc_pago">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FECabeceraResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraResponse.id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraResponse.cuit">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraResponse.fecha_cae">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraResponse.cantidadreg">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraResponse.resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraResponse.motivo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraResponse.reproceso">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraResponse.presta_serv">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEResponse.FecResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEResponse.FedResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEResponse.RError">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEDetalleRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.tipo_doc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.nro_doc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.tipo_cbte">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.punto_vta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.cbt_desde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.cbt_hasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.imp_total">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.imp_tot_conc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.imp_neto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.impto_liq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.impto_liq_rni">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.imp_op_ex">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.fecha_cbte">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.fecha_serv_desde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.fecha_serv_hasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDetalleRequest.fecha_venc_pago">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FECabeceraRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraRequest.id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraRequest.cantidadreg">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FECabeceraRequest.presta_serv">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FERequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FERequest.Fecr">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FERequest.Fedr">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.UltNroResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.UltNroResponse.value">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEUltNroResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEUltNroResponse.nro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEUltNroResponse.RError">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FERecuperaLastCMPResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FERecuperaLastCMPResponse.cbte_nro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FERecuperaLastCMPResponse.RError">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FELastCMPtype">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FELastCMPtype.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FELastCMPtype.TipoCbte">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.DummyResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.DummyResponse.appserver">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.DummyResponse.dbserver">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.DummyResponse.authserver">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FERecuperaQTY">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FERecuperaQTY.value">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FERecuperaQTYResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FERecuperaQTYResponse.qty">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FERecuperaQTYResponse.RError">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FERecuperaQTYRequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FERecuperaQTYRequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FERecuperaQTYRequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEDummyCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEDummyCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEDummyCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FERecuperaLastCMPRequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FERecuperaLastCMPRequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FERecuperaLastCMPRequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEUltNroRequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEUltNroRequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEUltNroRequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEAutRequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEAutRequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEAutRequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEConsultaCAERequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wswprod.FEConsultaCAERequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wswprod.FEConsultaCAERequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.Service">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.#ctor">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsw.Service.FERecuperaQTYRequestCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsw.Service.FEDummyCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsw.Service.FERecuperaLastCMPRequestCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsw.Service.FEUltNroRequestCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsw.Service.FEAutRequestCompleted">
+<remarks/>
+</member>
+<member name="E:ACA_WSFE.wsw.Service.FEConsultaCAERequestCompleted">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FERecuperaQTYRequest(ACA_WSFE.wsw.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FERecuperaQTYRequestAsync(ACA_WSFE.wsw.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FERecuperaQTYRequestAsync(ACA_WSFE.wsw.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEDummy">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEDummyAsync">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEDummyAsync(System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FERecuperaLastCMPRequest(ACA_WSFE.wsw.FEAuthRequest,ACA_WSFE.wsw.FELastCMPtype)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FERecuperaLastCMPRequestAsync(ACA_WSFE.wsw.FEAuthRequest,ACA_WSFE.wsw.FELastCMPtype)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FERecuperaLastCMPRequestAsync(ACA_WSFE.wsw.FEAuthRequest,ACA_WSFE.wsw.FELastCMPtype,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEUltNroRequest(ACA_WSFE.wsw.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEUltNroRequestAsync(ACA_WSFE.wsw.FEAuthRequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEUltNroRequestAsync(ACA_WSFE.wsw.FEAuthRequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEAutRequest(ACA_WSFE.wsw.FEAuthRequest,ACA_WSFE.wsw.FERequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEAutRequestAsync(ACA_WSFE.wsw.FEAuthRequest,ACA_WSFE.wsw.FERequest)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEAutRequestAsync(ACA_WSFE.wsw.FEAuthRequest,ACA_WSFE.wsw.FERequest,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEConsultaCAERequest(ACA_WSFE.wsw.FEAuthRequest,ACA_WSFE.wsw.FEConsultaCAEReq)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEConsultaCAERequestAsync(ACA_WSFE.wsw.FEAuthRequest,ACA_WSFE.wsw.FEConsultaCAEReq)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.FEConsultaCAERequestAsync(ACA_WSFE.wsw.FEAuthRequest,ACA_WSFE.wsw.FEConsultaCAEReq,System.Object)">
+<remarks/>
+</member>
+<member name="M:ACA_WSFE.wsw.Service.CancelAsync(System.Object)">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEAuthRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEAuthRequest.Token">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEAuthRequest.Sign">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEAuthRequest.cuit">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEConsultaCAEResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEConsultaCAEResponse.Resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEConsultaCAEResponse.RError">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.vError">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.vError.percode">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.vError.perrmsg">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEConsultaCAEReq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEConsultaCAEReq.cuit_emisor">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEConsultaCAEReq.tipo_cbte">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEConsultaCAEReq.punto_vta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEConsultaCAEReq.cbt_nro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEConsultaCAEReq.imp_total">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEConsultaCAEReq.cae">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEConsultaCAEReq.fecha_cbte">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEDetalleResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.tipo_doc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.nro_doc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.tipo_cbte">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.punto_vta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.cbt_desde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.cbt_hasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.imp_total">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.imp_tot_conc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.imp_neto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.impto_liq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.impto_liq_rni">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.imp_op_ex">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.cae">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.fecha_cbte">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.fecha_vto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.motivo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.fecha_serv_desde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.fecha_serv_hasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleResponse.fecha_venc_pago">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FECabeceraResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraResponse.id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraResponse.cuit">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraResponse.fecha_cae">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraResponse.cantidadreg">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraResponse.resultado">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraResponse.motivo">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraResponse.reproceso">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraResponse.presta_serv">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEResponse.FecResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEResponse.FedResp">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEResponse.RError">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEDetalleRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.tipo_doc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.nro_doc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.tipo_cbte">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.punto_vta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.cbt_desde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.cbt_hasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.imp_total">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.imp_tot_conc">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.imp_neto">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.impto_liq">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.impto_liq_rni">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.imp_op_ex">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.fecha_cbte">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.fecha_serv_desde">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.fecha_serv_hasta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDetalleRequest.fecha_venc_pago">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FECabeceraRequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraRequest.id">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraRequest.cantidadreg">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FECabeceraRequest.presta_serv">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FERequest">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FERequest.Fecr">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FERequest.Fedr">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.UltNroResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.UltNroResponse.value">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEUltNroResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEUltNroResponse.nro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEUltNroResponse.RError">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FERecuperaLastCMPResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FERecuperaLastCMPResponse.cbte_nro">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FERecuperaLastCMPResponse.RError">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FELastCMPtype">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FELastCMPtype.PtoVta">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FELastCMPtype.TipoCbte">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.DummyResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.DummyResponse.appserver">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.DummyResponse.dbserver">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.DummyResponse.authserver">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FERecuperaQTY">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FERecuperaQTY.value">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FERecuperaQTYResponse">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FERecuperaQTYResponse.qty">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FERecuperaQTYResponse.RError">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FERecuperaQTYRequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FERecuperaQTYRequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FERecuperaQTYRequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEDummyCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEDummyCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEDummyCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FERecuperaLastCMPRequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FERecuperaLastCMPRequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FERecuperaLastCMPRequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEUltNroRequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEUltNroRequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEUltNroRequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEAutRequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEAutRequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEAutRequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEConsultaCAERequestCompletedEventHandler">
+<remarks/>
+</member>
+<member name="T:ACA_WSFE.wsw.FEConsultaCAERequestCompletedEventArgs">
+<remarks/>
+</member>
+<member name="P:ACA_WSFE.wsw.FEConsultaCAERequestCompletedEventArgs.Result">
+<remarks/>
+</member>
+</members>
+</doc>

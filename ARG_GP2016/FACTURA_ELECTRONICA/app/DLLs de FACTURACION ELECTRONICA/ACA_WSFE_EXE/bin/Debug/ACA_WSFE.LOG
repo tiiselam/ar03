@@ -1,0 +1,722 @@
+﻿Hora : 02/06/2011 12:46:45 p.m. C O M I E N Z O
+Hora : 02/06/2011 12:46:45 p.m. 20137545323
+Hora : 02/06/2011 12:46:45 p.m. 1
+Hora : 02/06/2011 12:46:45 p.m. 0
+Hora : 02/06/2011 12:46:45 p.m. 80
+Hora : 02/06/2011 12:46:45 p.m. 23333333333
+Hora : 02/06/2011 12:46:45 p.m. 1
+Hora : 02/06/2011 12:46:45 p.m. 5
+Hora : 02/06/2011 12:46:45 p.m. 30
+Hora : 02/06/2011 12:46:45 p.m. 30
+Hora : 02/06/2011 12:46:45 p.m. 126.2
+Hora : 02/06/2011 12:46:45 p.m. 0
+Hora : 02/06/2011 12:46:45 p.m. 100
+Hora : 02/06/2011 12:46:45 p.m. 21
+Hora : 02/06/2011 12:46:45 p.m. 0
+Hora : 02/06/2011 12:46:45 p.m. 0
+Hora : 02/06/2011 12:46:45 p.m. 5.2
+Hora : 02/06/2011 12:46:45 p.m. 20110602
+Hora : 02/06/2011 12:46:45 p.m. 20110602
+Hora : 02/06/2011 12:46:45 p.m. 20110602
+Hora : 02/06/2011 12:46:45 p.m. 20110602
+Hora : 02/06/2011 12:46:45 p.m. 
+Hora : 02/06/2011 12:46:45 p.m. 
+Hora : 02/06/2011 12:46:45 p.m. 
+Hora : 02/06/2011 12:46:45 p.m. 
+Hora : 02/06/2011 12:46:45 p.m. 
+Hora : 02/06/2011 12:46:45 p.m. 
+Hora : 02/06/2011 12:46:45 p.m. 
+Hora : 02/06/2011 12:46:45 p.m. 
+Hora : 02/06/2011 12:46:45 p.m. 01
+Hora : 02/06/2011 12:46:45 p.m. PES
+Hora : 02/06/2011 12:46:45 p.m. 1.00000
+Hora : 02/06/2011 12:46:45 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Tributos>
+   <Tributo>
+      <Id>2</Id>
+      <Desc>Impuesto Municipal Matanza</Desc>
+      <BaseImp>100</BaseImp>
+      <Alic>5.2</Alic>
+      <Importe>5.2</Importe>
+   </Tributo>
+</Tributos>
+
+Hora : 02/06/2011 12:46:45 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>100</BaseImp>
+        <Importe>21</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 02/06/2011 12:47:00 p.m. 1- 
+Hora : 02/06/2011 12:47:00 p.m. 2- 
+Hora : 02/06/2011 12:47:01 p.m. 21- PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIyMjM4NzQyNTEyIiBzcmM9IkNOPXdzYWFob21vLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiBnZW5fdGltZT0iMTMwNzAyOTUzNyIgZXhwX3RpbWU9IjEzMDcwNzI3OTciIGRzdD0iQ049d3NmZSwgTz1BRklQLCBDPUFSIi8+CiAgICA8b3BlcmF0aW9uIHZhbHVlPSJncmFudGVkIiB0eXBlPSJsb2dpbiI+CiAgICAgICAgPGxvZ2luIHVpZD0iQz1hciwgTz1hZHJpYW4gYXBhcmljaW8sIFNFUklBTE5VTUJFUj1DVUlUIDIwMTM3NTQ1MzIzLCBDTj1hZHJpYW4iIHNlcnZpY2U9IndzZmUiIHJlZ21ldGhvZD0iMjIiIGVudGl0eT0iMzM2OTM0NTAyMzkiIGF1dGhtZXRob2Q9ImNtcyI+CiAgICAgICAgICAgIDxyZWxhdGlvbnM+CiAgICAgICAgICAgICAgICA8cmVsYXRpb24gcmVsdHlwZT0iNCIga2V5PSIyMDEzNzU0NTMyMyIvPgogICAgICAgICAgICA8L3JlbGF0aW9ucz4KICAgICAgICA8L2xvZ2luPgogICAgPC9vcGVyYXRpb24+Cjwvc3NvPgoK
+Hora : 02/06/2011 12:47:01 p.m. 21- jh0tF9Q7MToCU4Q2RHvfnXb5vuZ9OJKlw1OuB83Yz6fPd3ctAi0KAUcaGi5ULlkUFobYy/9quG2ZkdQXYt74pbfx+NtO4Xm1WORlC2/x15HVnjZE+UoKThRaQK2DEvDiT2k5PFUjhJm424EoZzMpiuN1pqzB5k4qHykaMuYXdAo=
+Hora : 02/06/2011 12:47:04 p.m. 4- 
+Hora : 02/06/2011 12:47:04 p.m. 5- ; Factura individual, DocTipo: 80, DocNro 23333333333 no se encuentra inscripto en condicion ACTIVA en el impuesto.
+Hora : 02/06/2011 12:47:04 p.m. 6- ; Factura individual, DocTipo: 80, DocNro 23333333333 no se encuentra inscripto en condicion ACTIVA en el impuesto.
+Hora : 02/06/2011 12:47:04 p.m. F I N A L
+Hora : 23/06/2011 12:44:25 p.m. C O M I E N Z O
+Hora : 23/06/2011 12:44:25 p.m. 30618598213
+Hora : 23/06/2011 12:44:25 p.m. 1
+Hora : 23/06/2011 12:44:25 p.m. 0
+Hora : 23/06/2011 12:44:25 p.m. 80
+Hora : 23/06/2011 12:44:25 p.m. 30709025763
+Hora : 23/06/2011 12:44:25 p.m. 1
+Hora : 23/06/2011 12:44:25 p.m. 10
+Hora : 23/06/2011 12:44:25 p.m. 186
+Hora : 23/06/2011 12:44:25 p.m. 186
+Hora : 23/06/2011 12:44:25 p.m. 5750.50
+Hora : 23/06/2011 12:44:25 p.m. 0
+Hora : 23/06/2011 12:44:25 p.m. 4752.48
+Hora : 23/06/2011 12:44:25 p.m. 998.02
+Hora : 23/06/2011 12:44:25 p.m. 0
+Hora : 23/06/2011 12:44:25 p.m. 0
+Hora : 23/06/2011 12:44:25 p.m. 0
+Hora : 23/06/2011 12:44:25 p.m. 20110622
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. 01
+Hora : 23/06/2011 12:44:25 p.m. PES
+Hora : 23/06/2011 12:44:25 p.m. 1.00000
+Hora : 23/06/2011 12:44:25 p.m. 
+Hora : 23/06/2011 12:44:25 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>4752.48</BaseImp>
+        <Importe>998.02</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 23/06/2011 12:44:25 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Opcionales>
+    <Opcional>
+        <Id>2</Id>
+        <Valor>2074</Valor>
+    </Opcional>
+</Opcionales>
+
+Hora : 23/06/2011 12:44:48 p.m. 1- 
+Hora : 23/06/2011 12:44:48 p.m. 2- 
+Hora : 23/06/2011 12:49:42 p.m. 1- 
+Hora : 23/06/2011 12:49:44 p.m. 2- 
+Hora : 23/06/2011 12:49:53 p.m. 21- PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIxNTQ5MDkyNTMyIiBzcmM9IkNOPXdzYWEsIE89QUZJUCwgQz1BUiwgU0VSSUFMTlVNQkVSPUNVSVQgMzM2OTM0NTAyMzkiIGdlbl90aW1lPSIxMzA4ODMyNzc5IiBleHBfdGltZT0iMTMwODg3NjAzOSIgZHN0PSJDTj13c2ZlLCBPPUFGSVAsIEM9QVIiLz4KICAgIDxvcGVyYXRpb24gdmFsdWU9ImdyYW50ZWQiIHR5cGU9ImxvZ2luIj4KICAgICAgICA8bG9naW4gdWlkPSJDPWFyLCBPPWVudHJldGVsYXMgYW1lcmljYW5hcyBzLmEuLCBTRVJJQUxOVU1CRVI9Q1VJVCAzMDYxODU5ODIxMywgQ049ZW50cmV0ZWxhc2FtZSIgc2VydmljZT0id3NmZSIgcmVnbWV0aG9kPSIyMiIgZW50aXR5PSIzMzY5MzQ1MDIzOSIgYXV0aG1ldGhvZD0iY21zIj4KICAgICAgICAgICAgPHJlbGF0aW9ucz4KICAgICAgICAgICAgICAgIDxyZWxhdGlvbiByZWx0eXBlPSI0IiBrZXk9IjMwNjE4NTk4MjEzIi8+CiAgICAgICAgICAgIDwvcmVsYXRpb25zPgogICAgICAgIDwvbG9naW4+CiAgICA8L29wZXJhdGlvbj4KPC9zc28+Cgo=
+Hora : 23/06/2011 12:49:53 p.m. 21- qHhSAFXzs33AAdjE9OnAsywu7f3L5DGaB58aR29aVmVj3cqnt0AuqralqJ/3K1GsG3scOmH3SNrdK4MwCSH4ZeL5b8QkUtzeyqFZykOjeJpYfZEc/9P22M95FoEpdxNPdNgWQvKNg/wrhwpU1Uj8YEimTd9XkIjDetV0Nd9hZmE=
+Hora : 23/06/2011 12:51:17 p.m. F I N A L
+Hora : 23/06/2011 12:51:43 p.m. C O M I E N Z O
+Hora : 23/06/2011 12:51:43 p.m. 30618598213
+Hora : 23/06/2011 12:51:43 p.m. 1
+Hora : 23/06/2011 12:51:43 p.m. 0
+Hora : 23/06/2011 12:51:43 p.m. 80
+Hora : 23/06/2011 12:51:43 p.m. 30709025763
+Hora : 23/06/2011 12:51:43 p.m. 1
+Hora : 23/06/2011 12:51:43 p.m. 10
+Hora : 23/06/2011 12:51:43 p.m. 186
+Hora : 23/06/2011 12:51:43 p.m. 186
+Hora : 23/06/2011 12:51:43 p.m. 5750.50
+Hora : 23/06/2011 12:51:43 p.m. 0
+Hora : 23/06/2011 12:51:43 p.m. 4752.48
+Hora : 23/06/2011 12:51:43 p.m. 998.02
+Hora : 23/06/2011 12:51:43 p.m. 0
+Hora : 23/06/2011 12:51:43 p.m. 0
+Hora : 23/06/2011 12:51:43 p.m. 0
+Hora : 23/06/2011 12:51:43 p.m. 20110622
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. ValidacionDeToken: Error al verificar hash: VerificacionDeHash: No validó la firma digital. 
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. 01
+Hora : 23/06/2011 12:51:43 p.m. PES
+Hora : 23/06/2011 12:51:43 p.m. 1.00000
+Hora : 23/06/2011 12:51:43 p.m. 
+Hora : 23/06/2011 12:51:43 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>4752.48</BaseImp>
+        <Importe>998.02</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 23/06/2011 12:51:43 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Opcionales>
+    <Opcional>
+        <Id>2</Id>
+        <Valor>2074</Valor>
+    </Opcional>
+</Opcionales>
+
+Hora : 23/06/2011 12:51:45 p.m. 1- ValidacionDeToken: Error al verificar hash: VerificacionDeHash: No validó la firma digital. 
+Hora : 23/06/2011 12:51:45 p.m. 2- ValidacionDeToken: Error al verificar hash: VerificacionDeHash: No validó la firma digital. 
+Hora : 23/06/2011 12:51:45 p.m. 1- ValidacionDeToken: Error al verificar hash: VerificacionDeHash: No validó la firma digital. 
+Hora : 23/06/2011 12:51:45 p.m. 2- ValidacionDeToken: Error al verificar hash: VerificacionDeHash: No validó la firma digital. 
+Hora : 23/06/2011 12:51:45 p.m. 21- PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIxNTQ5MDkyNTMyIiBzcmM9IkNOPXdzYWEsIE89QUZJUCwgQz1BUiwgU0VSSUFMTlVNQkVSPUNVSVQgMzM2OTM0NTAyMzkiIGdlbl90aW1lPSIxMzA4ODMyNzc5IiBleHBfdGltZT0iMTMwODg3NjAzOSIgZHN0PSJDTj13c2ZlLCBPPUFGSVAsIEM9QVIiLz4KICAgIDxvcGVyYXRpb24gdmFsdWU9ImdyYW50ZWQiIHR5cGU9ImxvZ2luIj4KICAgICAgICA8bG9naW4gdWlkPSJDPWFyLCBPPWVudHJldGVsYXMgYW1lcmljYW5hcyBzLmEuLCBTRVJJQUxOVU1CRVI9Q1VJVCAzMDYxODU5ODIxMywgQ049ZW50cmV0ZWxhc2FtZSIgc2VydmljZT0id3NmZSIgcmVnbWV0aG9kPSIyMiIgZW50aXR5PSIzMzY5MzQ1MDIzOSIgYXV0aG1ldGhvZD0iY21zIj4KICAgICAgICAgICAgPHJlbGF0aW9ucz4KICAgICAgICAgICAgICAgIDxyZWxhdGlvbiByZWx0eXBlPSI0IiBrZXk9IjMwNjE4NTk4MjEzIi8+CiAgICAgICAgICAgIDwvcmVsYXRpb25zPgogICAgICAgIDwvbG9naW4+CiAgICA8L29wZXJhdGlvbj4KPC9zc28+Cgo=
+Hora : 23/06/2011 12:51:45 p.m. 21- qHhSAFXzs33AAdjE9OnAsywu7f3L5DGaB58aR29aVmVj3cqnt0AuqralqJ/3K1GsG3scOmH3SNrdK4MwCSH4ZeL5b8QkUtzeyqFZykOjeJpYfZEc/9P22M95FoEpdxNPdNgWQvKNg/wrhwpU1Uj8YEimTd9XkIjDetV0Nd9hZmE=
+Hora : 23/06/2011 01:41:15 p.m. C O M I E N Z O
+Hora : 23/06/2011 01:41:15 p.m. 30618598213
+Hora : 23/06/2011 01:41:15 p.m. 1
+Hora : 23/06/2011 01:41:15 p.m. 0
+Hora : 23/06/2011 01:41:15 p.m. 80
+Hora : 23/06/2011 01:41:15 p.m. 30709025763
+Hora : 23/06/2011 01:41:15 p.m. 1
+Hora : 23/06/2011 01:41:15 p.m. 10
+Hora : 23/06/2011 01:41:15 p.m. 186
+Hora : 23/06/2011 01:41:15 p.m. 186
+Hora : 23/06/2011 01:41:15 p.m. 5750.50
+Hora : 23/06/2011 01:41:15 p.m. 0
+Hora : 23/06/2011 01:41:15 p.m. 4752.48
+Hora : 23/06/2011 01:41:15 p.m. 998.02
+Hora : 23/06/2011 01:41:15 p.m. 0
+Hora : 23/06/2011 01:41:15 p.m. 0
+Hora : 23/06/2011 01:41:15 p.m. 0
+Hora : 23/06/2011 01:41:15 p.m. 20110622
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. 01
+Hora : 23/06/2011 01:41:15 p.m. PES
+Hora : 23/06/2011 01:41:15 p.m. 1.00000
+Hora : 23/06/2011 01:41:15 p.m. 
+Hora : 23/06/2011 01:41:15 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>4752.48</BaseImp>
+        <Importe>998.02</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 23/06/2011 01:41:15 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Opcionales>
+    <Opcional>
+        <Id>2</Id>
+        <Valor>2074</Valor>
+    </Opcional>
+</Opcionales>
+
+Hora : 23/06/2011 01:41:15 p.m. 1- 
+Hora : 23/06/2011 01:41:15 p.m. 2- 
+Hora : 23/06/2011 01:41:15 p.m. 1- 
+Hora : 23/06/2011 01:41:15 p.m. 2- 
+Hora : 23/06/2011 01:41:15 p.m. 21- PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIxNTQ5MDkyNTMyIiBzcmM9IkNOPXdzYWEsIE89QUZJUCwgQz1BUiwgU0VSSUFMTlVNQkVSPUNVSVQgMzM2OTM0NTAyMzkiIGdlbl90aW1lPSIxMzA4ODMyNzc5IiBleHBfdGltZT0iMTMwODg3NjAzOSIgZHN0PSJDTj13c2ZlLCBPPUFGSVAsIEM9QVIiLz4KICAgIDxvcGVyYXRpb24gdmFsdWU9ImdyYW50ZWQiIHR5cGU9ImxvZ2luIj4KICAgICAgICA8bG9naW4gdWlkPSJDPWFyLCBPPWVudHJldGVsYXMgYW1lcmljYW5hcyBzLmEuLCBTRVJJQUxOVU1CRVI9Q1VJVCAzMDYxODU5ODIxMywgQ049ZW50cmV0ZWxhc2FtZSIgc2VydmljZT0id3NmZSIgcmVnbWV0aG9kPSIyMiIgZW50aXR5PSIzMzY5MzQ1MDIzOSIgYXV0aG1ldGhvZD0iY21zIj4KICAgICAgICAgICAgPHJlbGF0aW9ucz4KICAgICAgICAgICAgICAgIDxyZWxhdGlvbiByZWx0eXBlPSI0IiBrZXk9IjMwNjE4NTk4MjEzIi8+CiAgICAgICAgICAgIDwvcmVsYXRpb25zPgogICAgICAgIDwvbG9naW4+CiAgICA8L29wZXJhdGlvbj4KPC9zc28+Cgo=
+Hora : 23/06/2011 01:41:15 p.m. 21- qHhSAFXzs33AAdjE9OnAsywu7f3L5DGaB58aR29aVmVj3cqnt0AuqralqJ/3K1GsG3scOmH3SNrdK4MwCSH4ZeL5b8QkUtzeyqFZykOjeJpYfZEc/9P22M95FoEpdxNPdNgWQvKNg/wrhwpU1Uj8YEimTd9XkIjDetV0Nd9hZmE=
+Hora : 23/06/2011 01:41:44 p.m. F I N A L
+Hora : 14/07/2011 11:54:06 a.m. C O M I E N Z O
+Hora : 14/07/2011 11:54:06 a.m. 30618598213
+Hora : 14/07/2011 11:54:06 a.m. 1
+Hora : 14/07/2011 11:54:06 a.m. 0
+Hora : 14/07/2011 11:54:06 a.m. 80
+Hora : 14/07/2011 11:54:06 a.m. 30709025763
+Hora : 14/07/2011 11:54:06 a.m. 1
+Hora : 14/07/2011 11:54:06 a.m. 10
+Hora : 14/07/2011 11:54:06 a.m. 946
+Hora : 14/07/2011 11:54:06 a.m. 946
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. A
+Hora : 14/07/2011 11:54:06 a.m. 20110721
+Hora : 14/07/2011 11:54:06 a.m. 61283689039208
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 14/07/2011 11:54:06 a.m. 
+Hora : 01/07/2014 10:02:38 p.m. C O M I E N Z O
+Hora : 01/07/2014 10:02:38 p.m. 20137545323
+Hora : 01/07/2014 10:02:38 p.m. 1
+Hora : 01/07/2014 10:02:38 p.m. 0
+Hora : 01/07/2014 10:02:38 p.m. 80
+Hora : 01/07/2014 10:02:38 p.m. 30709025763
+Hora : 01/07/2014 10:02:38 p.m. 1
+Hora : 01/07/2014 10:02:38 p.m. 4
+Hora : 01/07/2014 10:02:38 p.m. 178
+Hora : 01/07/2014 10:02:38 p.m. 178
+Hora : 01/07/2014 10:02:38 p.m. 6011.89
+Hora : 01/07/2014 10:02:38 p.m. 0
+Hora : 01/07/2014 10:02:38 p.m. 4752.48
+Hora : 01/07/2014 10:02:38 p.m. 998.02
+Hora : 01/07/2014 10:02:38 p.m. 0
+Hora : 01/07/2014 10:02:38 p.m. 0
+Hora : 01/07/2014 10:02:38 p.m. 261.39
+Hora : 01/07/2014 10:02:38 p.m. 20140701
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:02:38 p.m. 01
+Hora : 01/07/2014 10:02:38 p.m. PES
+Hora : 01/07/2014 10:02:38 p.m. 1.00000
+Hora : 01/07/2014 10:02:38 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Tributos>
+   <Tributo>
+      <Id>2</Id>
+      <BaseImp>4752.48</BaseImp>
+      <Alic>3.5</Alic>
+      <Importe>166.34</Importe>
+   </Tributo>
+   <Tributo>
+      <Id>2</Id>
+      <BaseImp>4752.48</BaseImp>
+      <Alic>2</Alic>
+      <Importe>95.05</Importe>
+   </Tributo>
+</Tributos>
+
+Hora : 01/07/2014 10:02:38 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>4752.48</BaseImp>
+        <Importe>998.02</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 01/07/2014 10:02:38 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. C O M I E N Z O
+Hora : 01/07/2014 10:08:25 p.m. 20137545323
+Hora : 01/07/2014 10:08:25 p.m. 1
+Hora : 01/07/2014 10:08:25 p.m. 0
+Hora : 01/07/2014 10:08:25 p.m. 80
+Hora : 01/07/2014 10:08:25 p.m. 30709025763
+Hora : 01/07/2014 10:08:25 p.m. 1
+Hora : 01/07/2014 10:08:25 p.m. 4
+Hora : 01/07/2014 10:08:25 p.m. 178
+Hora : 01/07/2014 10:08:25 p.m. 178
+Hora : 01/07/2014 10:08:25 p.m. 6011.89
+Hora : 01/07/2014 10:08:25 p.m. 0
+Hora : 01/07/2014 10:08:25 p.m. 4752.48
+Hora : 01/07/2014 10:08:25 p.m. 998.02
+Hora : 01/07/2014 10:08:25 p.m. 0
+Hora : 01/07/2014 10:08:25 p.m. 0
+Hora : 01/07/2014 10:08:25 p.m. 261.39
+Hora : 01/07/2014 10:08:25 p.m. 20140701
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:25 p.m. 01
+Hora : 01/07/2014 10:08:25 p.m. PES
+Hora : 01/07/2014 10:08:25 p.m. 1.00000
+Hora : 01/07/2014 10:08:25 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Tributos>
+   <Tributo>
+      <Id>2</Id>
+      <BaseImp>4752.48</BaseImp>
+      <Alic>3.5</Alic>
+      <Importe>166.34</Importe>
+   </Tributo>
+   <Tributo>
+      <Id>2</Id>
+      <BaseImp>4752.48</BaseImp>
+      <Alic>2</Alic>
+      <Importe>95.05</Importe>
+   </Tributo>
+</Tributos>
+
+Hora : 01/07/2014 10:08:25 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>4752.48</BaseImp>
+        <Importe>998.02</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 01/07/2014 10:08:25 p.m. 
+Hora : 01/07/2014 10:08:26 p.m. 1- 
+Hora : 01/07/2014 10:08:26 p.m. 2- 
+Hora : 01/07/2014 10:08:26 p.m. 21- PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIyODUxMDE4MzI1IiBzcmM9IkNOPXdzYWFob21vLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiBnZW5fdGltZT0iMTQwNDI2MTc1NCIgZXhwX3RpbWU9IjE0MDQzMDUwMTQiIGRzdD0iQ049d3NmZSwgTz1BRklQLCBDPUFSIi8+CiAgICA8b3BlcmF0aW9uIHZhbHVlPSJncmFudGVkIiB0eXBlPSJsb2dpbiI+CiAgICAgICAgPGxvZ2luIHVpZD0iQz1hciwgTz1hZHJpYW4gYXBhcmljaW8sIFNFUklBTE5VTUJFUj1DVUlUIDIwMTM3NTQ1MzIzLCBDTj1hZHJpYW4iIHNlcnZpY2U9IndzZmUiIHJlZ21ldGhvZD0iMjIiIGVudGl0eT0iMzM2OTM0NTAyMzkiIGF1dGhtZXRob2Q9ImNtcyI+CiAgICAgICAgICAgIDxyZWxhdGlvbnM+CiAgICAgICAgICAgICAgICA8cmVsYXRpb24gcmVsdHlwZT0iNCIga2V5PSIyMDEzNzU0NTMyMyIvPgogICAgICAgICAgICA8L3JlbGF0aW9ucz4KICAgICAgICA8L2xvZ2luPgogICAgPC9vcGVyYXRpb24+Cjwvc3NvPgoK
+Hora : 01/07/2014 10:08:26 p.m. 21- MlOeL7yKKAC+/b7cI5MMKN9pVzAIKYDcsTcbUIAwf1G+wVn+6wA9J6po4o71dD9W2chbcSSgDT1Cii6DjXc8FDwsilVIEh53yksnxDSX1YexDua1fKPZsy8VLCWgq+4FeJ0KEuqPd432lVt7o+swTgzRV3SO6YEujj84w/O3jMo=
+Hora : 01/07/2014 10:08:28 p.m. F I N A L
+Hora : 01/07/2014 10:30:40 p.m. C O M I E N Z O
+Hora : 01/07/2014 10:30:40 p.m. 20137545323
+Hora : 01/07/2014 10:30:40 p.m. 1
+Hora : 01/07/2014 10:30:40 p.m. 0
+Hora : 01/07/2014 10:30:40 p.m. 80
+Hora : 01/07/2014 10:30:40 p.m. 30709025763
+Hora : 01/07/2014 10:30:40 p.m. 1
+Hora : 01/07/2014 10:30:40 p.m. 4
+Hora : 01/07/2014 10:30:40 p.m. 178
+Hora : 01/07/2014 10:30:40 p.m. 178
+Hora : 01/07/2014 10:30:40 p.m. 6011.89
+Hora : 01/07/2014 10:30:40 p.m. 0
+Hora : 01/07/2014 10:30:40 p.m. 4752.48
+Hora : 01/07/2014 10:30:40 p.m. 998.02
+Hora : 01/07/2014 10:30:40 p.m. 0
+Hora : 01/07/2014 10:30:40 p.m. 0
+Hora : 01/07/2014 10:30:40 p.m. 261.39
+Hora : 01/07/2014 10:30:40 p.m. 20140701
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:40 p.m. 01
+Hora : 01/07/2014 10:30:40 p.m. PES
+Hora : 01/07/2014 10:30:40 p.m. 1.00000
+Hora : 01/07/2014 10:30:40 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Tributos>
+   <Tributo>
+      <Id>2</Id>
+      <BaseImp>4752.48</BaseImp>
+      <Alic>3.5</Alic>
+      <Importe>166.34</Importe>
+   </Tributo>
+   <Tributo>
+      <Id>2</Id>
+      <BaseImp>4752.48</BaseImp>
+      <Alic>2</Alic>
+      <Importe>95.05</Importe>
+   </Tributo>
+</Tributos>
+
+Hora : 01/07/2014 10:30:40 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>4752.48</BaseImp>
+        <Importe>998.02</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 01/07/2014 10:30:40 p.m. 
+Hora : 01/07/2014 10:30:41 p.m. 1- 
+Hora : 01/07/2014 10:30:41 p.m. 2- 
+Hora : 01/07/2014 10:30:41 p.m. 21- PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIxOTQyNzY2MTk1IiBzcmM9IkNOPXdzYWFob21vLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiBnZW5fdGltZT0iMTQwNDI2NDUxNCIgZXhwX3RpbWU9IjE0MDQzMDc3NzQiIGRzdD0iQ049d3NmZSwgTz1BRklQLCBDPUFSIi8+CiAgICA8b3BlcmF0aW9uIHZhbHVlPSJncmFudGVkIiB0eXBlPSJsb2dpbiI+CiAgICAgICAgPGxvZ2luIHVpZD0iQz1hciwgTz1hZHJpYW4gYXBhcmljaW8sIFNFUklBTE5VTUJFUj1DVUlUIDIwMTM3NTQ1MzIzLCBDTj1hZHJpYW4iIHNlcnZpY2U9IndzZmUiIHJlZ21ldGhvZD0iMjIiIGVudGl0eT0iMzM2OTM0NTAyMzkiIGF1dGhtZXRob2Q9ImNtcyI+CiAgICAgICAgICAgIDxyZWxhdGlvbnM+CiAgICAgICAgICAgICAgICA8cmVsYXRpb24gcmVsdHlwZT0iNCIga2V5PSIyMDEzNzU0NTMyMyIvPgogICAgICAgICAgICA8L3JlbGF0aW9ucz4KICAgICAgICA8L2xvZ2luPgogICAgPC9vcGVyYXRpb24+Cjwvc3NvPgoK
+Hora : 01/07/2014 10:30:41 p.m. 21- R2UdZ3gd9FnW54iln2ilGzj3//Y6NaldNPPxWnFWyCBKh3fjJNqITMNennLcbZyX6JlhWryBIXucdV7Gy4fG/wSs5SEpWZHhOOBrDOyvm6SJJMjwoce9wZYLR3hMC+hjtlGJol2rvCHBYu1MF5Ziw6INIeTgOyTCu3/9hPjupfs=
+Hora : 01/07/2014 10:30:45 p.m. F I N A L
+Hora : 01/07/2014 10:31:55 p.m. C O M I E N Z O
+Hora : 01/07/2014 10:31:55 p.m. 20137545323
+Hora : 01/07/2014 10:31:55 p.m. 1
+Hora : 01/07/2014 10:31:55 p.m. 0
+Hora : 01/07/2014 10:31:55 p.m. 80
+Hora : 01/07/2014 10:31:55 p.m. 30709025763
+Hora : 01/07/2014 10:31:55 p.m. 1
+Hora : 01/07/2014 10:31:55 p.m. 4
+Hora : 01/07/2014 10:31:55 p.m. 178
+Hora : 01/07/2014 10:31:55 p.m. 178
+Hora : 01/07/2014 10:31:55 p.m. 6011.89
+Hora : 01/07/2014 10:31:55 p.m. 0
+Hora : 01/07/2014 10:31:55 p.m. 4752.48
+Hora : 01/07/2014 10:31:55 p.m. 998.02
+Hora : 01/07/2014 10:31:55 p.m. 0
+Hora : 01/07/2014 10:31:55 p.m. 0
+Hora : 01/07/2014 10:31:55 p.m. 261.39
+Hora : 01/07/2014 10:31:55 p.m. 20140701
+Hora : 01/07/2014 10:31:55 p.m. 
+Hora : 01/07/2014 10:31:55 p.m. 
+Hora : 01/07/2014 10:31:55 p.m. 
+Hora : 01/07/2014 10:31:55 p.m. 
+Hora : 01/07/2014 10:31:55 p.m. 
+Hora : 01/07/2014 10:31:55 p.m. 
+Hora : 01/07/2014 10:31:55 p.m. 
+Hora : 01/07/2014 10:31:55 p.m. ValidacionDeToken: Error al verificar hash: VerificacionDeHash: No validó la firma digital. 
+Hora : 01/07/2014 10:31:55 p.m. 
+Hora : 01/07/2014 10:31:55 p.m. 
+Hora : 01/07/2014 10:31:55 p.m. 
+Hora : 01/07/2014 10:31:55 p.m. 01
+Hora : 01/07/2014 10:31:55 p.m. PES
+Hora : 01/07/2014 10:31:55 p.m. 1.00000
+Hora : 01/07/2014 10:31:55 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Tributos>
+   <Tributo>
+      <Id>2</Id>
+      <BaseImp>4752.48</BaseImp>
+      <Alic>3.5</Alic>
+      <Importe>166.34</Importe>
+   </Tributo>
+   <Tributo>
+      <Id>2</Id>
+      <BaseImp>4752.48</BaseImp>
+      <Alic>2</Alic>
+      <Importe>95.05</Importe>
+   </Tributo>
+</Tributos>
+
+Hora : 01/07/2014 10:31:56 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>4752.48</BaseImp>
+        <Importe>998.02</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 01/07/2014 10:31:56 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. C O M I E N Z O
+Hora : 01/07/2014 10:41:16 p.m. 20137545323
+Hora : 01/07/2014 10:41:16 p.m. 1
+Hora : 01/07/2014 10:41:16 p.m. 0
+Hora : 01/07/2014 10:41:16 p.m. 80
+Hora : 01/07/2014 10:41:16 p.m. 30709025763
+Hora : 01/07/2014 10:41:16 p.m. 1
+Hora : 01/07/2014 10:41:16 p.m. 4
+Hora : 01/07/2014 10:41:16 p.m. 178
+Hora : 01/07/2014 10:41:16 p.m. 178
+Hora : 01/07/2014 10:41:16 p.m. 6011.89
+Hora : 01/07/2014 10:41:16 p.m. 0
+Hora : 01/07/2014 10:41:16 p.m. 4752.48
+Hora : 01/07/2014 10:41:16 p.m. 998.02
+Hora : 01/07/2014 10:41:16 p.m. 0
+Hora : 01/07/2014 10:41:16 p.m. 0
+Hora : 01/07/2014 10:41:16 p.m. 261.39
+Hora : 01/07/2014 10:41:16 p.m. 20140701
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:41:16 p.m. 01
+Hora : 01/07/2014 10:41:16 p.m. PES
+Hora : 01/07/2014 10:41:16 p.m. 1.00000
+Hora : 01/07/2014 10:41:16 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Tributos>
+   <Tributo>
+      <Id>2</Id>
+      <BaseImp>4752.48</BaseImp>
+      <Alic>3.5</Alic>
+      <Importe>166.34</Importe>
+   </Tributo>
+   <Tributo>
+      <Id>2</Id>
+      <BaseImp>4752.48</BaseImp>
+      <Alic>2</Alic>
+      <Importe>95.05</Importe>
+   </Tributo>
+</Tributos>
+
+Hora : 01/07/2014 10:41:16 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>4752.48</BaseImp>
+        <Importe>998.02</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 01/07/2014 10:41:16 p.m. 
+Hora : 01/07/2014 10:43:52 p.m. 1- 
+Hora : 01/07/2014 10:43:52 p.m. 2- 
+Hora : 01/07/2014 10:43:57 p.m. 21- PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIyNTA0OTc5OTQzIiBzcmM9IkNOPXdzYWFob21vLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiBnZW5fdGltZT0iMTQwNDI2NTE3MiIgZXhwX3RpbWU9IjE0MDQzMDg0MzIiIGRzdD0iQ049d3NmZSwgTz1BRklQLCBDPUFSIi8+CiAgICA8b3BlcmF0aW9uIHZhbHVlPSJncmFudGVkIiB0eXBlPSJsb2dpbiI+CiAgICAgICAgPGxvZ2luIHVpZD0iQz1hciwgTz1hZHJpYW4gYXBhcmljaW8sIFNFUklBTE5VTUJFUj1DVUlUIDIwMTM3NTQ1MzIzLCBDTj1hZHJpYW4iIHNlcnZpY2U9IndzZmUiIHJlZ21ldGhvZD0iMjIiIGVudGl0eT0iMzM2OTM0NTAyMzkiIGF1dGhtZXRob2Q9ImNtcyI+CiAgICAgICAgICAgIDxyZWxhdGlvbnM+CiAgICAgICAgICAgICAgICA8cmVsYXRpb24gcmVsdHlwZT0iNCIga2V5PSIyMDEzNzU0NTMyMyIvPgogICAgICAgICAgICA8L3JlbGF0aW9ucz4KICAgICAgICA8L2xvZ2luPgogICAgPC9vcGVyYXRpb24+Cjwvc3NvPgoK
+Hora : 01/07/2014 10:43:57 p.m. 21- sOvAUQe5zXT1Zdi03MCLdXTSUmI3GTxrMjKKWuLjE/0RGrC/UUDQxSJH6koEE05wTB28HFqoyZTpgG+TMSnb4yLP6b2+BaF+fFkHQ3Ln7vXGbMJ7qbdSwMenUXu+qQvJIqLo3p12YN1oZlrhFTl2ucOwR1cFiNqVeOSpHcLQjss=
+Hora : 01/07/2014 10:44:02 p.m. 4- 
+Hora : 01/07/2014 10:44:02 p.m. 6- 
+Hora : 01/07/2014 10:44:02 p.m. F I N A L
+Hora : 25/07/2015 10:08:59 p.m. C O M I E N Z O
+Hora : 25/07/2015 10:08:59 p.m. 30658998141
+Hora : 25/07/2015 10:08:59 p.m. 1
+Hora : 25/07/2015 10:08:59 p.m. 0
+Hora : 25/07/2015 10:08:59 p.m. 80
+Hora : 25/07/2015 10:08:59 p.m. 30658998141
+Hora : 25/07/2015 10:08:59 p.m. 1
+Hora : 25/07/2015 10:08:59 p.m. 5
+Hora : 25/07/2015 10:08:59 p.m. 24
+Hora : 25/07/2015 10:08:59 p.m. 24
+Hora : 25/07/2015 10:08:59 p.m. 12.10
+Hora : 25/07/2015 10:08:59 p.m. 0
+Hora : 25/07/2015 10:08:59 p.m. 10.00
+Hora : 25/07/2015 10:08:59 p.m. 2.10
+Hora : 25/07/2015 10:08:59 p.m. 0
+Hora : 25/07/2015 10:08:59 p.m. 0
+Hora : 25/07/2015 10:08:59 p.m. 0.0
+Hora : 25/07/2015 10:08:59 p.m. 20150725
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. 01
+Hora : 25/07/2015 10:08:59 p.m. PES
+Hora : 25/07/2015 10:08:59 p.m. 1.00000
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:08:59 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>10.00</BaseImp>
+        <Importe>2.10</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 25/07/2015 10:08:59 p.m. 
+Hora : 25/07/2015 10:09:00 p.m. 1- 
+Hora : 25/07/2015 10:09:00 p.m. 2- 
+Hora : 25/07/2015 10:09:00 p.m. 21- PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIxOTQxNTM1MjQ0IiBzcmM9IkNOPXdzYWEsIE89QUZJUCwgQz1BUiwgU0VSSUFMTlVNQkVSPUNVSVQgMzM2OTM0NTAyMzkiIGdlbl90aW1lPSIxNDM3ODcyNzE3IiBleHBfdGltZT0iMTQzNzkxNTk3NyIgZHN0PSJDTj13c2ZlLCBPPUFGSVAsIEM9QVIiLz4KICAgIDxvcGVyYXRpb24gdmFsdWU9ImdyYW50ZWQiIHR5cGU9ImxvZ2luIj4KICAgICAgICA8bG9naW4gdWlkPSJDPWFyLCBPPWZyaWdvcmlmaWNvIGRlc2VhZG8gc29jaWVkYWQgYW5vbmltYSwgU0VSSUFMTlVNQkVSPUNVSVQgMzA2NTg5OTgxNDEsIENOPXBkc2EyMDE1IiBzZXJ2aWNlPSJ3c2ZlIiByZWdtZXRob2Q9IjIyIiBlbnRpdHk9IjMzNjkzNDUwMjM5IiBhdXRobWV0aG9kPSJjbXMiPgogICAgICAgICAgICA8cmVsYXRpb25zPgogICAgICAgICAgICAgICAgPHJlbGF0aW9uIHJlbHR5cGU9IjQiIGtleT0iMzA2NTg5OTgxNDEiLz4KICAgICAgICAgICAgPC9yZWxhdGlvbnM+CiAgICAgICAgPC9sb2dpbj4KICAgIDwvb3BlcmF0aW9uPgo8L3Nzbz4KCg==
+Hora : 25/07/2015 10:09:00 p.m. 21- f+jiHn5BY/6Xnf2M04n3IiD3NzZAs1IH1fOtQJ9sqIotG3lTOLX8pBufEstLcaGZKnO3hwb8Ns19uQNEErXkHXjeRX7VafZsaHpzbBnqQQ7qBrO/D3BZebi8hYxkCGgp8umjCelIe5RlBT8jV/fX4q74nKmwRHsZllITY9bCB20=
+Hora : 25/07/2015 10:10:01 p.m. F I N A L
+Hora : 25/07/2015 10:13:58 p.m. C O M I E N Z O
+Hora : 25/07/2015 10:13:58 p.m. 30658998141
+Hora : 25/07/2015 10:13:58 p.m. 1
+Hora : 25/07/2015 10:13:58 p.m. 0
+Hora : 25/07/2015 10:13:58 p.m. 80
+Hora : 25/07/2015 10:13:58 p.m. 30708772964
+Hora : 25/07/2015 10:13:58 p.m. 1
+Hora : 25/07/2015 10:13:58 p.m. 5
+Hora : 25/07/2015 10:13:58 p.m. 24
+Hora : 25/07/2015 10:13:58 p.m. 24
+Hora : 25/07/2015 10:13:58 p.m. 12.10
+Hora : 25/07/2015 10:13:58 p.m. 0
+Hora : 25/07/2015 10:13:58 p.m. 10.00
+Hora : 25/07/2015 10:13:58 p.m. 2.10
+Hora : 25/07/2015 10:13:58 p.m. 0
+Hora : 25/07/2015 10:13:58 p.m. 0
+Hora : 25/07/2015 10:13:58 p.m. 0.0
+Hora : 25/07/2015 10:13:58 p.m. 20150725
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 01
+Hora : 25/07/2015 10:13:58 p.m. PES
+Hora : 25/07/2015 10:13:58 p.m. 1.00000
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>10.00</BaseImp>
+        <Importe>2.10</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 25/07/2015 10:13:58 p.m. 
+Hora : 25/07/2015 10:13:58 p.m. 1- 
+Hora : 25/07/2015 10:13:58 p.m. 2- 
+Hora : 25/07/2015 10:13:58 p.m. 21- PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSI4NzI1MDY1OTMiIHNyYz0iQ049d3NhYSwgTz1BRklQLCBDPUFSLCBTRVJJQUxOVU1CRVI9Q1VJVCAzMzY5MzQ1MDIzOSIgZ2VuX3RpbWU9IjE0Mzc4NzMxMzAiIGV4cF90aW1lPSIxNDM3OTE2MzkwIiBkc3Q9IkNOPXdzZmUsIE89QUZJUCwgQz1BUiIvPgogICAgPG9wZXJhdGlvbiB2YWx1ZT0iZ3JhbnRlZCIgdHlwZT0ibG9naW4iPgogICAgICAgIDxsb2dpbiB1aWQ9IkM9YXIsIE89ZnJpZ29yaWZpY28gZGVzZWFkbyBzb2NpZWRhZCBhbm9uaW1hLCBTRVJJQUxOVU1CRVI9Q1VJVCAzMDY1ODk5ODE0MSwgQ049cGRzYTIwMTUiIHNlcnZpY2U9IndzZmUiIHJlZ21ldGhvZD0iMjIiIGVudGl0eT0iMzM2OTM0NTAyMzkiIGF1dGhtZXRob2Q9ImNtcyI+CiAgICAgICAgICAgIDxyZWxhdGlvbnM+CiAgICAgICAgICAgICAgICA8cmVsYXRpb24gcmVsdHlwZT0iNCIga2V5PSIzMDY1ODk5ODE0MSIvPgogICAgICAgICAgICA8L3JlbGF0aW9ucz4KICAgICAgICA8L2xvZ2luPgogICAgPC9vcGVyYXRpb24+Cjwvc3NvPgoK
+Hora : 25/07/2015 10:13:58 p.m. 21- DQHQ/oKDZHlY2mDucKX+peKcDs+ckR8bGNFwDxRW9SWnyhubl5oveNB2p6JTcWnL6Se0t26SMc5lJOeQR7vCgJm/LU0BWgJxiTFO+ZYm1udVrdus3/8ip7ZOEfgOaPb8IiZZltonhkQRXmaMp36LHNvhSQ94X1mpdtkeHwtsvz8=
+Hora : 25/07/2015 10:15:46 p.m. 4- 
+Hora : 25/07/2015 10:15:59 p.m. 6- 
+Hora : 25/07/2015 10:16:05 p.m. F I N A L
+Hora : 25/07/2015 11:22:19 p.m. C O M I E N Z O
+Hora : 25/07/2015 11:22:19 p.m. 20137545323
+Hora : 25/07/2015 11:22:19 p.m. 1
+Hora : 25/07/2015 11:22:19 p.m. 0
+Hora : 25/07/2015 11:22:19 p.m. 80
+Hora : 25/07/2015 11:22:19 p.m. 30708772964
+Hora : 25/07/2015 11:22:19 p.m. 1
+Hora : 25/07/2015 11:22:19 p.m. 5
+Hora : 25/07/2015 11:22:19 p.m. 56
+Hora : 25/07/2015 11:22:19 p.m. 56
+Hora : 25/07/2015 11:22:19 p.m. 12.10
+Hora : 25/07/2015 11:22:19 p.m. 0
+Hora : 25/07/2015 11:22:19 p.m. 10.00
+Hora : 25/07/2015 11:22:19 p.m. 2.10
+Hora : 25/07/2015 11:22:19 p.m. 0
+Hora : 25/07/2015 11:22:19 p.m. 0
+Hora : 25/07/2015 11:22:19 p.m. 0.0
+Hora : 25/07/2015 11:22:19 p.m. 20150725
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. 01
+Hora : 25/07/2015 11:22:19 p.m. PES
+Hora : 25/07/2015 11:22:19 p.m. 1.00000
+Hora : 25/07/2015 11:22:19 p.m. 
+Hora : 25/07/2015 11:22:19 p.m. <?xml version="1.0" encoding="utf-8"?>
+<Iva>
+    <AlicIva>
+        <Id>5</Id>
+        <BaseImp>10.00</BaseImp>
+        <Importe>2.10</Importe>
+    </AlicIva>
+</Iva>
+
+Hora : 25/07/2015 11:22:46 p.m. Empieza el detalle
+Hora : 25/07/2015 11:23:01 p.m. Empiezan los tributos
+Hora : 25/07/2015 11:23:04 p.m. Empieza el IVA
+Hora : 25/07/2015 11:25:41 p.m. 1- 
+Hora : 25/07/2015 11:25:49 p.m. 2- 
+Hora : 25/07/2015 11:25:49 p.m. 21- PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSIzOTA1NjIwMjE1IiBzcmM9IkNOPXdzYWFob21vLCBPPUFGSVAsIEM9QVIsIFNFUklBTE5VTUJFUj1DVUlUIDMzNjkzNDUwMjM5IiBnZW5fdGltZT0iMTQzNzg3NjY3MSIgZXhwX3RpbWU9IjE0Mzc5MTk5MzEiIGRzdD0iQ049d3NmZSwgTz1BRklQLCBDPUFSIi8+CiAgICA8b3BlcmF0aW9uIHZhbHVlPSJncmFudGVkIiB0eXBlPSJsb2dpbiI+CiAgICAgICAgPGxvZ2luIHVpZD0iQz1hciwgTz1hZHJpYW4gYXBhcmljaW8sIFNFUklBTE5VTUJFUj1DVUlUIDIwMTM3NTQ1MzIzLCBDTj1hY2FwYXJpY2lvIiBzZXJ2aWNlPSJ3c2ZlIiByZWdtZXRob2Q9IjIyIiBlbnRpdHk9IjMzNjkzNDUwMjM5IiBhdXRobWV0aG9kPSJjbXMiPgogICAgICAgICAgICA8cmVsYXRpb25zPgogICAgICAgICAgICAgICAgPHJlbGF0aW9uIHJlbHR5cGU9IjQiIGtleT0iMjAxMzc1NDUzMjMiLz4KICAgICAgICAgICAgPC9yZWxhdGlvbnM+CiAgICAgICAgPC9sb2dpbj4KICAgIDwvb3BlcmF0aW9uPgo8L3Nzbz4KCg==
+Hora : 25/07/2015 11:25:49 p.m. 21- BjaYdlUAo5EJEEIVYF63pvaV2YxtCJBWNkhNDuSMltiP2qJwm7M+V1bnjZ+HVWB6le9Hw/+43Av8WFbZjtMKgncIHjvoaHeJ8yJc4GY2SFBh47riYZKAISyze9sjLPC1Gwpnha8BQiGfHhy+oaXWYpdnPObSn3m8sKDUAsUPGm0=
+Hora : 25/07/2015 11:31:40 p.m. 4- 
+Hora : 25/07/2015 11:31:43 p.m. 6- 
+Hora : 25/07/2015 11:31:46 p.m. F I N A L

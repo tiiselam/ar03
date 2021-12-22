@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?> 
+- <loginTicketResponse version="1"> 
+- <header> 
+<source>CN=wsaahomo, O=AFIP, C=AR, SERIALNUMBER=CUIT 33693450239</source> 
+<destination>C=ar, O=adrian aparicio, SERIALNUMBER=CUIT 20137545323, CN=adrian</destination> 
+<uniqueId>1802732733</uniqueId> 
+<generationTime>2011-02-11T00:42:17.019-03:00</generationTime> 
+<expirationTime>2011-02-11T12:42:17.019-03:00</expirationTime> 
+</header> 
+- <credentials> 
+<token>PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9InllcyI/Pgo8c3NvIHZlcnNpb249IjIuMCI+CiAgICA8aWQgdW5pcXVlX2lkPSI5Mjg5ODIwMjciIHNyYz0iQ049d3NhYWhvbW8sIE89QUZJUCwgQz1BUiwgU0VSSUFMTlVNQkVSPUNVSVQgMzM2OTM0NTAyMzkiIGdlbl90aW1lPSIxMjk3Mzk1Njc3IiBleHBfdGltZT0iMTI5NzQzODkzNyIgZHN0PSJDTj13c2ZlLCBPPUFGSVAsIEM9QVIiLz4KICAgIDxvcGVyYXRpb24gdmFsdWU9ImdyYW50ZWQiIHR5cGU9ImxvZ2luIj4KICAgICAgICA8bG9naW4gdWlkPSJDPWFyLCBPPWFkcmlhbiBhcGFyaWNpbywgU0VSSUFMTlVNQkVSPUNVSVQgMjAxMzc1NDUzMjMsIENOPWFkcmlhbiIgc2VydmljZT0id3NmZSIgcmVnbWV0aG9kPSIyMiIgZW50aXR5PSIzMzY5MzQ1MDIzOSIgYXV0aG1ldGhvZD0iY21zIj4KICAgICAgICAgICAgPHJlbGF0aW9ucz4KICAgICAgICAgICAgICAgIDxyZWxhdGlvbiByZWx0eXBlPSI0IiBrZXk9IjIwMTM3NTQ1MzIzIi8+CiAgICAgICAgICAgIDwvcmVsYXRpb25zPgogICAgICAgIDwvbG9naW4+CiAgICA8L29wZXJhdGlvbj4KPC9zc28+Cgo=</token> 
+<sign>nQcUgCj70XSCUfav9AWbObuysUPlEM+ARGeCKoJi0uQfwSOYEBEkbhNf51GQ/Onk7/k1uhjjrJ9Z1bmTG6eFinr0yI+QjJSOYeg9bvljPXl4Kkh8U0qN/lif1IZ1G/2ee6HMHeR/BhYw9pPFzE/WmUvAD4/lJFa/4wGEkvCeutI=</sign> 
+</credentials> 
+</loginTicketResponse

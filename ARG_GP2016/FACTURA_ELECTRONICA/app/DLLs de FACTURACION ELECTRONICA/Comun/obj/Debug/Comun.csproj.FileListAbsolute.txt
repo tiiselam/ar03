@@ -1,0 +1,65 @@
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\E_Implementation\MxFElctr_Aplicación\Comun\bin\Debug\Comun.dll
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\E_Implementation\MxFElctr_Aplicación\Comun\bin\Debug\Comun.pdb
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\E_Implementation\MxFElctr_Aplicación\Comun\obj\Debug\Comun.dll
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\E_Implementation\MxFElctr_Aplicación\Comun\obj\Debug\Comun.pdb
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\E_Implementation\MxFElctr_Aplicación\Comun\obj\Debug\Comun.csprojResolveAssemblyReference.cache
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\E_Implementation\MxFElctr_App\Comun\bin\Debug\Comun.dll
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\E_Implementation\MxFElctr_App\Comun\bin\Debug\Comun.pdb
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\E_Implementation\MxFElctr_App\Comun\obj\Debug\Comun.csprojResolveAssemblyReference.cache
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\E_Implementation\MxFElctr_App\Comun\obj\Debug\Comun.dll
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\E_Implementation\MxFElctr_App\Comun\obj\Debug\Comun.pdb
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mxfe\MxFElctr_App\Comun\bin\Debug\Comun.dll
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mxfe\MxFElctr_App\Comun\bin\Debug\Comun.pdb
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mxfe\MxFElctr_App\Comun\obj\Debug\Comun.csprojResolveAssemblyReference.cache
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mxfe\MxFElctr_App\Comun\obj\Debug\Comun.dll
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mxfe\MxFElctr_App\Comun\obj\Debug\Comun.pdb
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mx01\App\Comun\bin\Debug\Comun.dll
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mx01\App\Comun\bin\Debug\Comun.pdb
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mx01\App\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mx01\App\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mx01\App\Comun\obj\Debug\Comun.dll
+C:\jcTii\Desarrollo\MEX_Factura_digital_cfdi\mx01\App\Comun\obj\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\bin\Debug\ParametrosCfdi.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\bin\Debug\ParametrosCfdi.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\Comun\obj\Debug\Comun.pdb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\Comun\bin\Debug\ParametrosCfdi.xml
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\Comun\bin\Debug\Comun.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\Comun\bin\Debug\Comun.pdb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\Comun\obj\Debug\Comun.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\Comun\obj\Debug\Comun.pdb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\Comun\obj\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\Comun\bin\Debug\ParametrosCfdi.xml
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\Comun\bin\Debug\Comun.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\Comun\bin\Debug\Comun.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\Comun\obj\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\Comun\obj\Debug\Comun.csproj.CopyComplete
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\Comun\obj\Debug\Comun.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\Comun\obj\Debug\Comun.pdb

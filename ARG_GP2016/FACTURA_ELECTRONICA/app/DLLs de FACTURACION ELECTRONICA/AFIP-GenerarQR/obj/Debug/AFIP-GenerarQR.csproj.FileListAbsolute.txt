@@ -1,0 +1,95 @@
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\bin\Debug\System.Drawing.Common.dll
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\app\AFIP - Generar Codigo QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\System.Drawing.Common.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\System.Drawing.Common.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\System.Drawing.Common.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csprojAssemblyReference.cache
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\bin\Debug\Comun.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\bin\Debug\System.Drawing.Common.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\bin\Debug\Comun.pdb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csprojAssemblyReference.cache
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CoreCompileInputs.cache
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CopyComplete
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\bin\Debug\Comun.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\bin\Debug\System.Drawing.Common.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\bin\Debug\Comun.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csprojAssemblyReference.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CoreCompileInputs.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.csproj.CopyComplete
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\AFIP-GenerarQR\obj\Debug\AFIP-GenerarQR.pdb
