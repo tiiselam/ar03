@@ -1,0 +1,4 @@
+C:\Users\Obdu\Desktop\AFIP\app mexico original\mx01-master\App\Comun\obj\x86\Debug\Comun.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\app mexico original\mx01-master\App\Comun\obj\x86\Debug\Comun.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\app mexico original\mx01-master\App\Comun\obj\x86\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\app mexico original\mx01-master\App\Comun\obj\x86\Debug\Comun.pdb

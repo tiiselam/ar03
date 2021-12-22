@@ -1,0 +1,154 @@
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\bin\Debug\ACA_WSFE.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\obj\Debug\ACA_WSFE.vbprojAssemblyReference.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\obj\Debug\ACA_WSFE.Resources.resources
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.GenerateResource.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CoreCompileInputs.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\obj\Debug\ACA_WSFE.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\obj\Debug\ACA_WSFE.xml
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\obj\Debug\ACA_WSFE.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\bin\Debug\ACA_WSFE.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\bin\Debug\ACA_WSFE.xml
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2005 DLL de Facturación electrónica A y B\ACA_WSFE\bin\Debug\ACA_WSFE.tlb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.xml
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.Resources.resources
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.GenerateResource.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CoreCompileInputs.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.xml
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.tlb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.Resources.resources
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.GenerateResource.cache
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\System.Drawing.Common.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.tlb
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Ionic.Zip.Reduced.dll
+C:\Users\Obdu\Desktop\AFIP\ar03-master\ar03-master\ARG_GP2016\FACTURA_ELECTRONICA\app\DLLs de FACTURACION ELECTRONICA\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.Resources.resources
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.GenerateResource.cache
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.tlb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\System.Drawing.Common.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.Resources.resources
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.GenerateResource.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.tlb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.Resources.resources
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.GenerateResource.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\ACA_WSFE.tlb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\ACA_WSFE\obj\Debug\ACA_WSFE.vbprojAssemblyReference.cache
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.Resources.resources
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.GenerateResource.cache
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CoreCompileInputs.cache
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.vbprojAssemblyReference.cache
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\ACA_WSFE.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\ACA_WSFE.pdb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\ACA_WSFE.xml
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\ACA_WSFE.tlb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\Comun.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\bin\Debug\Comun.pdb
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CopyComplete
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.dll
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.xml
+C:\Users\Tiiselam\Documents\GitHub\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.vbprojAssemblyReference.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.Resources.resources
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.GenerateResource.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CoreCompileInputs.cache
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.xml
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\ACA_WSFE.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\ACA_WSFE.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\ACA_WSFE.xml
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\ACA_WSFE.tlb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\Comun.dll
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\bin\Debug\Comun.pdb
+C:\Users\Tiiselam\Documents\GitHub\ar03\ARG_GP2016\FACTURA_ELECTRONICA\app\AFIP-QR\ACA_WSFE\obj\Debug\ACA_WSFE.vbproj.CopyComplete

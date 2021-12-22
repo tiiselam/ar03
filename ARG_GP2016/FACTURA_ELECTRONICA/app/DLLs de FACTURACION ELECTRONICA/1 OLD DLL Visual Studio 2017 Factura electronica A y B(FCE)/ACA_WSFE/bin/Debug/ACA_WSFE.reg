@@ -1,0 +1,1015 @@
+REGEDIT4
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.Principal]
+@="ACA_WSFE.Principal"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.Principal\CLSID]
+@="{4C23D77F-F797-3284-8BCD-D7116667D3ED}"
+
+[HKEY_CLASSES_ROOT\CLSID\{4C23D77F-F797-3284-8BCD-D7116667D3ED}]
+@="ACA_WSFE.Principal"
+
+[HKEY_CLASSES_ROOT\CLSID\{4C23D77F-F797-3284-8BCD-D7116667D3ED}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.Principal"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{4C23D77F-F797-3284-8BCD-D7116667D3ED}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.Principal"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{4C23D77F-F797-3284-8BCD-D7116667D3ED}\ProgId]
+@="ACA_WSFE.Principal"
+
+[HKEY_CLASSES_ROOT\CLSID\{4C23D77F-F797-3284-8BCD-D7116667D3ED}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.Wsaa.LoginCMSService]
+@="ACA_WSFE.Wsaa.LoginCMSService"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.Wsaa.LoginCMSService\CLSID]
+@="{1C1B4ACE-5208-3621-9C27-053F056ACB39}"
+
+[HKEY_CLASSES_ROOT\CLSID\{1C1B4ACE-5208-3621-9C27-053F056ACB39}]
+@="ACA_WSFE.Wsaa.LoginCMSService"
+
+[HKEY_CLASSES_ROOT\CLSID\{1C1B4ACE-5208-3621-9C27-053F056ACB39}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.Wsaa.LoginCMSService"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{1C1B4ACE-5208-3621-9C27-053F056ACB39}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.Wsaa.LoginCMSService"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{1C1B4ACE-5208-3621-9C27-053F056ACB39}\ProgId]
+@="ACA_WSFE.Wsaa.LoginCMSService"
+
+[HKEY_CLASSES_ROOT\CLSID\{1C1B4ACE-5208-3621-9C27-053F056ACB39}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsaaprod.LoginCMSService]
+@="ACA_WSFE.wsaaprod.LoginCMSService"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsaaprod.LoginCMSService\CLSID]
+@="{AFBECC69-3131-32D9-89DD-C8D41597CFBA}"
+
+[HKEY_CLASSES_ROOT\CLSID\{AFBECC69-3131-32D9-89DD-C8D41597CFBA}]
+@="ACA_WSFE.wsaaprod.LoginCMSService"
+
+[HKEY_CLASSES_ROOT\CLSID\{AFBECC69-3131-32D9-89DD-C8D41597CFBA}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsaaprod.LoginCMSService"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{AFBECC69-3131-32D9-89DD-C8D41597CFBA}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsaaprod.LoginCMSService"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{AFBECC69-3131-32D9-89DD-C8D41597CFBA}\ProgId]
+@="ACA_WSFE.wsaaprod.LoginCMSService"
+
+[HKEY_CLASSES_ROOT\CLSID\{AFBECC69-3131-32D9-89DD-C8D41597CFBA}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.Service]
+@="ACA_WSFE.wsw.Service"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.Service\CLSID]
+@="{3E8A2E0F-6E63-37BB-AFA5-6EBB076AF019}"
+
+[HKEY_CLASSES_ROOT\CLSID\{3E8A2E0F-6E63-37BB-AFA5-6EBB076AF019}]
+@="ACA_WSFE.wsw.Service"
+
+[HKEY_CLASSES_ROOT\CLSID\{3E8A2E0F-6E63-37BB-AFA5-6EBB076AF019}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.Service"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{3E8A2E0F-6E63-37BB-AFA5-6EBB076AF019}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.Service"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{3E8A2E0F-6E63-37BB-AFA5-6EBB076AF019}\ProgId]
+@="ACA_WSFE.wsw.Service"
+
+[HKEY_CLASSES_ROOT\CLSID\{3E8A2E0F-6E63-37BB-AFA5-6EBB076AF019}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEAuthRequest]
+@="ACA_WSFE.wsw.FEAuthRequest"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEAuthRequest\CLSID]
+@="{9747EFAF-12C7-3E08-93AB-DE1AEBD7595C}"
+
+[HKEY_CLASSES_ROOT\CLSID\{9747EFAF-12C7-3E08-93AB-DE1AEBD7595C}]
+@="ACA_WSFE.wsw.FEAuthRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{9747EFAF-12C7-3E08-93AB-DE1AEBD7595C}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FEAuthRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{9747EFAF-12C7-3E08-93AB-DE1AEBD7595C}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FEAuthRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{9747EFAF-12C7-3E08-93AB-DE1AEBD7595C}\ProgId]
+@="ACA_WSFE.wsw.FEAuthRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{9747EFAF-12C7-3E08-93AB-DE1AEBD7595C}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEConsultaCAEResponse]
+@="ACA_WSFE.wsw.FEConsultaCAEResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEConsultaCAEResponse\CLSID]
+@="{CD87780D-DC55-3B7F-97CD-2A6BDD05441B}"
+
+[HKEY_CLASSES_ROOT\CLSID\{CD87780D-DC55-3B7F-97CD-2A6BDD05441B}]
+@="ACA_WSFE.wsw.FEConsultaCAEResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{CD87780D-DC55-3B7F-97CD-2A6BDD05441B}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FEConsultaCAEResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{CD87780D-DC55-3B7F-97CD-2A6BDD05441B}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FEConsultaCAEResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{CD87780D-DC55-3B7F-97CD-2A6BDD05441B}\ProgId]
+@="ACA_WSFE.wsw.FEConsultaCAEResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{CD87780D-DC55-3B7F-97CD-2A6BDD05441B}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.vError]
+@="ACA_WSFE.wsw.vError"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.vError\CLSID]
+@="{C6DD2993-06EA-3C3E-931A-3FE673670D1B}"
+
+[HKEY_CLASSES_ROOT\CLSID\{C6DD2993-06EA-3C3E-931A-3FE673670D1B}]
+@="ACA_WSFE.wsw.vError"
+
+[HKEY_CLASSES_ROOT\CLSID\{C6DD2993-06EA-3C3E-931A-3FE673670D1B}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.vError"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{C6DD2993-06EA-3C3E-931A-3FE673670D1B}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.vError"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{C6DD2993-06EA-3C3E-931A-3FE673670D1B}\ProgId]
+@="ACA_WSFE.wsw.vError"
+
+[HKEY_CLASSES_ROOT\CLSID\{C6DD2993-06EA-3C3E-931A-3FE673670D1B}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEConsultaCAEReq]
+@="ACA_WSFE.wsw.FEConsultaCAEReq"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEConsultaCAEReq\CLSID]
+@="{41B7BED5-7E9B-3C53-AE7E-98CB11A4C345}"
+
+[HKEY_CLASSES_ROOT\CLSID\{41B7BED5-7E9B-3C53-AE7E-98CB11A4C345}]
+@="ACA_WSFE.wsw.FEConsultaCAEReq"
+
+[HKEY_CLASSES_ROOT\CLSID\{41B7BED5-7E9B-3C53-AE7E-98CB11A4C345}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FEConsultaCAEReq"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{41B7BED5-7E9B-3C53-AE7E-98CB11A4C345}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FEConsultaCAEReq"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{41B7BED5-7E9B-3C53-AE7E-98CB11A4C345}\ProgId]
+@="ACA_WSFE.wsw.FEConsultaCAEReq"
+
+[HKEY_CLASSES_ROOT\CLSID\{41B7BED5-7E9B-3C53-AE7E-98CB11A4C345}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEDetalleResponse]
+@="ACA_WSFE.wsw.FEDetalleResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEDetalleResponse\CLSID]
+@="{1B5E5976-5FDB-34D7-BED1-FD98603C019E}"
+
+[HKEY_CLASSES_ROOT\CLSID\{1B5E5976-5FDB-34D7-BED1-FD98603C019E}]
+@="ACA_WSFE.wsw.FEDetalleResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{1B5E5976-5FDB-34D7-BED1-FD98603C019E}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FEDetalleResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{1B5E5976-5FDB-34D7-BED1-FD98603C019E}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FEDetalleResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{1B5E5976-5FDB-34D7-BED1-FD98603C019E}\ProgId]
+@="ACA_WSFE.wsw.FEDetalleResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{1B5E5976-5FDB-34D7-BED1-FD98603C019E}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FECabeceraResponse]
+@="ACA_WSFE.wsw.FECabeceraResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FECabeceraResponse\CLSID]
+@="{BB7C984A-3C13-3E9F-BB66-B8E3178CD7CA}"
+
+[HKEY_CLASSES_ROOT\CLSID\{BB7C984A-3C13-3E9F-BB66-B8E3178CD7CA}]
+@="ACA_WSFE.wsw.FECabeceraResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{BB7C984A-3C13-3E9F-BB66-B8E3178CD7CA}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FECabeceraResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{BB7C984A-3C13-3E9F-BB66-B8E3178CD7CA}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FECabeceraResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{BB7C984A-3C13-3E9F-BB66-B8E3178CD7CA}\ProgId]
+@="ACA_WSFE.wsw.FECabeceraResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{BB7C984A-3C13-3E9F-BB66-B8E3178CD7CA}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEResponse]
+@="ACA_WSFE.wsw.FEResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEResponse\CLSID]
+@="{433E9CAE-4FCF-30E9-8AFF-AF78F32D8A02}"
+
+[HKEY_CLASSES_ROOT\CLSID\{433E9CAE-4FCF-30E9-8AFF-AF78F32D8A02}]
+@="ACA_WSFE.wsw.FEResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{433E9CAE-4FCF-30E9-8AFF-AF78F32D8A02}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FEResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{433E9CAE-4FCF-30E9-8AFF-AF78F32D8A02}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FEResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{433E9CAE-4FCF-30E9-8AFF-AF78F32D8A02}\ProgId]
+@="ACA_WSFE.wsw.FEResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{433E9CAE-4FCF-30E9-8AFF-AF78F32D8A02}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEDetalleRequest]
+@="ACA_WSFE.wsw.FEDetalleRequest"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEDetalleRequest\CLSID]
+@="{898ADD6A-B1B7-3939-B6CD-B4350159E7DF}"
+
+[HKEY_CLASSES_ROOT\CLSID\{898ADD6A-B1B7-3939-B6CD-B4350159E7DF}]
+@="ACA_WSFE.wsw.FEDetalleRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{898ADD6A-B1B7-3939-B6CD-B4350159E7DF}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FEDetalleRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{898ADD6A-B1B7-3939-B6CD-B4350159E7DF}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FEDetalleRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{898ADD6A-B1B7-3939-B6CD-B4350159E7DF}\ProgId]
+@="ACA_WSFE.wsw.FEDetalleRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{898ADD6A-B1B7-3939-B6CD-B4350159E7DF}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FECabeceraRequest]
+@="ACA_WSFE.wsw.FECabeceraRequest"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FECabeceraRequest\CLSID]
+@="{AEAC07BD-9EF3-3D25-B97C-5929B562B450}"
+
+[HKEY_CLASSES_ROOT\CLSID\{AEAC07BD-9EF3-3D25-B97C-5929B562B450}]
+@="ACA_WSFE.wsw.FECabeceraRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{AEAC07BD-9EF3-3D25-B97C-5929B562B450}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FECabeceraRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{AEAC07BD-9EF3-3D25-B97C-5929B562B450}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FECabeceraRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{AEAC07BD-9EF3-3D25-B97C-5929B562B450}\ProgId]
+@="ACA_WSFE.wsw.FECabeceraRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{AEAC07BD-9EF3-3D25-B97C-5929B562B450}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FERequest]
+@="ACA_WSFE.wsw.FERequest"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FERequest\CLSID]
+@="{69C8E104-C7D1-3095-87B2-F8AF889AAA7E}"
+
+[HKEY_CLASSES_ROOT\CLSID\{69C8E104-C7D1-3095-87B2-F8AF889AAA7E}]
+@="ACA_WSFE.wsw.FERequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{69C8E104-C7D1-3095-87B2-F8AF889AAA7E}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FERequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{69C8E104-C7D1-3095-87B2-F8AF889AAA7E}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FERequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{69C8E104-C7D1-3095-87B2-F8AF889AAA7E}\ProgId]
+@="ACA_WSFE.wsw.FERequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{69C8E104-C7D1-3095-87B2-F8AF889AAA7E}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.UltNroResponse]
+@="ACA_WSFE.wsw.UltNroResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.UltNroResponse\CLSID]
+@="{DB214799-FB8C-3778-963D-EAD6160F28D9}"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB214799-FB8C-3778-963D-EAD6160F28D9}]
+@="ACA_WSFE.wsw.UltNroResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB214799-FB8C-3778-963D-EAD6160F28D9}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.UltNroResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB214799-FB8C-3778-963D-EAD6160F28D9}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.UltNroResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB214799-FB8C-3778-963D-EAD6160F28D9}\ProgId]
+@="ACA_WSFE.wsw.UltNroResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{DB214799-FB8C-3778-963D-EAD6160F28D9}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEUltNroResponse]
+@="ACA_WSFE.wsw.FEUltNroResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FEUltNroResponse\CLSID]
+@="{5541BB3A-790B-315B-BEF6-111BD9B235F1}"
+
+[HKEY_CLASSES_ROOT\CLSID\{5541BB3A-790B-315B-BEF6-111BD9B235F1}]
+@="ACA_WSFE.wsw.FEUltNroResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{5541BB3A-790B-315B-BEF6-111BD9B235F1}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FEUltNroResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{5541BB3A-790B-315B-BEF6-111BD9B235F1}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FEUltNroResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{5541BB3A-790B-315B-BEF6-111BD9B235F1}\ProgId]
+@="ACA_WSFE.wsw.FEUltNroResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{5541BB3A-790B-315B-BEF6-111BD9B235F1}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FERecuperaLastCMPResponse]
+@="ACA_WSFE.wsw.FERecuperaLastCMPResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FERecuperaLastCMPResponse\CLSID]
+@="{67427453-DADD-3306-AC15-43622B3A8B17}"
+
+[HKEY_CLASSES_ROOT\CLSID\{67427453-DADD-3306-AC15-43622B3A8B17}]
+@="ACA_WSFE.wsw.FERecuperaLastCMPResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{67427453-DADD-3306-AC15-43622B3A8B17}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FERecuperaLastCMPResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{67427453-DADD-3306-AC15-43622B3A8B17}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FERecuperaLastCMPResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{67427453-DADD-3306-AC15-43622B3A8B17}\ProgId]
+@="ACA_WSFE.wsw.FERecuperaLastCMPResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{67427453-DADD-3306-AC15-43622B3A8B17}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FELastCMPtype]
+@="ACA_WSFE.wsw.FELastCMPtype"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FELastCMPtype\CLSID]
+@="{62C27D36-879A-315C-B9BD-94D1937951E4}"
+
+[HKEY_CLASSES_ROOT\CLSID\{62C27D36-879A-315C-B9BD-94D1937951E4}]
+@="ACA_WSFE.wsw.FELastCMPtype"
+
+[HKEY_CLASSES_ROOT\CLSID\{62C27D36-879A-315C-B9BD-94D1937951E4}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FELastCMPtype"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{62C27D36-879A-315C-B9BD-94D1937951E4}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FELastCMPtype"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{62C27D36-879A-315C-B9BD-94D1937951E4}\ProgId]
+@="ACA_WSFE.wsw.FELastCMPtype"
+
+[HKEY_CLASSES_ROOT\CLSID\{62C27D36-879A-315C-B9BD-94D1937951E4}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.DummyResponse]
+@="ACA_WSFE.wsw.DummyResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.DummyResponse\CLSID]
+@="{8B03808E-BFED-363B-A1F8-5CED18FB9653}"
+
+[HKEY_CLASSES_ROOT\CLSID\{8B03808E-BFED-363B-A1F8-5CED18FB9653}]
+@="ACA_WSFE.wsw.DummyResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{8B03808E-BFED-363B-A1F8-5CED18FB9653}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.DummyResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{8B03808E-BFED-363B-A1F8-5CED18FB9653}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.DummyResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{8B03808E-BFED-363B-A1F8-5CED18FB9653}\ProgId]
+@="ACA_WSFE.wsw.DummyResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{8B03808E-BFED-363B-A1F8-5CED18FB9653}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FERecuperaQTY]
+@="ACA_WSFE.wsw.FERecuperaQTY"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FERecuperaQTY\CLSID]
+@="{D47D82AF-9DFD-3FAB-B201-865C279E47FA}"
+
+[HKEY_CLASSES_ROOT\CLSID\{D47D82AF-9DFD-3FAB-B201-865C279E47FA}]
+@="ACA_WSFE.wsw.FERecuperaQTY"
+
+[HKEY_CLASSES_ROOT\CLSID\{D47D82AF-9DFD-3FAB-B201-865C279E47FA}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FERecuperaQTY"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{D47D82AF-9DFD-3FAB-B201-865C279E47FA}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FERecuperaQTY"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{D47D82AF-9DFD-3FAB-B201-865C279E47FA}\ProgId]
+@="ACA_WSFE.wsw.FERecuperaQTY"
+
+[HKEY_CLASSES_ROOT\CLSID\{D47D82AF-9DFD-3FAB-B201-865C279E47FA}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FERecuperaQTYResponse]
+@="ACA_WSFE.wsw.FERecuperaQTYResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wsw.FERecuperaQTYResponse\CLSID]
+@="{3462EF57-F040-3ED7-90FA-8E2E474F733A}"
+
+[HKEY_CLASSES_ROOT\CLSID\{3462EF57-F040-3ED7-90FA-8E2E474F733A}]
+@="ACA_WSFE.wsw.FERecuperaQTYResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{3462EF57-F040-3ED7-90FA-8E2E474F733A}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wsw.FERecuperaQTYResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{3462EF57-F040-3ED7-90FA-8E2E474F733A}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wsw.FERecuperaQTYResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{3462EF57-F040-3ED7-90FA-8E2E474F733A}\ProgId]
+@="ACA_WSFE.wsw.FERecuperaQTYResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{3462EF57-F040-3ED7-90FA-8E2E474F733A}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.Service]
+@="ACA_WSFE.wswprod.Service"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.Service\CLSID]
+@="{265F5DF6-0084-3BF9-B832-F0CB0714AC11}"
+
+[HKEY_CLASSES_ROOT\CLSID\{265F5DF6-0084-3BF9-B832-F0CB0714AC11}]
+@="ACA_WSFE.wswprod.Service"
+
+[HKEY_CLASSES_ROOT\CLSID\{265F5DF6-0084-3BF9-B832-F0CB0714AC11}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.Service"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{265F5DF6-0084-3BF9-B832-F0CB0714AC11}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.Service"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{265F5DF6-0084-3BF9-B832-F0CB0714AC11}\ProgId]
+@="ACA_WSFE.wswprod.Service"
+
+[HKEY_CLASSES_ROOT\CLSID\{265F5DF6-0084-3BF9-B832-F0CB0714AC11}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEAuthRequest]
+@="ACA_WSFE.wswprod.FEAuthRequest"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEAuthRequest\CLSID]
+@="{51404B82-924A-391B-80B3-A37EFD251779}"
+
+[HKEY_CLASSES_ROOT\CLSID\{51404B82-924A-391B-80B3-A37EFD251779}]
+@="ACA_WSFE.wswprod.FEAuthRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{51404B82-924A-391B-80B3-A37EFD251779}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FEAuthRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{51404B82-924A-391B-80B3-A37EFD251779}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FEAuthRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{51404B82-924A-391B-80B3-A37EFD251779}\ProgId]
+@="ACA_WSFE.wswprod.FEAuthRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{51404B82-924A-391B-80B3-A37EFD251779}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEConsultaCAEResponse]
+@="ACA_WSFE.wswprod.FEConsultaCAEResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEConsultaCAEResponse\CLSID]
+@="{FFE8970A-B8CF-30C5-934D-14DA733DF9BA}"
+
+[HKEY_CLASSES_ROOT\CLSID\{FFE8970A-B8CF-30C5-934D-14DA733DF9BA}]
+@="ACA_WSFE.wswprod.FEConsultaCAEResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{FFE8970A-B8CF-30C5-934D-14DA733DF9BA}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FEConsultaCAEResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{FFE8970A-B8CF-30C5-934D-14DA733DF9BA}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FEConsultaCAEResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{FFE8970A-B8CF-30C5-934D-14DA733DF9BA}\ProgId]
+@="ACA_WSFE.wswprod.FEConsultaCAEResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{FFE8970A-B8CF-30C5-934D-14DA733DF9BA}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.vError]
+@="ACA_WSFE.wswprod.vError"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.vError\CLSID]
+@="{03B65D8A-4C1A-30B5-A3EF-1E6DF3359DAA}"
+
+[HKEY_CLASSES_ROOT\CLSID\{03B65D8A-4C1A-30B5-A3EF-1E6DF3359DAA}]
+@="ACA_WSFE.wswprod.vError"
+
+[HKEY_CLASSES_ROOT\CLSID\{03B65D8A-4C1A-30B5-A3EF-1E6DF3359DAA}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.vError"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{03B65D8A-4C1A-30B5-A3EF-1E6DF3359DAA}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.vError"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{03B65D8A-4C1A-30B5-A3EF-1E6DF3359DAA}\ProgId]
+@="ACA_WSFE.wswprod.vError"
+
+[HKEY_CLASSES_ROOT\CLSID\{03B65D8A-4C1A-30B5-A3EF-1E6DF3359DAA}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEConsultaCAEReq]
+@="ACA_WSFE.wswprod.FEConsultaCAEReq"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEConsultaCAEReq\CLSID]
+@="{3B7A6D2A-C29D-3034-8014-BFD5DB3E1130}"
+
+[HKEY_CLASSES_ROOT\CLSID\{3B7A6D2A-C29D-3034-8014-BFD5DB3E1130}]
+@="ACA_WSFE.wswprod.FEConsultaCAEReq"
+
+[HKEY_CLASSES_ROOT\CLSID\{3B7A6D2A-C29D-3034-8014-BFD5DB3E1130}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FEConsultaCAEReq"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{3B7A6D2A-C29D-3034-8014-BFD5DB3E1130}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FEConsultaCAEReq"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{3B7A6D2A-C29D-3034-8014-BFD5DB3E1130}\ProgId]
+@="ACA_WSFE.wswprod.FEConsultaCAEReq"
+
+[HKEY_CLASSES_ROOT\CLSID\{3B7A6D2A-C29D-3034-8014-BFD5DB3E1130}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEDetalleResponse]
+@="ACA_WSFE.wswprod.FEDetalleResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEDetalleResponse\CLSID]
+@="{154C74E1-4F4D-3449-99C2-F909C2F5BD65}"
+
+[HKEY_CLASSES_ROOT\CLSID\{154C74E1-4F4D-3449-99C2-F909C2F5BD65}]
+@="ACA_WSFE.wswprod.FEDetalleResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{154C74E1-4F4D-3449-99C2-F909C2F5BD65}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FEDetalleResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{154C74E1-4F4D-3449-99C2-F909C2F5BD65}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FEDetalleResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{154C74E1-4F4D-3449-99C2-F909C2F5BD65}\ProgId]
+@="ACA_WSFE.wswprod.FEDetalleResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{154C74E1-4F4D-3449-99C2-F909C2F5BD65}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FECabeceraResponse]
+@="ACA_WSFE.wswprod.FECabeceraResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FECabeceraResponse\CLSID]
+@="{11654F24-B291-3E5D-B28B-02460F2C46F6}"
+
+[HKEY_CLASSES_ROOT\CLSID\{11654F24-B291-3E5D-B28B-02460F2C46F6}]
+@="ACA_WSFE.wswprod.FECabeceraResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{11654F24-B291-3E5D-B28B-02460F2C46F6}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FECabeceraResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{11654F24-B291-3E5D-B28B-02460F2C46F6}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FECabeceraResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{11654F24-B291-3E5D-B28B-02460F2C46F6}\ProgId]
+@="ACA_WSFE.wswprod.FECabeceraResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{11654F24-B291-3E5D-B28B-02460F2C46F6}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEResponse]
+@="ACA_WSFE.wswprod.FEResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEResponse\CLSID]
+@="{59446832-1BAC-3F2D-BC32-BE5F9CD64CB0}"
+
+[HKEY_CLASSES_ROOT\CLSID\{59446832-1BAC-3F2D-BC32-BE5F9CD64CB0}]
+@="ACA_WSFE.wswprod.FEResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{59446832-1BAC-3F2D-BC32-BE5F9CD64CB0}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FEResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{59446832-1BAC-3F2D-BC32-BE5F9CD64CB0}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FEResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{59446832-1BAC-3F2D-BC32-BE5F9CD64CB0}\ProgId]
+@="ACA_WSFE.wswprod.FEResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{59446832-1BAC-3F2D-BC32-BE5F9CD64CB0}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEDetalleRequest]
+@="ACA_WSFE.wswprod.FEDetalleRequest"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEDetalleRequest\CLSID]
+@="{9EC69855-A8BC-3AA9-8B9D-6774D94776BE}"
+
+[HKEY_CLASSES_ROOT\CLSID\{9EC69855-A8BC-3AA9-8B9D-6774D94776BE}]
+@="ACA_WSFE.wswprod.FEDetalleRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{9EC69855-A8BC-3AA9-8B9D-6774D94776BE}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FEDetalleRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{9EC69855-A8BC-3AA9-8B9D-6774D94776BE}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FEDetalleRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{9EC69855-A8BC-3AA9-8B9D-6774D94776BE}\ProgId]
+@="ACA_WSFE.wswprod.FEDetalleRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{9EC69855-A8BC-3AA9-8B9D-6774D94776BE}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FECabeceraRequest]
+@="ACA_WSFE.wswprod.FECabeceraRequest"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FECabeceraRequest\CLSID]
+@="{2574B4C4-3D6D-3C94-9DE7-8CD937148108}"
+
+[HKEY_CLASSES_ROOT\CLSID\{2574B4C4-3D6D-3C94-9DE7-8CD937148108}]
+@="ACA_WSFE.wswprod.FECabeceraRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{2574B4C4-3D6D-3C94-9DE7-8CD937148108}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FECabeceraRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{2574B4C4-3D6D-3C94-9DE7-8CD937148108}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FECabeceraRequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{2574B4C4-3D6D-3C94-9DE7-8CD937148108}\ProgId]
+@="ACA_WSFE.wswprod.FECabeceraRequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{2574B4C4-3D6D-3C94-9DE7-8CD937148108}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FERequest]
+@="ACA_WSFE.wswprod.FERequest"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FERequest\CLSID]
+@="{3F1F9212-8AE4-3F3E-8FCD-8F201AE6E779}"
+
+[HKEY_CLASSES_ROOT\CLSID\{3F1F9212-8AE4-3F3E-8FCD-8F201AE6E779}]
+@="ACA_WSFE.wswprod.FERequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{3F1F9212-8AE4-3F3E-8FCD-8F201AE6E779}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FERequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{3F1F9212-8AE4-3F3E-8FCD-8F201AE6E779}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FERequest"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{3F1F9212-8AE4-3F3E-8FCD-8F201AE6E779}\ProgId]
+@="ACA_WSFE.wswprod.FERequest"
+
+[HKEY_CLASSES_ROOT\CLSID\{3F1F9212-8AE4-3F3E-8FCD-8F201AE6E779}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.UltNroResponse]
+@="ACA_WSFE.wswprod.UltNroResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.UltNroResponse\CLSID]
+@="{74818B67-6906-3E22-BA6B-9216097470C2}"
+
+[HKEY_CLASSES_ROOT\CLSID\{74818B67-6906-3E22-BA6B-9216097470C2}]
+@="ACA_WSFE.wswprod.UltNroResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{74818B67-6906-3E22-BA6B-9216097470C2}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.UltNroResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{74818B67-6906-3E22-BA6B-9216097470C2}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.UltNroResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{74818B67-6906-3E22-BA6B-9216097470C2}\ProgId]
+@="ACA_WSFE.wswprod.UltNroResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{74818B67-6906-3E22-BA6B-9216097470C2}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEUltNroResponse]
+@="ACA_WSFE.wswprod.FEUltNroResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FEUltNroResponse\CLSID]
+@="{20957CF7-9363-38E2-8E71-3BB854D295E6}"
+
+[HKEY_CLASSES_ROOT\CLSID\{20957CF7-9363-38E2-8E71-3BB854D295E6}]
+@="ACA_WSFE.wswprod.FEUltNroResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{20957CF7-9363-38E2-8E71-3BB854D295E6}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FEUltNroResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{20957CF7-9363-38E2-8E71-3BB854D295E6}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FEUltNroResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{20957CF7-9363-38E2-8E71-3BB854D295E6}\ProgId]
+@="ACA_WSFE.wswprod.FEUltNroResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{20957CF7-9363-38E2-8E71-3BB854D295E6}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FERecuperaLastCMPResponse]
+@="ACA_WSFE.wswprod.FERecuperaLastCMPResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FERecuperaLastCMPResponse\CLSID]
+@="{B95A6016-4B14-3506-9693-5B13C4819F1D}"
+
+[HKEY_CLASSES_ROOT\CLSID\{B95A6016-4B14-3506-9693-5B13C4819F1D}]
+@="ACA_WSFE.wswprod.FERecuperaLastCMPResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{B95A6016-4B14-3506-9693-5B13C4819F1D}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FERecuperaLastCMPResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{B95A6016-4B14-3506-9693-5B13C4819F1D}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FERecuperaLastCMPResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{B95A6016-4B14-3506-9693-5B13C4819F1D}\ProgId]
+@="ACA_WSFE.wswprod.FERecuperaLastCMPResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{B95A6016-4B14-3506-9693-5B13C4819F1D}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FELastCMPtype]
+@="ACA_WSFE.wswprod.FELastCMPtype"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FELastCMPtype\CLSID]
+@="{3347242B-2242-32A4-AFD1-F25C981CDC68}"
+
+[HKEY_CLASSES_ROOT\CLSID\{3347242B-2242-32A4-AFD1-F25C981CDC68}]
+@="ACA_WSFE.wswprod.FELastCMPtype"
+
+[HKEY_CLASSES_ROOT\CLSID\{3347242B-2242-32A4-AFD1-F25C981CDC68}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FELastCMPtype"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{3347242B-2242-32A4-AFD1-F25C981CDC68}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FELastCMPtype"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{3347242B-2242-32A4-AFD1-F25C981CDC68}\ProgId]
+@="ACA_WSFE.wswprod.FELastCMPtype"
+
+[HKEY_CLASSES_ROOT\CLSID\{3347242B-2242-32A4-AFD1-F25C981CDC68}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.DummyResponse]
+@="ACA_WSFE.wswprod.DummyResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.DummyResponse\CLSID]
+@="{5C63CDEF-C46B-3502-98AE-BEF6D0D885AF}"
+
+[HKEY_CLASSES_ROOT\CLSID\{5C63CDEF-C46B-3502-98AE-BEF6D0D885AF}]
+@="ACA_WSFE.wswprod.DummyResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{5C63CDEF-C46B-3502-98AE-BEF6D0D885AF}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.DummyResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{5C63CDEF-C46B-3502-98AE-BEF6D0D885AF}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.DummyResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{5C63CDEF-C46B-3502-98AE-BEF6D0D885AF}\ProgId]
+@="ACA_WSFE.wswprod.DummyResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{5C63CDEF-C46B-3502-98AE-BEF6D0D885AF}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FERecuperaQTY]
+@="ACA_WSFE.wswprod.FERecuperaQTY"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FERecuperaQTY\CLSID]
+@="{B2304233-E12F-39D5-ABB6-6F7BCEA2E4F6}"
+
+[HKEY_CLASSES_ROOT\CLSID\{B2304233-E12F-39D5-ABB6-6F7BCEA2E4F6}]
+@="ACA_WSFE.wswprod.FERecuperaQTY"
+
+[HKEY_CLASSES_ROOT\CLSID\{B2304233-E12F-39D5-ABB6-6F7BCEA2E4F6}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FERecuperaQTY"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{B2304233-E12F-39D5-ABB6-6F7BCEA2E4F6}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FERecuperaQTY"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{B2304233-E12F-39D5-ABB6-6F7BCEA2E4F6}\ProgId]
+@="ACA_WSFE.wswprod.FERecuperaQTY"
+
+[HKEY_CLASSES_ROOT\CLSID\{B2304233-E12F-39D5-ABB6-6F7BCEA2E4F6}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FERecuperaQTYResponse]
+@="ACA_WSFE.wswprod.FERecuperaQTYResponse"
+
+[HKEY_CLASSES_ROOT\ACA_WSFE.wswprod.FERecuperaQTYResponse\CLSID]
+@="{18D061EE-0959-320F-AF15-239B3CEADF78}"
+
+[HKEY_CLASSES_ROOT\CLSID\{18D061EE-0959-320F-AF15-239B3CEADF78}]
+@="ACA_WSFE.wswprod.FERecuperaQTYResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{18D061EE-0959-320F-AF15-239B3CEADF78}\InprocServer32]
+@="mscoree.dll"
+"ThreadingModel"="Both"
+"Class"="ACA_WSFE.wswprod.FERecuperaQTYResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{18D061EE-0959-320F-AF15-239B3CEADF78}\InprocServer32\1.0.0.0]
+"Class"="ACA_WSFE.wswprod.FERecuperaQTYResponse"
+"Assembly"="ACA_WSFE, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"
+"RuntimeVersion"="v2.0.50727"
+
+[HKEY_CLASSES_ROOT\CLSID\{18D061EE-0959-320F-AF15-239B3CEADF78}\ProgId]
+@="ACA_WSFE.wswprod.FERecuperaQTYResponse"
+
+[HKEY_CLASSES_ROOT\CLSID\{18D061EE-0959-320F-AF15-239B3CEADF78}\Implemented Categories\{62C8FE65-4EBB-45E7-B440-6E39B2CDBF29}]

@@ -1,0 +1,71 @@
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.Form1.resources
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.Properties.Resources.resources
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csproj.GenerateResource.cache
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\prueba.exe.config
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\prueba.exe
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\prueba.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ThoughtWorks.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\System.Drawing.Common.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.exe
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\prueba.exe.config
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\prueba.exe
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\prueba.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.Form1.resources
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.Properties.Resources.resources
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csproj.GenerateResource.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.exe
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\prueba.exe.config
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\prueba.exe
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\prueba.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\AFIP-GenerarQR.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\MessagingToolkit.QRCode.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Gma.QrCodeNet.Encoding.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Comun.dll
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\ACA_WSFE.dll.config
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\AFIP-GenerarQR.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Gma.QrCodeNet.Encoding.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Gma.QrCodeNet.Encoding.xml
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\bin\Debug\Comun.pdb
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csprojAssemblyReference.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.Form1.resources
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.Properties.Resources.resources
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csproj.GenerateResource.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csproj.CoreCompileInputs.cache
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.csproj.CopyComplete
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.exe
+C:\Users\Obdu\Desktop\AFIP\copia de seguridad 3 - lo correcto del poryecto qr\DLL Visual Studio 2017 Factura electronica A y B(FCE)\prueba\obj\Debug\prueba.pdb
